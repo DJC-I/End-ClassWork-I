@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "public_history_commits": 3,
+  "public_git_objects": 305,
+  "git_blobs_scanned": 272,
+  "prior_remote_commit_preserved": true,
+  "old_private_history_present": false,
+  "inner_sha256_verified": 33,
+  "release_main_asset_hashes_verified": 4,
+  "zip_checks": [
+    {
+      "file": "SkyRoute-AI-v1.0.0-完整交付包.zip",
+      "members": 34,
+      "crc_passed": true
+    },
+    {
+      "file": "SkyRoute-AI-v1.0.0-校园赛正式提交材料.zip",
+      "members": 10,
+      "crc_passed": true
+    },
+    {
+      "file": "SkyRoute-AI-v1.0.0-课堂展示材料.zip",
+      "members": 5,
+      "crc_passed": true
+    }
+  ],
+  "scan_errors": [],
+  "unresolved_private_findings": 0,
+  "accepted_source_commit": "cb5c42d50c14d50238270d7a0c11b43935f6b7f7",
+  "additional_history_change": "Third commit modifies only the already-reviewed CI workflow order; no app code or private history added."
+}

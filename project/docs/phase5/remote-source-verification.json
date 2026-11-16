@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "commit": "cb5c42d50c14d50238270d7a0c11b43935f6b7f7",
+  "tree_entries": 311,
+  "required_files_present": [
+    "README.md",
+    "CHANGELOG.md",
+    "RELEASE_NOTES.md",
+    "PRIVACY_REVIEW.md",
+    ".github/workflows/release.yml",
+    "project/.env.example",
+    "project/backend/main.py",
+    "project/backend/engine.py",
+    "project/backend/seed.py",
+    "project/frontend/src/App.tsx",
+    "project/desktop/main.cjs",
+    "project/frontend/public/fonts/user-pingfang.ttf"
+  ],
+  "remote_content_checks": [
+    {
+      "file": "README.md",
+      "sha256": "8faf278a8b554979697902cfac81b816cb9ce54f0360682c0e9be166bd1def58",
+      "bytes_match": true
+    },
+    {
+      "file": ".github/workflows/release.yml",
+      "sha256": "f97a8f1ccb3f26c4b70e2b740fcda6235c0b239739ec305feff2290073591ddf",
+      "bytes_match": true
+    },
+    {
+      "file": "project/backend/requirements.lock.txt",
+      "sha256": "b455fa2a019813c5d721be36047e80f79ec0c70f4e7ab4bceec7ff44fd4296eb",
+      "bytes_match": true
+    },
+    {
+      "file": "project/desktop/main.cjs",
+      "sha256": "1305e6a4f5938676bda2f0523c3b90da9475f2a30e8832eac8213046244221b0",
+      "bytes_match": true
+    },
+    {
+      "file": "project/frontend/src/App.tsx",
+      "sha256": "d1efeb3ae2e264451dccee5b5654503141c8eb08ef26b949b43c869c54e47861",
+      "bytes_match": true
+    }
+  ]
+}

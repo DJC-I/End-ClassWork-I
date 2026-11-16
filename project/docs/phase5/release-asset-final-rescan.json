@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "files": 5,
+  "forbidden_findings": [],
+  "email_shaped_matches": 0,
+  "office_attribution": [],
+  "errors": [],
+  "scope": [
+    "release-assets"
+  ],
+  "limitations": "No pixel OCR or speech recognition; complementary documented visual review required."
+}

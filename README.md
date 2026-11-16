@@ -92,3 +92,9 @@ node scripts/test_desktop_phase5.cjs
 见[隐私审查](PRIVACY_REVIEW.md)、[发布说明](RELEASE_NOTES.md)、[第三方资源](THIRD_PARTY_NOTICES.md)、[架构](project/ARCHITECTURE.md)和[设计系统](project/docs/PHASE4_6_DESIGN.md)。第三方组件保留各自许可；用户字体未附上游完整许可证，本次公开分发依据用户对其再分发权的明确确认，不将其视为项目代码许可。项目原创代码未额外授予统一开源许可证，其他使用方式需遵守相应权利人的许可。
 
 已验证范围与限制以第五阶段验收报告为准。没有把自动检查表述为穷尽安全证明，也没有声称完成真人逐字听审、教室设备验证、所有Windows版本兼容或所有视频帧的OCR。
+
+## 正式发布验收
+
+v1.0.0已正式发布，五项资产已实际下载并逐项核对SHA-256。GitHub会移除资产中文名称，因此三个ZIP下载名分别使用Campus-Submission、Classroom-Presentation、Full-Delivery，显示标签及包内名称保持中文。
+
+[最终发布报告](project/docs/phase5/FINAL_RELEASE_REPORT.md)记录实际测试、下载校验及未验证范围。正式标签指向验收源码，main上的后续文档提交仅补记发布结果，不移动v1.0.0。

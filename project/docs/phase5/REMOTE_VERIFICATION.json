@@ -1,0 +1,56 @@
+{
+  "repository": "https://github.com/DJC-I/End-ClassWork-I",
+  "release": "https://github.com/DJC-I/End-ClassWork-I/releases/tag/v1.0.0",
+  "published_at": "2026-11-16T12:27:37Z",
+  "draft": false,
+  "main_commit": "cb5c42d50c14d50238270d7a0c11b43935f6b7f7",
+  "tag_target": "cb5c42d50c14d50238270d7a0c11b43935f6b7f7",
+  "assets": [
+    {
+      "name": "SHA256SUMS.txt",
+      "local_name": "SHA256SUMS.txt",
+      "label": "SHA256SUMS.txt",
+      "bytes": 423,
+      "sha256": "68e555048ccd3ac73a1dc7c0b94a9d3887dcd1674276c74a80897f875deb75f4",
+      "download_verified": true,
+      "url": "https://github.com/DJC-I/End-ClassWork-I/releases/download/v1.0.0/SHA256SUMS.txt"
+    },
+    {
+      "name": "SkyRoute-AI-v1.0.0-Campus-Submission.zip",
+      "local_name": "SkyRoute-AI-v1.0.0-校园赛正式提交材料.zip",
+      "label": "SkyRoute-AI-v1.0.0-校园赛正式提交材料.zip",
+      "bytes": 31160226,
+      "sha256": "2d4240a30b2e06836ec6e26820dae1f38e92361ab6b7080b019b111575366015",
+      "download_verified": true,
+      "url": "https://github.com/DJC-I/End-ClassWork-I/releases/download/v1.0.0/SkyRoute-AI-v1.0.0-Campus-Submission.zip"
+    },
+    {
+      "name": "SkyRoute-AI-v1.0.0-Classroom-Presentation.zip",
+      "local_name": "SkyRoute-AI-v1.0.0-课堂展示材料.zip",
+      "label": "SkyRoute-AI-v1.0.0-课堂展示材料.zip",
+      "bytes": 610145,
+      "sha256": "a358b051b532990e7b92f036094528f26aefc86e2d4c4d36d44a19dda4b112ea",
+      "download_verified": true,
+      "url": "https://github.com/DJC-I/End-ClassWork-I/releases/download/v1.0.0/SkyRoute-AI-v1.0.0-Classroom-Presentation.zip"
+    },
+    {
+      "name": "SkyRoute-AI-v1.0.0-Full-Delivery.zip",
+      "local_name": "SkyRoute-AI-v1.0.0-完整交付包.zip",
+      "label": "SkyRoute-AI-v1.0.0-完整交付包.zip",
+      "bytes": 163444685,
+      "sha256": "ac155528fc725e87f73928d4b528ae8a460fb9032d4fca80cebe45622f7cbd95",
+      "download_verified": true,
+      "url": "https://github.com/DJC-I/End-ClassWork-I/releases/download/v1.0.0/SkyRoute-AI-v1.0.0-Full-Delivery.zip"
+    },
+    {
+      "name": "SkyRoute-AI-v1.0.0-Windows-x64.exe",
+      "local_name": "SkyRoute-AI-v1.0.0-Windows-x64.exe",
+      "label": "",
+      "bytes": 131621358,
+      "sha256": "57ce5bb35bda4452680bf9c90733a255d90c36a2bfb23d225e6c1c9347b306b1",
+      "download_verified": true,
+      "url": "https://github.com/DJC-I/End-ClassWork-I/releases/download/v1.0.0/SkyRoute-AI-v1.0.0-Windows-x64.exe"
+    }
+  ],
+  "passed": true
+}
