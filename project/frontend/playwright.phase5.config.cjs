@@ -1,0 +1,1 @@
+const {defineConfig}=require('@playwright/test'); module.exports=defineConfig({testDir:'./e2e',testMatch:'phase46.spec.ts',workers:1,timeout:40000,use:{baseURL:'http://127.0.0.1:8006',headless:true,channel:'msedge',viewport:{width:1440,height:1000}},reporter:[['list'],['json',{outputFile:'../docs/phase5/web-e2e.json'}]]});

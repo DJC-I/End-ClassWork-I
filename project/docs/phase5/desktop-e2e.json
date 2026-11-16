@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "executable": "SkyRoute AI.exe",
+  "noPythonNodeInPath": true,
+  "isolatedData": true,
+  "checks": [
+    {
+      "name": "首页真实图形窗口",
+      "passed": true
+    },
+    {
+      "name": "/ 路由/字体/图形/无整页溢出",
+      "passed": true
+    },
+    {
+      "name": "/growth 路由/字体/图形/无整页溢出",
+      "passed": true
+    },
+    {
+      "name": "/logistics 路由/字体/图形/无整页溢出",
+      "passed": true
+    },
+    {
+      "name": "/demo 路由/字体/图形/无整页溢出",
+      "passed": true
+    },
+    {
+      "name": "/about 路由/字体/图形/无整页溢出",
+      "passed": true
+    },
+    {
+      "name": "两处过时组件未恢复",
+      "passed": true
+    },
+    {
+      "name": "桌面界面不提供失效调试链接",
+      "passed": true
+    },
+    {
+      "name": "预算/漏斗计算与保存",
+      "passed": true
+    },
+    {
+      "name": "A/B真实计算",
+      "passed": true
+    },
+    {
+      "name": "运营报告与弹窗",
+      "passed": true
+    },
+    {
+      "name": "normal 风险/四方案/规则解释/仿真",
+      "passed": true
+    },
+    {
+      "name": "rain 风险/四方案/规则解释/仿真",
+      "passed": true
+    },
+    {
+      "name": "snow 风险/四方案/规则解释/仿真",
+      "passed": true
+    },
+    {
+      "name": "决策报告真实快照",
+      "passed": true
+    },
+    {
+      "name": "订单真实新增/读取/修改",
+      "passed": true
+    },
+    {
+      "name": "课堂演示与计时",
+      "passed": true
+    },
+    {
+      "name": "关闭后重启保留修改",
+      "passed": true
+    },
+    {
+      "name": "重置功能",
+      "passed": true
+    },
+    {
+      "name": "无页面错误/无外网业务请求",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "limitations": [
+    "Loopback-only policy tested; physical network adapter was not disabled."
+  ]
+}

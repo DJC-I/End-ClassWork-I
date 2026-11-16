@@ -1,0 +1,30 @@
+{
+  "soffice": "./project\\.tools\\libreoffice\\App\\libreoffice\\program\\soffice.exe",
+  "desktop_office_used": false,
+  "outputs": [
+    {
+      "file": "deliverables/phase4_6/DataClawHub平台运营方案.docx",
+      "pages": 10,
+      "renderer": "packaged render_docx.py",
+      "pdf": "docs/phase4_6/render/growth-manual/DataClawHub平台运营方案.pdf"
+    },
+    {
+      "file": "deliverables/phase4_6/气象驱动物流运输风险预警与应对决策.docx",
+      "pages": 13,
+      "renderer": "packaged render_docx.py",
+      "pdf": "docs/phase4_6/render/logistics-manual/气象驱动物流运输风险预警与应对决策.pdf"
+    },
+    {
+      "file": "deliverables/phase4_6/课堂展示_单人完整演讲稿.docx",
+      "pages": 8,
+      "renderer": "packaged render_docx.py",
+      "pdf": "docs/phase4_6/render/speech/课堂展示_单人完整演讲稿.pdf"
+    },
+    {
+      "file": "deliverables/phase4_6/答辩常见问题及参考回答.docx",
+      "pages": 5,
+      "renderer": "packaged render_docx.py",
+      "pdf": "docs/phase4_6/render/defense/答辩常见问题及参考回答.pdf"
+    }
+  ]
+}

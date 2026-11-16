@@ -1,0 +1,12 @@
+const fs = require('node:fs'), path = require('node:path'), crypto = require('node:crypto');
+const asar = require('../desktop/node_modules/@electron/asar');
+const root = path.resolve(__dirname, '..');
+const archive = path.join(root, '.tools/phase5/electron-dist/win-unpacked/resources/app.asar');
+const names = asar.listPackage(archive).filter(n => !n.endsWith('/'));
+const main = asar.extractFile(archive, 'main.cjs');
+const expected = fs.readFileSync(path.join(root, 'desktop/main.cjs'));
+if (!main.equals(expected)) throw Error('Packaged launcher differs from audited source');
+if (names.some(n => /node_modules|\.env$|\.db$|\.git\//i.test(n))) throw Error('Unexpected application resource');
+const sha = data => crypto.createHash('sha256').update(data).digest('hex');
+fs.writeFileSync(path.join(root, 'docs/phase5/asar-audit.json'), JSON.stringify({ passed: true, files: names, mainMatchesSource: true, mainSha256: sha(main), archiveSha256: sha(fs.readFileSync(archive)) }, null, 2));
+console.log('ASAR source and allowlist verified');

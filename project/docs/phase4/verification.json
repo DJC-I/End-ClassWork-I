@@ -1,0 +1,382 @@
+{
+  "phase": 4,
+  "passed": true,
+  "outputs": [
+    {
+      "file": "deliverables/phase4/人工智能导论_双赛题结课作品展示.pptx",
+      "bytes": 437441,
+      "sha256": "5261d6fb861a7167dfb3bd0c8790f7274fabe5362ce4e46007368c775962d634",
+      "pages": 12
+    },
+    {
+      "file": "deliverables/phase4/课堂展示_单人完整演讲稿.docx",
+      "bytes": 43092,
+      "sha256": "fe06172157a88e68ac2d5410642772b7fe4046f3be53074bf821003b11c8a4de",
+      "pages": 8
+    },
+    {
+      "file": "deliverables/phase4/答辩常见问题及参考回答.docx",
+      "bytes": 41665,
+      "sha256": "46b5f04ad7732c76dbcabd38d991219f87f9558ffc03282f81adb4be00c5628a",
+      "pages": 5
+    }
+  ],
+  "native_counts": {
+    "tables": 5,
+    "pictures": 3,
+    "charts": 1,
+    "notes": 12
+  },
+  "spoken_characters": 1223,
+  "duration_allocation_seconds": 360,
+  "estimated_seconds_at_230_characters_per_minute_including_27_reserved": 346,
+  "student_rehearsal_performed": false,
+  "microsoft_office_gui_verified": false,
+  "source_and_prior_artifacts_unchanged": true,
+  "checks": [
+    {
+      "check": "Final PPTX hash matches finalization receipt",
+      "passed": true
+    },
+    {
+      "check": "PPTX CRC integrity",
+      "passed": true
+    },
+    {
+      "check": "Exactly twelve slides",
+      "passed": true
+    },
+    {
+      "check": "Slide 1 notes include full speech, action, transition and provenance",
+      "passed": true
+    },
+    {
+      "check": "Slide 2 notes include full speech, action, transition and provenance",
+      "passed": true
+    },
+    {
+      "check": "Slide 3 notes include full speech, action, transition and provenance",
+      "passed": true
+    },
+    {
+      "check": "Slide 4 notes include full speech, action, transition and provenance",
+      "passed": true
+    },
+    {
+      "check": "Slide 5 notes include full speech, action, transition and provenance",
+      "passed": true
+    },
+    {
+      "check": "Slide 6 notes include full speech, action, transition and provenance",
+      "passed": true
+    },
+    {
+      "check": "Slide 7 notes include full speech, action, transition and provenance",
+      "passed": true
+    },
+    {
+      "check": "Slide 8 notes include full speech, action, transition and provenance",
+      "passed": true
+    },
+    {
+      "check": "Slide 9 notes include full speech, action, transition and provenance",
+      "passed": true
+    },
+    {
+      "check": "Slide 10 notes include full speech, action, transition and provenance",
+      "passed": true
+    },
+    {
+      "check": "Slide 11 notes include full speech, action, transition and provenance",
+      "passed": true
+    },
+    {
+      "check": "Slide 12 notes include full speech, action, transition and provenance",
+      "passed": true
+    },
+    {
+      "check": "Five editable native tables, one chart and three actual screenshots",
+      "passed": true
+    },
+    {
+      "check": "Embedded screenshot byte identity: docs/phase4/growth-demo.png",
+      "passed": true
+    },
+    {
+      "check": "Embedded screenshot byte identity: docs/phase3/logistics-weather.png",
+      "passed": true
+    },
+    {
+      "check": "Embedded screenshot byte identity: docs/phase4/agent.png",
+      "passed": true
+    },
+    {
+      "check": "Native chart values equal recomputed simulation with four-decimal ratio rounding",
+      "passed": true
+    },
+    {
+      "check": "Chart includes embedded workbook",
+      "passed": true
+    },
+    {
+      "check": "SR-001 table 原计划运输 hours",
+      "passed": true
+    },
+    {
+      "check": "SR-001 table 原计划运输 cost",
+      "passed": true
+    },
+    {
+      "check": "SR-001 table 原计划运输 delay_hours",
+      "passed": true
+    },
+    {
+      "check": "SR-001 table 原计划运输 risk",
+      "passed": true
+    },
+    {
+      "check": "SR-001 table 提前发运 hours",
+      "passed": true
+    },
+    {
+      "check": "SR-001 table 提前发运 cost",
+      "passed": true
+    },
+    {
+      "check": "SR-001 table 提前发运 delay_hours",
+      "passed": true
+    },
+    {
+      "check": "SR-001 table 提前发运 risk",
+      "passed": true
+    },
+    {
+      "check": "SR-001 table 绕行运输 hours",
+      "passed": true
+    },
+    {
+      "check": "SR-001 table 绕行运输 cost",
+      "passed": true
+    },
+    {
+      "check": "SR-001 table 绕行运输 delay_hours",
+      "passed": true
+    },
+    {
+      "check": "SR-001 table 绕行运输 risk",
+      "passed": true
+    },
+    {
+      "check": "SR-001 table 调整中转节点 hours",
+      "passed": true
+    },
+    {
+      "check": "SR-001 table 调整中转节点 cost",
+      "passed": true
+    },
+    {
+      "check": "SR-001 table 调整中转节点 delay_hours",
+      "passed": true
+    },
+    {
+      "check": "SR-001 table 调整中转节点 risk",
+      "passed": true
+    },
+    {
+      "check": "Simulation cost normal before",
+      "passed": true
+    },
+    {
+      "check": "Simulation cost normal after",
+      "passed": true
+    },
+    {
+      "check": "Simulation cost rain before",
+      "passed": true
+    },
+    {
+      "check": "Simulation cost rain after",
+      "passed": true
+    },
+    {
+      "check": "Simulation cost snow before",
+      "passed": true
+    },
+    {
+      "check": "Simulation cost snow after",
+      "passed": true
+    },
+    {
+      "check": "Budget is 3000",
+      "passed": true
+    },
+    {
+      "check": "P value appears on slide",
+      "passed": true
+    },
+    {
+      "check": "DOCX contains all twelve exact spoken paragraphs",
+      "passed": true
+    },
+    {
+      "check": "Character count and six-minute timing",
+      "passed": true
+    },
+    {
+      "check": "Single presenter and fallback script",
+      "passed": true
+    },
+    {
+      "check": "All fifteen questions and answers retained",
+      "passed": true
+    },
+    {
+      "check": "DOCX CRC integrity 答辩常见问题及参考回答.docx",
+      "passed": true
+    },
+    {
+      "check": "Black headings 答辩常见问题及参考回答.docx Title",
+      "passed": true
+    },
+    {
+      "check": "Black headings 答辩常见问题及参考回答.docx Heading 1",
+      "passed": true
+    },
+    {
+      "check": "Black headings 答辩常见问题及参考回答.docx Heading 2",
+      "passed": true
+    },
+    {
+      "check": "DOCX CRC integrity 课堂展示_单人完整演讲稿.docx",
+      "passed": true
+    },
+    {
+      "check": "Black headings 课堂展示_单人完整演讲稿.docx Title",
+      "passed": true
+    },
+    {
+      "check": "Black headings 课堂展示_单人完整演讲稿.docx Heading 1",
+      "passed": true
+    },
+    {
+      "check": "Black headings 课堂展示_单人完整演讲稿.docx Heading 2",
+      "passed": true
+    },
+    {
+      "check": "Three-minute fallback route agrees across files",
+      "passed": true
+    },
+    {
+      "check": "Contingency covers no website, no network and insufficient time",
+      "passed": true
+    },
+    {
+      "check": "Rendered page count 人工智能导论_双赛题结课作品展示.pptx",
+      "passed": true
+    },
+    {
+      "check": "Rendered pages contain text 人工智能导论_双赛题结课作品展示.pptx",
+      "passed": true
+    },
+    {
+      "check": "Rendered page count 课堂展示_单人完整演讲稿.docx",
+      "passed": true
+    },
+    {
+      "check": "Rendered pages contain text 课堂展示_单人完整演讲稿.docx",
+      "passed": true
+    },
+    {
+      "check": "Rendered page count 答辩常见问题及参考回答.docx",
+      "passed": true
+    },
+    {
+      "check": "Rendered pages contain text 答辩常见问题及参考回答.docx",
+      "passed": true
+    },
+    {
+      "check": "Prior/source file unchanged deliverables/phase2/DataClawHub平台运营方案.docx",
+      "passed": true
+    },
+    {
+      "check": "Prior/source file unchanged deliverables/phase2/气象驱动物流运输风险预警与应对决策.docx",
+      "passed": true
+    },
+    {
+      "check": "Prior/source file unchanged deliverables/phase3/赛题一_DataClawHub平台运营方案.mp4",
+      "passed": true
+    },
+    {
+      "check": "Prior/source file unchanged deliverables/phase3/赛题二_气象物流AI风险决策系统.mp4",
+      "passed": true
+    },
+    {
+      "check": "Prior/source file unchanged backend/__init__.py",
+      "passed": true
+    },
+    {
+      "check": "Prior/source file unchanged backend/content.py",
+      "passed": true
+    },
+    {
+      "check": "Prior/source file unchanged backend/db.py",
+      "passed": true
+    },
+    {
+      "check": "Prior/source file unchanged backend/engine.py",
+      "passed": true
+    },
+    {
+      "check": "Prior/source file unchanged backend/growth.py",
+      "passed": true
+    },
+    {
+      "check": "Prior/source file unchanged backend/main.py",
+      "passed": true
+    },
+    {
+      "check": "Prior/source file unchanged backend/models.py",
+      "passed": true
+    },
+    {
+      "check": "Prior/source file unchanged backend/seed.py",
+      "passed": true
+    },
+    {
+      "check": "Prior/source file unchanged frontend/src/api.ts",
+      "passed": true
+    },
+    {
+      "check": "Prior/source file unchanged frontend/src/App.tsx",
+      "passed": true
+    },
+    {
+      "check": "Prior/source file unchanged frontend/src/components.tsx",
+      "passed": true
+    },
+    {
+      "check": "Prior/source file unchanged frontend/src/Growth.tsx",
+      "passed": true
+    },
+    {
+      "check": "Prior/source file unchanged frontend/src/Logistics.tsx",
+      "passed": true
+    },
+    {
+      "check": "Prior/source file unchanged frontend/src/main.tsx",
+      "passed": true
+    },
+    {
+      "check": "Prior/source file unchanged frontend/src/style.css",
+      "passed": true
+    },
+    {
+      "check": "Prior/source file unchanged frontend/src/types.ts",
+      "passed": true
+    },
+    {
+      "check": "Isolated real Edge rehearsal passed with baseline and saved change",
+      "passed": true
+    }
+  ]
+}

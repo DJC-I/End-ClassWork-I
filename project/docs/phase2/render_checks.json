@@ -1,0 +1,30 @@
+{
+  "renderer": "./.codex\\plugins\\cache\\openai-primary-runtime\\documents\\26.1112.11217\\skills\\documents\\render_docx.py",
+  "soffice": "./project\\.tools\\libreoffice\\App\\libreoffice\\program\\soffice.exe",
+  "bundled_libreoffice_available": false,
+  "fallback": "Task-local official portable LibreOffice; no desktop installation used",
+  "outputs": [
+    {
+      "file": "deliverables/phase2/DataClawHub平台运营方案.docx",
+      "sha256": "dcc4c92b98953bb94c0770fc1bca9231bfe155162450e756f558b6711f0cd025",
+      "bytes": 119992,
+      "tables": 6,
+      "images": 1,
+      "paragraphs": 107,
+      "expected_pages": 10,
+      "rendered_pages": 10,
+      "render_directory": "docs/phase2/render/operations"
+    },
+    {
+      "file": "deliverables/phase2/气象驱动物流运输风险预警与应对决策.docx",
+      "sha256": "2c8072319154a435d8b9bb9a4c36bc054fd41549dcb70ea05440a70f23d1ef9a",
+      "bytes": 432306,
+      "tables": 13,
+      "images": 5,
+      "paragraphs": 115,
+      "expected_pages": 13,
+      "rendered_pages": 13,
+      "render_directory": "docs/phase2/render/logistics"
+    }
+  ]
+}

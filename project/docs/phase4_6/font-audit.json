@@ -1,0 +1,140 @@
+[
+  {
+    "suffix": "90%.ttf",
+    "names": {
+      "1": [
+        "iOS27苹方HK90"
+      ],
+      "2": [
+        "iOS27苹方HK90"
+      ],
+      "6": [
+        "iOS27HK-iOS27hk"
+      ],
+      "8": [
+        "DynaComware Shanghai Limited; DynaComware Hong Kong Limited; DynaComware Taiwan Inc."
+      ],
+      "13": [],
+      "14": []
+    },
+    "weight": 400,
+    "fsType": 4,
+    "cmap": 49330,
+    "variable": false
+  },
+  {
+    "suffix": "80%.ttf",
+    "names": {
+      "1": [
+        "iOS27苹方HK80"
+      ],
+      "2": [
+        "iOS27苹方HK80"
+      ],
+      "6": [
+        "iOS27HK-iOS27hk"
+      ],
+      "8": [
+        "DynaComware Shanghai Limited; DynaComware Hong Kong Limited; DynaComware Taiwan Inc."
+      ],
+      "13": [],
+      "14": []
+    },
+    "weight": 400,
+    "fsType": 4,
+    "cmap": 49330,
+    "variable": false
+  },
+  {
+    "suffix": "100%.ttf",
+    "names": {
+      "1": [
+        "iOS27苹方HK"
+      ],
+      "2": [
+        "iOS27苹方HK"
+      ],
+      "6": [
+        "iOS27HK-iOS27hk"
+      ],
+      "8": [
+        "DynaComware Shanghai Limited; DynaComware Hong Kong Limited; DynaComware Taiwan Inc."
+      ],
+      "13": [],
+      "14": []
+    },
+    "weight": 400,
+    "fsType": 4,
+    "cmap": 49330,
+    "variable": false
+  },
+  {
+    "suffix": "60%.ttf",
+    "names": {
+      "1": [
+        "iOS27苹方HK60"
+      ],
+      "2": [
+        "iOS27苹方HK60"
+      ],
+      "6": [
+        "iOS27HK-iOS27hk"
+      ],
+      "8": [
+        "DynaComware Shanghai Limited; DynaComware Hong Kong Limited; DynaComware Taiwan Inc."
+      ],
+      "13": [],
+      "14": []
+    },
+    "weight": 400,
+    "fsType": 4,
+    "cmap": 49330,
+    "variable": false
+  },
+  {
+    "suffix": "70%.ttf",
+    "names": {
+      "1": [
+        "iOS27苹方HK70"
+      ],
+      "2": [
+        "iOS27苹方HK70"
+      ],
+      "6": [
+        "iOS27HK-iOS27hk"
+      ],
+      "8": [
+        "DynaComware Shanghai Limited; DynaComware Hong Kong Limited; DynaComware Taiwan Inc."
+      ],
+      "13": [],
+      "14": []
+    },
+    "weight": 400,
+    "fsType": 4,
+    "cmap": 49330,
+    "variable": false
+  },
+  {
+    "suffix": "85%.ttf",
+    "names": {
+      "1": [
+        "iOS27苹方HK85"
+      ],
+      "2": [
+        "iOS27苹方HK85"
+      ],
+      "6": [
+        "iOS27HK-iOS27hk"
+      ],
+      "8": [
+        "DynaComware Shanghai Limited; DynaComware Hong Kong Limited; DynaComware Taiwan Inc."
+      ],
+      "13": [],
+      "14": []
+    },
+    "weight": 400,
+    "fsType": 4,
+    "cmap": 49330,
+    "variable": false
+  }
+]

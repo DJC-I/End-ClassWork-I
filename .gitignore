@@ -1,0 +1,13 @@
+**/.venv/
+**/node_modules/
+**/.tools/
+**/__pycache__/
+**/.pytest_cache/
+**/test-results/
+**/playwright-report/
+**/frontend/dist/
+**/database/*.db*
+**/.env
+*.log
+SkyRoute-AI-v1.0.0-Final/
+release-assets/

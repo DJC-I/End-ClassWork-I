@@ -1,0 +1,5522 @@
+[
+  {
+    "path": "project/.env.example",
+    "bytes": 198,
+    "sha256": "6f8d1fc964b771f4231e3a981e5e84cca7a93ab91b697a3a772aaad71ddee746",
+    "tracked": true
+  },
+  {
+    "path": "project/.gitignore",
+    "bytes": 131,
+    "sha256": "46c51a64fbbf7a70d4111e22b63b711271cf44119ee5e75d62c6a9cc44a67599",
+    "tracked": true
+  },
+  {
+    "path": "project/ARCHITECTURE.md",
+    "bytes": 5166,
+    "sha256": "968d580a0f5a7046129ebcda9cff83a4ee1dfa36be03ca7edb629a7c815b4439",
+    "tracked": true
+  },
+  {
+    "path": "project/PROJECT_STATUS.md",
+    "bytes": 10549,
+    "sha256": "092c6841bc588f3be5614c13e388fed5dd2732f3bf146d281331a6335132c01b",
+    "tracked": true
+  },
+  {
+    "path": "project/README.md",
+    "bytes": 10173,
+    "sha256": "0ff444b780e0e263e3c528a47c26ac543446799332196e726b123b44ddc0482a",
+    "tracked": true
+  },
+  {
+    "path": "project/TASKS.md",
+    "bytes": 6227,
+    "sha256": "cf02716e3e96e0d74f628eb7b015dc58408c2011e688150271838f7667979c19",
+    "tracked": true
+  },
+  {
+    "path": "project/backend/__init__.py",
+    "bytes": 43,
+    "sha256": "b176756f5b82db20ac6d2d0fd2cf3b578513b2e710a49687ab547048eae6f2b0",
+    "tracked": true
+  },
+  {
+    "path": "project/backend/content.py",
+    "bytes": 11320,
+    "sha256": "074ac39c2d536f276d40839c62ba1bc3b59d35d1f8a3a8c61263fba071a1274c",
+    "tracked": true
+  },
+  {
+    "path": "project/backend/db.py",
+    "bytes": 3038,
+    "sha256": "a3a24ab91fb8f50dd5d3cab87631c8be5c285726696d3780d8a05563604857f5",
+    "tracked": true
+  },
+  {
+    "path": "project/backend/engine.py",
+    "bytes": 17035,
+    "sha256": "275be8a80fb2a53e304465fd99f1be0be020ac339102edb029875f8e2ef6799e",
+    "tracked": true
+  },
+  {
+    "path": "project/backend/growth.py",
+    "bytes": 3228,
+    "sha256": "dd0db64622ab9ee640eccc89a8f5e2b977384f5961f28654fe15a0d459de34be",
+    "tracked": true
+  },
+  {
+    "path": "project/backend/main.py",
+    "bytes": 16491,
+    "sha256": "775f48d4b4dc1f2c77734ac022a614325e9d9ac9a999391cb40197a0a03d999d",
+    "tracked": true
+  },
+  {
+    "path": "project/backend/models.py",
+    "bytes": 5039,
+    "sha256": "1ec883b9ecaa33f48db6a41352d7e5aafa46a12c79d771eae96d9af8f39b2faa",
+    "tracked": true
+  },
+  {
+    "path": "project/backend/requirements.lock.txt",
+    "bytes": 466,
+    "sha256": "8e5bced30028e6f118180e3f6806633dd133abf724ce7817d27c4276f3b9d725",
+    "tracked": true
+  },
+  {
+    "path": "project/backend/requirements.txt",
+    "bytes": 216,
+    "sha256": "6ae278f3883510607936c5d50fddc01f7fecf6ba8165a906232d8ab64359b6b2",
+    "tracked": true
+  },
+  {
+    "path": "project/backend/seed.py",
+    "bytes": 9421,
+    "sha256": "6d4811871fd4a4baec6b3ac318e138eedce0a6f0869c34553e9a51ab70d51a0a",
+    "tracked": true
+  },
+  {
+    "path": "project/data/network.json",
+    "bytes": 4462,
+    "sha256": "2b918adb8c55145a484d3f8cf96cb042fc8194b16a37d760582b5f51021ed023",
+    "tracked": true
+  },
+  {
+    "path": "project/data/orders.sample.json",
+    "bytes": 2272,
+    "sha256": "c4df9fc268bf0b6aa3ac7d519d9d2db318fbf916cbfa9f12e9449a5e8c1ace6a",
+    "tracked": true
+  },
+  {
+    "path": "project/data/scenarios.json",
+    "bytes": 1963,
+    "sha256": "0ce4ae8decad9335b2da8fd79d57b9f689cddb1f4a2e5dc7d8f349ad3f6ce3a6",
+    "tracked": true
+  },
+  {
+    "path": "project/data/tasks.sample.json",
+    "bytes": 1661,
+    "sha256": "20a93d0699e9bb9fc54cb1293b96121a45b2f8044caea6e14a8cab61be0b2062",
+    "tracked": true
+  },
+  {
+    "path": "project/database/skyroute.db",
+    "bytes": 196608,
+    "sha256": "3fa29175e5e729539ed725600d38125f71d879bd63ef18134b6d6bff96cad4ac",
+    "tracked": false
+  },
+  {
+    "path": "project/deliverables/phase2/DataClawHub平台运营方案.docx",
+    "bytes": 119992,
+    "sha256": "dcc4c92b98953bb94c0770fc1bca9231bfe155162450e756f558b6711f0cd025",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase2/SHA256SUMS.txt",
+    "bytes": 226,
+    "sha256": "6471a6ac5a2d3644eb995d0fbf536abbddf686c36cf85ac0f918ef3213dca485",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase2/manifest.txt",
+    "bytes": 94,
+    "sha256": "8e33cb82c36f2e5b8178c77374bbd249781fccb090ad06fd947459618c04fcf1",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase2/气象驱动物流运输风险预警与应对决策.docx",
+    "bytes": 432306,
+    "sha256": "2c8072319154a435d8b9bb9a4c36bc054fd41549dcb70ea05440a70f23d1ef9a",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase3/SHA256SUMS.txt",
+    "bytes": 225,
+    "sha256": "75243da7a6f6ae64833e35cf5b7f840e66c56155133afe4af82dc497460c7b0e",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase3/manifest.txt",
+    "bytes": 453,
+    "sha256": "c6f23e44bb46f260a444a8bb91775b9706d72ee81f4529b629b90fa989c4bf9c",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase3/视频检验报告.md",
+    "bytes": 4784,
+    "sha256": "3374480d7d1db754301c4f42a86d34643ce8a8087b9fc525d955e5f590328f7e",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase3/赛题一_DataClawHub平台运营方案.mp4",
+    "bytes": 13383682,
+    "sha256": "5aed2bbab0330ec905f1a79b4ce4cec3de7456db7420502851e6c44021ddee4b",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase3/赛题一_DataClawHub平台运营方案.srt",
+    "bytes": 3374,
+    "sha256": "137837fa465d9cea538784d1b021a6ed175e755faabab4ce90bd143d6fd4c6b7",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase3/赛题一_DataClawHub平台运营方案_分镜脚本.md",
+    "bytes": 1296,
+    "sha256": "0137ef7bf93fa84a5f71462c7bf1cef90e6c3ba2032ddb4f0d953bb6077d5a2f",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase3/赛题一_DataClawHub平台运营方案_解说稿.md",
+    "bytes": 2786,
+    "sha256": "b4bb2868e63a41463a11b41037c695457f63f2a00a49e8483280ea04a9710616",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase3/赛题二_气象物流AI风险决策系统.mp4",
+    "bytes": 13666545,
+    "sha256": "0ae7a7db1b83bc6c4796b512a31b8d06dd6646e4ed52337917b3fc6c05558532",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase3/赛题二_气象物流AI风险决策系统.srt",
+    "bytes": 3717,
+    "sha256": "ac3561834a7d4f25c21134b596e12d5214ade7d42a210de4256b47b2bc6833c6",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase3/赛题二_气象物流AI风险决策系统_分镜脚本.md",
+    "bytes": 1487,
+    "sha256": "1579a021d66e1faf6e0f09bd57da7632efa766c477e11829a1aee6cb301216be",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase3/赛题二_气象物流AI风险决策系统_解说稿.md",
+    "bytes": 3121,
+    "sha256": "3174a43666c0df80dd8f559ba2e2db59a2c57bdaccbc517ad294aa1222762833",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4/人工智能导论_双赛题结课作品展示.pptx",
+    "bytes": 437441,
+    "sha256": "5261d6fb861a7167dfb3bd0c8790f7274fabe5362ce4e46007368c775962d634",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4/演示操作清单.md",
+    "bytes": 6484,
+    "sha256": "4a7fb9fb67e503b79a72d4242549ef19630f1af27d8cf5c3c1ce06a9a9072b28",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4/第四阶段验收报告.md",
+    "bytes": 6374,
+    "sha256": "637e8b9a672e3970c48a9ecb8e38c7582fd4c4822abb6183e675833e694f93b4",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4/答辩常见问题及参考回答.docx",
+    "bytes": 41665,
+    "sha256": "46b5f04ad7732c76dbcabd38d991219f87f9558ffc03282f81adb4be00c5628a",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4/课堂展示_单人完整演讲稿.docx",
+    "bytes": 43092,
+    "sha256": "fe06172157a88e68ac2d5410642772b7fe4046f3be53074bf821003b11c8a4de",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_5/SHA256SUMS.txt",
+    "bytes": 225,
+    "sha256": "45f71be378eaef67e5e4076405c4e874e4b1932760126318584f4989fd676ebb",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_5/manifest.txt",
+    "bytes": 459,
+    "sha256": "497049cc437417f6e17b96e883fef9bf38270ad2c2ab99445864fd60201b4908",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_5/第4.5阶段验收报告.md",
+    "bytes": 5624,
+    "sha256": "90e66fa7951ba8c63278215bf7d537b0616665f9f7a8238cb186eef9e5b377bf",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_5/赛题一_DataClawHub平台运营方案.mp4",
+    "bytes": 14027228,
+    "sha256": "ed7a346634e1082ba5014a61563dd76ce9dbccec5a7b8ec5997041c3cad46a5c",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_5/赛题一_DataClawHub平台运营方案.srt",
+    "bytes": 3383,
+    "sha256": "51599a436adc70288d151890367683bb523b7aade6a6b29468afb94ca9922a3f",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_5/赛题一_DataClawHub平台运营方案_分镜脚本.md",
+    "bytes": 1238,
+    "sha256": "fbba43c2f98e407676fcabc04f4d6eccd6b9df444ece845f8107d25c3dabe1ab",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_5/赛题一_DataClawHub平台运营方案_解说稿.md",
+    "bytes": 2727,
+    "sha256": "0c9197a37674f77c5298f16d58c1b821d9e268e8622dc4804c0a0be0394c6d9c",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_5/赛题二_气象物流AI风险决策系统.mp4",
+    "bytes": 14193491,
+    "sha256": "2658473da3968562c76c69476f86a90c9e5bcf55c7548bffe85f8e0a7da4d316",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_5/赛题二_气象物流AI风险决策系统.srt",
+    "bytes": 3744,
+    "sha256": "d6f39c4fcdd93177e603950aed78637c4a575efa3cbf3768c285381c0366d009",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_5/赛题二_气象物流AI风险决策系统_分镜脚本.md",
+    "bytes": 1429,
+    "sha256": "d3f9198dc7de80037a79384b2d68aea34d0e0353e33360baf7ccf78a147367c8",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_5/赛题二_气象物流AI风险决策系统_解说稿.md",
+    "bytes": 3074,
+    "sha256": "1bc0aae856a4112a5ab31a20f48d8e7fe59454eea25f7d9188d25e45b90718e2",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_6/DataClawHub平台运营方案.docx",
+    "bytes": 103586,
+    "sha256": "551742d23367b74d3086f23fdce74fc526b4e3490338e98ec23abf70f678e316",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_6/SHA256SUMS.txt",
+    "bytes": 1773,
+    "sha256": "046c95940076e00065ab936fc2d66286da11be3ef68e744415aac81e0725734b",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_6/人工智能导论_双赛题结课作品展示.pptx",
+    "bytes": 535717,
+    "sha256": "d3f8b3a96ff784fa60a4bf5ab5840c003878f4cd286e3bb25528a698921962a2",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_6/气象驱动物流运输风险预警与应对决策.docx",
+    "bytes": 491300,
+    "sha256": "fe7598ea635c0440321a2bcdd132a103d27a27eaf884205993c593cd85fd00b6",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_6/演示操作清单.md",
+    "bytes": 6893,
+    "sha256": "cb760a3834bed36137dc7ed886c8c008033826cd76be396d47dc0f085154495e",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_6/第4.6阶段验收报告.md",
+    "bytes": 8206,
+    "sha256": "a42963ab4d07ed63a61ddbb432d90f68bd3ede56e9863860e9aa9d0fd36060a8",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_6/答辩常见问题及参考回答.docx",
+    "bytes": 41669,
+    "sha256": "c6a799cdefbf326d327d0736ff0c71dfc87b359fc43c09cb0c5d239f919d5f24",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_6/视频检验报告.md",
+    "bytes": 1377,
+    "sha256": "51e5dce522a0f57935152cda12a26fef0719e5045396902922432b9ec6bfce22",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_6/课堂展示_单人完整演讲稿.docx",
+    "bytes": 43092,
+    "sha256": "fe06172157a88e68ac2d5410642772b7fe4046f3be53074bf821003b11c8a4de",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_6/赛题一_DataClawHub平台运营方案.mp4",
+    "bytes": 15341511,
+    "sha256": "79845d2cb4c8dbb2238745ec6cb4b2117044d4daa956647e123b06f0f1fb4aa2",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_6/赛题一_DataClawHub平台运营方案.srt",
+    "bytes": 3383,
+    "sha256": "51599a436adc70288d151890367683bb523b7aade6a6b29468afb94ca9922a3f",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_6/赛题一_DataClawHub平台运营方案_分镜脚本.md",
+    "bytes": 1256,
+    "sha256": "c84592019ae31e638d339cfdbe5be4575630038d573722aa201905e9e1d0ff65",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_6/赛题一_DataClawHub平台运营方案_解说稿.md",
+    "bytes": 2757,
+    "sha256": "aa11d9254583f0b47c845f42a2a13e3def4a8a0898e431bddf8d23f2952e8d54",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_6/赛题二_气象物流AI风险决策系统.mp4",
+    "bytes": 16064000,
+    "sha256": "790ddee71ae7981cbcce81bc2fa5d90015a15ef20dbcab2ab611eca3f74c1c76",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_6/赛题二_气象物流AI风险决策系统.srt",
+    "bytes": 3744,
+    "sha256": "d6f39c4fcdd93177e603950aed78637c4a575efa3cbf3768c285381c0366d009",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_6/赛题二_气象物流AI风险决策系统_分镜脚本.md",
+    "bytes": 1447,
+    "sha256": "7755e28dd302fe4bfeb8a60caaf8cca4ff5f3471613dffb87fd10eb6813a97ba",
+    "tracked": true
+  },
+  {
+    "path": "project/deliverables/phase4_6/赛题二_气象物流AI风险决策系统_解说稿.md",
+    "bytes": 3104,
+    "sha256": "a5a52601299a991818706c76814c5254ce1520f6f039acb5c1c72ee776f6d432",
+    "tracked": true
+  },
+  {
+    "path": "project/desktop/README.md",
+    "bytes": 1551,
+    "sha256": "5158708146c866931dc892a142e27fe17cbf8e825206bcefc93964fb94218782",
+    "tracked": false
+  },
+  {
+    "path": "project/desktop/backend_entry.py",
+    "bytes": 3704,
+    "sha256": "4b4183e8123847f1499a8db9d1bb138e31c352df044af50562e463c4786a7de3",
+    "tracked": false
+  },
+  {
+    "path": "project/desktop/icon.ico",
+    "bytes": 18906,
+    "sha256": "1f1bd8ec525b2359a85fd8d623c20159a8859b13f7820fac86e1c65a37e5bbcf",
+    "tracked": false
+  },
+  {
+    "path": "project/desktop/icon.png",
+    "bytes": 2363,
+    "sha256": "7ada0bedecdc86d2e8e18b45df08431af00647e111eb9097aa8d19b03632025f",
+    "tracked": false
+  },
+  {
+    "path": "project/desktop/main.cjs",
+    "bytes": 4370,
+    "sha256": "1305e6a4f5938676bda2f0523c3b90da9475f2a30e8832eac8213046244221b0",
+    "tracked": false
+  },
+  {
+    "path": "project/desktop/package-lock.json",
+    "bytes": 126200,
+    "sha256": "4debeacd4e716de23d0dbeeee70d8108dbcc45c1db32ff8915c98d85a951d4f4",
+    "tracked": false
+  },
+  {
+    "path": "project/desktop/package.json",
+    "bytes": 1034,
+    "sha256": "6874d421a8bc8125559b2a4adf7d4412c5c330a0b38cdab4c7b5307cbfe0caf9",
+    "tracked": false
+  },
+  {
+    "path": "project/desktop/requirements-build.txt",
+    "bytes": 20,
+    "sha256": "4439c693c19271e4b0bdc56c641c36b3b06010b1b22eae6733cd244d752e85d5",
+    "tracked": false
+  },
+  {
+    "path": "project/desktop/skyroute-service.spec",
+    "bytes": 980,
+    "sha256": "a1d9289297180717bc212ce763565e87146984db957320df6a4c57cf8612a5b8",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/API_AND_DATA.md",
+    "bytes": 2619,
+    "sha256": "e6e3670a277834152545e83d4ab32f62c3fde3c86ba7f094c6d22335bcd3c122",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/OFFICIAL_REVIEW.md",
+    "bytes": 1586,
+    "sha256": "a01597f72303336585124dcf0c3e7fdbcb07574ccd529a87e272b73f15ddf528",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/ORIGINAL_REQUEST.txt",
+    "bytes": 27349,
+    "sha256": "6ff3636625d81c2cf0ca47812a4e44ae09f69bb9da556d58b2e9cea59f21caf2",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/PHASE1_ACCEPTANCE.md",
+    "bytes": 7357,
+    "sha256": "7ce76b649b139f07d1d6ce9999f86ddf7776439793748913330cde59b91dbb2d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/PHASE2_ACCEPTANCE.md",
+    "bytes": 4613,
+    "sha256": "1d087382b8d2b7d5198adfdc4c7798bfe9f0e26adf943b844c4be9bd41f1cdc3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/PHASE3_ACCEPTANCE.md",
+    "bytes": 4784,
+    "sha256": "3374480d7d1db754301c4f42a86d34643ce8a8087b9fc525d955e5f590328f7e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/PHASE4_5_ACCEPTANCE.md",
+    "bytes": 5624,
+    "sha256": "90e66fa7951ba8c63278215bf7d537b0616665f9f7a8238cb186eef9e5b377bf",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/PHASE4_6_ACCEPTANCE.md",
+    "bytes": 8136,
+    "sha256": "c9f32e03de2c387551c26c9036f9756aac9da76e98e9914c7fc815818ea9e467",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/PHASE4_6_DESIGN.md",
+    "bytes": 3634,
+    "sha256": "51b265aab8f6178047eb238024fa0e3cf3d2a2ff2150a2d6390efb45805f241b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/PHASE4_ACCEPTANCE.md",
+    "bytes": 6374,
+    "sha256": "637e8b9a672e3970c48a9ecb8e38c7582fd4c4822abb6183e675833e694f93b4",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/ROLE_HANDOFFS.md",
+    "bytes": 1824,
+    "sha256": "1f858442fed802af8435a032a48b554c28dcbfad53d0caa7ea9722f6c031c049",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/SOURCES.md",
+    "bytes": 1337,
+    "sha256": "629d83170eb2eb71f5b79fd5a03770a2ec1f95c68ba8de1f01b1b06f599a1d0a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/e2e-results.json",
+    "bytes": 7367,
+    "sha256": "4dd853191a688b2fb9b3f003466821b7b2c420d873511739f577bf6ca2b28e09",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/openapi.json",
+    "bytes": 34718,
+    "sha256": "2a41e27836f91ca95da922bbc3c9d4f856305a9ea8fcc42f76ad1482198e75fa",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/README.md",
+    "bytes": 4095,
+    "sha256": "b9bbf5999113231eed09a8bf0bde3dbe68b746bc94d129870d2f51ef7a282a56",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/VISUAL_REVIEW.md",
+    "bytes": 2019,
+    "sha256": "cffa9ef81e1e29418ac057382aee1b31d282621efacb748b9bfc72d93520f48d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/build_checks.json",
+    "bytes": 10422,
+    "sha256": "822769414e2a0643c7773744b769f811c484a3e4f60cb8fcd2554632b1f4b31f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/figures/agent_rain.png",
+    "bytes": 55986,
+    "sha256": "11f6844420cdf05443741567b2b28d8302c27a9d36b461afda9e9296dc274125",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/figures/growth_model.png",
+    "bytes": 74234,
+    "sha256": "19e6ba32ebb308c44086a3ec11721a0403f5339126e53f2cdf7c4d657c10d1e5",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/figures/network_rain.png",
+    "bytes": 157773,
+    "sha256": "a0a3b9225280ef98e0031c20c88a90587f7b2d7291b690772a3501c9c6b3a2df",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/figures/plans_rain.png",
+    "bytes": 133092,
+    "sha256": "ce649e0aa88627382b81177e1c38a82b7e5cee1424f6a837899a20fc668a49cb",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/figures/risk_equation.png",
+    "bytes": 14250,
+    "sha256": "7f73d49ea7ae1f492facf1d45629ef8264464a5fcc3628ba87e7c6d03e224a84",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/figures/severity_equation.png",
+    "bytes": 32120,
+    "sha256": "4874e2f6bc21e60c59fb109f2f9546968373f87eaa27bddde55c759ff4a63525",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/logistics/page-1.png",
+    "bytes": 192874,
+    "sha256": "85b0d32edf41d81057e38cb457fba586a3f332fdd5d08ce99c278e8dd398c278",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/logistics/page-10.png",
+    "bytes": 534960,
+    "sha256": "215c96c47a918c1483d5c85cd47f8e717e56f6d912d8168f71fa79094c8a3e89",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/logistics/page-11.png",
+    "bytes": 403288,
+    "sha256": "dfa6655f97c93cbafee04c84a1074120f52b1c45277d12c946cc5b928b07328a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/logistics/page-12.png",
+    "bytes": 361759,
+    "sha256": "90ef4f98531ea3294548ff33bfd4ed6f9b64e4b7f2af226d80622997c0b3479b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/logistics/page-13.png",
+    "bytes": 448003,
+    "sha256": "1ad94b99b005309bcdb81f4b103cd47e2c418eace7331ed6c5bea7061cfaaf4b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/logistics/page-2.png",
+    "bytes": 371403,
+    "sha256": "b3510d9c3e4ded96fb3467aa72b909f56d69e9b22b96c697f1f42b880efc6b4b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/logistics/page-3.png",
+    "bytes": 407985,
+    "sha256": "aca2ed44122e896ddca6059e26f2fdd93317aa4f22648b352be97f3c5622d773",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/logistics/page-4.png",
+    "bytes": 292497,
+    "sha256": "3e87142d3403cd2609a038a21659cd19a4ff1afed602110a616ae7e02cd606d0",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/logistics/page-5.png",
+    "bytes": 313384,
+    "sha256": "76dbad1b7bb7eb8c16666b8f178fe316a6c52a8b08ff61e537a97d3e0579ca59",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/logistics/page-6.png",
+    "bytes": 423566,
+    "sha256": "e21f9aff87c1ea65f6e37015d010f29c437292c8c66417121efc9abe97eddac4",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/logistics/page-7.png",
+    "bytes": 417295,
+    "sha256": "5bf11b14b1c622c606e436b771362335993c0d24380146f7be291d4df21e8519",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/logistics/page-8.png",
+    "bytes": 438581,
+    "sha256": "c349e70e832f6e7061b4cd326cfbf81205792b5774ee9b2a8db4e8aaf3fe4179",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/logistics/page-9.png",
+    "bytes": 569671,
+    "sha256": "9145fdd68fe26454eab2085465600092bc881e75476e8af0571718f3d7786e13",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/logistics/气象驱动物流运输风险预警与应对决策.pdf",
+    "bytes": 931476,
+    "sha256": "bcf24c47c379bdc38c9640e3e3417c161f19a1172e086104e2905b9b61afaab1",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/operations/DataClawHub平台运营方案.pdf",
+    "bytes": 629453,
+    "sha256": "5772f3ce17813efa769394bb119f0e07b8652603a4e77296e663fe93ffae61fe",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/operations/page-1.png",
+    "bytes": 181233,
+    "sha256": "3856966bb94bcd056fc843a5aa03a972156719fd2604aa10052a73a2e608c626",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/operations/page-10.png",
+    "bytes": 446758,
+    "sha256": "e992372d3ca95d90470eae922cb14c53c7d26f89e662c1ae1efd9048d9970ad2",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/operations/page-2.png",
+    "bytes": 478085,
+    "sha256": "0d0b5626d0b18be369b21518c5f4a761b98c434deb3a1af79cbbebbd411f6cd6",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/operations/page-3.png",
+    "bytes": 476434,
+    "sha256": "9eb8e26d306ceda825f7c999a079b8106674bc768e5e77de23d376d96a888877",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/operations/page-4.png",
+    "bytes": 385891,
+    "sha256": "85d467c200677ccc6991a83e8d792beec717e9e3ee8aa189643c5deb3b60583e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/operations/page-5.png",
+    "bytes": 474010,
+    "sha256": "6e18dcc0d4457da91802618f5a20ff14b0111fe8abd17b1f121e41171b70be4d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/operations/page-6.png",
+    "bytes": 403278,
+    "sha256": "56cfe8474f3d81493e7a85bbee16b4ac52bd40b7297c8b6d50bc3fc0ef3811d3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/operations/page-7.png",
+    "bytes": 342563,
+    "sha256": "a98c843e5bd6c58a06308ad79085b98699c1cfc49edaff088fcdc276677a1bfe",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/operations/page-8.png",
+    "bytes": 509095,
+    "sha256": "32ee7bf1fcb63fbdad3ac6804f34067a36057d14a9f8d06901001f2f9f79501e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render/operations/page-9.png",
+    "bytes": 437361,
+    "sha256": "4342397b277cb775e7d6871f797de545e8f9f91e567174cefc0d9eb7c2b42e2f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/render_checks.json",
+    "bytes": 1219,
+    "sha256": "5c02be172b8a49282c455ed66a2242bca770cda305c049f93a767fde0809cc8e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase2/verification.json",
+    "bytes": 1994,
+    "sha256": "96feb90bf405346565fbd49c60ab97294a52153905d2519555d049c2c3d38059",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/DataClawHub平台运营方案_来源全文.txt",
+    "bytes": 18145,
+    "sha256": "95b9450e82c3409b29391c52a4763436266b655454008d7d8bdc838741e67100",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/README.md",
+    "bytes": 3971,
+    "sha256": "919fa36f5dbceb91a558f2641b6cbb2f299dbd492119085dd9013571de99223c",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/VISUAL_REVIEW.md",
+    "bytes": 1773,
+    "sha256": "be6f136d1b3f2959b45492d00b269f8fb6167015127044888d7b1a33151d3db1",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/growth-adjust.png",
+    "bytes": 132202,
+    "sha256": "df672bc66b61147b0489552d7af141118548632c9a71af51f9b5e4f9f6a01329",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/growth-assembly.json",
+    "bytes": 3231,
+    "sha256": "4673778310ce695d1186f4091d6edb81cd946a038943d609e400c321803ca155",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/growth-budget.png",
+    "bytes": 131479,
+    "sha256": "c430a90464789f0d611ef4113fc7132ab6f359968f3a14c5387e96cd851f909c",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/growth-channels.png",
+    "bytes": 170422,
+    "sha256": "5c936dab5f54420c783037fb8798f83e3b7a908a8243509d4822d06522452893",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/growth-contact.jpg",
+    "bytes": 427954,
+    "sha256": "6cc2eee35bd11210bf27b202d904644606d0725e8b078c664227d67c422705e1",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/growth-execution.png",
+    "bytes": 139716,
+    "sha256": "2c2b79d54daa68a770604238ea5b9465579e5a819bcb7e6f782f5eae0a417d19",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/growth-experiment.png",
+    "bytes": 174035,
+    "sha256": "e92ece5fb53e5485303d43311f3a270fc33e52bf518ecc6bc988d708d4dc0efd",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/growth-final-preview.png",
+    "bytes": 650998,
+    "sha256": "df7d5fbbcec2349eeebe0d9606eb9438fc62b0d4bcfbdd2899f0309aa65b8226",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/growth-funnel.png",
+    "bytes": 97566,
+    "sha256": "99fc3b4d601ca9ce698a28b673974d31ff82567cc47aaaf8886eba9a77c333bf",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/growth-personas.png",
+    "bytes": 195935,
+    "sha256": "c324a0a37de91d840cf7c83a43f30fd4c270e6092679b2cd8a338698acc2557e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/growth-playback-ended.png",
+    "bytes": 908527,
+    "sha256": "b51b31a7ae3edaf09af117a21993da204a0ddc9394502acfbcc324887e012d2f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/growth-position.png",
+    "bytes": 330030,
+    "sha256": "e1c5fc4c52d2023ba9e7bcedea67e3920887d55987d7e355701ed8150217f0b3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/growth-recorded-report.md",
+    "bytes": 16587,
+    "sha256": "2b4b4c7515c666934fe792d7eff7a1710fbf796d647ac54526f51bdd79cd5a52",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/growth-recording.json",
+    "bytes": 68176,
+    "sha256": "13e0d4cef75c85f56fc19c81c1760d0f921b7b0af8069f5e3746fb75f3b87997",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/growth-report.png",
+    "bytes": 229166,
+    "sha256": "bd3fe225e733b5ca43c2d7c8d578d1f37e2516574b0df47dc384185113493bee",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/growth-strategy.png",
+    "bytes": 177236,
+    "sha256": "c731b5517c56a489b0cbe172f4dd61c688f107dfc02fafa4cfef37aa6ecda7c8",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/logistics-agent.png",
+    "bytes": 129547,
+    "sha256": "bd8226445fc1f570aaf46f0d8493413141c79edadc66c54fe0294378047d15c2",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/logistics-assembly.json",
+    "bytes": 3558,
+    "sha256": "f37ce40499862a56fd155f4570305a9f10dde26092494ac21c3defc19b046f6e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/logistics-contact.jpg",
+    "bytes": 407367,
+    "sha256": "e4693d6f15e8ef22895ec0ab624862f24835c859efa2f169c6307008db4b3059",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/logistics-limits.png",
+    "bytes": 169862,
+    "sha256": "7205df9a91a1bcceeb7274d35328e8d1be819550074eb054e27d7c4b6c95929d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/logistics-normal.png",
+    "bytes": 88808,
+    "sha256": "1c9321f388ad030ad42fa375155e4ef6f23e0191e25ec7d591ebb8cea470922e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/logistics-orders.png",
+    "bytes": 117249,
+    "sha256": "f8b2bb43f89b908fe1e5f13e0f018eeb76d9fffa734ed1e918e269cb8b2a8a58",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/logistics-overview.png",
+    "bytes": 302224,
+    "sha256": "4cbdc0268eae306c3642fe1df6e57551a3b92f79432f8708f0e7111997e0937f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/logistics-plans.png",
+    "bytes": 124540,
+    "sha256": "4f52aafc4e6a43efae352c334478ad92c1b098b3161fdeeb9e1ed5c207ecb5a3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/logistics-playback-ended.png",
+    "bytes": 855247,
+    "sha256": "b0eb5fd73e74a7164e941872661e0be374efa3bbfdafae9b3f07b41ffacd99ef",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/logistics-rain.png",
+    "bytes": 90432,
+    "sha256": "4099061c4f89409fb0208a8c4a5cc0a718b3305bfa51aa46c10f49fee42ee082",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/logistics-recorded-report.md",
+    "bytes": 18432,
+    "sha256": "79e0ba0bc9c41f97c235a2e1fcca97c0a7649e969f1021759429e114d1e4adab",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/logistics-recording.json",
+    "bytes": 50113,
+    "sha256": "bc5ac2ed48faf64a2842790e1166e5fa94bfd7af32e8ef3b3f452195727c479f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/logistics-report.png",
+    "bytes": 169631,
+    "sha256": "6cb14d8bcfc20ac55651089af1378859316bdd8f456679bd92771adcf1093baf",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/logistics-risk.png",
+    "bytes": 192393,
+    "sha256": "9b57241edcd91256614e5a1426948e3a4ebf1077fce78cb9b2f7597406830cc0",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/logistics-snow.png",
+    "bytes": 91436,
+    "sha256": "bee0dc161dd74b0d35d416928c56165a54abf0699f8ca3fc8f1f0f3ff8d654b3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/logistics-weather.png",
+    "bytes": 282818,
+    "sha256": "791d6efa223450edac74a8eb67ccbf1bf40681770b40ca1a8d021d1c2a9ce12a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/logs/growth-adjust-encode.log",
+    "bytes": 3020,
+    "sha256": "413257dd2f10d6614b961f6f1764c23de5df71738ba4ebacac140b0a24e4fc14",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/growth-budget-encode.log",
+    "bytes": 3020,
+    "sha256": "c3e6bbab886cc09e459b7640120a904760d4dd1f13e3ec9aa4a458036f069804",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/growth-channels-encode.log",
+    "bytes": 2905,
+    "sha256": "15bb162ffcc8e4846ba89d77d92ef44fc0a127784154f7e6e413125e6c9ebb5d",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/growth-execution-encode.log",
+    "bytes": 3004,
+    "sha256": "5a84b089690fd1bd3f53d32d7e7a673aadbfcb5f485d34dc9ab50ea1743e587a",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/growth-experiment-encode.log",
+    "bytes": 3004,
+    "sha256": "1de459f282f328359f7c71c6d842463787daa3efa1662a5662a943a7abf0d132",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/growth-full-decode.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/growth-funnel-encode.log",
+    "bytes": 3019,
+    "sha256": "11b63c559d5bb4de1770745a6593b8ba14a48151dd8d8bb80daa42ff7e084dad",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/growth-mux.log",
+    "bytes": 4136,
+    "sha256": "d71250744975aebab9b91679c3d789afee8907dc6d78642b69b5c80cea93d997",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/growth-personas-encode.log",
+    "bytes": 3022,
+    "sha256": "bbc175c71c739ee6d2784233fe14d7d164f3c18592fa6201b4f40feac18617e4",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/growth-position-encode.log",
+    "bytes": 3023,
+    "sha256": "6e427049aa1eb2feef3d1b94447e69d125eba31b79ee604b722f9b67f461a553",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/growth-report-encode.log",
+    "bytes": 3021,
+    "sha256": "8a05837c7a3f298206acf9680b8d482c0b434b27aa54279f3426293a3519a686",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/growth-strategy-encode.log",
+    "bytes": 3002,
+    "sha256": "16ef5ebebd2f1739ba84d0cdf29064bc507ba4176680d67d95dabf9ac0c05f9f",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/logistics-agent-encode.log",
+    "bytes": 3014,
+    "sha256": "e413c1ad9e59cce2d6a1ce57e6e6888a0f3d89480efc2f4c7b09d55f64fb3a3f",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/logistics-full-decode.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/logistics-limits-encode.log",
+    "bytes": 3016,
+    "sha256": "6b4bc946d2b32b1f7b9301d4193204d884edfea691bf75048f93ae3e973604ff",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/logistics-mux.log",
+    "bytes": 4125,
+    "sha256": "2d91ca661bba1d8fff74002b4a2f7221f2acf9fd2ad8799759641ba4ae60eef9",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/logistics-normal-encode.log",
+    "bytes": 2916,
+    "sha256": "e96bf601e09021e2bb5641d1b7fe5494e67bdd44fe4024ec4abf0325f3340a9b",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/logistics-orders-encode.log",
+    "bytes": 3015,
+    "sha256": "41f4008be934c8d3736ccf71e2956c7b95cf79b5aee07649433355ecb2022434",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/logistics-overview-encode.log",
+    "bytes": 2920,
+    "sha256": "72dddd0925474e336b12ba93144f140ed36e60587f947821c20c2d8a4aa90cbf",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/logistics-plans-encode.log",
+    "bytes": 3035,
+    "sha256": "008c24943058fbbb41a09830b6282abc748a2258487682c57938bd6873becda2",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/logistics-rain-encode.log",
+    "bytes": 2914,
+    "sha256": "b5ea68dd9da8e044b6e776adbe98fd3565d7fe70d0a87b8a81267cb3e5b934e9",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/logistics-report-encode.log",
+    "bytes": 2918,
+    "sha256": "9eb46d7bece7929c4f92edb61daebf9aa9b24695682a0dd7dfa6dd408812a8f4",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/logistics-risk-encode.log",
+    "bytes": 2915,
+    "sha256": "fb476d71fbc168ecfde94b87a8aba15ed5fd327c96e28eca8bc6404719d101aa",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/logistics-snow-encode.log",
+    "bytes": 2914,
+    "sha256": "36d266e1afe619f766b3bdae3f20df7c7be785602449b60a590c04a4b941c015",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/logs/logistics-weather-encode.log",
+    "bytes": 2917,
+    "sha256": "3b721257f0b9189d898fdddd4712a90aeb0704a81d3aabb9b8148044ac39179b",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase3/normal-recorded-simulation.json",
+    "bytes": 45187,
+    "sha256": "1f6c5b3e7f5cf2928ffaae3bcd7d5c4716e9c66333ff7cba39e7e9b67165c1cc",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/playback.json",
+    "bytes": 1652,
+    "sha256": "0353f8cc7c058f2c32046ea61d2955030d19d8275a987430241d9af70d624cec",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/probe.png",
+    "bytes": 327006,
+    "sha256": "ad20bd9d17904b014f3781de475f51e27422a411eb63ed47a06a30cf3758244d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/rain-recorded-simulation.json",
+    "bytes": 43649,
+    "sha256": "a698e108aa78c40bbe6068b4756b595121a16c50ed10568fb442139f79cdfe03",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/growth/adjust-subtitle.png",
+    "bytes": 36327,
+    "sha256": "5b7dcb5bc586a00fe69266aed3ed4479f80a922968457f559a703ebdcaf62530",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/growth/adjust.png",
+    "bytes": 406815,
+    "sha256": "960201184a4e8645a3ed556d9c1969c5ddb2f318b3e10cacefffff768dad7b6f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/growth/budget-subtitle.png",
+    "bytes": 35370,
+    "sha256": "eef29ecf806dd58d2945fd6fe8fc7493fb106bd69ea5b083ba3e33a2de7d48d8",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/growth/budget.png",
+    "bytes": 403088,
+    "sha256": "420fbc529a215d6e2636abdc9dac401ed10cbc189bc93875db2f2f8b211a742a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/growth/channels-subtitle.png",
+    "bytes": 27742,
+    "sha256": "f1e088ae4f767c03acceb3c92fdc25929edeb08a464f397d926cd1719e6146a5",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/growth/channels.png",
+    "bytes": 718442,
+    "sha256": "5dfa3ca3463c69eb3596faef18309a352731260f37c626cee2479e3e5deda2f7",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/growth/execution-subtitle.png",
+    "bytes": 27435,
+    "sha256": "6d37672b10f40dbab0c9c2883dcada75a15669c324cfc8e6c7abe7564426f922",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/growth/execution.png",
+    "bytes": 667809,
+    "sha256": "3e65aee04a1a735901137967f2f65f4af73fe5fe184bef599dec765aa59c86f5",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/growth/experiment-subtitle.png",
+    "bytes": 30234,
+    "sha256": "a5a9acd84ec4260055bb6b486180827cd174a4afdaf0cb6ed4db11c6d030e965",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/growth/experiment.png",
+    "bytes": 699836,
+    "sha256": "07f35bc6224e113073d65b06e9215303a4b4fa87f2e90a5b631103bcae1840dd",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/growth/funnel-subtitle.png",
+    "bytes": 23639,
+    "sha256": "221195c2dc0575a9c7d9c3df3d7f89c1e9d19dc72f09e6631d7aeb9ad8088f40",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/growth/funnel.png",
+    "bytes": 361534,
+    "sha256": "c447249250b5df9d20f7bc2797f04010c5b7a8d324f568b182d9d042b8a9dec7",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/growth/personas-subtitle.png",
+    "bytes": 35168,
+    "sha256": "14a97b2d16b6d3e57f83dc109d9fd9444f29510208430363c585c84a618ad2e5",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/growth/personas.png",
+    "bytes": 877855,
+    "sha256": "33f1b96e04d45dbbf447ed892cf1323b241b5ffe9ae393e170cfe02dba4a9224",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/growth/position-subtitle.png",
+    "bytes": 34687,
+    "sha256": "ac4858ee910aecd9dc8443c1afd9713865b14af2dd24df2a14efea1603634dd9",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/growth/position.png",
+    "bytes": 775704,
+    "sha256": "1e4a275941a4072f20efbd4b59cb33398fb22297d105ce4aa6f0208ae14c475d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/growth/report-subtitle.png",
+    "bytes": 35226,
+    "sha256": "6bd75f58a1b01621f3eb65a744510ab9b77a9080c75552e13bd794cc459fdbb0",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/growth/report.png",
+    "bytes": 775417,
+    "sha256": "1240727530f530db0cec4b439abecf26f6b131e420b584b60ccfb719a220c980",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/growth/strategy-subtitle.png",
+    "bytes": 26804,
+    "sha256": "57a617f04c9d3de7058cebc4bd4d9eac109c61f5b399bcd9ba9ffd95042926f8",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/growth/strategy.png",
+    "bytes": 733010,
+    "sha256": "d143d4e48b8046c480e366e39e3ce87fa9d9d56ef062933b8380bffaa7191cf0",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/agent-subtitle.png",
+    "bytes": 26985,
+    "sha256": "eaac23433910566cc070682668f42a9a3df6c8665c174a32e7ea8946adfec8c5",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/agent.png",
+    "bytes": 512081,
+    "sha256": "66163cff085baa6580ac9881dee497aa72c6bd0c84ef2f450155fd2881b76287",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/limits-subtitle.png",
+    "bytes": 32743,
+    "sha256": "fff0c913fbd8e5cbfe285c9894d0bfe3d2d93b445e088c8c0b452e189aa38d38",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/limits.png",
+    "bytes": 757022,
+    "sha256": "e69c2e209f278fb96e5985e15562697a1154809ad0be5636293aaa073499af72",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/normal-subtitle.png",
+    "bytes": 31463,
+    "sha256": "6d1a0e8be23aba681371f3f6ac2c1c0195a31e5a31b9b52bf23597898f48f8a8",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/normal.png",
+    "bytes": 354059,
+    "sha256": "22e4faf584a476f9b1cd42c2bbab57413387a064220dbb736f74906c8dd0b1ae",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/orders-subtitle.png",
+    "bytes": 31297,
+    "sha256": "343d6a7e848b85f409c5196ae7186ca91f510051d99beae27f9327d75908e1c7",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/orders.png",
+    "bytes": 428817,
+    "sha256": "c3933a3e2a6f317b3e66dbd12fc7488e2e8f57acfdd9bc4087763c0d3a8a2f87",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/overview-subtitle.png",
+    "bytes": 41300,
+    "sha256": "12db0b38220031bd10fe500d5ff5844fee1945599a0b7a22e649d80e61c3f0d6",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/overview.png",
+    "bytes": 594852,
+    "sha256": "f819cfe519643ae7166bba587e72ecb309f99f501c6865203fb9325a6155c6f7",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/plans-subtitle.png",
+    "bytes": 39155,
+    "sha256": "cd11e0e2958036db86a12e9b28a792c6585fa72c1c726a0522192674c6db7bda",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/plans.png",
+    "bytes": 502284,
+    "sha256": "f57bc711b10d558957e03291b009b323989660cfed76006f7c9b3192a0c7cf56",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/rain-subtitle.png",
+    "bytes": 31646,
+    "sha256": "271b350f3e73a7b597474e03738e0e24d604cbeb2f5e2654fe54a72fc36c47ae",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/rain.png",
+    "bytes": 355568,
+    "sha256": "f1834b7929e877aff1c5a98fe3968aae5dc2ad004e48f599a9121fc61c320912",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/report-subtitle.png",
+    "bytes": 31485,
+    "sha256": "f72451469ae409ae0a1d5f7c4ba6038b1247a5c1b1e56165269899125a77abb4",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/report.png",
+    "bytes": 534043,
+    "sha256": "f86c2003debbaa1213e856852edb12cd6cb1e62c8e86769834964bdff4393565",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/risk-subtitle.png",
+    "bytes": 34196,
+    "sha256": "9184520296f1a81620ba8d564fe2cf350ac2f120334948c14a2e3e139ceaf910",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/risk.png",
+    "bytes": 515184,
+    "sha256": "9ad93725f48143e228fa8f27d6354e6a6f2f24dd9c9753e684fb38240c06152e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/snow-subtitle.png",
+    "bytes": 44299,
+    "sha256": "8f4b7993da85e3a728cb2ec81b4f650ba6df65d9fabb3e81fa663657e9f087f7",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/snow.png",
+    "bytes": 361993,
+    "sha256": "7dabe57440ed3804eebbfb3726bff8bdd49c476045581ad771e08704fbf71408",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/weather-subtitle.png",
+    "bytes": 22314,
+    "sha256": "9afcf373d2158fe872b721a14a70cb0053d03fcee1facf5f1fa0d3d39c83398d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/samples/logistics/weather.png",
+    "bytes": 477203,
+    "sha256": "c8cce1a0102286484edb8f45286d43b4ddd8e14c9b8e3096ef1d49c1ec168ecc",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/snow-recorded-simulation.json",
+    "bytes": 44774,
+    "sha256": "86ebbb281bcffcbcfe0e581749adfd4ec4970c4753be1a5b3d52d01b35a7d786",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/source-audit.json",
+    "bytes": 7594,
+    "sha256": "3bfd5e648e98ca0dc4433a0e49c2237b718368815ef7ac8aeccfa669386c1c06",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/storyboard.json",
+    "bytes": 10521,
+    "sha256": "5ce82e3a188cb032a204282c09caf81898a80c9e83aaf92ad3585f23e3af835d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/timeline.json",
+    "bytes": 33663,
+    "sha256": "7853c7359cc3153e0214fb9c57a13e92715d764819eda9b57aad5fbe3a9aac03",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/verification.json",
+    "bytes": 5591,
+    "sha256": "994c8d9e4df7e820538b3780efe98b9b67af8e8030bd3459f514a8846c3c9f41",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase3/气象驱动物流运输风险预警与应对决策_来源全文.txt",
+    "bytes": 20028,
+    "sha256": "204821ebc871ba0790adc9a20cfe608f7b204620e8a3474f129949e757325ab8",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/DataClawHub平台运营方案_来源全文.txt",
+    "bytes": 18145,
+    "sha256": "95b9450e82c3409b29391c52a4763436266b655454008d7d8bdc838741e67100",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/README.md",
+    "bytes": 2397,
+    "sha256": "c46d041f3414b05fbec93cb4d284a3addeee81f1af85d3e9209b4cce12767860",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/VISUAL_REVIEW.md",
+    "bytes": 1649,
+    "sha256": "351ed09b0c66afcc1976cda05a897ec27472aa1cd3b3863b9a3be53a27b7dac9",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/agent.png",
+    "bytes": 54891,
+    "sha256": "b0d15f5023e0fd78c7bad708619ca11cbe21a5b323f8f3cdb67cd81a1d4f2e56",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/content.json",
+    "bytes": 17331,
+    "sha256": "7b228a05b204b68e26e123a2ea2533fc0e6ad98c25aead6a615d960788ce0b66",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/demo-check.json",
+    "bytes": 1874,
+    "sha256": "c00ab73b67c0b83a6fcec4aa3b7ecf75993803e2cf4580c6030a8a65d400aa87",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/docs-render.json",
+    "bytes": 673,
+    "sha256": "ef72ad034187b098b0e833f202c27eabfdb5088f69de2738d40e2a273617d8ed",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/experiment.png",
+    "bytes": 34700,
+    "sha256": "6b46b3b960b91b4e655e49983a821601efe0a93ac90b0df4b768b3e3c007534a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/growth-demo.png",
+    "bytes": 40107,
+    "sha256": "e62fd7ca766939b58cb5e89443afeb0387dece67c9acd203084ca9a5125c70b6",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/growth-video-150.png",
+    "bytes": 509066,
+    "sha256": "c47460196e4d95dbdaff3d3260b87ee5086e687ed733bc346ec4b7b9025103e2",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/growth-video-5.png",
+    "bytes": 778231,
+    "sha256": "96a30f74d881740e3739bf8fdb047a6932d8056b8b6f8a3e1951803c9bd8d186",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/growth-video-80.png",
+    "bytes": 378678,
+    "sha256": "6f41dc37d30e10fbfcc2de557aedd0d273ab8509d83eee94c9f17f9f93e7b949",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/logistics-video-150.png",
+    "bytes": 350897,
+    "sha256": "8b0dcea78d45a9677ef967a87ededc1aab39733ab005d35028c92b6340b8fdf7",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/logistics-video-5.png",
+    "bytes": 594878,
+    "sha256": "8637fe4cefebfc1636871acd3fe5d5f421508352f93da0156e115d353df5a5d7",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/logistics-video-80.png",
+    "bytes": 534731,
+    "sha256": "6b605a69692195426d9fa6046cc64235bb5fedf1fdd14ac162020e3831f7c9e8",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/personas.png",
+    "bytes": 88479,
+    "sha256": "ca04f4a25bd72b9d238893e804705c71dc4d79e1b13d92fcf7b880aa585b1f44",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/plans.png",
+    "bytes": 39844,
+    "sha256": "ae21a8f8eee98a9b4fa550e9bfc0f7ba4c7c2e17ff1df69a789a73546dafb95a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/ppt-render.log",
+    "bytes": 520,
+    "sha256": "5e4250aecb3b0bd42415d3e7af891f8ade5de463e8753cc8a54a8d6e66c3c828",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4/pptx-validation.json",
+    "bytes": 7359,
+    "sha256": "ef4ec72cca66667115bd9a4a09643eac133aa9d9d2b5c77934c4218f8f20ccbd",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/defense/page-1.png",
+    "bytes": 333612,
+    "sha256": "7748c645718569dd9a0c9d67e2bcddca4e07248cff2708807922f2149449ab18",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/defense/page-2.png",
+    "bytes": 249346,
+    "sha256": "990598ee10a7ae6bcfc3e334158e499af06221cd64b3073b9dc02f0fe7346746",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/defense/page-3.png",
+    "bytes": 261656,
+    "sha256": "d84908221ab0f5e4433f7ddd9c06edc669791a98df3a86e125bb3730c743b12c",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/defense/page-4.png",
+    "bytes": 275049,
+    "sha256": "87bc97591817dcedf45ee406e48ee45799070c9ebff90ad00bf8f2798bc45f60",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/defense/page-5.png",
+    "bytes": 397033,
+    "sha256": "d5c30c655f914e86be69062f7f00d444815c7739c8be5df1c0c824a21763f446",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/defense/答辩常见问题及参考回答.pdf",
+    "bytes": 341382,
+    "sha256": "fff395ca9d21509b12f56b710f59a765be056f55ecf0fb6fb47bb9e351e61085",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-01.png",
+    "bytes": 82067,
+    "sha256": "6283cdc2bec3dadc65a50b2223453a9a2d1b3b51eeee50c976a1bd0579802098",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-01.txt",
+    "bytes": 192,
+    "sha256": "42bb24bb90277e478f20c713ef4fdf1bd0c656f35c3be5e5eef28d57c7fbebda",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-02.png",
+    "bytes": 123453,
+    "sha256": "29ed716ca20a7496c51d2da8cc62d652665a4822c8850540b55ae3a4787144c6",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-02.txt",
+    "bytes": 446,
+    "sha256": "9ea44b86951ed9d646c6b65eacfc859341df25a30f931517c1bc394322c1a10e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-03.png",
+    "bytes": 115639,
+    "sha256": "b56025a56f51f1e3a2a186e642b17e15b4ddd5cae510fff34961c17bdb914109",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-03.txt",
+    "bytes": 428,
+    "sha256": "ecbb048abb1e79874ee922105b9063e856ff402d54c5d94cfa26923a0fc6a99d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-04.png",
+    "bytes": 122972,
+    "sha256": "c190d65a0940bc93bbfcba39972c3e3f7d145878d57a63ad3dea05e448485419",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-04.txt",
+    "bytes": 471,
+    "sha256": "2c1e5899f31dd56d1d00bc3ca1749b8e162a2d9eddabced89d02191e9799a064",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-05.png",
+    "bytes": 125247,
+    "sha256": "44fc9f896f4d3690eed13e3926c76d43cbff660b4a1f65a1cc5090b45beda3aa",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-05.txt",
+    "bytes": 453,
+    "sha256": "c626fd83cb86c5c4e50e8d2d4a2b15506bdeb380b8fe27c769b32b09fb4ae43c",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-06.png",
+    "bytes": 113254,
+    "sha256": "43ecb75d069f26b5e61e16a674432b977e92f8c42744997f4fbb5dfc4eaf78e4",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-06.txt",
+    "bytes": 271,
+    "sha256": "cff6ab665d4c8ee43166787a52be69332b3dac6c7d5999daaa431dc3022d4980",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-07.png",
+    "bytes": 109464,
+    "sha256": "75c37bd7570b905d74baf00dbbba28fabdc06cc92ed96ac1a60cd7ae4c33db49",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-07.txt",
+    "bytes": 420,
+    "sha256": "9498209470d436c92600c38ede03560d67f317cad0480077dda3ece8c4ebb634",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-08.png",
+    "bytes": 216893,
+    "sha256": "43803022b861807e7cb14704ef96a0661169c6c1bbc58a01ce249ce241a3fc51",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-08.txt",
+    "bytes": 257,
+    "sha256": "124ae72227829846bd03a4cc4350a2847e15689d25c9e1468580c823161dfe3d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-09.png",
+    "bytes": 144305,
+    "sha256": "aeedd711a04a1d68aefa5ef8641818c079606f08238b6bcf8bc8c15eb2ad1259",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-09.txt",
+    "bytes": 367,
+    "sha256": "442d8dfc48033c83a1433235db98d5144faacf08b6e445c23c7fc3e096d786e0",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-10.png",
+    "bytes": 125529,
+    "sha256": "3b7e819a0622df9fd25300d6980f94c71a7bf8c8a8a1edceaf1e2c137fb1379d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-10.txt",
+    "bytes": 469,
+    "sha256": "a4da693970d07b1b1bd3d2033bdcdd02f5e3f33f7f2adf1266335143e2b371f6",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-11.png",
+    "bytes": 136234,
+    "sha256": "b637afa0d177ab1b11658e50052a31aeb20e9adc3bd538b49c037c4a3227fe3e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-11.txt",
+    "bytes": 578,
+    "sha256": "09addf671356ec25ab57467a54e7f0e00180bb236e1b61a3ab30d07a30203bf4",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-12.png",
+    "bytes": 105670,
+    "sha256": "de3cb8b564de16e66cb0c9af5d1641f82995c311aba32de2b69b28a60662b4f3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/slide-12.txt",
+    "bytes": 304,
+    "sha256": "76fce439f443f53c6f83c1ef5b5c9b8533bf5afc776b97c8113833d6d2818d70",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/slides/人工智能导论_双赛题结课作品展示.pdf",
+    "bytes": 528698,
+    "sha256": "9586a9edd45324c20d296cef3c2846b2ef7049a9c7df0043411ecd1cdf046606",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/speech/page-1.png",
+    "bytes": 315063,
+    "sha256": "156b19663e99cddfc759a61e5004486e0e1e0b64b563da2956487ceff71c6a7a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/speech/page-2.png",
+    "bytes": 223335,
+    "sha256": "ee6f9484ff639e9aa84de761fdaecf226806b6151f57f85eb2b5ff2df076e5a3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/speech/page-3.png",
+    "bytes": 251378,
+    "sha256": "e5a7639e130fbd8c56641ab167ea04cfb884735fa40e00ad9fdd1bbe1f35c49e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/speech/page-4.png",
+    "bytes": 290717,
+    "sha256": "648fa4499d144ab7092731dcbf4e60b5457bb07e93d2df819ecddda2c1809de5",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/speech/page-5.png",
+    "bytes": 251161,
+    "sha256": "d1a5a011d2c83eeea9c6dc5d73188caeb2e38c37e81dd024c07f71b4a922e631",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/speech/page-6.png",
+    "bytes": 292899,
+    "sha256": "d6e700af6e990e404e9b5385e6d0de54601de7d89cf51abea30e35636ca57e1a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/speech/page-7.png",
+    "bytes": 316199,
+    "sha256": "4999603441e1a1c1506aabb3dcdb0d93772b168adf331443ffbc33c869890626",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/speech/page-8.png",
+    "bytes": 246940,
+    "sha256": "36e8718f6a1db810238a9ebdeb8ba2040df4e38d0ce8c02d260733e9ae8b6396",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/render/speech/课堂展示_单人完整演讲稿.pdf",
+    "bytes": 395071,
+    "sha256": "90e6890f275ad6961578f31d42405317497013e710084cb3f9031cebd9c5211b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/simulation.png",
+    "bytes": 200274,
+    "sha256": "b150ca71d1bf7561154069481a34f4686e313bec7b345454a7bf31e6144018e2",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/slide-geometry.json",
+    "bytes": 12534,
+    "sha256": "fdbeefe0e272babb222b593d8885964f35e524f0b6ba65baf2433b607e562cf9",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/slides-render.json",
+    "bytes": 485,
+    "sha256": "65f8a1a7f217d7c5c3a34d5af7c7b0a9362c5e2943abbd94b3cf0d989754ebd3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/source-audit.json",
+    "bytes": 189273,
+    "sha256": "0ea760e46335998a0f7d9fa9f2ed12fb5116223cb9210376f690b52f9225f37b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/verification.json",
+    "bytes": 10405,
+    "sha256": "f880510ad741e003277edc0d71a2cacdd4fc17d6476ed8b340b6b694a67def23",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4/气象驱动物流运输风险预警与应对决策_来源全文.txt",
+    "bytes": 20028,
+    "sha256": "204821ebc871ba0790adc9a20cfe608f7b204620e8a3474f129949e757325ab8",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/README.md",
+    "bytes": 3796,
+    "sha256": "760339160868efd44e40e34c917d3efaf2d2eccadb5c13c7de98066a4ceafe83",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/VISUAL_REVIEW.md",
+    "bytes": 1410,
+    "sha256": "6d93ea18d6d93cac7f8ed1f048d9d81c0d79d1c58cc5a23b50daecd810279a16",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/about-desktop.png",
+    "bytes": 142918,
+    "sha256": "fb3401b9faaa434e373276a110f5514bf7877fbceaa43c896c91b5694cc2d339",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/about-mobile.png",
+    "bytes": 82672,
+    "sha256": "01297d8948598854ec6280645b8f63e445e7cbd2aa5e15cc4d77024b7e03c8b0",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/about-tablet.png",
+    "bytes": 135375,
+    "sha256": "1f2c61f87dbc28e0b016b3e99223ee69c4b526a140477ba2f9a25a860b875ac3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/growth-adjust.png",
+    "bytes": 132202,
+    "sha256": "df672bc66b61147b0489552d7af141118548632c9a71af51f9b5e4f9f6a01329",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/growth-assembly.json",
+    "bytes": 3379,
+    "sha256": "7fdfdff5b5f2e27253c77fc4ad7d77a346865cecd87d258a9c6f8c8f1c10ae02",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/growth-budget.png",
+    "bytes": 131479,
+    "sha256": "c430a90464789f0d611ef4113fc7132ab6f359968f3a14c5387e96cd851f909c",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/growth-channels.png",
+    "bytes": 170422,
+    "sha256": "5c936dab5f54420c783037fb8798f83e3b7a908a8243509d4822d06522452893",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/growth-contact.jpg",
+    "bytes": 427852,
+    "sha256": "e9e8930e1882653dd778b5982dc1e7bfc59aa496c1bd93cccf2a51fc6f4b866d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/growth-execution.png",
+    "bytes": 139716,
+    "sha256": "2c2b79d54daa68a770604238ea5b9465579e5a819bcb7e6f782f5eae0a417d19",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/growth-experiment.png",
+    "bytes": 174035,
+    "sha256": "e92ece5fb53e5485303d43311f3a270fc33e52bf518ecc6bc988d708d4dc0efd",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/growth-funnel.png",
+    "bytes": 97566,
+    "sha256": "99fc3b4d601ca9ce698a28b673974d31ff82567cc47aaaf8886eba9a77c333bf",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/growth-personas.png",
+    "bytes": 195935,
+    "sha256": "c324a0a37de91d840cf7c83a43f30fd4c270e6092679b2cd8a338698acc2557e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/growth-playback-ended.png",
+    "bytes": 908783,
+    "sha256": "afed93651f8c4d2d2210db0496d85e633a000f6c56304437b43cc18035f1de0a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/growth-position.png",
+    "bytes": 330030,
+    "sha256": "e1c5fc4c52d2023ba9e7bcedea67e3920887d55987d7e355701ed8150217f0b3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/growth-recorded-report.md",
+    "bytes": 16587,
+    "sha256": "fcf50f15cf31976fb18703022e7cc5fd37077b85431ee015a2f82e0213a43dbf",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/growth-recording.json",
+    "bytes": 68223,
+    "sha256": "074414c96018388b94b0ce402983d6fc2f4a30eb140815e93fa8eb836586e1b1",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/growth-report.png",
+    "bytes": 229166,
+    "sha256": "bd3fe225e733b5ca43c2d7c8d578d1f37e2516574b0df47dc384185113493bee",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/growth-strategy.png",
+    "bytes": 177236,
+    "sha256": "c731b5517c56a489b0cbe172f4dd61c688f107dfc02fafa4cfef37aa6ecda7c8",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/logistics-agent.png",
+    "bytes": 129547,
+    "sha256": "bd8226445fc1f570aaf46f0d8493413141c79edadc66c54fe0294378047d15c2",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/logistics-assembly.json",
+    "bytes": 3696,
+    "sha256": "f7ce796a683995f1d48325e7c0530733fe7f7f93a767545fa8ef1b8d3a356f91",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/logistics-contact.jpg",
+    "bytes": 401926,
+    "sha256": "dbce1c6b0d6a8282575cacb6ce0e24501505d5f36d70493a5d06211b38ce37ea",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/logistics-limits.png",
+    "bytes": 140630,
+    "sha256": "4a0f6ebfea2a3a8ec711e2a42272ef1183948652b874b124743ab5623e666f97",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/logistics-normal.png",
+    "bytes": 88808,
+    "sha256": "1c9321f388ad030ad42fa375155e4ef6f23e0191e25ec7d591ebb8cea470922e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/logistics-orders.png",
+    "bytes": 117249,
+    "sha256": "f8b2bb43f89b908fe1e5f13e0f018eeb76d9fffa734ed1e918e269cb8b2a8a58",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/logistics-overview.png",
+    "bytes": 302224,
+    "sha256": "4cbdc0268eae306c3642fe1df6e57551a3b92f79432f8708f0e7111997e0937f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/logistics-plans.png",
+    "bytes": 124540,
+    "sha256": "4f52aafc4e6a43efae352c334478ad92c1b098b3161fdeeb9e1ed5c207ecb5a3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/logistics-playback-ended.png",
+    "bytes": 649019,
+    "sha256": "2662040b3957576536b2325bf68615fd1a99a72d3613a8f6651076b3626cb801",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/logistics-rain.png",
+    "bytes": 90432,
+    "sha256": "4099061c4f89409fb0208a8c4a5cc0a718b3305bfa51aa46c10f49fee42ee082",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/logistics-recorded-report.md",
+    "bytes": 18432,
+    "sha256": "bca2af7b60af9e3b2b07d54f442e4ea6066d82d8c4c110b958dc1ee688e02f92",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/logistics-recording.json",
+    "bytes": 49135,
+    "sha256": "91cd2ea497bef209b9d668c5a7079677b8cf41a5deede8ba29b296eae6d56000",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/logistics-report.png",
+    "bytes": 169631,
+    "sha256": "6cb14d8bcfc20ac55651089af1378859316bdd8f456679bd92771adcf1093baf",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/logistics-risk.png",
+    "bytes": 192393,
+    "sha256": "9b57241edcd91256614e5a1426948e3a4ebf1077fce78cb9b2f7597406830cc0",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/logistics-snow.png",
+    "bytes": 91436,
+    "sha256": "bee0dc161dd74b0d35d416928c56165a54abf0699f8ca3fc8f1f0f3ff8d654b3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/logistics-weather.png",
+    "bytes": 282818,
+    "sha256": "791d6efa223450edac74a8eb67ccbf1bf40681770b40ca1a8d021d1c2a9ce12a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/logs/growth-adjust-encode.log",
+    "bytes": 2912,
+    "sha256": "2f92435120455af08e3658819abb556079f7fb240f11754d1ae71d1cff2f3a30",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/growth-budget-encode.log",
+    "bytes": 2912,
+    "sha256": "f971eb194ccb12edba3be91f0632f3cccae7dafb03e438992384dd1be59ea245",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/growth-channels-encode.log",
+    "bytes": 2915,
+    "sha256": "a29c6d1b5c9e04cbcfe3d842bdc6de66022c4280caf44bb86e95a2a186a1ff29",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/growth-execution-encode.log",
+    "bytes": 2916,
+    "sha256": "1c48cf83452dd445f6853729c5712467a9a6cab98f995f6609b5639166fa4ffe",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/growth-experiment-encode.log",
+    "bytes": 2916,
+    "sha256": "d4abf1b9c34adbd8daeaf38a25355878f4b6766ebbaf4698529691ff00f6132d",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/growth-full-decode.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/growth-funnel-encode.log",
+    "bytes": 2911,
+    "sha256": "807132386e9945038ce14e237f4d3b6085183afb367a12949f18147075b9d09a",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/growth-mux.log",
+    "bytes": 3912,
+    "sha256": "68623ccac7e80f100bbf1ba39cbee052f608a5be017bbf15236da2502237bf40",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/growth-personas-encode.log",
+    "bytes": 2914,
+    "sha256": "2d0807caa38a97498b2171edb538fdbf3093a4a51ca6703ef166254496cfaef7",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/growth-position-encode.log",
+    "bytes": 2893,
+    "sha256": "ba5ee2375db3f574f592ef70af3cb3845d624c3d3f521154f05e018a9ff21fe6",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/growth-report-encode.log",
+    "bytes": 3031,
+    "sha256": "cfd8dbb4e2e4c7419a7d7c957fa8d07ddf2abaa1ed78e3ae6b5d008c7578f248",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/growth-strategy-encode.log",
+    "bytes": 2914,
+    "sha256": "a796bd16c9351c7bc179112be23a7154258b2556e7b4943d0c368049aa6b70b4",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/logistics-agent-encode.log",
+    "bytes": 3044,
+    "sha256": "563b3df90a17b1488d934852b47c82f859c9bdaad0bc504770ebddc2f8c55291",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/logistics-full-decode.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/logistics-limits-encode.log",
+    "bytes": 2927,
+    "sha256": "547a1c623243744a5e3b5eabd22cb332b6eec290f55a5264b442764e0c9d58cc",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/logistics-mux.log",
+    "bytes": 4020,
+    "sha256": "6bf4ce8f6e9842842bb8fcabfa56a647d5399f7b42d7e69de01de90455b031f4",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/logistics-normal-encode.log",
+    "bytes": 2927,
+    "sha256": "38242851ff146105ea01b833e7c7e29637e1ca100ce44a5143aac02e442e39e9",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/logistics-orders-encode.log",
+    "bytes": 2927,
+    "sha256": "aae578ab51642b66d760c6126e440a338c844bde2151850e9a02532f33725dd2",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/logistics-overview-encode.log",
+    "bytes": 2910,
+    "sha256": "6ecd7225de0dfffb17b4489f3bdc8bef3a98ec2af006f34dc6169bab682371e2",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/logistics-plans-encode.log",
+    "bytes": 3025,
+    "sha256": "a8ddf9d478fb1e512b792afa129ebaeddca88799a6d2c1fe8aa0445e7c561dfc",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/logistics-rain-encode.log",
+    "bytes": 2924,
+    "sha256": "3db6a4785004f5a152cf910cb1ecc599f3068aa63eda9b3143a236aeecbde528",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/logistics-report-encode.log",
+    "bytes": 2928,
+    "sha256": "22aea2aae31d335451e6293a3dab12cbeb22e471354bed48aa6aa023aa3ae63c",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/logistics-risk-encode.log",
+    "bytes": 2926,
+    "sha256": "33a0156788e7126db8252f631f7567ab48d7ea9638c365608753220869e144ea",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/logistics-snow-encode.log",
+    "bytes": 2924,
+    "sha256": "fd4789e0c2627ac7c75a8eb95d67d848e84a5714352a6ba8ae423694b819e548",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/logs/logistics-weather-encode.log",
+    "bytes": 2928,
+    "sha256": "9e4f0b0335a5612f92b4acede7e598ec389a5d1b2ba532df6bfc59bd9edf2454",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_5/normal-recorded-simulation.json",
+    "bytes": 45187,
+    "sha256": "c5e98e538543f045fb1d688d3b83801b98c0e2d2402e42e337d9ee67e0274f17",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/playback.json",
+    "bytes": 1657,
+    "sha256": "652ae968894d4410635b1c0fe0c776b533acf9727c4cdbe0779776439612f979",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/preservation-check.json",
+    "bytes": 410,
+    "sha256": "3df04d9ae6202bc3c2313ab55b20378667396d0a58646905713ff533c7448549",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/prior-deliverables.json",
+    "bytes": 3753,
+    "sha256": "359678c860d97bebe275a34e0dbc6e768b9a9d0521b12460862b716830f47cff",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/pytest-results.xml",
+    "bytes": 3007,
+    "sha256": "302b59f0e43c27168c9d7f857726a2dae0663fe60cf090dd01bbbd39791f42c9",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/rain-recorded-simulation.json",
+    "bytes": 43649,
+    "sha256": "1ac92d14a80880454c853d98aef7e5692cf6509bc41ef44c92c6894a02e29431",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/growth/adjust-subtitle.png",
+    "bytes": 34745,
+    "sha256": "b21e4152c22695333ca50e78716b70ec4a9d775f2f226e4cf7041644401e7d0d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/growth/adjust.png",
+    "bytes": 399324,
+    "sha256": "8bbd64ad86f4df9e424bb6b071e94b003cf27263175caaf7f5bd8e4b5d660cb6",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/growth/budget-subtitle.png",
+    "bytes": 35138,
+    "sha256": "e647c9fec07197e993b6b864f6e364b1afc7b18ca1ad56893933c0d478c78db9",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/growth/budget.png",
+    "bytes": 403381,
+    "sha256": "18093d623fdf9dd57b90d13c22bc2ba58dd94b3be3a1f7f8b51c0aa1d8162306",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/growth/channels-subtitle.png",
+    "bytes": 28015,
+    "sha256": "f64ef3a5c4262851ae304ff5435ca2ca4bfee265e10aaf99c0c2b703235ef73f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/growth/channels.png",
+    "bytes": 725980,
+    "sha256": "371a52c857fa76aa483f65a6af45e5f82726fee711427677fc28b0640dc02b4b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/growth/execution-subtitle.png",
+    "bytes": 27786,
+    "sha256": "b9cfb1163efe595cf2879f5aaf26fff60a1670ac778e68bff67f5f482a96ee13",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/growth/execution.png",
+    "bytes": 669468,
+    "sha256": "55dbe413c8c8a5afedac02e7641d9bf48ca9489aa766dd92e0c710edf840775c",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/growth/experiment-subtitle.png",
+    "bytes": 30439,
+    "sha256": "eac19bde0319ea7d1892bc5acc910ecc71f4c18cf6e43daed7b5dd60c23b9124",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/growth/experiment.png",
+    "bytes": 697363,
+    "sha256": "d962961ca82e63c2621d920f60c9d413c9a67c22513756d019713bb74e27dc0a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/growth/funnel-subtitle.png",
+    "bytes": 24344,
+    "sha256": "462d632ca3222b1fce89985ea256c172ca3ad6f700a7a61192ab5f6c894b2e07",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/growth/funnel.png",
+    "bytes": 361561,
+    "sha256": "eebc484ef396104a9fbc8eba57a78ef1349756be6a4f74d8b295b097f0032dc1",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/growth/personas-subtitle.png",
+    "bytes": 35356,
+    "sha256": "2a1a48976254747a0ff55d68d710b41947cfa9d1dffda3b3b2c15b2d99a3f921",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/growth/personas.png",
+    "bytes": 878489,
+    "sha256": "b56b3b255437f980b9bf442e86fcca3b3666b61a3af8bb79fe3e459b950d851f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/growth/position-subtitle.png",
+    "bytes": 34820,
+    "sha256": "ec33e7cfdd6c84bdd191f15fbab86ec7aea658ef823774c1a7010c1d934e00d9",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/growth/position.png",
+    "bytes": 778667,
+    "sha256": "8e27a438703cbab601ea6359eb3bdb32edc4a1069a91ec8f1b500ab49e0eae9a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/growth/report-subtitle.png",
+    "bytes": 35287,
+    "sha256": "9bde601933b1235cae56fb27b7a5ce25bde6e496e0b744116a88885bf1a28510",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/growth/report.png",
+    "bytes": 777000,
+    "sha256": "19237942da2f38e4d39eb6b8625c5aef0916b065d0214eb4c5463cbb90d4d616",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/growth/strategy-subtitle.png",
+    "bytes": 26999,
+    "sha256": "a9be4ecac3a3e2bc9fe6d0a2944e1b88368dd71d79ec91415e859d26c663e202",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/growth/strategy.png",
+    "bytes": 737880,
+    "sha256": "32b09e2728063de7a64290af1f1c12dcac4ca43df4c3b3d8465803827c9857de",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/agent-subtitle.png",
+    "bytes": 27237,
+    "sha256": "e3bf6422ef49b1ae3f1ffd72d441f5e850a68eb88f6f58aaa0b0da4f46cd1e8d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/agent.png",
+    "bytes": 512521,
+    "sha256": "1adb72fe75b822cb5a6686b4c3a4bdb99aa54bae87beab720d40108c9eb92d6c",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/limits-subtitle.png",
+    "bytes": 32846,
+    "sha256": "1e8ed4bd5621190009227eef83d02f8a9f173cedb0fa079786ebb9c97d9a7772",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/limits.png",
+    "bytes": 571764,
+    "sha256": "957f48f79c133842b96931c3c628539cb6d91aa7a37dbd4fe87edae643a048cc",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/normal-subtitle.png",
+    "bytes": 31798,
+    "sha256": "44507a1b32b66709464df366da92ed435f255c2a09eb11cf95a51150b7082129",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/normal.png",
+    "bytes": 356240,
+    "sha256": "ff898380fc11ec3308bd2e919683fe96ecd9d8bd4eeec5ed7037a7e294ca8b42",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/orders-subtitle.png",
+    "bytes": 31525,
+    "sha256": "359946a43f921a915498d2e80651027f5b36f386c7dd3035ffaeb6e60770a92d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/orders.png",
+    "bytes": 426226,
+    "sha256": "0f40b47cd2a4e52f789eff20d73b59339fcb7fa979e4c52ef7ece685e5d39d23",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/overview-subtitle.png",
+    "bytes": 41582,
+    "sha256": "603627dd0e34e889f3263838c5e27ae0689ae51f3020e4dd6a57df0b8b959fa1",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/overview.png",
+    "bytes": 596811,
+    "sha256": "e990a76fb7d48755c41ed121a6912cc88e724adf7e346edfb95f4927b3b0ac4b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/plans-subtitle.png",
+    "bytes": 39162,
+    "sha256": "508f5ccbf8c8e79acde9f72f7133728aebbad78edc52b5b87b5bf4b90bf65b9f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/plans.png",
+    "bytes": 488433,
+    "sha256": "914b020e2b6fec433da7bb81ed7d87fc6477fb8b7ddc1bfe35f4b93a6d8f2298",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/rain-subtitle.png",
+    "bytes": 31887,
+    "sha256": "ed80b489e2253634d343fd8fb8ed2bdc65655b3c4bea694f5622a34d71db2c05",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/rain.png",
+    "bytes": 355636,
+    "sha256": "02b35f0e05856ec13890d760381aae7bd905ae300025dff327b8db5c9056666d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/report-subtitle.png",
+    "bytes": 31612,
+    "sha256": "1761aba2027402c36a519a9f050fe13bf0d2457d2ac2b144fc9628a66e702ae0",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/report.png",
+    "bytes": 529764,
+    "sha256": "ef6b5ff3a9ee6d6387505f0d7e3fb041c5b6c3e96ab45f33fde3f4e535d1ce58",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/risk-subtitle.png",
+    "bytes": 34371,
+    "sha256": "2c60fe4f2d84d494626858f7a2caab43c360b8b1cc48f35b14d2096a42fcb624",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/risk.png",
+    "bytes": 524520,
+    "sha256": "3a4e36af680c59ca60e2f418f6079bbbc29c3164315577cb2425fdf12d45a6f9",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/snow-subtitle.png",
+    "bytes": 44537,
+    "sha256": "f66293cfe4c2ffb976bdc3189e13f7aa8634ba5ef6bb95a5074670dc3991d18d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/snow.png",
+    "bytes": 363454,
+    "sha256": "99fcc3bc814702e8712fa494b2cd355796a631407fb7c8a2653a0232e1c3a479",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/weather-subtitle.png",
+    "bytes": 22496,
+    "sha256": "a26344998da2046ef30cdc49a66c1b9378ba5cc0b859301125075baf04189fe7",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/samples/logistics/weather.png",
+    "bytes": 476427,
+    "sha256": "94a4a7b50ec19c35064a181a02e11b8507b3406a5582a5e31d8d8bac65d10571",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/site-check.json",
+    "bytes": 3072,
+    "sha256": "6d3e602d83db2f4a28c08f296d015f389b38e05d2a873206a74fc63d78a85a71",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/snow-recorded-simulation.json",
+    "bytes": 44774,
+    "sha256": "11a4e8ce37290ce85facaaa4c9ff3c8917fd1eddc4d4c68e53b22f41f1a62580",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/timeline.json",
+    "bytes": 47926,
+    "sha256": "db6dab0eaa2c12dc3b6dac996967b786ab5c9f5630aedb807d4f3af09629c558",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/verification.json",
+    "bytes": 5571,
+    "sha256": "a7e778b36160242b2b3ad974869f4b030404e1a0923d5ae69253e8cd8f1f340a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_5/voices.json",
+    "bytes": 1114,
+    "sha256": "92bd71e3e2ae932f0c044484c517bddd821dbb2367b684c310022f6d9e9ec0b9",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/1366-demo-preview.png",
+    "bytes": 210540,
+    "sha256": "2b36f704085c97c20cbd560e006ad601d4f3e12499a92273f5c6a28372ad805e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/1440-growth-model-preview.png",
+    "bytes": 167375,
+    "sha256": "2adc1dff96e1636eefbf43ec0977d1e95613e911bbca9301af0e1f41fe1cd300",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/1440-home-preview.png",
+    "bytes": 210801,
+    "sha256": "a761325dc078348eeb92db3559d349fbb95e2954bd39076550046c7d60f6c7d8",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/1440-logistics-decision-preview.png",
+    "bytes": 187631,
+    "sha256": "b5583b9e6bbc920fe33629ad14837edde745532434029fb60dccc545a09f90aa",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/390-home-preview.png",
+    "bytes": 93603,
+    "sha256": "fe666c79225d804f1b077bd27ea82d6e52a6d7ff81995404ff3b6f3b16dfae58",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/390-logistics-preview.png",
+    "bytes": 86029,
+    "sha256": "0614a31f60228e59fa3f9abcbb9127083572d7c00f4005426eedd65d06096b3f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/README.md",
+    "bytes": 2476,
+    "sha256": "33e054129332ced83b251c28bd25d850a795d7bbfe763138b8b7186df6c28b36",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/VISUAL_REVIEW.md",
+    "bytes": 2701,
+    "sha256": "fe4070276d75ca0192f56efa3ed543e61906d0dcbb3ce271427cd99fe9166e99",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/assets/agent_rain.png",
+    "bytes": 102913,
+    "sha256": "701bb2ff706df70e9c0dd542257ccd0d681086079e3d300060ab4c3ba1e5da90",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/assets/capture.json",
+    "bytes": 103,
+    "sha256": "0307c36a8547bc6f19c142327d41f09aff942a1182404d1b59adaa4c9f0c5184",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/assets/demo.png",
+    "bytes": 221913,
+    "sha256": "db8f3e6b5399aee6600d8ef0ecb423fc6c2f079054e78266578e537b2a15f32f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/assets/growth_metrics.png",
+    "bytes": 22824,
+    "sha256": "49cbbcb58378d4913b73a4e58e949f78cfd3b32ec0f105be57b1d7a9e6369f5f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/assets/growth_model.png",
+    "bytes": 56859,
+    "sha256": "753320a6509232a55c0e3f9a67760873e3ecba64c4c3d0fd017c8c351ac2baaf",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/assets/network_rain.png",
+    "bytes": 116694,
+    "sha256": "54dcd5aff9050000ea279905bf0226ecb92994eb184b7d6eb3f96463495fd56b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/assets/network_wide.png",
+    "bytes": 150244,
+    "sha256": "31f2b6d910e312267d1b9bef7faddefef72238eba5561cfcc4d0c81c1c9898e9",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/assets/plans_rain.png",
+    "bytes": 162065,
+    "sha256": "0e8a470c5d17e63b03e421737643d191dd55cbe49304cab6be72bd20aef4ac05",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/assets/plans_table.png",
+    "bytes": 76217,
+    "sha256": "4b8243ee7abd0e4392434ba2e010887e77a476029cef78ef7d4271c7a8da11f7",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/assets/risk_recommendation.png",
+    "bytes": 85673,
+    "sha256": "3cef5c815698731cab118f320283c2f82218269fbe9cbf6197b170db6c76bba6",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/baseline-hashes.json",
+    "bytes": 4984,
+    "sha256": "9be98d398e58ac4602154d875a158c93d20b60e37e31467192ce79ec0155bf35",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/contrast.json",
+    "bytes": 937,
+    "sha256": "75e4da737cc5581b82162cafe8954653c60577b7a2e374b0552d8b7fbe5aa706",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/defense-contact-1.jpg",
+    "bytes": 245757,
+    "sha256": "e5e96e5d02e727f5a99ad673c4c010a3751a4a27dd90b7e3bf3072a2e37cedc0",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/defense-contact-2.jpg",
+    "bytes": 110027,
+    "sha256": "3dff213e27cb3d8a0d1c26d26b48d521e940895a66e32df609d7231210c34519",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/doc-render.log",
+    "bytes": 772,
+    "sha256": "9f22cd6ab47a51fb5288bb72ddbccdc53cb447c533d462a95c819d4b4db6d9b7",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/docs-render-final.log",
+    "bytes": 772,
+    "sha256": "9f22cd6ab47a51fb5288bb72ddbccdc53cb447c533d462a95c819d4b4db6d9b7",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/docs-render.json",
+    "bytes": 1210,
+    "sha256": "79c82375514ee9bf9ee2c136de3b593b2d49d36a5f550c3dcecfc3b7b9e3db35",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/e2e-final.json",
+    "bytes": 7530,
+    "sha256": "6ef8a716455d4bdafa1b5aad539011ef8f2018c97694ec42be5237486d9aede1",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/e2e-results.json",
+    "bytes": 7391,
+    "sha256": "f70d23e62f4ff30be54facdac75e0131e0f5bcb982a316f67db1373b7599c0ee",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/e2e/growth-model.png",
+    "bytes": 259049,
+    "sha256": "7f7fda3cc535582cf78408294ee4e408640c519198264910d1ded5e110e86af9",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/e2e/growth-report.png",
+    "bytes": 559828,
+    "sha256": "becdfe1da4622df0c78e1b8f60d5ceeba0408c99896fec183f342e08cd05e786",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/e2e/home.png",
+    "bytes": 322878,
+    "sha256": "f0d8cd6b3e671b0290e6de8bb9c77d7c3aba76b9f5df7860396ced60ec4d9e0c",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/e2e/logistics-rain.png",
+    "bytes": 592992,
+    "sha256": "ecd4825fbba5e9be3de9c5561556c478b8bb46b02214a059612cc926c8a5f2d8",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/e2e/mobile-growth.png",
+    "bytes": 158310,
+    "sha256": "c1549ae3ebd0e6e8638077f2f3420d702347daba68d0625e0102a3600efa5b09",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/e2e/mobile-logistics.png",
+    "bytes": 446296,
+    "sha256": "d6e25a1d3eed918df76756aadffd5873db7bec92262064ea13420c0c05d006e0",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/e2e/simulation-rain.png",
+    "bytes": 252821,
+    "sha256": "9bb57eee6b54b298fdbd662e09475bb8fd06b246cf9926ca77a0a0e673f16b1d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final-checks.json",
+    "bytes": 8205,
+    "sha256": "219f4be966b162c56787006eb0b0135d16e7a8ed79d256946d84b3cc18c697fd",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final-visual-checks.json",
+    "bytes": 23839,
+    "sha256": "f587a502b790cb42ffbbca3dc330a3c977f0208f137fd563b9adbdda4f4cd3b0",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1366-about.png",
+    "bytes": 219639,
+    "sha256": "0f403473351305078735ede189839b18a2a7e8bb866026b611d19b12ccb6c687",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1366-decision-report.png",
+    "bytes": 543324,
+    "sha256": "9507fb116348d5438a56a460f27f2674610979f73806f7377c3aea9a10c2bd43",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1366-demo.png",
+    "bytes": 218570,
+    "sha256": "8872d1696d06eeabdcce40be8030969bef0f4e72dbcda30d644b25b897689a87",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1366-growth-execution.png",
+    "bytes": 492615,
+    "sha256": "d96711ed8fdd42ff510eb0aa611ed0a5d08cdbdab5787c6a1eaa912e29c8643e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1366-growth-model.png",
+    "bytes": 251353,
+    "sha256": "af0fea3b1cf528750697bdfd54f6ec09fd696f26c681702f72a9ae1fe46c6a2b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1366-growth.png",
+    "bytes": 748145,
+    "sha256": "9083e68304335048b35a60ad99d44ec4980baf94f6941c8903a876295fc010c1",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1366-home.png",
+    "bytes": 311534,
+    "sha256": "69804dedd40b5298dcd0e2be9aee60daa862cd99e938284d22c0bf2736ba728c",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1366-logistics-decision.png",
+    "bytes": 547499,
+    "sha256": "fab40e1eb37907548ee831b3980cfad3bff22f0d4693c1ea932af6a32e297d64",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1366-logistics.png",
+    "bytes": 304410,
+    "sha256": "0bb45db8193c81e827b6092c691b73ed2c0b24d8e7a4fe7ba5ef9c3077e4c164",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1366-order-modal.png",
+    "bytes": 228445,
+    "sha256": "1b087104f9244e0f3134869b25165205419979f7b027cc2ee540d67fc7c351a6",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1366-orders.png",
+    "bytes": 230557,
+    "sha256": "a95d089c356defc90e0f8cf85400d88ee425a30bf107b5c153d7e971d5bf8f31",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1366-simulation.png",
+    "bytes": 242754,
+    "sha256": "853b9d27a9ea3343b4d055eb6c19f54885ed124f4d0d09e7503d692f49f1fd6e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1366-task-modal.png",
+    "bytes": 427857,
+    "sha256": "9742cf2f7eff84f199ed209d90bacf4c84f2f760d7b5bb3181d564db311afecf",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1440-about.png",
+    "bytes": 224382,
+    "sha256": "9b636db76fa52264cf09b80b56a4782376616bc8eeac122866c38372d1a2a28e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1440-decision-report.png",
+    "bytes": 602525,
+    "sha256": "9ab179c36a178e810511dff57c60fac90ded06c227e4dd19e10c9efce9ff0287",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1440-demo.png",
+    "bytes": 224914,
+    "sha256": "a78e7e519871abf6106a9c541780ff750ebd53edaebe7162cb3b66d24dfe45c4",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1440-growth-execution.png",
+    "bytes": 495521,
+    "sha256": "be2799f0393ae429932ac21cab65ea38c7f56b6d2106e1771596aba5d06e1adc",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1440-growth-model.png",
+    "bytes": 259060,
+    "sha256": "bf9bb61ed996697b429dc2a21191a9ff6c03d47ec1b64efd32d9df3d685210c9",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1440-growth.png",
+    "bytes": 750097,
+    "sha256": "541e53ea56e45492ded769300f8c3e08417b984c1b121fdaa047bdd31f9d5997",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1440-home.png",
+    "bytes": 322860,
+    "sha256": "8e91dc86650e4481be5b8e3fe0735738c14c34247bd249ca2187c0f138758174",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1440-logistics-decision.png",
+    "bytes": 562179,
+    "sha256": "63ea28de0c2b635738b7cee0b168d75dfcb03612d70b48816b16120fab294ef2",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1440-logistics.png",
+    "bytes": 316091,
+    "sha256": "e147429e406d0c183161d0b04316c6c75be4667c2c67fbff341a98c09c4ba13f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1440-order-modal.png",
+    "bytes": 240576,
+    "sha256": "0704173b81c764e02dc7133735984e0ce2e04fd5f934344318a4b1b89ad0d5c0",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1440-orders.png",
+    "bytes": 236720,
+    "sha256": "8a5c81cf4aecc0e3ac9002de3353f1e0d9e132f7d82bee1ef73c1db3d18ce2af",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1440-simulation.png",
+    "bytes": 252548,
+    "sha256": "77d7a73fa2f17a7200149dddddf307d05bc7db744b7b2e72bd74ee8f678a02fd",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1440-task-modal.png",
+    "bytes": 443292,
+    "sha256": "72d51431381066fc46b6c9258db4276ebbef6f9e093beabb654385626980acde",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1920-about.png",
+    "bytes": 228734,
+    "sha256": "ea172c17c294c1158869bcfe5b861ca44b7140313cc9e2366a3bcf1798ecf802",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1920-decision-report.png",
+    "bytes": 682060,
+    "sha256": "2ebb1e69a5d5c63955384e32b3209e8764e5feab7bb251cce4681a2ffd7aa8b8",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1920-demo.png",
+    "bytes": 221913,
+    "sha256": "db8f3e6b5399aee6600d8ef0ecb423fc6c2f079054e78266578e537b2a15f32f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1920-growth-execution.png",
+    "bytes": 499389,
+    "sha256": "73f2546726c9254008bd32d17ee0e301e04eb15c57d4fdda39cea33c535f7cf6",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1920-growth-model.png",
+    "bytes": 264222,
+    "sha256": "e14d8a141dcf7ac15c28af09d7d4af0ac35d118e68408e06e4a963600cca7b81",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1920-growth.png",
+    "bytes": 772761,
+    "sha256": "3b59367dee464a8eadcd780e58e24b6720add43c8550d91779330f9ae5303e00",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1920-home.png",
+    "bytes": 349497,
+    "sha256": "536052ea96ed1129312c8ea1b45a02794cdf6c503f8b2d667dfdcfa9f7e586c9",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1920-logistics-decision.png",
+    "bytes": 593489,
+    "sha256": "8d57cefa4c9d8793f768da0951a114c971d2681ae90e698f9c3fd9c81d6de1a4",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1920-logistics.png",
+    "bytes": 345012,
+    "sha256": "a0b6e1ef9e82f20a2da25225b90cd7c6c855e95e768b59e4c5357d3906f38022",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1920-order-modal.png",
+    "bytes": 266395,
+    "sha256": "6e7b4929874caa23dd7c861bb01ff2be3d3e987cbe05a2c81670973458b8c713",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1920-orders.png",
+    "bytes": 243443,
+    "sha256": "f219b16111ffc85e863e252cab6cb0ed40f0cdf2e40937997b9d50d008b7e266",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1920-simulation.png",
+    "bytes": 259475,
+    "sha256": "e6c67da846a2b238e7a756bacd15fa08d9cdb41975f3ec3662814f7d968f805a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/1920-task-modal.png",
+    "bytes": 471165,
+    "sha256": "d0001692341a9abbc500bea697b9dda0e96f44892b55691970370cbcbfb82f22",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/390-about.png",
+    "bytes": 165108,
+    "sha256": "588212bffb83e2a90dafaf3a06537ff17dbbe91d45e26e2bc818aac66d6fda20",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/390-decision-report.png",
+    "bytes": 472898,
+    "sha256": "1f1f3b736642163cca89124eac6ea34605962a5b5359bd2477fca6bb645ec158",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/390-demo.png",
+    "bytes": 170567,
+    "sha256": "d5380ba395e3ea62280fd7bcf4df7ff6386fb5746a15823eaad2f22c78ff87f3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/390-growth-execution.png",
+    "bytes": 381964,
+    "sha256": "0c1cb37ccb162181ec0b432139c6a8e9a23dd47b332894a70d090383eccbdd0a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/390-growth-model.png",
+    "bytes": 178925,
+    "sha256": "70bb05352154b3997273c53f609805f87ac0799964e77c9d111e2b24deb9616c",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/390-growth.png",
+    "bytes": 698150,
+    "sha256": "74432cbab7d9ca1fac32f8ef07c2ffdbc4957ecc00ba437c6f816b1768249f7d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/390-home.png",
+    "bytes": 245569,
+    "sha256": "7592494e3056938a7ef40500d1d7d3bc358701fd9a2d05399f0e974cad002fc4",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/390-logistics-decision.png",
+    "bytes": 435860,
+    "sha256": "27b228f356835a0bf6062abcec4681022c2caccf3eb00b40884ba8d670204514",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/390-logistics.png",
+    "bytes": 228023,
+    "sha256": "f58263013f75231c78592a9cfa900de28263957434390d23c0a1b28413c3eaeb",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/390-order-modal.png",
+    "bytes": 153645,
+    "sha256": "acb08275e2bd4b43d4765664a677a80691eb1365abdae0caad0e584422fee1a6",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/390-orders.png",
+    "bytes": 146199,
+    "sha256": "ead3dd8c5ff47c2dd3aad309416501373fe417058b18ea7efbc7d8b516f11e54",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/390-simulation.png",
+    "bytes": 177067,
+    "sha256": "a79ef3143e8e1fa3b4937f984039f5f21aed1a50bb6a53a38ae49b7edd1dcdfb",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/final/390-task-modal.png",
+    "bytes": 339318,
+    "sha256": "741d3b986472bd5440066077fc9b37188f475a02d9a5bdba51a586f87b866994",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/font-audit.json",
+    "bytes": 2688,
+    "sha256": "3f2dd50543300e1a121981164c73bc16b0c63c82808097ae544d03fdfbf6ed56",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/font-browser.json",
+    "bytes": 20292,
+    "sha256": "b2f47e0f86140efe2e7e7fed2ee6e5670a09ff2a0bd239389c4b00e631476dea",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/font-browser.log",
+    "bytes": 89,
+    "sha256": "6af4d7af5dfcd1e912cfd42dadead3a65fd97e4060ea1464340cae945dfd2678",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/font-final.json",
+    "bytes": 558,
+    "sha256": "2c5380cace2f226a810bbbc79e96826a0921476ad2440a5d423346b04c274918",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/growth-adjust.png",
+    "bytes": 129528,
+    "sha256": "0a0ae41eaba6522aa2a647e9e554b5532319a3759233ff01890c32234c204042",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/growth-assemble.log",
+    "bytes": 447,
+    "sha256": "88f48268ef928ad80675b6f62f2f3dc76484b45a0c0a971d21811f176be93f24",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/growth-assembly.json",
+    "bytes": 3378,
+    "sha256": "fbdfaf773453b0f66043b6ac1fa2a369d053bf9f453c4f4cd499d534f99bf215",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/growth-budget.png",
+    "bytes": 131871,
+    "sha256": "7e6ad14037cf33deb8cb7339ff3b0a8ab7b1467fd3a3264f22f67eaa05c82040",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/growth-channels.png",
+    "bytes": 248611,
+    "sha256": "4fe7ff4bd629bf0930e7d8830a388b0cae8ed50dbde177cfbc42f6b35b41ae60",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/growth-contact.jpg",
+    "bytes": 459961,
+    "sha256": "85e063160aa9e1cf1ddf851154a2b908aecbb849b922135df361a05198f9a71a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/growth-execution.png",
+    "bytes": 209991,
+    "sha256": "74af7dfa3bb823a6853ef3ede7ee2e3f766aa5f217a40c4bbb43878b2946dca5",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/growth-experiment.png",
+    "bytes": 253843,
+    "sha256": "20869558d862cf8500cd6ad7b4fd67213b6753ead30da9bb5aa387b396cc0d40",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/growth-funnel.png",
+    "bytes": 121150,
+    "sha256": "75548659d5e146d769c25bd2b6c099876d1e5c6c7f5cec60a13d22bb03c7c52e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/growth-manual-contact-1.jpg",
+    "bytes": 282372,
+    "sha256": "0c0bdcf516a5eb06717cb22eab119dac3e79db1ee08d2db45f4c59617be678ac",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/growth-manual-contact-2.jpg",
+    "bytes": 331355,
+    "sha256": "d3ac18a5c6a431095abef70e650cedf0d76f870003fcd77ac7c01c9c4069edb2",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/growth-manual-contact-3.jpg",
+    "bytes": 150817,
+    "sha256": "70774ef372532bd64e6cea095535299aca925b008ce55bd90f72bfca47fa3f58",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/growth-personas.png",
+    "bytes": 360103,
+    "sha256": "da27cc26ce9000109f333c0adeef2784779a61934f1dd6b5dc4d7fcd054ace82",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/growth-playback-ended.png",
+    "bytes": 898264,
+    "sha256": "ce1a8c3541f448848b20a02ebcd742e9f1edd37b559bdb4543b3f0b2ee6ad993",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/growth-position.png",
+    "bytes": 288690,
+    "sha256": "18db36027c28c5cb1d66691c413bc7e6179e51737de8fde903eea9edc4bdbac3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/growth-recorded-report.md",
+    "bytes": 16587,
+    "sha256": "f4f08a523c67fdcf551670afb76757a847f7778ae07e7f3caaa35e7a9ee7cdd4",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/growth-recording.json",
+    "bytes": 68386,
+    "sha256": "e3f91e93fb9bb8a75aac9e36dc217720e46466f3811761e89d7e33f60fe296ff",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/growth-report.png",
+    "bytes": 321171,
+    "sha256": "1e18a319dee6a6571b630fb702d5892e9bd54fe64309e7296b527e93ff481753",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/growth-strategy.png",
+    "bytes": 322445,
+    "sha256": "1dca59bb4d618a2aa85be4c064bfcd46d1eaaa38e6a7395beb63e0c09e41a5e0",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/imported-deck.json",
+    "bytes": 13725,
+    "sha256": "18dff69465ba3bf58873ad701ada59696556f30c22262196612b9dfada769588",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-agent.png",
+    "bytes": 178025,
+    "sha256": "dece0a8dacaf1d1a6171f5001b7590c32f22eef2263ffab12e9a5ed4d2cae51d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-assemble.log",
+    "bytes": 510,
+    "sha256": "56122a72b7a3d8d7612e086d41676f792192df6471dcdaefa5f3fe5d11136eef",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-assembly.json",
+    "bytes": 3703,
+    "sha256": "dd5ecf885c1f2c71b82dc5136020b9b8ff0eb924bff4e4d67da2f36045675fb9",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-contact.jpg",
+    "bytes": 464828,
+    "sha256": "572bc386c801bdbadc6e3ead5a522de1de771cec639101cd03d35f18c9cf12c3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-limits.png",
+    "bytes": 218227,
+    "sha256": "ae97e3ad49c259d99ff540c3841b71689f4f0e0540746129007985bafe78832b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-manual-contact-1.jpg",
+    "bytes": 264009,
+    "sha256": "f0e1fbd0e0fbd57e0a5277f5a32890312481c070c67c2fd7a07cc10f81d5bdfa",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-manual-contact-2.jpg",
+    "bytes": 297556,
+    "sha256": "5e14bff65f21d0dc14ddfd62e0af2afe479ad2bd3e2c38b7ff5f4729708defc7",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-manual-contact-3.jpg",
+    "bytes": 270094,
+    "sha256": "2d271f4ce7dfdda14fc68d6e7fab0de4b6defecfda8e76b823e03fbaaac845fd",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-manual-contact-4.jpg",
+    "bytes": 114735,
+    "sha256": "2934a877f789b6f76e99c0e01d7ffd2a4ed7d8aa1ca57c263b9f1c5319935328",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-normal.png",
+    "bytes": 109365,
+    "sha256": "72c9380892c1fed9d2b8f82cbc41cfcfcde7ffbed1349fcc409f0981bd1c1aad",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-orders.png",
+    "bytes": 150985,
+    "sha256": "85cb591b8c021c1b60b1d6432c8ba79539f01eab5b7bdd540f96eb317763e3c7",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-overview.png",
+    "bytes": 196242,
+    "sha256": "0d1ad2fdfb34e6e3c041b8b9c660ef9463068cb555d81d404a54f44fb354eb4f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-plans.png",
+    "bytes": 175451,
+    "sha256": "6e43607c3c0dd7f89f691c75a8f8adf8b3309f333af85258d158ca6eef265e86",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-playback-ended.png",
+    "bytes": 671793,
+    "sha256": "88f45c7570c8765f5e1e8b83c1d280a87f51c593f833814bc3f66b2aa133401a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-rain.png",
+    "bytes": 112608,
+    "sha256": "9f12b64f02741732ecb03f352423bf1b12261838326d1b4283772f130bed8a16",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-record-final.log",
+    "bytes": 380,
+    "sha256": "ae9535dee115dd8e083704cd7053a5833518f9c5ff7583a09cc710fecde499ad",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-recorded-report.md",
+    "bytes": 18432,
+    "sha256": "6d5e7a2cc67c6fa11767f0e49cbe859c0c233464d0a64c20f8fc4404ef27ddaf",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-recording.json",
+    "bytes": 49825,
+    "sha256": "5450ccea75e6b4c7b8e2dd091636ca8eb626854d1ab59e4c7bce82ca93486ebf",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-report.png",
+    "bytes": 244391,
+    "sha256": "ba793b8965d0a7a8f4564b49986a7dd57e42a6b80a66f1eb74d99c6f46d66c30",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-risk.png",
+    "bytes": 178227,
+    "sha256": "7a421629b054ca5a7a306b4788e78bec2aaaa5b9c3e3b25106ac1d3fcc65acd1",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-snow.png",
+    "bytes": 113260,
+    "sha256": "b675a17ea8028fe423733a717afbc11fe53873e0af3a83916c8db4e8cbda7111",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logistics-weather.png",
+    "bytes": 183746,
+    "sha256": "c65947917640fa5869a5e3e95a1ff4b255d2bffe35d69805f6a60aa2dc9dd983",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/logs/growth-adjust-encode.log",
+    "bytes": 2794,
+    "sha256": "148b95fbe0460631d75f2aa7e255c845c71d1619f41c24f8f8d9df65a608d1c3",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/growth-budget-encode.log",
+    "bytes": 2795,
+    "sha256": "0c18c99afb60f9d0c6081415052d3935bab87f3849233c3bd62f813b8de45533",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/growth-channels-encode.log",
+    "bytes": 2797,
+    "sha256": "b0c656f5d84f4b8fa3f67178cdcf5627bc3d15f23870ccd57418b78f20fc75ca",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/growth-execution-encode.log",
+    "bytes": 2798,
+    "sha256": "bef1120bb876e1365391bd0c20bea1df7428fe82e2cc859b9dc34a3c942e0b7d",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/growth-experiment-encode.log",
+    "bytes": 2798,
+    "sha256": "fa916877be9fee7c75620697db23cba5aca6b67f269c1f9ea0035ff3cba5fcef",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/growth-full-decode.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/growth-funnel-encode.log",
+    "bytes": 2793,
+    "sha256": "f1ec5e763b86cb901656c6f1c9f6b12ff289f3ad0b5fa69a9570623e263e7bcb",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/growth-mux.log",
+    "bytes": 3557,
+    "sha256": "d94829f1287a6c0620bd66e7f5cd57eddc7cfc2b340cf38c2307f825061197f7",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/growth-personas-encode.log",
+    "bytes": 2796,
+    "sha256": "7a141e7933729b08489e536dbfea6276a5ae6e069bf1498265941f94392faff4",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/growth-position-encode.log",
+    "bytes": 2797,
+    "sha256": "ff60f88cd707f60ddaf3a028bf921580208a05a8ffe8cf041d369ebb332cc30b",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/growth-report-encode.log",
+    "bytes": 2893,
+    "sha256": "1b903bb2fcf858a65b4dbf022966089f676729de9a98905a87b10a89a4b5cd06",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/growth-strategy-encode.log",
+    "bytes": 2796,
+    "sha256": "62f0536452c94daeea3fe3bc7dfd9a6138f4caf4efed1aac1ae256c7a4474038",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/logistics-agent-encode.log",
+    "bytes": 2808,
+    "sha256": "0c5cfd090b601173a8e9640cd867c11e42d5e526fe684c93298128a426a9360c",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/logistics-full-decode.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/logistics-limits-encode.log",
+    "bytes": 2809,
+    "sha256": "b3a82f094067149919325a600b0b6f1dc87e6e37ff1a62a1e6b887702e517838",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/logistics-mux.log",
+    "bytes": 3424,
+    "sha256": "01268516c2a2771fd7e8adba86d9247fa3f0d8816f583e7f2913b05a874002fc",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/logistics-normal-encode.log",
+    "bytes": 2809,
+    "sha256": "149b447304e00ddd84cf3b99e1e9a390a5b2bb92eb4edc74fab2132384e5df8c",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/logistics-orders-encode.log",
+    "bytes": 2809,
+    "sha256": "350c5a0bea508e9af3222855147e11ab732b1818445d93145118139e4149f4f0",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/logistics-overview-encode.log",
+    "bytes": 2812,
+    "sha256": "2b6f8923d9457fb75f8080dc44d9088bbdf25931bf846efd428ae20b258bc721",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/logistics-plans-encode.log",
+    "bytes": 2809,
+    "sha256": "5adb9e055693ac9798923877aba32a53c662f35274f9d054fd40e89c5c92c21c",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/logistics-rain-encode.log",
+    "bytes": 2806,
+    "sha256": "7a669df9deee249ac31fe6723f001a97f15ae30b942f715ab25b554ff25d5398",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/logistics-report-encode.log",
+    "bytes": 2810,
+    "sha256": "59822ede108e6906b216b507cb69792c7903c27b34d2bd6a511c79d17a0ac4b9",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/logistics-risk-encode.log",
+    "bytes": 2808,
+    "sha256": "892da4488b2cc8ac951c206aa81201056675104e70716bc8d7a54ba9ceb00e8b",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/logistics-snow-encode.log",
+    "bytes": 2807,
+    "sha256": "392aa27d1170de244bdd595617462f89d7073fbb59ece89db1fee3e0692afd1f",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/logs/logistics-weather-encode.log",
+    "bytes": 2810,
+    "sha256": "f7e61f10184b1b5ef0a610d08931d3a779393f817dd52c625c61f3e69cccba66",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/material-updates.json",
+    "bytes": 975,
+    "sha256": "8e06fa8432cb2762802407e8e928e7761b364a7409397691157a0aa6477a9272",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/normal-recorded-simulation.json",
+    "bytes": 45187,
+    "sha256": "6c2a5947dbb5371de2b6e8d6e0d06f75a0e5373b91af2422f4b6225277ca650e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/old-slides-contact.jpg",
+    "bytes": 100934,
+    "sha256": "f8de29f95ec262a037630b4597a061b34cb25e68375efa24aeea6147f941fa7f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/playback.json",
+    "bytes": 1658,
+    "sha256": "a3e73076f0826c9555b335cdfc2fd5b70c3cf021f46c5893b854f695793c56bd",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/playback.log",
+    "bytes": 65,
+    "sha256": "3c2f89d0bf883b01af20d73614d18a3c81963dee0339601bd9ef81b83b11f09f",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/ppt-render-run.log",
+    "bytes": 93,
+    "sha256": "8918634e9dbecdadf26e07e6e6e6fe46f7fcbb1c5da8d0b9a5eb797f856c37a8",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/ppt-render.log",
+    "bytes": 42,
+    "sha256": "0eee252ddff2bfd29714c07713ca1c16c3e3df9c2fabb899afe5a3510f6cd342",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/pptx-validation.json",
+    "bytes": 6290,
+    "sha256": "7fc6a77eadbd642640b92026f614af64763c9d61a1d7c9d8dba93ccb2f8320e8",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/pytest-final.xml",
+    "bytes": 3007,
+    "sha256": "4e0f50fd94c0f36322de8d11763b5ee49ac929fbf8b6a8d9fb5b06ffeddcdf27",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/rain-recorded-simulation.json",
+    "bytes": 43649,
+    "sha256": "64f3fcb386a633becd10fba800013ac95d4e5f6333cb5e886a71369735811acd",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render-slides-contact-1.jpg",
+    "bytes": 152611,
+    "sha256": "fc937643b1a0c6a3b5d54c1ab9c1d84ab0761149e0edb3dc7f65993937a0ace2",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render-slides-contact-2.jpg",
+    "bytes": 76409,
+    "sha256": "d3810a84ca85b76cb06169daef36b30b8e6ce4cce5f4cdc468cce6e86c69fc38",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/defense/page-1.png",
+    "bytes": 333612,
+    "sha256": "7748c645718569dd9a0c9d67e2bcddca4e07248cff2708807922f2149449ab18",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/defense/page-2.png",
+    "bytes": 249346,
+    "sha256": "990598ee10a7ae6bcfc3e334158e499af06221cd64b3073b9dc02f0fe7346746",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/defense/page-3.png",
+    "bytes": 261656,
+    "sha256": "d84908221ab0f5e4433f7ddd9c06edc669791a98df3a86e125bb3730c743b12c",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/defense/page-4.png",
+    "bytes": 275049,
+    "sha256": "87bc97591817dcedf45ee406e48ee45799070c9ebff90ad00bf8f2798bc45f60",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/defense/page-5.png",
+    "bytes": 395865,
+    "sha256": "b85078ae1a4b962fbdf47e4f1d0d0e61813ec01f67f00d8781fda87f12d7e45b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/defense/答辩常见问题及参考回答.pdf",
+    "bytes": 343828,
+    "sha256": "013e591dcddfbd5ed787c505a9cddc29c5b4b1a1e86fca8fc62d60a596e10260",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/growth-manual/DataClawHub平台运营方案.pdf",
+    "bytes": 615921,
+    "sha256": "d38b2ad340a49416793b1cff42cc7c62080b54f64d35440057446b8ac6456e83",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/growth-manual/page-1.png",
+    "bytes": 181233,
+    "sha256": "3856966bb94bcd056fc843a5aa03a972156719fd2604aa10052a73a2e608c626",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/growth-manual/page-10.png",
+    "bytes": 448388,
+    "sha256": "f10aa3232627fd21260f716c766765e8ba62b11b782b2ff4025f81c6cd286c73",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/growth-manual/page-2.png",
+    "bytes": 478085,
+    "sha256": "0d0b5626d0b18be369b21518c5f4a761b98c434deb3a1af79cbbebbd411f6cd6",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/growth-manual/page-3.png",
+    "bytes": 476434,
+    "sha256": "9eb8e26d306ceda825f7c999a079b8106674bc768e5e77de23d376d96a888877",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/growth-manual/page-4.png",
+    "bytes": 385891,
+    "sha256": "85d467c200677ccc6991a83e8d792beec717e9e3ee8aa189643c5deb3b60583e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/growth-manual/page-5.png",
+    "bytes": 474010,
+    "sha256": "6e18dcc0d4457da91802618f5a20ff14b0111fe8abd17b1f121e41171b70be4d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/growth-manual/page-6.png",
+    "bytes": 405430,
+    "sha256": "a8c04c3ef6739da1fdbffc1db32af18d462101bf78af85d76852863bebf308df",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/growth-manual/page-7.png",
+    "bytes": 342563,
+    "sha256": "a98c843e5bd6c58a06308ad79085b98699c1cfc49edaff088fcdc276677a1bfe",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/growth-manual/page-8.png",
+    "bytes": 509095,
+    "sha256": "32ee7bf1fcb63fbdad3ac6804f34067a36057d14a9f8d06901001f2f9f79501e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/growth-manual/page-9.png",
+    "bytes": 288343,
+    "sha256": "6c148124e573f4de46faed202eb01b45187598ed2838f98ed2897e2eb5d08d23",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/logistics-manual/page-1.png",
+    "bytes": 192874,
+    "sha256": "85b0d32edf41d81057e38cb457fba586a3f332fdd5d08ce99c278e8dd398c278",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/logistics-manual/page-10.png",
+    "bytes": 429336,
+    "sha256": "2cda6a69c2a1b3cec3dd3f2430b3b822f599a82b4ee3f3f2989e31426f568e8a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/logistics-manual/page-11.png",
+    "bytes": 396902,
+    "sha256": "f3d8aa04327527a6f691e83456c307a3dfba6a3ca8929efd425f828173ade6f3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/logistics-manual/page-12.png",
+    "bytes": 361759,
+    "sha256": "90ef4f98531ea3294548ff33bfd4ed6f9b64e4b7f2af226d80622997c0b3479b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/logistics-manual/page-13.png",
+    "bytes": 448003,
+    "sha256": "1ad94b99b005309bcdb81f4b103cd47e2c418eace7331ed6c5bea7061cfaaf4b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/logistics-manual/page-2.png",
+    "bytes": 371403,
+    "sha256": "b3510d9c3e4ded96fb3467aa72b909f56d69e9b22b96c697f1f42b880efc6b4b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/logistics-manual/page-3.png",
+    "bytes": 407985,
+    "sha256": "aca2ed44122e896ddca6059e26f2fdd93317aa4f22648b352be97f3c5622d773",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/logistics-manual/page-4.png",
+    "bytes": 292497,
+    "sha256": "3e87142d3403cd2609a038a21659cd19a4ff1afed602110a616ae7e02cd606d0",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/logistics-manual/page-5.png",
+    "bytes": 313384,
+    "sha256": "76dbad1b7bb7eb8c16666b8f178fe316a6c52a8b08ff61e537a97d3e0579ca59",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/logistics-manual/page-6.png",
+    "bytes": 423566,
+    "sha256": "e21f9aff87c1ea65f6e37015d010f29c437292c8c66417121efc9abe97eddac4",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/logistics-manual/page-7.png",
+    "bytes": 417295,
+    "sha256": "5bf11b14b1c622c606e436b771362335993c0d24380146f7be291d4df21e8519",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/logistics-manual/page-8.png",
+    "bytes": 502899,
+    "sha256": "8d87098f5dcb8f5ab89e8b4df8d74a65e3b133af5975be7d4f8200dc4196300d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/logistics-manual/page-9.png",
+    "bytes": 528821,
+    "sha256": "924d720fb81011f15a55feddc2c192f95194867ff4896ad8af22fe5192ab62bb",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/logistics-manual/气象驱动物流运输风险预警与应对决策.pdf",
+    "bytes": 1074827,
+    "sha256": "7a1eb1bfe1bdd9ae0af0dcc62ff5958e30a41ec130ff18e557da5d4d52e16818",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-01.png",
+    "bytes": 81744,
+    "sha256": "061e55b154cdb9410506ad83956fde965e7b1e89f00e40fc2922cdd6aa05b879",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-01.txt",
+    "bytes": 192,
+    "sha256": "42bb24bb90277e478f20c713ef4fdf1bd0c656f35c3be5e5eef28d57c7fbebda",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-02.png",
+    "bytes": 122893,
+    "sha256": "38afec490e6f56523dc924867c6f1b18d7d18e6f65b0fefabfbcf7fbb5cd9239",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-02.txt",
+    "bytes": 446,
+    "sha256": "9ea44b86951ed9d646c6b65eacfc859341df25a30f931517c1bc394322c1a10e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-03.png",
+    "bytes": 115514,
+    "sha256": "efa4c2a0cd1b9f1500d6e7736a088fe56b2605e050e9448528267c58da4aca88",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-03.txt",
+    "bytes": 428,
+    "sha256": "ecbb048abb1e79874ee922105b9063e856ff402d54c5d94cfa26923a0fc6a99d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-04.png",
+    "bytes": 123123,
+    "sha256": "1effd6f5fb1951f55f71abf17d02478cc8928eaaafc67f6ec33002631952553e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-04.txt",
+    "bytes": 471,
+    "sha256": "2c1e5899f31dd56d1d00bc3ca1749b8e162a2d9eddabced89d02191e9799a064",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-05.png",
+    "bytes": 124820,
+    "sha256": "0d1514447cbacb1c69bbfbd7493b03c390d18c2e0d3bcc0e2a8a7b972a50b236",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-05.txt",
+    "bytes": 453,
+    "sha256": "c626fd83cb86c5c4e50e8d2d4a2b15506bdeb380b8fe27c769b32b09fb4ae43c",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-06.png",
+    "bytes": 150603,
+    "sha256": "d0b4fd996bba26a2d898e2215c4f757a176189e99033373ea0c9aaaaf969aa21",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-06.txt",
+    "bytes": 271,
+    "sha256": "cff6ab665d4c8ee43166787a52be69332b3dac6c7d5999daaa431dc3022d4980",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-07.png",
+    "bytes": 109281,
+    "sha256": "26d3f338cefa09ef977878717eed32067194718e6b2d3ddeef94ea04eb1bd30f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-07.txt",
+    "bytes": 420,
+    "sha256": "9498209470d436c92600c38ede03560d67f317cad0480077dda3ece8c4ebb634",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-08.png",
+    "bytes": 197662,
+    "sha256": "d35e2aaad04b4354bd8a0e9ee75994c7eea416ae44cfbd5d0bc9cbd15d27ed1d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-08.txt",
+    "bytes": 257,
+    "sha256": "124ae72227829846bd03a4cc4350a2847e15689d25c9e1468580c823161dfe3d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-09.png",
+    "bytes": 189077,
+    "sha256": "b4b4c47f87eb9fbdfdc7184ed796a37c05fcb2608503b49bd4ab6aeee7445647",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-09.txt",
+    "bytes": 367,
+    "sha256": "442d8dfc48033c83a1433235db98d5144faacf08b6e445c23c7fc3e096d786e0",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-10.png",
+    "bytes": 125345,
+    "sha256": "df03c6bb53596d21d0a52606ba1d89cd14d2044a8a6be03eef7d1fecc02ab85a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-10.txt",
+    "bytes": 469,
+    "sha256": "a4da693970d07b1b1bd3d2033bdcdd02f5e3f33f7f2adf1266335143e2b371f6",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-11.png",
+    "bytes": 135970,
+    "sha256": "2dacc2458c92e930c0cbb7c29408aa84c962778cd4996aad09a5ba57c510d977",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-11.txt",
+    "bytes": 578,
+    "sha256": "09addf671356ec25ab57467a54e7f0e00180bb236e1b61a3ab30d07a30203bf4",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-12.png",
+    "bytes": 107109,
+    "sha256": "64ff962729474f1c162efada018d6b9db51a182c7a0c382d7c98a15c6db696e2",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/slide-12.txt",
+    "bytes": 316,
+    "sha256": "8727542748d7fd06b9d2af73ebf9787450e7a72941af0b13d259b70dc0b883d3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/slides/人工智能导论_双赛题结课作品展示.pdf",
+    "bytes": 570555,
+    "sha256": "3fe45011d66dd2bcd56fd4b404523e853a97f85476b40ff852a4f1864eb09e2f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/speech/page-1.png",
+    "bytes": 315063,
+    "sha256": "156b19663e99cddfc759a61e5004486e0e1e0b64b563da2956487ceff71c6a7a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/speech/page-2.png",
+    "bytes": 223335,
+    "sha256": "ee6f9484ff639e9aa84de761fdaecf226806b6151f57f85eb2b5ff2df076e5a3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/speech/page-3.png",
+    "bytes": 251378,
+    "sha256": "e5a7639e130fbd8c56641ab167ea04cfb884735fa40e00ad9fdd1bbe1f35c49e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/speech/page-4.png",
+    "bytes": 290717,
+    "sha256": "648fa4499d144ab7092731dcbf4e60b5457bb07e93d2df819ecddda2c1809de5",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/speech/page-5.png",
+    "bytes": 251161,
+    "sha256": "d1a5a011d2c83eeea9c6dc5d73188caeb2e38c37e81dd024c07f71b4a922e631",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/speech/page-6.png",
+    "bytes": 292899,
+    "sha256": "d6e700af6e990e404e9b5385e6d0de54601de7d89cf51abea30e35636ca57e1a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/speech/page-7.png",
+    "bytes": 316199,
+    "sha256": "4999603441e1a1c1506aabb3dcdb0d93772b168adf331443ffbc33c869890626",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/speech/page-8.png",
+    "bytes": 246940,
+    "sha256": "36e8718f6a1db810238a9ebdeb8ba2040df4e38d0ce8c02d260733e9ae8b6396",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/render/speech/课堂展示_单人完整演讲稿.pdf",
+    "bytes": 395071,
+    "sha256": "47cf55b00e185fd521ba10b271fe623dca75df35467b5828ab8aafede829a352",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1-checks.json",
+    "bytes": 23839,
+    "sha256": "f587a502b790cb42ffbbca3dc330a3c977f0208f137fd563b9adbdda4f4cd3b0",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1366-about.png",
+    "bytes": 219639,
+    "sha256": "0f403473351305078735ede189839b18a2a7e8bb866026b611d19b12ccb6c687",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1366-decision-report.png",
+    "bytes": 543352,
+    "sha256": "032033ffdddfba02b3aff78afc8c05e20246b3498fd94934e177a021b085e15d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1366-demo.png",
+    "bytes": 216553,
+    "sha256": "efe66ec285dc2875bf34948b8f416409a77690095bb55b17129115e45d9405f4",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1366-growth-execution.png",
+    "bytes": 492615,
+    "sha256": "d96711ed8fdd42ff510eb0aa611ed0a5d08cdbdab5787c6a1eaa912e29c8643e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1366-growth-model.png",
+    "bytes": 251353,
+    "sha256": "af0fea3b1cf528750697bdfd54f6ec09fd696f26c681702f72a9ae1fe46c6a2b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1366-growth.png",
+    "bytes": 748145,
+    "sha256": "9083e68304335048b35a60ad99d44ec4980baf94f6941c8903a876295fc010c1",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1366-home.png",
+    "bytes": 343127,
+    "sha256": "c8356e9a2c3801a30e6c7522be54add0ef61cd9d0ea3cf29fe2c49638e98af2a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1366-logistics-decision.png",
+    "bytes": 547745,
+    "sha256": "bf5fe42cc2f6d783ab9391e5f8f4b047d3273211f21a7236e0f6de2e58ece14a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1366-logistics.png",
+    "bytes": 304702,
+    "sha256": "b119a50306897f357b173dcd2420b9711e1a0aca3b2e453189fa0b710fd8c2fa",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1366-order-modal.png",
+    "bytes": 228527,
+    "sha256": "2cee7f8c5a89180d3edf3d1ce49bc3c43489d429302d6dc0ab473f921569852b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1366-orders.png",
+    "bytes": 230557,
+    "sha256": "a95d089c356defc90e0f8cf85400d88ee425a30bf107b5c153d7e971d5bf8f31",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1366-simulation.png",
+    "bytes": 242754,
+    "sha256": "853b9d27a9ea3343b4d055eb6c19f54885ed124f4d0d09e7503d692f49f1fd6e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1366-task-modal.png",
+    "bytes": 427222,
+    "sha256": "19028f2faf7141f5a4a68dfd1f0f0ffa2110f81abf42c220e84e4e80e8524a6c",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1440-about.png",
+    "bytes": 224382,
+    "sha256": "9b636db76fa52264cf09b80b56a4782376616bc8eeac122866c38372d1a2a28e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1440-decision-report.png",
+    "bytes": 602237,
+    "sha256": "48005c447e347f4967112d0107ac7f691de45cbc58a07e7234197d2c684447d4",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1440-demo.png",
+    "bytes": 222983,
+    "sha256": "7e1897f0343943bbc6e5c2168618e60b37617217bc231641cd8061d22236e3d3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1440-growth-execution.png",
+    "bytes": 495521,
+    "sha256": "be2799f0393ae429932ac21cab65ea38c7f56b6d2106e1771596aba5d06e1adc",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1440-growth-model.png",
+    "bytes": 259060,
+    "sha256": "bf9bb61ed996697b429dc2a21191a9ff6c03d47ec1b64efd32d9df3d685210c9",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1440-growth.png",
+    "bytes": 750097,
+    "sha256": "541e53ea56e45492ded769300f8c3e08417b984c1b121fdaa047bdd31f9d5997",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1440-home.png",
+    "bytes": 358311,
+    "sha256": "c67810664c89c4acab69eaf75d55677924f90e8815b1993cec20f84d3403ac58",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1440-logistics-decision.png",
+    "bytes": 561846,
+    "sha256": "1ad532f47f025b855dce7f05b5f5a1d2c8566f7b38b00a9db938d9dd344e8b8d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1440-logistics.png",
+    "bytes": 315733,
+    "sha256": "f195b1d5dfc68fa891ccef104e170d038d04d14d411e79772e4973ef1a44e7db",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1440-order-modal.png",
+    "bytes": 240378,
+    "sha256": "56611b1ced03b16f4a986815e9796f8748d49ab5f035a9e36e960c07e4ac2180",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1440-orders.png",
+    "bytes": 236720,
+    "sha256": "512479bf881e699f3a124a0e3a5629589a4030a69d56c2f4f0f566bff1c05332",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1440-simulation.png",
+    "bytes": 252548,
+    "sha256": "77d7a73fa2f17a7200149dddddf307d05bc7db744b7b2e72bd74ee8f678a02fd",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1440-task-modal.png",
+    "bytes": 443213,
+    "sha256": "d35aab183b1929d6d2161a8c2813a775d30d1b31d8576798847b4ba903a557e6",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1920-about.png",
+    "bytes": 228734,
+    "sha256": "ea172c17c294c1158869bcfe5b861ca44b7140313cc9e2366a3bcf1798ecf802",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1920-decision-report.png",
+    "bytes": 681802,
+    "sha256": "331c4082a2caf55bab2096bb1d3e997f5d232208f485f9f1f8b1f75050aa76d7",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1920-demo.png",
+    "bytes": 219961,
+    "sha256": "4bb0c20996b848a40062a1a333faa12e9fb5b4cda8fea96cab250222ccff878b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1920-growth-execution.png",
+    "bytes": 499389,
+    "sha256": "73f2546726c9254008bd32d17ee0e301e04eb15c57d4fdda39cea33c535f7cf6",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1920-growth-model.png",
+    "bytes": 264222,
+    "sha256": "e14d8a141dcf7ac15c28af09d7d4af0ac35d118e68408e06e4a963600cca7b81",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1920-growth.png",
+    "bytes": 772761,
+    "sha256": "3b59367dee464a8eadcd780e58e24b6720add43c8550d91779330f9ae5303e00",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1920-home.png",
+    "bytes": 408348,
+    "sha256": "77cbf83de9133a8604b42bf12c58f39986e7434c87371558cb2284fbea1c6e4f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1920-logistics-decision.png",
+    "bytes": 593270,
+    "sha256": "e08899b4d2db2228a2855e44bfff8530034da5ecb4cd9cfade78efd87e35b95e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1920-logistics.png",
+    "bytes": 344823,
+    "sha256": "a39e74886f6c601a3062b866041c871ed987c155cb4eb7c3edccf56005b33484",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1920-order-modal.png",
+    "bytes": 266255,
+    "sha256": "00243841b6bba5b89b31385df5481a100a034b86d16b3168b8c7820128a30437",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1920-orders.png",
+    "bytes": 243443,
+    "sha256": "f219b16111ffc85e863e252cab6cb0ed40f0cdf2e40937997b9d50d008b7e266",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1920-simulation.png",
+    "bytes": 259475,
+    "sha256": "e6c67da846a2b238e7a756bacd15fa08d9cdb41975f3ec3662814f7d968f805a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/1920-task-modal.png",
+    "bytes": 470758,
+    "sha256": "80602d485bdfdb55243038dd9889e5d4bc029e1764d9962eb91e7f9f607756cf",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/390-about.png",
+    "bytes": 165108,
+    "sha256": "588212bffb83e2a90dafaf3a06537ff17dbbe91d45e26e2bc818aac66d6fda20",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/390-decision-report.png",
+    "bytes": 469918,
+    "sha256": "994276851a5eb5a07e824921d81be6b168355bf63fbac5e257068365c1f5f5df",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/390-demo.png",
+    "bytes": 167973,
+    "sha256": "2d1def6b92329a30a3f7afb9fd2dfb4956cecfacc5a53c113aa5ba24b4c6797c",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/390-growth-execution.png",
+    "bytes": 381964,
+    "sha256": "0c1cb37ccb162181ec0b432139c6a8e9a23dd47b332894a70d090383eccbdd0a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/390-growth-model.png",
+    "bytes": 178925,
+    "sha256": "70bb05352154b3997273c53f609805f87ac0799964e77c9d111e2b24deb9616c",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/390-growth.png",
+    "bytes": 698072,
+    "sha256": "e222e2d521b374f5041c752d255e26ba465274f72d85d9a3cd9e0feb06423fc5",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/390-home.png",
+    "bytes": 254085,
+    "sha256": "090dd86a770570e8a1802c282dd54a986ffa371b8c272e697f304e94930811b0",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/390-logistics-decision.png",
+    "bytes": 432719,
+    "sha256": "15a441f3d36cf2a1b27e7b19eb467a69a87aa1849cb25ddbedc5cc45c2be1bf8",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/390-logistics.png",
+    "bytes": 225203,
+    "sha256": "eec702a2511cc1f08ef85b1ca4f8871f4829233cf7f448455c3d8680a12ecc75",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/390-order-modal.png",
+    "bytes": 153613,
+    "sha256": "e9fa59abf31c4226d6659007dfaec6157a7b1ca1f33190ea903a3c5b00fb5508",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/390-orders.png",
+    "bytes": 146199,
+    "sha256": "ead3dd8c5ff47c2dd3aad309416501373fe417058b18ea7efbc7d8b516f11e54",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/390-simulation.png",
+    "bytes": 177067,
+    "sha256": "a79ef3143e8e1fa3b4937f984039f5f21aed1a50bb6a53a38ae49b7edd1dcdfb",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round1/390-task-modal.png",
+    "bytes": 339496,
+    "sha256": "0ad24a784bb79ddd983740f72ab6aecfc041ece0c3112b46a7d926c4ca8e64b4",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2-checks.json",
+    "bytes": 23839,
+    "sha256": "f587a502b790cb42ffbbca3dc330a3c977f0208f137fd563b9adbdda4f4cd3b0",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2-contact-1.jpg",
+    "bytes": 111793,
+    "sha256": "9e7e80d5b296f8e86f2d20066637dd9aacdd8ccdaf4de901255f54bb08c54b93",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2-contact-2.jpg",
+    "bytes": 120292,
+    "sha256": "a039ec23e113868ffb70a184e9d8d757383473a7e050bdf4cd9020867f3e53ac",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2-contact-3.jpg",
+    "bytes": 110074,
+    "sha256": "d5c6963f68e9288f2ff032a759c413b51e4294fcf92efefc01bd19322c1e47ed",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2-contact-4.jpg",
+    "bytes": 117168,
+    "sha256": "e86bbd53c8c3b4b5d53eb210a4f4d17becad7558a31bd832a8d754ab077253e3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2-contact-5.jpg",
+    "bytes": 79176,
+    "sha256": "bb8da05dd45319e63d2bafaaf970e4bc30a9a0c9b805aa53e21b2db4384c35ae",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2-contact-6.jpg",
+    "bytes": 49677,
+    "sha256": "b138618ce29c060dcf5deb625bca4061d5fa6f2d3b66b0d03b7bfaf7aeb28690",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1366-about.png",
+    "bytes": 219639,
+    "sha256": "0f403473351305078735ede189839b18a2a7e8bb866026b611d19b12ccb6c687",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1366-decision-report.png",
+    "bytes": 543369,
+    "sha256": "084744276c20e2f6efa67f4b10bf1db122f4ccb583cf00cac1c89766f0872e37",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1366-demo.png",
+    "bytes": 218570,
+    "sha256": "8872d1696d06eeabdcce40be8030969bef0f4e72dbcda30d644b25b897689a87",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1366-growth-execution.png",
+    "bytes": 492615,
+    "sha256": "d96711ed8fdd42ff510eb0aa611ed0a5d08cdbdab5787c6a1eaa912e29c8643e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1366-growth-model.png",
+    "bytes": 251353,
+    "sha256": "af0fea3b1cf528750697bdfd54f6ec09fd696f26c681702f72a9ae1fe46c6a2b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1366-growth.png",
+    "bytes": 748145,
+    "sha256": "9083e68304335048b35a60ad99d44ec4980baf94f6941c8903a876295fc010c1",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1366-home.png",
+    "bytes": 311709,
+    "sha256": "3a7cff2cb4228572ca69f3cb536173a23216f76027cbb26ba262a7e3dd3ed4a6",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1366-logistics-decision.png",
+    "bytes": 547745,
+    "sha256": "bf5fe42cc2f6d783ab9391e5f8f4b047d3273211f21a7236e0f6de2e58ece14a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1366-logistics.png",
+    "bytes": 304687,
+    "sha256": "0ed1584041ff29d067eba27a954dc8e90ed0490d945f919c784ec443b2269c99",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1366-order-modal.png",
+    "bytes": 228657,
+    "sha256": "26d76efb76b082d748fb430b9308163ed4a75fceec16f3f503f28a91c225bf06",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1366-orders.png",
+    "bytes": 230557,
+    "sha256": "a95d089c356defc90e0f8cf85400d88ee425a30bf107b5c153d7e971d5bf8f31",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1366-simulation.png",
+    "bytes": 242754,
+    "sha256": "1a086912a8c7b97cd305f925c5b0cc64af9d9992cf9b79d33dfa9a593810e1ce",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1366-task-modal.png",
+    "bytes": 427825,
+    "sha256": "488437499e5f714067da45268f3579467982439040f72d06e250fdd7d3142060",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1440-about.png",
+    "bytes": 224382,
+    "sha256": "9b636db76fa52264cf09b80b56a4782376616bc8eeac122866c38372d1a2a28e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1440-decision-report.png",
+    "bytes": 601988,
+    "sha256": "483fd604289e6bdd943f05f1d970fcb9465e06724147e5e9a52948c45bd84a4e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1440-demo.png",
+    "bytes": 224914,
+    "sha256": "a78e7e519871abf6106a9c541780ff750ebd53edaebe7162cb3b66d24dfe45c4",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1440-growth-execution.png",
+    "bytes": 495521,
+    "sha256": "be2799f0393ae429932ac21cab65ea38c7f56b6d2106e1771596aba5d06e1adc",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1440-growth-model.png",
+    "bytes": 259060,
+    "sha256": "bf9bb61ed996697b429dc2a21191a9ff6c03d47ec1b64efd32d9df3d685210c9",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1440-growth.png",
+    "bytes": 750097,
+    "sha256": "541e53ea56e45492ded769300f8c3e08417b984c1b121fdaa047bdd31f9d5997",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1440-home.png",
+    "bytes": 322607,
+    "sha256": "8486330fbb1c9d97ee71165206a1ed6cd7e7ce0d0d4a0d0015d9207defbdd7c0",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1440-logistics-decision.png",
+    "bytes": 561846,
+    "sha256": "1ad532f47f025b855dce7f05b5f5a1d2c8566f7b38b00a9db938d9dd344e8b8d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1440-logistics.png",
+    "bytes": 315733,
+    "sha256": "f195b1d5dfc68fa891ccef104e170d038d04d14d411e79772e4973ef1a44e7db",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1440-order-modal.png",
+    "bytes": 240618,
+    "sha256": "6ccc828f678f9860686f1621cbddc43cf9b008eaf4a9e82c2bfb8ea5d96f72b5",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1440-orders.png",
+    "bytes": 236720,
+    "sha256": "512479bf881e699f3a124a0e3a5629589a4030a69d56c2f4f0f566bff1c05332",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1440-simulation.png",
+    "bytes": 252548,
+    "sha256": "77d7a73fa2f17a7200149dddddf307d05bc7db744b7b2e72bd74ee8f678a02fd",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1440-task-modal.png",
+    "bytes": 443142,
+    "sha256": "42f8eddc63773340954fae5c7555ebe2132b8b19038d119a809a7c60e4b77f3e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1920-about.png",
+    "bytes": 228734,
+    "sha256": "ea172c17c294c1158869bcfe5b861ca44b7140313cc9e2366a3bcf1798ecf802",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1920-decision-report.png",
+    "bytes": 681642,
+    "sha256": "ad4781e08a8aa8c4886bfdcf35fa8fe8ef03f966d55447779e2d0a5255b3dd66",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1920-demo.png",
+    "bytes": 221913,
+    "sha256": "db8f3e6b5399aee6600d8ef0ecb423fc6c2f079054e78266578e537b2a15f32f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1920-growth-execution.png",
+    "bytes": 499389,
+    "sha256": "73f2546726c9254008bd32d17ee0e301e04eb15c57d4fdda39cea33c535f7cf6",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1920-growth-model.png",
+    "bytes": 264222,
+    "sha256": "e14d8a141dcf7ac15c28af09d7d4af0ac35d118e68408e06e4a963600cca7b81",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1920-growth.png",
+    "bytes": 772761,
+    "sha256": "3b59367dee464a8eadcd780e58e24b6720add43c8550d91779330f9ae5303e00",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1920-home.png",
+    "bytes": 349429,
+    "sha256": "0078d8dee9da98ee356a15702a1070aac09be0067b595cb0a6359572dd1b684d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1920-logistics-decision.png",
+    "bytes": 593270,
+    "sha256": "e08899b4d2db2228a2855e44bfff8530034da5ecb4cd9cfade78efd87e35b95e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1920-logistics.png",
+    "bytes": 344823,
+    "sha256": "a39e74886f6c601a3062b866041c871ed987c155cb4eb7c3edccf56005b33484",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1920-order-modal.png",
+    "bytes": 266735,
+    "sha256": "e48a54b305735492283776c281fe0c921d22065b48ea73d16952b889e01a922b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1920-orders.png",
+    "bytes": 243443,
+    "sha256": "f219b16111ffc85e863e252cab6cb0ed40f0cdf2e40937997b9d50d008b7e266",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1920-simulation.png",
+    "bytes": 259475,
+    "sha256": "e6c67da846a2b238e7a756bacd15fa08d9cdb41975f3ec3662814f7d968f805a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/1920-task-modal.png",
+    "bytes": 471355,
+    "sha256": "81d0ad98dc408fa835197602184167bb2d65a49c71fe000714391ff112d5fe14",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/390-about.png",
+    "bytes": 165108,
+    "sha256": "588212bffb83e2a90dafaf3a06537ff17dbbe91d45e26e2bc818aac66d6fda20",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/390-decision-report.png",
+    "bytes": 472453,
+    "sha256": "8df5e9d4669428e22e1d63ddc3def9fb77518b45d63c24c96320823a0838f1c2",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/390-demo.png",
+    "bytes": 170567,
+    "sha256": "d5380ba395e3ea62280fd7bcf4df7ff6386fb5746a15823eaad2f22c78ff87f3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/390-growth-execution.png",
+    "bytes": 381964,
+    "sha256": "0c1cb37ccb162181ec0b432139c6a8e9a23dd47b332894a70d090383eccbdd0a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/390-growth-model.png",
+    "bytes": 178922,
+    "sha256": "d2acd079aa0f3483cdb55564f5121e7f12c378dbcaa41a010fc6a0de6ebd614e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/390-growth.png",
+    "bytes": 698150,
+    "sha256": "74432cbab7d9ca1fac32f8ef07c2ffdbc4957ecc00ba437c6f816b1768249f7d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/390-home.png",
+    "bytes": 245404,
+    "sha256": "02fe5a90ad3885e42e91c9fc9ca6f49089c3298a676ab3bcec7ff6670b232a84",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/390-logistics-decision.png",
+    "bytes": 435648,
+    "sha256": "6eb5c720239d5cfbafcb1f6a5410f24fe5adf7d318dc9762f5440fdba67d94a6",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/390-logistics.png",
+    "bytes": 227795,
+    "sha256": "48f4b9d828b58d158aef4106c3dc31a6d95ec2bd2c19a8605687eeac978acca2",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/390-order-modal.png",
+    "bytes": 153647,
+    "sha256": "10d48a2d4e4f194306899abbc2eda2a44e959f8802c683215345e6685366ce57",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/390-orders.png",
+    "bytes": 146199,
+    "sha256": "ead3dd8c5ff47c2dd3aad309416501373fe417058b18ea7efbc7d8b516f11e54",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/390-simulation.png",
+    "bytes": 177067,
+    "sha256": "a79ef3143e8e1fa3b4937f984039f5f21aed1a50bb6a53a38ae49b7edd1dcdfb",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/round2/390-task-modal.png",
+    "bytes": 339290,
+    "sha256": "ede3c74dbc2346a20beaa00979f67f8bb9b6ef7de679c56b78c382710832d55e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/growth/adjust-subtitle.png",
+    "bytes": 37914,
+    "sha256": "1b358e56540ce420f954f16b5e8c11dc85438baea753ebad0bfc7891cda5b218",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/growth/adjust.png",
+    "bytes": 411065,
+    "sha256": "c6e876fd69e03737767f62a787d6212ddaedc4316e1badc7c7da61b535b2a7ee",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/growth/budget-subtitle.png",
+    "bytes": 38424,
+    "sha256": "688bf56a8abcd01d0d334ab8725b84702e8b9dc85f7439adee341cf2c434becf",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/growth/budget.png",
+    "bytes": 418886,
+    "sha256": "aaf79d5c266607f15fce400052a985ad2baa020783d100289f68f0496a2ab284",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/growth/channels-subtitle.png",
+    "bytes": 30091,
+    "sha256": "c6174a46fa96e089762625fd986a54b88390ef514fabdb120eb9943dd12f25a8",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/growth/channels.png",
+    "bytes": 694296,
+    "sha256": "cf4c33b748ed0ba663c745d91c9d6b052e7a8e8801369602e792c4a043b2faa5",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/growth/execution-subtitle.png",
+    "bytes": 30431,
+    "sha256": "1289d5b549743be71a730ccd9266a2a7c283ce91ba9d9a534981b9735eaa639b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/growth/execution.png",
+    "bytes": 614759,
+    "sha256": "fa48b454b5858c2449691088ba9470b362161285b2fd3a825be44e6c60a9e864",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/growth/experiment-subtitle.png",
+    "bytes": 34109,
+    "sha256": "a68d0d18eae324a4dbc3f6033ba8250a2c53d09cbfd16bd870d4835b7fe747de",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/growth/experiment.png",
+    "bytes": 693259,
+    "sha256": "0906021ffffcf20589855d8fe45a62b5bccf26f49b97bbea42f750ad631c6045",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/growth/funnel-subtitle.png",
+    "bytes": 26549,
+    "sha256": "fc2e698c2bc1ff0bd78897b8f1e8da7ccc915198d1b408f1abc5d0ff2209017f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/growth/funnel.png",
+    "bytes": 382001,
+    "sha256": "e7fbdca515041844f2e99114d0d2b35e849fbb76291c477c080e6dd31e951994",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/growth/personas-subtitle.png",
+    "bytes": 39141,
+    "sha256": "88e975d660af17a2ee50efda5f0240fb4caa124d102e6f4749a2272b4487332a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/growth/personas.png",
+    "bytes": 978407,
+    "sha256": "6760ec4e0934d2af189e0233725cb4a67f11ea035e166dcedfaf14fd75de037b",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/growth/position-subtitle.png",
+    "bytes": 38998,
+    "sha256": "1bfa19eaeb1316aabceb20bbcb0dd421b048537c55448f023d00889d67950f83",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/growth/position.png",
+    "bytes": 819916,
+    "sha256": "a9b618269d2412abd86ee7a2e4975b418625064f395853504eeccd6517973231",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/growth/report-subtitle.png",
+    "bytes": 38775,
+    "sha256": "e54d355038bb303572e41ea912b66c5b682864b732a9c61a43cbc97183fddb35",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/growth/report.png",
+    "bytes": 864374,
+    "sha256": "a35980f30bad0dc49ccba3cca5da532c5520036e783c887571ac0d81e910d87d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/growth/strategy-subtitle.png",
+    "bytes": 29812,
+    "sha256": "fdb6d5a7a64b7e8be26e3291cfa9ffe96896bbe8209a89ec058efee2107952f5",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/growth/strategy.png",
+    "bytes": 881381,
+    "sha256": "81d0d3b74a490e412dc69488c4027c407df54009819ae836f466f86221d03b07",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/agent-subtitle.png",
+    "bytes": 29533,
+    "sha256": "0a1f34d15f0eec1d59ff5e46bf9c0f4f18b9d7fec180716863b1c1ebad459c8d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/agent.png",
+    "bytes": 539847,
+    "sha256": "8936a07d5b5f15372bc08fe6d63218e1ba84c201b387bfdea94c5a5c7e94719e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/limits-subtitle.png",
+    "bytes": 35925,
+    "sha256": "fc7d78f5222ed55ad44dfc260ec96767996002c401446a771a88fd53d616b973",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/limits.png",
+    "bytes": 626873,
+    "sha256": "70ca1cfe6bea8c45850799b4322bc79c43cdcdc01d4f971d9d64c6cfec732976",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/normal-subtitle.png",
+    "bytes": 34375,
+    "sha256": "d5ad05584f0cdfc24a68692542a752103c79e2a5984f8b6283b407202cb78fb8",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/normal.png",
+    "bytes": 376711,
+    "sha256": "fc1b11bc4d0ba4cd2e199a0112f8652ab8dfb84406927b4441d06c884217760d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/orders-subtitle.png",
+    "bytes": 35584,
+    "sha256": "7d414a4f0ea378c1794b428f972d8983eaf4583a19b66622095f7cba4fb0aef9",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/orders.png",
+    "bytes": 468615,
+    "sha256": "7b6745487751cbb4c9ea3820c17843f14bbc9741ef4588309451a0d30dfefd06",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/overview-subtitle.png",
+    "bytes": 46110,
+    "sha256": "2c517a6f8df0cb9b40ccea511915292bc8c72a13a40dc10eeb3e13d28558143d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/overview.png",
+    "bytes": 674969,
+    "sha256": "4cadce3cf1035b202501c800b2936e78aa1db4a2a2763c300f4da43ae3a8ec3f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/plans-subtitle.png",
+    "bytes": 43114,
+    "sha256": "15fcba3b162f8ad3f609bb993c038353f34dd39f90d94337bf1f6b683a98bd85",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/plans.png",
+    "bytes": 552718,
+    "sha256": "f2293ca3cffe9b614b56f7ec726aefaecb59474d6bb77c0d42d85512e389ba09",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/rain-subtitle.png",
+    "bytes": 34891,
+    "sha256": "ef1a155d85317bc46cb724d514498c158e8c3bbe4ff3e5b84aa171cbb5af51d2",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/rain.png",
+    "bytes": 384229,
+    "sha256": "8e1e3944bb8fd6036f58d332bee00c60f78e27dc81d590cef754faa3b4fabd9e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/report-subtitle.png",
+    "bytes": 34418,
+    "sha256": "852455559531fd9fcd4791b809793ff634031a380235ccf37560b98fd0e94853",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/report.png",
+    "bytes": 680965,
+    "sha256": "8ced07270d17f303a2aa0b47db656452fc952549f28267c5c5e4604559abd69a",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/risk-subtitle.png",
+    "bytes": 39044,
+    "sha256": "dc0f9e9e74d510c67a891f14c043671c9cf25e348a8b8861702294c7f392a133",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/risk.png",
+    "bytes": 553424,
+    "sha256": "392c1f0cb597d66cdd25460a063ae2d3f813e0198bc1fb8e97a900a4a2df8eb5",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/snow-subtitle.png",
+    "bytes": 49337,
+    "sha256": "8bbaa248fe877d7a34f7b16c76f91d8bf2c4339de5fe85da131c3fe97c9b5aff",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/snow.png",
+    "bytes": 400154,
+    "sha256": "d8ebce938825103d852c921a0c56f02a19e4fe59dc38acc7939bc66f9ec8c260",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/weather-subtitle.png",
+    "bytes": 25731,
+    "sha256": "02c04f44891616aa9f1483649096c711659c0dbdc1a30a57181baa286b7b1966",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/samples/logistics/weather.png",
+    "bytes": 529717,
+    "sha256": "e0f3f30de3961ea1445f71d3178a3e1861234cb428105be9bcba147863412ef8",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/slide-edit.log",
+    "bytes": 4348,
+    "sha256": "fae09089122631cf870eb64221df794b22598e74429fabf489275bef2d6e522d",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/slide-finalize.log",
+    "bytes": 4989,
+    "sha256": "316b9a6d06ffee2ab53866feeb6ec42510f0776336f47c80c4c9c8794c9e3481",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/slides-contact-1.jpg",
+    "bytes": 128555,
+    "sha256": "f3155edb77e50a124ce2aebe286b4161271a24d66a6f08765e8d8c780e034aa0",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/slides-contact-2.jpg",
+    "bytes": 125083,
+    "sha256": "d95881e70e2434f21828e06e7e8472d0d30dd1c9b5ff2cadcbdbbc7810319193",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/slides-contact-3.jpg",
+    "bytes": 142651,
+    "sha256": "13bc8e543e840af269032c8eec322bace17a0e9bb2cea97411ca9f65da9b7337",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/slides-render-final.log",
+    "bytes": 93,
+    "sha256": "8918634e9dbecdadf26e07e6e6e6fe46f7fcbb1c5da8d0b9a5eb797f856c37a8",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/slides-render.json",
+    "bytes": 489,
+    "sha256": "90f003cf81a75458a7532e389ad6fda7cf7f6c8be09b9a00758c11abc3a0a3d7",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/snow-recorded-simulation.json",
+    "bytes": 44774,
+    "sha256": "0596470b9551d10c8fb16d083ed70ba49bdb1aed5e2c4cdce17821ca3b7a32f3",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/speech-contact-1.jpg",
+    "bytes": 234822,
+    "sha256": "c8da20ed0cdfb1c9aea5eff46ffbd0d395c01784ec07e8fddc3f3d29b5a2207e",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/speech-contact-2.jpg",
+    "bytes": 238444,
+    "sha256": "2d31ca7a948d25c02e91a391e723de8dd32b4fba8dd026ddb8a54d7ae1767d2c",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/timeline.json",
+    "bytes": 47990,
+    "sha256": "e0094d8c8674f3814fd95838de1172a4bc4ee5581c13cb94091b798e9cc8a739",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/verification.json",
+    "bytes": 5571,
+    "sha256": "57b21c05ff4bdbd07a139632c23bdc972ed0ab7d8765d2fb5a2733fa00f707f5",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/phase4_6/video-verify.log",
+    "bytes": 109,
+    "sha256": "aefe0c643ebc204f7e3f5a06e41b950ba1b0568e559ceb093e6e592b57acb6d7",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/phase4_6/visual-final.log",
+    "bytes": 21,
+    "sha256": "6777860e7d7ff2cc37c0f3bfe346027199fdb254bbd374521b2e871bb1e54b83",
+    "tracked": false
+  },
+  {
+    "path": "project/docs/pytest-results.xml",
+    "bytes": 3007,
+    "sha256": "767fa1082a255a2fade4881c526015c08fc14db6227c3c1e447a73580253badd",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/restart-results.json",
+    "bytes": 243,
+    "sha256": "454df6f678d66db4d9a5b6ce08145df4224f00321d3be8357970b054ef373f51",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/scenario-results.json",
+    "bytes": 4375,
+    "sha256": "94b272aaa3fc552159ab08aab577b1ca3204d9116be1a3ddc51ccfd8c7cd2a39",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/screenshots/growth-model.png",
+    "bytes": 199383,
+    "sha256": "b505c980fcb9f64e0b067f379813bd15a2e17e49f5862444c167e3ebc1a04f7d",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/screenshots/growth-report.png",
+    "bytes": 327955,
+    "sha256": "e481717a7d3398b328feb4f3a919300051e61a4665203401444ae2d1aa51eba9",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/screenshots/home.png",
+    "bytes": 382879,
+    "sha256": "48f270ff1e1abafbceb1f2703f08bfc2a32b55925eaf574ca2ddbf5094185088",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/screenshots/logistics-rain.png",
+    "bytes": 525672,
+    "sha256": "22693259dd9d76724b5b820ea1088c6df1d567d334b69b8b4b278d70bdc9f532",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/screenshots/mobile-growth.png",
+    "bytes": 112801,
+    "sha256": "46a6afd44e8c3d2f274b600566c9c1682917b727f84388bd495d06aa4432c5fa",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/screenshots/mobile-logistics.png",
+    "bytes": 339444,
+    "sha256": "e94dcc1f831ba045713477e5c98baabe6406f36ddb9154f993ff8ae68174ad8f",
+    "tracked": true
+  },
+  {
+    "path": "project/docs/screenshots/simulation-rain.png",
+    "bytes": 197762,
+    "sha256": "6a4ea2fb2ae2be2989d1332b7159d699fd0b06ddbaff4ef895054b7b8ba15d78",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/dist/assets/charts-Df5Q3jWj.js",
+    "bytes": 404968,
+    "sha256": "7cb9486fc179e202e579b08e37cd1fd01d6688b7eb1d971f59c1ea13a058442d",
+    "tracked": false
+  },
+  {
+    "path": "project/frontend/dist/assets/index-B8ZHFAUd.js",
+    "bytes": 288554,
+    "sha256": "7707394dffc83017c3c3474480fb9c254a425d3f3031d280b43a15404ef73492",
+    "tracked": false
+  },
+  {
+    "path": "project/frontend/dist/assets/index-BjWzGbyd.css",
+    "bytes": 33020,
+    "sha256": "45d5efb5c1050db3711a48fee0684e36c9b1fd6152419f24e21d6bb32deceac6",
+    "tracked": false
+  },
+  {
+    "path": "project/frontend/dist/fonts/README.md",
+    "bytes": 627,
+    "sha256": "911e860a70689a6f355dcd44a516c1ea1a0b090160e72b7b7175d5d56ae2ec04",
+    "tracked": false
+  },
+  {
+    "path": "project/frontend/dist/fonts/user-pingfang.ttf",
+    "bytes": 13168700,
+    "sha256": "ec835c1ce5773b74cd9b8f1eca0efd13b5d873fc8c5692b4f02878a2c995de5e",
+    "tracked": false
+  },
+  {
+    "path": "project/frontend/dist/index.html",
+    "bytes": 875,
+    "sha256": "bae33ea90021aa1a0277453c35d18f612efbd5bc8d096de3c1cac8897c7e5339",
+    "tracked": false
+  },
+  {
+    "path": "project/frontend/dist/mark.svg",
+    "bytes": 267,
+    "sha256": "cda3c92d8716304688f17a7c3983a35a6ac2814e371345a9d45c5bc5c92b67f7",
+    "tracked": false
+  },
+  {
+    "path": "project/frontend/e2e/phase46.spec.ts",
+    "bytes": 13622,
+    "sha256": "07a8a3f393be5739560e111695e0b38842e90896d184f993fe3a51dc9606cab3",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/e2e/workflows.spec.ts",
+    "bytes": 13915,
+    "sha256": "b8045543bfe3f5a689b82d042d0cd9423ab2c4e9a539581387edeefcd78a3e54",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/index.html",
+    "bytes": 700,
+    "sha256": "b2c170fe6451817a5da640cb7ef4d65accec6a6daf852a12960adbbbc671fa29",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/package-lock.json",
+    "bytes": 79780,
+    "sha256": "494f693e1a8210e81f76e7476252498ec79b057f6cf87d14a47d9606d056c17d",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/package.json",
+    "bytes": 632,
+    "sha256": "7d51f80aa792be63af7d751d6d5aa83c0038f6f3c2b9e719fdfd45e54688272c",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/playwright.config.ts",
+    "bytes": 553,
+    "sha256": "0682ca69bc5c3a740ba341ef5c179084df911506114adaa4179a0c0140de832c",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/playwright.phase46.config.ts",
+    "bytes": 573,
+    "sha256": "08caa6cfe1afb0d899fea5ba51269d2a0caaf3f2134c57f2dd1a8be5e196e191",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/public/fonts/README.md",
+    "bytes": 627,
+    "sha256": "911e860a70689a6f355dcd44a516c1ea1a0b090160e72b7b7175d5d56ae2ec04",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/public/fonts/user-pingfang.ttf",
+    "bytes": 13168700,
+    "sha256": "ec835c1ce5773b74cd9b8f1eca0efd13b5d873fc8c5692b4f02878a2c995de5e",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/public/mark.svg",
+    "bytes": 267,
+    "sha256": "cda3c92d8716304688f17a7c3983a35a6ac2814e371345a9d45c5bc5c92b67f7",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/src/App.tsx",
+    "bytes": 23799,
+    "sha256": "07a446c86640b54909be8c098d2b12e85e4c48c445e992489fca83fe105afd2d",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/src/Growth.tsx",
+    "bytes": 28500,
+    "sha256": "755090e1dbbacb3c702734115ce181f4e9ef80a6cc0755a1ed2d18eef8cd559f",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/src/Logistics.tsx",
+    "bytes": 41480,
+    "sha256": "76f2cb0e8e6ad133e309a06fa5629394308ca47b605d4179ce1b08a5f7a54a4d",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/src/api.ts",
+    "bytes": 1457,
+    "sha256": "e57294642b6752dcff11aae464c260b3310a552c357deba5dd31ca4a3a89bb78",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/src/components.tsx",
+    "bytes": 18814,
+    "sha256": "1695b62c875a48586b2954a3a7f1441e4ebcd188cc76121a2c79bb53841b79dc",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/src/design.ts",
+    "bytes": 384,
+    "sha256": "8d15243ec0e5d586ff0cec16fcd2d308e719b0a7ade2464582821c012980900f",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/src/main.tsx",
+    "bytes": 233,
+    "sha256": "575c9833bc5993d6a7b8db0587b8ecc202809448fd71842c5a4331bec6ee7977",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/src/studio.css",
+    "bytes": 41116,
+    "sha256": "7d2a1d6089c8892259f3218224666df5f8327ee2b3c43dd1e9c8a15aaeb65a3b",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/src/style.css",
+    "bytes": 49,
+    "sha256": "477285e7ccb52738f4540d49eff1115e04857b56037ef1bfb76005aa26a97c34",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/src/tokens.css",
+    "bytes": 1086,
+    "sha256": "f557b9c7813a1c38fe2a4fef006b5fc3e6739e19cc4a9b93e68158ac64e62965",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/src/types.ts",
+    "bytes": 5073,
+    "sha256": "4b306203b846e451a194e7e51e3f916c21a1db1709cb25e42a65dd832a90d79a",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/tsconfig.json",
+    "bytes": 486,
+    "sha256": "0aa983e23e6011ce9fa70de49bfbe1b118b76e828b65a60237c223b3b3d69cb4",
+    "tracked": true
+  },
+  {
+    "path": "project/frontend/vite.config.ts",
+    "bytes": 329,
+    "sha256": "03ffaa4fe2d8483f08944e000c6f2b2eb827c814cf93b40404d25c7737ab1d08",
+    "tracked": true
+  },
+  {
+    "path": "project/pytest.ini",
+    "bytes": 42,
+    "sha256": "6c6ccf864e8f2d2e0223ee8e39bfde660c12435aa37d81e2b14000a6bee15003",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/assemble_phase3.py",
+    "bytes": 5769,
+    "sha256": "75d7a565bf944b78ae110ec218f9c6396c452e415f74f795d120c2b0f9a6041c",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/assemble_phase45.py",
+    "bytes": 6038,
+    "sha256": "22a1e0af9e2588dd2effbe1105e3ed6ebdb4ab7e667f2cbbbb294a11e92f8604",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/assemble_phase46.py",
+    "bytes": 6046,
+    "sha256": "b005b89ddc45616bb0a274a2a7848c340962011f2c66834c5479b18fd249bd74",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/audit_phase3_sources.py",
+    "bytes": 3164,
+    "sha256": "9f4eaa9f94f87fc17e9e875f437a5fb6e4288b1bed46f4ba73dc1795458b9129",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/audit_phase4.py",
+    "bytes": 3297,
+    "sha256": "10f400a0f4a267eaf9c770af1758cd8905655ba0ff7ba1d2d0a44e2f381276e9",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/audit_phase5_media.py",
+    "bytes": 2557,
+    "sha256": "b8da6779081d513c03f7fc518709790ae1c5f50e62791da3307e6b2e89396b5f",
+    "tracked": false
+  },
+  {
+    "path": "project/scripts/audit_phase5_privacy.py",
+    "bytes": 11440,
+    "sha256": "2ce096a0877930ad3730c4bb20ca59cd12a74d65c44ace9b42df59bb11910878",
+    "tracked": false
+  },
+  {
+    "path": "project/scripts/build_phase2_docs.py",
+    "bytes": 49071,
+    "sha256": "0a82048fdffb6e4c80c127cef9c9b9d9fb351c83113c6b2c88f9aa6bb5bdff99",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/build_phase4_docs.py",
+    "bytes": 7470,
+    "sha256": "b167800330f402c3eafe259ca0b4ea3fec21d49c8f2a0e350cd86f8b9fc2a240",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/build_phase4_slides.mjs",
+    "bytes": 12524,
+    "sha256": "48a2182a781f3e1bd0167de57d4825bb61eebdcb65c66bee5fb5cf5a1a878dfa",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/build_windows.ps1",
+    "bytes": 1779,
+    "sha256": "920b6dce5a110d968b3ba2272421a8a4643cefad590cf433b9645fe3ab13d391",
+    "tracked": false
+  },
+  {
+    "path": "project/scripts/capture_phase46_materials.cjs",
+    "bytes": 2365,
+    "sha256": "0762933f1d2c5924115dabc9e408f6526a07aee543036b7e127c84f0e42fc5c3",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/capture_phase46_network.cjs",
+    "bytes": 781,
+    "sha256": "4f7dcf693484fcfb821e158205a4a7f827dfe08d32b496664ba528086521bdc3",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/check_phase45_site.cjs",
+    "bytes": 3142,
+    "sha256": "219528402cb75e0a86e6440a55e14f658e108049df887b8e56132ac92f677bed",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/check_phase46.cjs",
+    "bytes": 4731,
+    "sha256": "b40e928a581257e259d4c0c8b269a5cf0637a913d4722a35a72585e3c8a1ec6f",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/check_phase46_font.cjs",
+    "bytes": 2534,
+    "sha256": "36bcb4ce54726f720398af1960d6b79a86d1c77ea0472a8ab3acf23c36ede343",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/check_phase4_demo.cjs",
+    "bytes": 4509,
+    "sha256": "6e249ab7e853bb7a12446fd607c6382a93205f05a76b0811125903b6a0e652fc",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/final_checks_phase46.py",
+    "bytes": 4023,
+    "sha256": "fc249b04e988d74ef7100b55dd48a39c5daec5748f01d0b677982c46a8a464ad",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/finalize_phase46_slides.mjs",
+    "bytes": 2355,
+    "sha256": "fcf7a121da3cd33acba5d49f3f79d78114ba0ba9736bcd026a5954f90ff04e88",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/playback_phase3.cjs",
+    "bytes": 4418,
+    "sha256": "563c0210ac6f8dbb06ba30c22049055403f3333167f5625158dfbd540e6c029b",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/playback_phase45.cjs",
+    "bytes": 4544,
+    "sha256": "e635a2d5759aadff827537bb17bd6f637d4a07137e40ae438c1300ef9c739118",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/playback_phase46.cjs",
+    "bytes": 4544,
+    "sha256": "54ea3b1d06f79ec32290cb55d93539d37ae271e430f8b19cbab54bb210c4d65b",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/prepare_phase3.py",
+    "bytes": 9093,
+    "sha256": "60ea590729e9b0b868f593ca154ac4dccf0c646572522b9e7c53b0202da03e0c",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/prepare_phase4.py",
+    "bytes": 14064,
+    "sha256": "43fc844ff1a6abcc7e002b2488dd11c00836ec276b27c387ae62ec2416f91468",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/prepare_phase45.py",
+    "bytes": 5920,
+    "sha256": "ef49f86937764b8c915897b7f69d0df0521c8a68a0b64598b40dd60d5695078f",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/prepare_public_phase5.py",
+    "bytes": 4463,
+    "sha256": "78365764e4e88e629038e44fdfd8adecf4ebdcabdf56fc4a9e493fbd07775cc1",
+    "tracked": false
+  },
+  {
+    "path": "project/scripts/probe_phase45_voice.py",
+    "bytes": 855,
+    "sha256": "8a289240797d84c7afe255f93ac38d7206a3606e69023ec01af32774006aac89",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/record_phase3.cjs",
+    "bytes": 12135,
+    "sha256": "b3f75258df298513cf9001d35edc86264f879c98b4748a5660f9f5627642ff80",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/record_phase45.cjs",
+    "bytes": 12519,
+    "sha256": "5d9119ecf5d9bf8e518a9cbc5cc42d0b2b574a005ea1e6df5ba1d811d04f7d09",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/record_phase46.cjs",
+    "bytes": 12620,
+    "sha256": "a7ea4efeeed317531afd080eabb178adf8fb7fba969ba0b0e2ba57e9c46fdbf4",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/render_phase2_docs.py",
+    "bytes": 2076,
+    "sha256": "16b1009c7615f4c2a51dc7a03a66a09f94ef3384f25c052cc436f2ee59387dbc",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/render_phase4.py",
+    "bytes": 3166,
+    "sha256": "43392ee234522f736ef27961720abdc9905448a0c32556795851cecf6b578e86",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/render_phase46.py",
+    "bytes": 3297,
+    "sha256": "51d3619d8f8b857669f028cc0f649af94714a978ac560b5096dd2fa9d4c40e42",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/report_phase3.py",
+    "bytes": 5498,
+    "sha256": "e029a913507e4bebde48c37407c826160d3831ac36e0b1dcb8577fba23c8801a",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/report_phase45.py",
+    "bytes": 8313,
+    "sha256": "bcd7501b967d4085b5263414693dd15446d880a614f5c286bb025dccb5edf904",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/report_phase46.py",
+    "bytes": 9241,
+    "sha256": "3b7d1de35c78dd271d49d6f83f181ac6485030baa0eef11ad341d76e4730a288",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/reset_database.py",
+    "bytes": 238,
+    "sha256": "ef5ff939192aa0db06f710bff66f67eafb52d2564edd7f9ac21438715d23cc14",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/start.py",
+    "bytes": 2857,
+    "sha256": "c66b8f850e8d2c99729021c2d12448fe9eb403bdc0c409ddc69a638b365ad468",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/synthesize_phase3.ps1",
+    "bytes": 1268,
+    "sha256": "1ef6a2531875687bd1010a936a3f228c72f2ae5de598270268ecdcffebb60bb2",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/test_desktop_phase5.cjs",
+    "bytes": 8049,
+    "sha256": "36475e06b7bb1d43c932d6b284bf9938f11483f6a41bbcb16911b822e5ff8765",
+    "tracked": false
+  },
+  {
+    "path": "project/scripts/timeline_phase3.py",
+    "bytes": 3417,
+    "sha256": "e8e592e8bf3c9e9681ec3fbb2f88b75fc1d23c499636a7dad7847366053e7939",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/update_phase46_documents.py",
+    "bytes": 7252,
+    "sha256": "60775ebe650e2f7a81f613b5fad63366c07d85467a09effeefbcacd1637680ee",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/update_phase46_guide.py",
+    "bytes": 2404,
+    "sha256": "e431b08a2e13aae4ec230049271334cf7027bda9bebb98d131d0b5c4dd47ea03",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/update_phase46_slides.mjs",
+    "bytes": 352,
+    "sha256": "d52d61823021edfeab9e5d89776c11ca6d4483add6fa4d39e536ae12325c0772",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/verify_phase2_docs.py",
+    "bytes": 4122,
+    "sha256": "806f858f041115bbca53681f7e5321e6e47122f61dd0bb7bc80bb707289fcb13",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/verify_phase3.py",
+    "bytes": 6552,
+    "sha256": "c41bb9f8a3010541b6718510a7e7b963a8a8fa0b227c0f838b47054e2d515cb9",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/verify_phase4.py",
+    "bytes": 7401,
+    "sha256": "0f6be0ad419b29b46df4df8b231502cfdf8350e584ecf90101a67e411a11e0b6",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/verify_phase45.py",
+    "bytes": 6732,
+    "sha256": "1daf6449bf8100b56d02087b4253da3349d45a355aa9227ba780797e3439425d",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/verify_phase46_video.py",
+    "bytes": 6698,
+    "sha256": "4ae92dab96284024960e708a30a404690769bf1300a1ae4a2039bdc84ebb075d",
+    "tracked": true
+  },
+  {
+    "path": "project/scripts/verify_restart.py",
+    "bytes": 3363,
+    "sha256": "aa07cb87bf9e86106a708b37083605abb87522b19cb5db7f47a4372dea952e50",
+    "tracked": true
+  },
+  {
+    "path": "project/start.cmd",
+    "bytes": 73,
+    "sha256": "cbbb92c9c122fa2514810edc99ff0986abc15c21d2c402df13438cf224f98cbc",
+    "tracked": true
+  },
+  {
+    "path": "project/tests/conftest.py",
+    "bytes": 306,
+    "sha256": "49cd248b317385befe0cfe3c55adc2f46032abed231d5326c143a9846c428e95",
+    "tracked": true
+  },
+  {
+    "path": "project/tests/test_api.py",
+    "bytes": 3548,
+    "sha256": "c42015a5708f502eb42794702a816978f281b080788633fb579990f95f2069cb",
+    "tracked": true
+  },
+  {
+    "path": "project/tests/test_desktop_entry.py",
+    "bytes": 3741,
+    "sha256": "ce18bcf517fd48440c5d35900ed5712c6672f3a2bd78fc93a287f3756d8640f8",
+    "tracked": false
+  },
+  {
+    "path": "project/tests/test_engine.py",
+    "bytes": 10167,
+    "sha256": "9165ef054135c1f9760fcbeae956a387a54181a7df33982802c8599a90e0d71c",
+    "tracked": true
+  },
+  {
+    "path": "project/tests/test_growth.py",
+    "bytes": 3027,
+    "sha256": "227eebe331e5a6f272167850707505c0977b20dfe24a940132530223def0a509",
+    "tracked": true
+  }
+]

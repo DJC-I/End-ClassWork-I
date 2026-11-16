@@ -1,0 +1,33 @@
+{
+  "office_public_differences": [
+    {
+      "file": "DataClawHub平台运营方案.docx",
+      "changed_parts": [],
+      "notes_and_images_preserved": true
+    },
+    {
+      "file": "人工智能导论_双赛题结课作品展示.pptx",
+      "changed_parts": [
+        "docProps/core.xml"
+      ],
+      "notes_and_images_preserved": true
+    },
+    {
+      "file": "气象驱动物流运输风险预警与应对决策.docx",
+      "changed_parts": [],
+      "notes_and_images_preserved": true
+    },
+    {
+      "file": "答辩常见问题及参考回答.docx",
+      "changed_parts": [],
+      "notes_and_images_preserved": true
+    },
+    {
+      "file": "课堂展示_单人完整演讲稿.docx",
+      "changed_parts": [],
+      "notes_and_images_preserved": true
+    }
+  ],
+  "private_database_hash": "3fa29175e5e729539ed725600d38125f71d879bd63ef18134b6d6bff96cad4ac",
+  "preserved_historical_files": 32
+}

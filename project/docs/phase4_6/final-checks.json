@@ -1,0 +1,312 @@
+{
+  "passed": true,
+  "assertions": 76,
+  "baseline_files": 40,
+  "speech_characters": 1223,
+  "checks": [
+    {
+      "name": "preserved deliverables/phase2/DataClawHub平台运营方案.docx",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase2/manifest.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase2/SHA256SUMS.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase2/气象驱动物流运输风险预警与应对决策.docx",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase3/manifest.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase3/SHA256SUMS.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase3/视频检验报告.md",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase3/赛题一_DataClawHub平台运营方案.mp4",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase3/赛题一_DataClawHub平台运营方案.srt",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase3/赛题一_DataClawHub平台运营方案_分镜脚本.md",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase3/赛题一_DataClawHub平台运营方案_解说稿.md",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase3/赛题二_气象物流AI风险决策系统.mp4",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase3/赛题二_气象物流AI风险决策系统.srt",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase3/赛题二_气象物流AI风险决策系统_分镜脚本.md",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase3/赛题二_气象物流AI风险决策系统_解说稿.md",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase4/人工智能导论_双赛题结课作品展示.pptx",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase4/演示操作清单.md",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase4/第四阶段验收报告.md",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase4/答辩常见问题及参考回答.docx",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase4/课堂展示_单人完整演讲稿.docx",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase4_5/manifest.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase4_5/SHA256SUMS.txt",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase4_5/第4.5阶段验收报告.md",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase4_5/赛题一_DataClawHub平台运营方案.mp4",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase4_5/赛题一_DataClawHub平台运营方案.srt",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase4_5/赛题一_DataClawHub平台运营方案_分镜脚本.md",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase4_5/赛题一_DataClawHub平台运营方案_解说稿.md",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase4_5/赛题二_气象物流AI风险决策系统.mp4",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase4_5/赛题二_气象物流AI风险决策系统.srt",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase4_5/赛题二_气象物流AI风险决策系统_分镜脚本.md",
+      "passed": true
+    },
+    {
+      "name": "preserved deliverables/phase4_5/赛题二_气象物流AI风险决策系统_解说稿.md",
+      "passed": true
+    },
+    {
+      "name": "preserved backend/content.py",
+      "passed": true
+    },
+    {
+      "name": "preserved backend/db.py",
+      "passed": true
+    },
+    {
+      "name": "preserved backend/engine.py",
+      "passed": true
+    },
+    {
+      "name": "preserved backend/growth.py",
+      "passed": true
+    },
+    {
+      "name": "preserved backend/main.py",
+      "passed": true
+    },
+    {
+      "name": "preserved backend/models.py",
+      "passed": true
+    },
+    {
+      "name": "preserved backend/seed.py",
+      "passed": true
+    },
+    {
+      "name": "preserved backend/__init__.py",
+      "passed": true
+    },
+    {
+      "name": "preserved database/skyroute.db",
+      "passed": true
+    },
+    {
+      "name": "unchanged phase4.5 narration growth",
+      "passed": true
+    },
+    {
+      "name": "unchanged phase4.5 narration logistics",
+      "passed": true
+    },
+    {
+      "name": "round1 52 views",
+      "passed": true
+    },
+    {
+      "name": "round1 actual font and no overflow",
+      "passed": true
+    },
+    {
+      "name": "round2 52 views",
+      "passed": true
+    },
+    {
+      "name": "round2 actual font and no overflow",
+      "passed": true
+    },
+    {
+      "name": "video technical pass",
+      "passed": true
+    },
+    {
+      "name": "actual video playback",
+      "passed": true
+    },
+    {
+      "name": "font original loaded with full observed coverage",
+      "passed": true
+    },
+    {
+      "name": "font platform glyphs/fullscreen/mobile/keyboard",
+      "passed": true
+    },
+    {
+      "name": "pptx no corrupt members",
+      "passed": true
+    },
+    {
+      "name": "retained complete notes ppt/notesSlides/notesSlide1.xml",
+      "passed": true
+    },
+    {
+      "name": "retained complete notes ppt/notesSlides/notesSlide2.xml",
+      "passed": true
+    },
+    {
+      "name": "retained complete notes ppt/notesSlides/notesSlide3.xml",
+      "passed": true
+    },
+    {
+      "name": "retained complete notes ppt/notesSlides/notesSlide4.xml",
+      "passed": true
+    },
+    {
+      "name": "retained complete notes ppt/notesSlides/notesSlide5.xml",
+      "passed": true
+    },
+    {
+      "name": "retained complete notes ppt/notesSlides/notesSlide6.xml",
+      "passed": true
+    },
+    {
+      "name": "retained complete notes ppt/notesSlides/notesSlide7.xml",
+      "passed": true
+    },
+    {
+      "name": "retained complete notes ppt/notesSlides/notesSlide8.xml",
+      "passed": true
+    },
+    {
+      "name": "retained complete notes ppt/notesSlides/notesSlide9.xml",
+      "passed": true
+    },
+    {
+      "name": "retained complete notes ppt/notesSlides/notesSlide10.xml",
+      "passed": true
+    },
+    {
+      "name": "retained complete notes ppt/notesSlides/notesSlide11.xml",
+      "passed": true
+    },
+    {
+      "name": "retained complete notes ppt/notesSlides/notesSlide12.xml",
+      "passed": true
+    },
+    {
+      "name": "retained chart workbook ppt/embeddings/chart-data-snapshot-001.xlsx",
+      "passed": true
+    },
+    {
+      "name": "updated screenshot slide 6",
+      "passed": true
+    },
+    {
+      "name": "updated screenshot slide 8",
+      "passed": true
+    },
+    {
+      "name": "updated screenshot slide 9",
+      "passed": true
+    },
+    {
+      "name": "docx intact DataClawHub平台运营方案",
+      "passed": true
+    },
+    {
+      "name": "docx intact 气象驱动物流运输风险预警与应对决策",
+      "passed": true
+    },
+    {
+      "name": "docx intact 课堂展示_单人完整演讲稿",
+      "passed": true
+    },
+    {
+      "name": "docx intact 答辩常见问题及参考回答",
+      "passed": true
+    },
+    {
+      "name": "12 pages of narration retained",
+      "passed": true
+    },
+    {
+      "name": "speech 1223 characters",
+      "passed": true
+    },
+    {
+      "name": "Word pages 10/13/8/5",
+      "passed": true
+    },
+    {
+      "name": "12 rendered slides",
+      "passed": true
+    },
+    {
+      "name": "no final phase5 zip created",
+      "passed": true
+    }
+  ]
+}

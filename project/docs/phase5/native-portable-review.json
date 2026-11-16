@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "executable": "SkyRoute-AI-v1.0.0-Windows-x64.exe",
+  "moved_chinese_space_path": true,
+  "non_admin": true,
+  "minimal_path": true,
+  "gui_observed": [
+    "homepage real window",
+    "logistics actual simulated 6 orders and map",
+    "clicked risk analysis: SR-001 47.15; detour 1242; 2.95h; residual risk11"
+  ],
+  "normal_window_close": true,
+  "task_processes_remaining_after_close": 0,
+  "automation_limitation": "Playwright inspector cannot directly attach the NSIS portable wrapper; complete20-group tests run on hash-identical payload."
+}

@@ -1,0 +1,796 @@
+{
+  "phase": 3,
+  "date": "2026-11-16",
+  "target_seconds": 170,
+  "viewport": [
+    1920,
+    900
+  ],
+  "output": [
+    1920,
+    1080
+  ],
+  "voice": "Microsoft Huihui Desktop",
+  "videos": [
+    {
+      "id": "growth",
+      "name": "赛题一_DataClawHub平台运营方案",
+      "scenes": [
+        {
+          "id": "position",
+          "title": "平台定位与首次价值",
+          "action": "打开真实运营工作台，展示定位卡片",
+          "lines": [
+            "这是DataClawHub平台运营方案。",
+            "我们用一个可解释的物流案例，帮助校园用户完成首次实践。",
+            "现在展示的是本项目真实运行的运营工作台。"
+          ],
+          "speech": [
+            {
+              "text": "这是DataClawHub平台运营方案。",
+              "file": ".tools/phase3/speech/growth_position_00.wav",
+              "samples": 63737,
+              "start": 0.4,
+              "end": 3.0557083333333335
+            },
+            {
+              "text": "我们用一个可解释的物流案例，帮助校园用户完成首次实践。",
+              "file": ".tools/phase3/speech/growth_position_01.wav",
+              "samples": 115639,
+              "start": 3.215708333333333,
+              "end": 8.034
+            },
+            {
+              "text": "现在展示的是本项目真实运行的运营工作台。",
+              "file": ".tools/phase3/speech/growth_position_02.wav",
+              "samples": 89392,
+              "start": 8.194,
+              "end": 11.918666666666667
+            }
+          ],
+          "start": 0.0,
+          "end": 14.228625,
+          "duration": 14.228625
+        },
+        {
+          "id": "personas",
+          "title": "四类用户与需求",
+          "action": "滚动展示四类真实用户画像卡片",
+          "lines": [
+            "目标用户分为大学生、AI开发者、物流和数据行业从业者。",
+            "学生关心上手门槛，开发者关注复现，行业人员关注约束与可信度。",
+            "这些画像是研究假设，计划通过访谈修订。"
+          ],
+          "speech": [
+            {
+              "text": "目标用户分为大学生、AI开发者、物流和数据行业从业者。",
+              "file": ".tools/phase3/speech/growth_personas_00.wav",
+              "samples": 121738,
+              "start": 14.628625,
+              "end": 19.701041666666665
+            },
+            {
+              "text": "学生关心上手门槛，开发者关注复现，行业人员关注约束与可信度。",
+              "file": ".tools/phase3/speech/growth_personas_01.wav",
+              "samples": 137816,
+              "start": 19.861041666666665,
+              "end": 25.603375
+            },
+            {
+              "text": "这些画像是研究假设，计划通过访谈修订。",
+              "file": ".tools/phase3/speech/growth_personas_02.wav",
+              "samples": 90635,
+              "start": 25.763375,
+              "end": 29.539833333333334
+            }
+          ],
+          "start": 14.228625,
+          "end": 31.84979166666667,
+          "duration": 17.621166666666667
+        },
+        {
+          "id": "strategy",
+          "title": "从拉新到留存",
+          "action": "滚动展示六项运营策略",
+          "lines": [
+            "推广先以暴雨冷链问题吸引兴趣，再引导完成分析并查看报告。",
+            "留存安排入门答疑、约束挑战和第七天复盘。",
+            "同题不同解活动，让参与者比较权重与取舍。"
+          ],
+          "speech": [
+            {
+              "text": "推广先以暴雨冷链问题吸引兴趣，再引导完成分析并查看报告。",
+              "file": ".tools/phase3/speech/growth_strategy_00.wav",
+              "samples": 125110,
+              "start": 32.24979166666667,
+              "end": 37.46270833333333
+            },
+            {
+              "text": "留存安排入门答疑、约束挑战和第七天复盘。",
+              "file": ".tools/phase3/speech/growth_strategy_01.wav",
+              "samples": 94809,
+              "start": 37.622708333333335,
+              "end": 41.57308333333334
+            },
+            {
+              "text": "同题不同解活动，让参与者比较权重与取舍。",
+              "file": ".tools/phase3/speech/growth_strategy_02.wav",
+              "samples": 98043,
+              "start": 41.73308333333333,
+              "end": 45.81820833333333
+            }
+          ],
+          "start": 31.84979166666667,
+          "end": 48.128166666666665,
+          "duration": 16.278374999999997
+        },
+        {
+          "id": "channels",
+          "title": "内容渠道与AI辅助",
+          "action": "展示内容策略及AI工具卡片",
+          "lines": [
+            "校园社群、内容平台和开发者社区采用不同内容入口。",
+            "AI辅助标题和问答草稿，人工核实来源与表述。",
+            "合作、发布和经费仍是计划，不能当作已经取得的成果。"
+          ],
+          "speech": [
+            {
+              "text": "校园社群、内容平台和开发者社区采用不同内容入口。",
+              "file": ".tools/phase3/speech/growth_channels_00.wav",
+              "samples": 110894,
+              "start": 48.528166666666664,
+              "end": 53.14875
+            },
+            {
+              "text": "AI辅助标题和问答草稿，人工核实来源与表述。",
+              "file": ".tools/phase3/speech/growth_channels_01.wav",
+              "samples": 101296,
+              "start": 53.30875,
+              "end": 57.52941666666667
+            },
+            {
+              "text": "合作、发布和经费仍是计划，不能当作已经取得的成果。",
+              "file": ".tools/phase3/speech/growth_channels_02.wav",
+              "samples": 113473,
+              "start": 57.689416666666666,
+              "end": 62.417458333333336
+            }
+          ],
+          "start": 48.128166666666665,
+          "end": 64.72741666666667,
+          "duration": 16.599250000000005
+        },
+        {
+          "id": "funnel",
+          "title": "默认增长漏斗",
+          "action": "切换预算与增长模型，展示默认漏斗",
+          "lines": [
+            "打开增长模型，默认独立曝光为一万二千次。",
+            "按百分之十二访问率，得到一千四百四十次访问。",
+            "继续逐层相乘，预计激活二百零一点六人。",
+            "小数表达期望量，并非真实用户统计。"
+          ],
+          "speech": [
+            {
+              "text": "打开增长模型，默认独立曝光为一万二千次。",
+              "file": ".tools/phase3/speech/growth_funnel_00.wav",
+              "samples": 92912,
+              "start": 65.12741666666666,
+              "end": 68.99875
+            },
+            {
+              "text": "按百分之十二访问率，得到一千四百四十次访问。",
+              "file": ".tools/phase3/speech/growth_funnel_01.wav",
+              "samples": 97240,
+              "start": 69.15875,
+              "end": 73.21041666666666
+            },
+            {
+              "text": "继续逐层相乘，预计激活二百零一点六人。",
+              "file": ".tools/phase3/speech/growth_funnel_02.wav",
+              "samples": 87647,
+              "start": 73.37041666666667,
+              "end": 77.022375
+            },
+            {
+              "text": "小数表达期望量，并非真实用户统计。",
+              "file": ".tools/phase3/speech/growth_funnel_03.wav",
+              "samples": 84269,
+              "start": 77.182375,
+              "end": 80.69358333333334
+            }
+          ],
+          "start": 64.72741666666667,
+          "end": 83.00354166666666,
+          "duration": 18.276124999999993
+        },
+        {
+          "id": "budget",
+          "title": "五渠道预算与成本",
+          "action": "滚动到预算表，显示五渠道及默认计算结果",
+          "lines": [
+            "五类资源预算合计三千元，每个渠道的预算和千次覆盖单价都可调整。",
+            "默认渠道模型预计激活四百三十二点五一人，获客成本六点九四元。",
+            "渠道覆盖未去重，与独立曝光漏斗分别测算。"
+          ],
+          "speech": [
+            {
+              "text": "五类资源预算合计三千元，每个渠道的预算和千次覆盖单价都可调整。",
+              "file": ".tools/phase3/speech/growth_budget_00.wav",
+              "samples": 132402,
+              "start": 83.40354166666667,
+              "end": 88.92029166666667
+            },
+            {
+              "text": "默认渠道模型预计激活四百三十二点五一人，获客成本六点九四元。",
+              "file": ".tools/phase3/speech/growth_budget_01.wav",
+              "samples": 129133,
+              "start": 89.08029166666667,
+              "end": 94.46083333333333
+            },
+            {
+              "text": "渠道覆盖未去重，与独立曝光漏斗分别测算。",
+              "file": ".tools/phase3/speech/growth_budget_02.wav",
+              "samples": 91555,
+              "start": 94.62083333333334,
+              "end": 98.435625
+            }
+          ],
+          "start": 83.00354166666666,
+          "end": 100.74558333333333,
+          "duration": 17.742041666666665
+        },
+        {
+          "id": "adjust",
+          "title": "修改参数并实时计算",
+          "action": "实际填写校园预算900、访问率20并保存",
+          "lines": [
+            "现在把校园预算从六百元改为九百元，访问率改为百分之二十。",
+            "真实后端重新计算，总预算变成三千三百元，漏斗访问量变成二千四百。",
+            "点击保存后，参数写入本地数据库。"
+          ],
+          "speech": [
+            {
+              "text": "现在把校园预算从六百元改为九百元，访问率改为百分之二十。",
+              "file": ".tools/phase3/speech/growth_adjust_00.wav",
+              "samples": 128214,
+              "start": 101.14558333333333,
+              "end": 106.48783333333333
+            },
+            {
+              "text": "真实后端重新计算，总预算变成三千三百元，漏斗访问量变成二千四百。",
+              "file": ".tools/phase3/speech/growth_adjust_01.wav",
+              "samples": 148330,
+              "start": 106.64783333333334,
+              "end": 112.82825
+            },
+            {
+              "text": "点击保存后，参数写入本地数据库。",
+              "file": ".tools/phase3/speech/growth_adjust_02.wav",
+              "samples": 78581,
+              "start": 112.98825,
+              "end": 116.26245833333333
+            }
+          ],
+          "start": 100.74558333333333,
+          "end": 118.57241666666667,
+          "duration": 17.82683333333334
+        },
+        {
+          "id": "experiment",
+          "title": "A/B实验与不显著结果",
+          "action": "切换实验并点击计算，展示实际结果",
+          "lines": [
+            "实验示例中，两组各二百人，分别有三十人和四十人完成。",
+            "差异为五个百分点，但双侧检验的P值约为零点一八八。",
+            "区间跨过零，当前不能判断第二组胜出。"
+          ],
+          "speech": [
+            {
+              "text": "实验示例中，两组各二百人，分别有三十人和四十人完成。",
+              "file": ".tools/phase3/speech/growth_experiment_00.wav",
+              "samples": 122923,
+              "start": 118.97241666666666,
+              "end": 124.09420833333333
+            },
+            {
+              "text": "差异为五个百分点，但双侧检验的P值约为零点一八八。",
+              "file": ".tools/phase3/speech/growth_experiment_01.wav",
+              "samples": 108607,
+              "start": 124.25420833333334,
+              "end": 128.7795
+            },
+            {
+              "text": "区间跨过零，当前不能判断第二组胜出。",
+              "file": ".tools/phase3/speech/growth_experiment_02.wav",
+              "samples": 87913,
+              "start": 128.9395,
+              "end": 132.60254166666667
+            }
+          ],
+          "start": 118.57241666666667,
+          "end": 134.9125,
+          "duration": 16.340083333333325
+        },
+        {
+          "id": "execution",
+          "title": "执行排期与验证计划",
+          "action": "展示三项实验和实际执行看板，不伪造完成状态",
+          "lines": [
+            "真正验证需要随机分流、固定指标和分析时点。",
+            "检测五个百分点差异，示例估算每组约需八百人。",
+            "执行看板记录负责人、时间与指标，第七天留存需后续观察。"
+          ],
+          "speech": [
+            {
+              "text": "真正验证需要随机分流、固定指标和分析时点。",
+              "file": ".tools/phase3/speech/growth_execution_00.wav",
+              "samples": 96443,
+              "start": 135.3125,
+              "end": 139.33095833333334
+            },
+            {
+              "text": "检测五个百分点差异，示例估算每组约需八百人。",
+              "file": ".tools/phase3/speech/growth_execution_01.wav",
+              "samples": 100499,
+              "start": 139.49095833333334,
+              "end": 143.67841666666666
+            },
+            {
+              "text": "执行看板记录负责人、时间与指标，第七天留存需后续观察。",
+              "file": ".tools/phase3/speech/growth_execution_02.wav",
+              "samples": 127665,
+              "start": 143.83841666666666,
+              "end": 149.15779166666667
+            }
+          ],
+          "start": 134.9125,
+          "end": 151.46775,
+          "duration": 16.55525
+        },
+        {
+          "id": "report",
+          "title": "报告与复盘边界",
+          "action": "实际生成运营报告并展示下载入口",
+          "lines": [
+            "最后生成运营报告，保留参数、任务和计算快照。",
+            "每天复核花费、漏斗和失败反馈，再决定继续、修改或停止。",
+            "本项目完成了可操作的方案推演，实际推广成效仍待真实数据验证。"
+          ],
+          "speech": [
+            {
+              "text": "最后生成运营报告，保留参数、任务和计算快照。",
+              "file": ".tools/phase3/speech/growth_report_00.wav",
+              "samples": 106835,
+              "start": 151.86775,
+              "end": 156.31920833333334
+            },
+            {
+              "text": "每天复核花费、漏斗和失败反馈，再决定继续、修改或停止。",
+              "file": ".tools/phase3/speech/growth_report_01.wav",
+              "samples": 132549,
+              "start": 156.47920833333333,
+              "end": 162.00208333333333
+            },
+            {
+              "text": "本项目完成了可操作的方案推演，实际推广成效仍待真实数据验证。",
+              "file": ".tools/phase3/speech/growth_report_02.wav",
+              "samples": 132664,
+              "start": 162.16208333333333,
+              "end": 167.68975
+            }
+          ],
+          "start": 151.46775,
+          "end": 170.0,
+          "duration": 18.532250000000005
+        }
+      ],
+      "duration": 170.0,
+      "speech_seconds": 139.540125
+    },
+    {
+      "id": "logistics",
+      "name": "赛题二_气象物流AI风险决策系统",
+      "scenes": [
+        {
+          "id": "overview",
+          "title": "天气预警怎样变成决策",
+          "action": "打开物流页面，展示天气选择及真实风险总览",
+          "lines": [
+            "这是气象物流AI风险决策系统。",
+            "我们把天气时间窗、运输订单和有向网络连接起来，比较成本、时效与风险。",
+            "页面中的路网和天气全部是教学模拟。"
+          ],
+          "speech": [
+            {
+              "text": "这是气象物流AI风险决策系统。",
+              "file": ".tools/phase3/speech/logistics_overview_00.wav",
+              "samples": 69283,
+              "start": 0.4,
+              "end": 3.286791666666667
+            },
+            {
+              "text": "我们把天气时间窗、运输订单和有向网络连接起来，比较成本、时效与风险。",
+              "file": ".tools/phase3/speech/logistics_overview_01.wav",
+              "samples": 155505,
+              "start": 3.4467916666666665,
+              "end": 9.926166666666667
+            },
+            {
+              "text": "页面中的路网和天气全部是教学模拟。",
+              "file": ".tools/phase3/speech/logistics_overview_02.wav",
+              "samples": 78044,
+              "start": 10.086166666666667,
+              "end": 13.338
+            }
+          ],
+          "start": 0.0,
+          "end": 14.039541666666667,
+          "duration": 14.039541666666667
+        },
+        {
+          "id": "orders",
+          "title": "真实订单台账与查询",
+          "action": "打开运输订单管理，查询SR-001再清空查询",
+          "lines": [
+            "订单台账包含六条模拟运输计划，可以查询、编辑、导入与导出。",
+            "这里选择一号冷链订单，载重八吨，承诺十三点三十五分送达。",
+            "运输方案必须满足连接和单票运力约束。"
+          ],
+          "speech": [
+            {
+              "text": "订单台账包含六条模拟运输计划，可以查询、编辑、导入与导出。",
+              "file": ".tools/phase3/speech/logistics_orders_00.wav",
+              "samples": 139544,
+              "start": 14.439541666666667,
+              "end": 20.253875
+            },
+            {
+              "text": "这里选择一号冷链订单，载重八吨，承诺十三点三十五分送达。",
+              "file": ".tools/phase3/speech/logistics_orders_01.wav",
+              "samples": 126834,
+              "start": 20.413875,
+              "end": 25.698625
+            },
+            {
+              "text": "运输方案必须满足连接和单票运力约束。",
+              "file": ".tools/phase3/speech/logistics_orders_02.wav",
+              "samples": 80499,
+              "start": 25.858625,
+              "end": 29.21275
+            }
+          ],
+          "start": 14.039541666666667,
+          "end": 29.914291666666667,
+          "duration": 15.87475
+        },
+        {
+          "id": "weather",
+          "title": "天气与网络输入",
+          "action": "选择SR-001，显示网络、暴雨要素与默认权重",
+          "lines": [
+            "切到暴雨场景，系统按有效时间窗判断订单经过的区段。",
+            "主走廊受影响，但天气预警不等于封路。",
+            "图上连线只表示模拟连接，不是道路导航。"
+          ],
+          "speech": [
+            {
+              "text": "切到暴雨场景，系统按有效时间窗判断订单经过的区段。",
+              "file": ".tools/phase3/speech/logistics_weather_00.wav",
+              "samples": 112904,
+              "start": 30.314291666666666,
+              "end": 35.018625
+            },
+            {
+              "text": "主走廊受影响，但天气预警不等于封路。",
+              "file": ".tools/phase3/speech/logistics_weather_01.wav",
+              "samples": 86048,
+              "start": 35.178625,
+              "end": 38.763958333333335
+            },
+            {
+              "text": "图上连线只表示模拟连接，不是道路导航。",
+              "file": ".tools/phase3/speech/logistics_weather_02.wav",
+              "samples": 90784,
+              "start": 38.92395833333333,
+              "end": 42.706625
+            }
+          ],
+          "start": 29.914291666666667,
+          "end": 43.408166666666666,
+          "duration": 13.493875
+        },
+        {
+          "id": "risk",
+          "title": "运行风险分析",
+          "action": "实际点击分析并展示风险47.15与推荐",
+          "lines": [
+            "点击运行风险分析，算法逐段计算暴露、延误和货物敏感度。",
+            "原计划得到四十七点一五分规则风险，模型延误约零点九八小时。",
+            "这个分数不是事故发生概率。"
+          ],
+          "speech": [
+            {
+              "text": "点击运行风险分析，算法逐段计算暴露、延误和货物敏感度。",
+              "file": ".tools/phase3/speech/logistics_risk_00.wav",
+              "samples": 126299,
+              "start": 43.808166666666665,
+              "end": 49.070625
+            },
+            {
+              "text": "原计划得到四十七点一五分规则风险，模型延误约零点九八小时。",
+              "file": ".tools/phase3/speech/logistics_risk_01.wav",
+              "samples": 128608,
+              "start": 49.230625,
+              "end": 54.58929166666667
+            },
+            {
+              "text": "这个分数不是事故发生概率。",
+              "file": ".tools/phase3/speech/logistics_risk_02.wav",
+              "samples": 57369,
+              "start": 54.749291666666664,
+              "end": 57.13966666666666
+            }
+          ],
+          "start": 43.408166666666666,
+          "end": 57.841208333333334,
+          "duration": 14.433041666666668
+        },
+        {
+          "id": "plans",
+          "title": "四方案与实际推荐",
+          "action": "展示四类方案表及实际推荐数值",
+          "lines": [
+            "原计划、提前发运、绕行和调整中转，都使用同一套指标比较。",
+            "默认权重下推荐绕行，经廊坊到天津，用时二点九五小时，成本一千二百四十二元。",
+            "相对受天气影响的原计划，节省约一百一十五元。"
+          ],
+          "speech": [
+            {
+              "text": "原计划、提前发运、绕行和调整中转，都使用同一套指标比较。",
+              "file": ".tools/phase3/speech/logistics_plans_00.wav",
+              "samples": 132405,
+              "start": 58.24120833333333,
+              "end": 63.75808333333333
+            },
+            {
+              "text": "默认权重下推荐绕行，经廊坊到天津，用时二点九五小时，成本一千二百四十二元。",
+              "file": ".tools/phase3/speech/logistics_plans_01.wav",
+              "samples": 170513,
+              "start": 63.918083333333335,
+              "end": 71.02279166666666
+            },
+            {
+              "text": "相对受天气影响的原计划，节省约一百一十五元。",
+              "file": ".tools/phase3/speech/logistics_plans_02.wav",
+              "samples": 99285,
+              "start": 71.18279166666666,
+              "end": 75.31966666666666
+            }
+          ],
+          "start": 57.841208333333334,
+          "end": 76.02120833333333,
+          "duration": 18.18
+        },
+        {
+          "id": "agent",
+          "title": "六步工具轨迹与规则解释",
+          "action": "展示六步工具链并实际生成规则解释",
+          "lines": [
+            "分析智能体保留读取任务、读取天气、识别风险、枚举路线、评分和建议六步记录。",
+            "这里实际生成的是规则解释，无需模型密钥。",
+            "外部大模型尚未验证，文字不能替代计算快照。"
+          ],
+          "speech": [
+            {
+              "text": "分析智能体保留读取任务、读取天气、识别风险、枚举路线、评分和建议六步记录。",
+              "file": ".tools/phase3/speech/logistics_agent_00.wav",
+              "samples": 168770,
+              "start": 76.42120833333334,
+              "end": 83.45329166666667
+            },
+            {
+              "text": "这里实际生成的是规则解释，无需模型密钥。",
+              "file": ".tools/phase3/speech/logistics_agent_01.wav",
+              "samples": 89659,
+              "start": 83.61329166666667,
+              "end": 87.34908333333334
+            },
+            {
+              "text": "外部大模型尚未验证，文字不能替代计算快照。",
+              "file": ".tools/phase3/speech/logistics_agent_02.wav",
+              "samples": 96056,
+              "start": 87.50908333333334,
+              "end": 91.51141666666666
+            }
+          ],
+          "start": 76.02120833333333,
+          "end": 92.21295833333333,
+          "duration": 16.19175
+        },
+        {
+          "id": "report",
+          "title": "决策报告与可追溯输入",
+          "action": "实际打开决策报告并展示方案表与下载入口",
+          "lines": [
+            "决策报告保存当次订单、天气、权重和方案表，支持下载。",
+            "推荐体现当前权重的取舍，不保证所有指标同时最优。",
+            "提前发运还要求货物、司机和装卸能够提前就绪。"
+          ],
+          "speech": [
+            {
+              "text": "决策报告保存当次订单、天气、权重和方案表，支持下载。",
+              "file": ".tools/phase3/speech/logistics_report_00.wav",
+              "samples": 128493,
+              "start": 92.61295833333334,
+              "end": 97.96683333333333
+            },
+            {
+              "text": "推荐体现当前权重的取舍，不保证所有指标同时最优。",
+              "file": ".tools/phase3/speech/logistics_report_01.wav",
+              "samples": 109000,
+              "start": 98.12683333333334,
+              "end": 102.6685
+            },
+            {
+              "text": "提前发运还要求货物、司机和装卸能够提前就绪。",
+              "file": ".tools/phase3/speech/logistics_report_02.wav",
+              "samples": 100765,
+              "start": 102.8285,
+              "end": 107.02704166666666
+            }
+          ],
+          "start": 92.21295833333333,
+          "end": 107.72858333333333,
+          "duration": 15.515625
+        },
+        {
+          "id": "rain",
+          "title": "暴雨配对仿真",
+          "action": "点击运行情景仿真，显示暴雨图表与真实数据",
+          "lines": [
+            "运行情景仿真，在三档严重度下固定方案配对回放。",
+            "暴雨模拟准时占比从百分之三十八点八九提高到百分之一百。",
+            "平均情景总成本从七千三百六十点六八元降到七千一百六十点三五元。"
+          ],
+          "speech": [
+            {
+              "text": "运行情景仿真，在三档严重度下固定方案配对回放。",
+              "file": ".tools/phase3/speech/logistics_rain_00.wav",
+              "samples": 105621,
+              "start": 108.12858333333334,
+              "end": 112.52945833333334
+            },
+            {
+              "text": "暴雨模拟准时占比从百分之三十八点八九提高到百分之一百。",
+              "file": ".tools/phase3/speech/logistics_rain_01.wav",
+              "samples": 113995,
+              "start": 112.68945833333333,
+              "end": 117.43925
+            },
+            {
+              "text": "平均情景总成本从七千三百六十点六八元降到七千一百六十点三五元。",
+              "file": ".tools/phase3/speech/logistics_rain_02.wav",
+              "samples": 132930,
+              "start": 117.59925,
+              "end": 123.138
+            }
+          ],
+          "start": 107.72858333333333,
+          "end": 123.83954166666666,
+          "duration": 16.11095833333333
+        },
+        {
+          "id": "snow",
+          "title": "暴雪大风与剩余风险",
+          "action": "切换暴雪大风并重新运行仿真",
+          "lines": [
+            "换成暴雪大风，再次计算。",
+            "准时占比从百分之二十二点二二提高到百分之六十六点六七，高风险名义订单从三单降到零单。",
+            "仍有延误，不能宣称风险已经全部消失。"
+          ],
+          "speech": [
+            {
+              "text": "换成暴雪大风，再次计算。",
+              "file": ".tools/phase3/speech/logistics_snow_00.wav",
+              "samples": 63713,
+              "start": 124.23954166666667,
+              "end": 126.89425
+            },
+            {
+              "text": "准时占比从百分之二十二点二二提高到百分之六十六点六七，高风险名义订单从三单降到零单。",
+              "file": ".tools/phase3/speech/logistics_snow_01.wav",
+              "samples": 175792,
+              "start": 127.05425,
+              "end": 134.37891666666667
+            },
+            {
+              "text": "仍有延误，不能宣称风险已经全部消失。",
+              "file": ".tools/phase3/speech/logistics_snow_02.wav",
+              "samples": 86700,
+              "start": 134.53891666666667,
+              "end": 138.15141666666668
+            }
+          ],
+          "start": 123.83954166666666,
+          "end": 138.85295833333333,
+          "duration": 15.013416666666672
+        },
+        {
+          "id": "normal",
+          "title": "正常天气的费用取舍",
+          "action": "切换正常天气并运行仿真，显示成本上升",
+          "lines": [
+            "正常天气下准时占比保持百分之一百，但优化总成本增加六十八元。",
+            "这是默认权重愿意支付费用换取更短时长的结果。",
+            "保留这一代价，才能完整解释方案选择。"
+          ],
+          "speech": [
+            {
+              "text": "正常天气下准时占比保持百分之一百，但优化总成本增加六十八元。",
+              "file": ".tools/phase3/speech/logistics_normal_00.wav",
+              "samples": 132781,
+              "start": 139.25295833333334,
+              "end": 144.7855
+            },
+            {
+              "text": "这是默认权重愿意支付费用换取更短时长的结果。",
+              "file": ".tools/phase3/speech/logistics_normal_01.wav",
+              "samples": 98597,
+              "start": 144.9455,
+              "end": 149.05370833333333
+            },
+            {
+              "text": "保留这一代价，才能完整解释方案选择。",
+              "file": ".tools/phase3/speech/logistics_normal_02.wav",
+              "samples": 86163,
+              "start": 149.21370833333333,
+              "end": 152.80383333333333
+            }
+          ],
+          "start": 138.85295833333333,
+          "end": 153.505375,
+          "duration": 14.652416666666653
+        },
+        {
+          "id": "limits",
+          "title": "验证范围与后续改进",
+          "action": "进入网站方法与数据来源页面，显示局限",
+          "lines": [
+            "这些是同一批合成订单的压力回放，不是真实业务收益。",
+            "第一阶段已记录二十八项后端测试和四条浏览器流程通过。",
+            "后续需取得官方网络，接入真实天气、位置与共享运力，再校准模型。"
+          ],
+          "speech": [
+            {
+              "text": "这些是同一批合成订单的压力回放，不是真实业务收益。",
+              "file": ".tools/phase3/speech/logistics_limits_00.wav",
+              "samples": 107938,
+              "start": 153.905375,
+              "end": 158.40279166666667
+            },
+            {
+              "text": "第一阶段已记录二十八项后端测试和四条浏览器流程通过。",
+              "file": ".tools/phase3/speech/logistics_limits_01.wav",
+              "samples": 110894,
+              "start": 158.56279166666667,
+              "end": 163.183375
+            },
+            {
+              "text": "后续需取得官方网络，接入真实天气、位置与共享运力，再校准模型。",
+              "file": ".tools/phase3/speech/logistics_limits_02.wav",
+              "samples": 142914,
+              "start": 163.343375,
+              "end": 169.298125
+            }
+          ],
+          "start": 153.505375,
+          "end": 170.0,
+          "duration": 16.494625000000013
+        }
+      ],
+      "duration": 170.0,
+      "speech_seconds": 154.36270833333333
+    }
+  ]
+}

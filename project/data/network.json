@@ -1,0 +1,198 @@
+{
+  "nodes": [
+    {
+      "id": "BJ",
+      "name": "北京集货中心",
+      "city": "北京",
+      "x": 100,
+      "y": 110,
+      "lat": 39.9,
+      "lon": 116.4,
+      "capacity": 30
+    },
+    {
+      "id": "TZ",
+      "name": "通州分拨",
+      "city": "通州",
+      "x": 280,
+      "y": 140,
+      "lat": 39.9,
+      "lon": 116.65,
+      "capacity": 25
+    },
+    {
+      "id": "LF",
+      "name": "廊坊中转",
+      "city": "廊坊",
+      "x": 300,
+      "y": 335,
+      "lat": 39.52,
+      "lon": 116.7,
+      "capacity": 22
+    },
+    {
+      "id": "WQ",
+      "name": "武清枢纽",
+      "city": "武清",
+      "x": 510,
+      "y": 300,
+      "lat": 39.38,
+      "lon": 117.05,
+      "capacity": 25
+    },
+    {
+      "id": "JZ",
+      "name": "蓟州备选站",
+      "city": "蓟州",
+      "x": 475,
+      "y": 65,
+      "lat": 40.05,
+      "lon": 117.4,
+      "capacity": 12
+    },
+    {
+      "id": "BD",
+      "name": "宝坻中转",
+      "city": "宝坻",
+      "x": 670,
+      "y": 130,
+      "lat": 39.72,
+      "lon": 117.3,
+      "capacity": 18
+    },
+    {
+      "id": "TJ",
+      "name": "天津配送中心",
+      "city": "天津",
+      "x": 765,
+      "y": 350,
+      "lat": 39.13,
+      "lon": 117.2,
+      "capacity": 30
+    }
+  ],
+  "edges": [
+    {
+      "id": "BJ-TZ",
+      "source": "BJ",
+      "target": "TZ",
+      "km": 35,
+      "hours": 0.65,
+      "toll": 22,
+      "capacity": 20,
+      "available": true,
+      "corridor": "main",
+      "source_note": "教学假设连接与公路里程，非实测道路"
+    },
+    {
+      "id": "TZ-WQ",
+      "source": "TZ",
+      "target": "WQ",
+      "km": 85,
+      "hours": 1.25,
+      "toll": 48,
+      "capacity": 20,
+      "available": true,
+      "corridor": "main",
+      "source_note": "教学假设连接与公路里程，非实测道路"
+    },
+    {
+      "id": "WQ-TJ",
+      "source": "WQ",
+      "target": "TJ",
+      "km": 40,
+      "hours": 0.7,
+      "toll": 28,
+      "capacity": 20,
+      "available": true,
+      "corridor": "main",
+      "source_note": "教学假设连接与公路里程，非实测道路"
+    },
+    {
+      "id": "BJ-LF",
+      "source": "BJ",
+      "target": "LF",
+      "km": 65,
+      "hours": 1.15,
+      "toll": 40,
+      "capacity": 22,
+      "available": true,
+      "corridor": "south",
+      "source_note": "教学假设连接与公路里程，非实测道路"
+    },
+    {
+      "id": "LF-WQ",
+      "source": "LF",
+      "target": "WQ",
+      "km": 55,
+      "hours": 1.05,
+      "toll": 35,
+      "capacity": 22,
+      "available": true,
+      "corridor": "south",
+      "source_note": "教学假设连接与公路里程，非实测道路"
+    },
+    {
+      "id": "LF-TJ",
+      "source": "LF",
+      "target": "TJ",
+      "km": 95,
+      "hours": 1.8,
+      "toll": 55,
+      "capacity": 22,
+      "available": true,
+      "corridor": "south",
+      "source_note": "教学假设连接与公路里程，非实测道路"
+    },
+    {
+      "id": "TZ-JZ",
+      "source": "TZ",
+      "target": "JZ",
+      "km": 80,
+      "hours": 1.25,
+      "toll": 45,
+      "capacity": 12,
+      "available": true,
+      "corridor": "north",
+      "source_note": "教学假设连接与公路里程，非实测道路"
+    },
+    {
+      "id": "JZ-BD",
+      "source": "JZ",
+      "target": "BD",
+      "km": 50,
+      "hours": 0.85,
+      "toll": 30,
+      "capacity": 12,
+      "available": true,
+      "corridor": "north",
+      "source_note": "教学假设连接与公路里程，非实测道路"
+    },
+    {
+      "id": "BD-TJ",
+      "source": "BD",
+      "target": "TJ",
+      "km": 65,
+      "hours": 1.1,
+      "toll": 40,
+      "capacity": 18,
+      "available": true,
+      "corridor": "north",
+      "source_note": "教学假设连接与公路里程，非实测道路"
+    },
+    {
+      "id": "WQ-BD",
+      "source": "WQ",
+      "target": "BD",
+      "km": 50,
+      "hours": 0.9,
+      "toll": 32,
+      "capacity": 18,
+      "available": true,
+      "corridor": "north",
+      "source_note": "教学假设连接与公路里程，非实测道路"
+    }
+  ],
+  "version": "skyroute-synthetic-v1",
+  "source": "教学模拟运输图；箭头为单向连接，非真实路网；线路几何不表示道路或里程"
+}

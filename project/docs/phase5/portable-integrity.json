@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "payload_files": 203,
+  "differing_files": [],
+  "exe_bytes": 131621358,
+  "exe_sha256": "57ce5bb35bda4452680bf9c90733a255d90c36a2bfb23d225e6c1c9347b306b1",
+  "moved_copy_identical": true,
+  "portable_bootstrap_machine": "0x14c",
+  "electron_machine": "0x8664",
+  "backend_machine": "0x8664",
+  "architecture_note": "0x14c portable bootstrap contains verified 0x8664 Electron and Python payload; target Windows x64."
+}

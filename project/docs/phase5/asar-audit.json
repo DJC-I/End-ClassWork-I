@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "files": [
+    "\\main.cjs",
+    "\\package.json"
+  ],
+  "mainMatchesSource": true,
+  "mainSha256": "1305e6a4f5938676bda2f0523c3b90da9475f2a30e8832eac8213046244221b0",
+  "archiveSha256": "551cc8de60a9e4c2687b32696b4336d86281f3071fe1b78a7874be0766062df2"
+}

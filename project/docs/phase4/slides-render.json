@@ -1,0 +1,12 @@
+{
+  "soffice": "./project\\.tools\\libreoffice\\App\\libreoffice\\program\\soffice.exe",
+  "desktop_office_used": false,
+  "outputs": [
+    {
+      "file": "deliverables/phase4/人工智能导论_双赛题结课作品展示.pptx",
+      "pages": 12,
+      "renderer": "task-local official portable LibreOffice Impress",
+      "pdf": "docs/phase4/render/slides/人工智能导论_双赛题结课作品展示.pdf"
+    }
+  ]
+}

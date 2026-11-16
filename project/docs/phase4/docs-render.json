@@ -1,0 +1,18 @@
+{
+  "soffice": "./project\\.tools\\libreoffice\\App\\libreoffice\\program\\soffice.exe",
+  "desktop_office_used": false,
+  "outputs": [
+    {
+      "file": "deliverables/phase4/课堂展示_单人完整演讲稿.docx",
+      "pages": 8,
+      "renderer": "packaged render_docx.py",
+      "pdf": "docs/phase4/render/speech/课堂展示_单人完整演讲稿.pdf"
+    },
+    {
+      "file": "deliverables/phase4/答辩常见问题及参考回答.docx",
+      "pages": 5,
+      "renderer": "packaged render_docx.py",
+      "pdf": "docs/phase4/render/defense/答辩常见问题及参考回答.pdf"
+    }
+  ]
+}

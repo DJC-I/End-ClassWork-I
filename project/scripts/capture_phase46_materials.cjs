@@ -1,0 +1,24 @@
+const {chromium,expect}=require('../frontend/node_modules/@playwright/test');
+const fs=require('node:fs/promises'),path=require('node:path');
+const ROOT=path.resolve(__dirname,'..'),OUT=path.join(ROOT,'docs/phase4_6/assets'),BASE='http://127.0.0.1:8007';
+(async()=>{
+ await fs.mkdir(OUT,{recursive:true});const b=await chromium.launch({channel:'msedge',headless:true});
+ const p=await b.newPage({viewport:{width:1920,height:1080},reducedMotion:'reduce'});
+ const errors=[];p.on('pageerror',e=>errors.push(e.message));
+ await p.request.post(BASE+'/api/demo/reset');
+ const card=n=>p.locator('section.card').filter({has:p.getByRole('heading',{name:n,exact:true})});
+ const snap=async(loc,n)=>{await loc.scrollIntoViewIfNeeded();await p.waitForTimeout(350);await loc.screenshot({path:path.join(OUT,n+'.png')});};
+ await p.goto(BASE+'/growth');await p.evaluate(()=>document.fonts.ready);
+ await p.getByRole('tab',{name:'预算与增长模型',exact:true}).click();
+ await p.getByLabel('校园社群预算',{exact:true}).fill('900');await p.getByLabel('访问率',{exact:true}).fill('20');
+ await expect(p.locator('.funnel-numbers')).toContainText('2,400');
+ await snap(p.locator('.growth-model'),'growth_model');await snap(p.locator('.stats').first(),'growth_metrics');
+ await p.goto(BASE+'/logistics');await p.getByRole('button',{name:'暴雨风险 主走廊降雨增强',exact:true}).click();
+ await p.getByRole('button',{name:'运行风险分析',exact:true}).click();await expect(p.locator('.risk-number')).toContainText('47.15');
+ await p.getByRole('button',{name:'生成分析解释',exact:true}).click();await expect(p.locator('.explanation')).toContainText('规则模式');
+ await snap(card('运输网络与天气影响'),'network_rain');await snap(card('四类应对策略，逐项对比'),'plans_table');
+ await snap(p.locator('.risk-grid'),'risk_recommendation');await snap(card('分析智能体：有流程，也有记录'),'agent_rain');
+ await p.goto(BASE+'/demo');await p.evaluate(()=>document.fonts.ready);await p.screenshot({path:path.join(OUT,'demo.png'),fullPage:true});
+ await fs.writeFile(path.join(OUT,'capture.json'),JSON.stringify({viewport:[1920,1080],actual_browser:true,mocked:false,errors},null,2));
+ expect(errors).toEqual([]);await b.close();console.log('Material screenshots captured');
+})().catch(e=>{console.error(e);process.exit(1)});

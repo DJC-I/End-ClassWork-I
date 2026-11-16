@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "SkyRoute User";
+  src: url("/fonts/user-pingfang.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+:root {
+  --font-ui:
+    "SkyRoute User", "Microsoft YaHei UI", "Microsoft YaHei", system-ui,
+    sans-serif;
+  --font-data: var(--font-ui);
+  --bg: #f3f5f4;
+  --panel: #fff;
+  --ink: #203443;
+  --muted: #5b6d78;
+  --border: #d9e1e2;
+  --accent: #11665e;
+  --accent-soft: #e8f2ef;
+  --blue: #285f9b;
+  --orange: #a45026;
+  --danger: #ad3d3d;
+  --lime: var(--accent);
+  --nav: #172c3c;
+  --radius-sm: 4px;
+  --radius: 8px;
+  --radius-lg: 12px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --shadow-float: 0 18px 60px #172c3c26;
+  --motion: 160ms ease;
+  --sidebar: 224px;
+  --chart-before: #8a9eaf;
+  --chart-after: #11665e;
+  font-family: var(--font-ui);
+  font-synthesis: none;
+  color: var(--ink);
+  background: var(--bg);
+  font-size: 14px;
+  line-height: 1.6;
+  font-variant-numeric: tabular-nums;
+  color-scheme: light;
+}

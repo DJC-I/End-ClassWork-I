@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "outputs": [
+    {
+      "file": "deliverables/phase3/赛题一_DataClawHub平台运营方案.mp4",
+      "browser": "Microsoft Edge",
+      "duration": 170,
+      "width": 1920,
+      "height": 1080,
+      "muted": false,
+      "samples": [
+        {
+          "requested": 2,
+          "played_to": 3.650716,
+          "decoded_frames": 40,
+          "ready_state": 4,
+          "error": null
+        },
+        {
+          "requested": 84,
+          "played_to": 85.654596,
+          "decoded_frames": 40,
+          "ready_state": 4,
+          "error": null
+        },
+        {
+          "requested": 165,
+          "played_to": 166.636479,
+          "decoded_frames": 40,
+          "ready_state": 4,
+          "error": null
+        }
+      ],
+      "ended": true,
+      "end_time": 170,
+      "errors": []
+    },
+    {
+      "file": "deliverables/phase3/赛题二_气象物流AI风险决策系统.mp4",
+      "browser": "Microsoft Edge",
+      "duration": 170,
+      "width": 1920,
+      "height": 1080,
+      "muted": false,
+      "samples": [
+        {
+          "requested": 2,
+          "played_to": 3.639634,
+          "decoded_frames": 40,
+          "ready_state": 4,
+          "error": null
+        },
+        {
+          "requested": 84,
+          "played_to": 85.651717,
+          "decoded_frames": 40,
+          "ready_state": 4,
+          "error": null
+        },
+        {
+          "requested": 165,
+          "played_to": 166.636611,
+          "decoded_frames": 40,
+          "ready_state": 4,
+          "error": null
+        }
+      ],
+      "ended": true,
+      "end_time": 170,
+      "errors": []
+    }
+  ]
+}

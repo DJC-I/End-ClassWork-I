@@ -1,0 +1,188 @@
+{
+  "phase": "4.5",
+  "technical_passed": true,
+  "outputs": [
+    {
+      "file": "deliverables/phase4_5/赛题一_DataClawHub平台运营方案.mp4",
+      "sha256": "ed7a346634e1082ba5014a61563dd76ce9dbccec5a7b8ec5997041c3cad46a5c",
+      "bytes": 14027228,
+      "duration": 170.0,
+      "width": 1920,
+      "height": 1080,
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "fps": 25.0,
+      "audio_codec": "aac",
+      "audio_sample_rate": 48000,
+      "audio_channels": 2,
+      "decoded_video_frames": 4250,
+      "decoded_audio_frames": 7969,
+      "full_ffmpeg_decode_passed": true,
+      "srt_sentences": 31,
+      "srt_matches_narration": true,
+      "audio_rms_pcm16": 3458.18,
+      "audio_peak_pcm16": 19544.0,
+      "audio_alignment_checks": [
+        {
+          "scene": "position",
+          "sample_time": 1.8857083333333333,
+          "correlation": 0.999922,
+          "best_audio_offset_ms": 0.0
+        },
+        {
+          "scene": "personas",
+          "sample_time": 17.1815,
+          "correlation": 0.999995,
+          "best_audio_offset_ms": 0.0
+        },
+        {
+          "scene": "strategy",
+          "sample_time": 34.91733333333333,
+          "correlation": 0.999978,
+          "best_audio_offset_ms": 0.0
+        },
+        {
+          "scene": "channels",
+          "sample_time": 50.73045833333333,
+          "correlation": 0.999901,
+          "best_audio_offset_ms": 0.0
+        },
+        {
+          "scene": "funnel",
+          "sample_time": 67.58904166666666,
+          "correlation": 0.999996,
+          "best_audio_offset_ms": 0.0
+        },
+        {
+          "scene": "budget",
+          "sample_time": 86.57120833333333,
+          "correlation": 0.999836,
+          "best_audio_offset_ms": 0.0
+        },
+        {
+          "scene": "adjust",
+          "sample_time": 104.64683333333333,
+          "correlation": 0.999992,
+          "best_audio_offset_ms": 0.0
+        },
+        {
+          "scene": "experiment",
+          "sample_time": 121.966,
+          "correlation": 0.999917,
+          "best_audio_offset_ms": 0.0
+        },
+        {
+          "scene": "execution",
+          "sample_time": 137.40725,
+          "correlation": 0.999993,
+          "best_audio_offset_ms": 0.0
+        },
+        {
+          "scene": "report",
+          "sample_time": 154.105125,
+          "correlation": 0.999979,
+          "best_audio_offset_ms": 0.0
+        }
+      ],
+      "actual_recorded_scenes": 10,
+      "browser_errors": [],
+      "external_requests": [],
+      "visual_review_contact": "docs/phase4_5/growth-contact.jpg"
+    },
+    {
+      "file": "deliverables/phase4_5/赛题二_气象物流AI风险决策系统.mp4",
+      "sha256": "2658473da3968562c76c69476f86a90c9e5bcf55c7548bffe85f8e0a7da4d316",
+      "bytes": 14193491,
+      "duration": 175.0,
+      "width": 1920,
+      "height": 1080,
+      "video_codec": "h264",
+      "pixel_format": "yuv420p",
+      "fps": 25.0,
+      "audio_codec": "aac",
+      "audio_sample_rate": 48000,
+      "audio_channels": 2,
+      "decoded_video_frames": 4375,
+      "decoded_audio_frames": 8204,
+      "full_ffmpeg_decode_passed": true,
+      "srt_sentences": 33,
+      "srt_matches_narration": true,
+      "audio_rms_pcm16": 3620.42,
+      "audio_peak_pcm16": 19517.0,
+      "audio_alignment_checks": [
+        {
+          "scene": "overview",
+          "sample_time": 1.9986666666666666,
+          "correlation": 0.999864,
+          "best_audio_offset_ms": 0.0
+        },
+        {
+          "scene": "orders",
+          "sample_time": 17.186333333333334,
+          "correlation": 0.999923,
+          "best_audio_offset_ms": 0.0
+        },
+        {
+          "scene": "weather",
+          "sample_time": 32.80291666666667,
+          "correlation": 0.999987,
+          "best_audio_offset_ms": 0.0
+        },
+        {
+          "scene": "risk",
+          "sample_time": 46.50620833333333,
+          "correlation": 0.999996,
+          "best_audio_offset_ms": 0.0
+        },
+        {
+          "scene": "plans",
+          "sample_time": 61.659625,
+          "correlation": 0.999991,
+          "best_audio_offset_ms": 0.0
+        },
+        {
+          "scene": "agent",
+          "sample_time": 80.91045833333334,
+          "correlation": 0.9998,
+          "best_audio_offset_ms": 0.0
+        },
+        {
+          "scene": "report",
+          "sample_time": 97.61554166666667,
+          "correlation": 0.999902,
+          "best_audio_offset_ms": 0.0
+        },
+        {
+          "scene": "rain",
+          "sample_time": 113.18725,
+          "correlation": 0.999942,
+          "best_audio_offset_ms": 0.0
+        },
+        {
+          "scene": "snow",
+          "sample_time": 129.15345833333333,
+          "correlation": 0.999852,
+          "best_audio_offset_ms": 0.0
+        },
+        {
+          "scene": "normal",
+          "sample_time": 146.086,
+          "correlation": 0.999968,
+          "best_audio_offset_ms": 0.0
+        },
+        {
+          "scene": "limits",
+          "sample_time": 160.262125,
+          "correlation": 0.999993,
+          "best_audio_offset_ms": 0.0
+        }
+      ],
+      "actual_recorded_scenes": 11,
+      "browser_errors": [],
+      "external_requests": [],
+      "visual_review_contact": "docs/phase4_5/logistics-contact.jpg"
+    }
+  ],
+  "human_audio_listening_claimed": false,
+  "later_phases_started": false
+}

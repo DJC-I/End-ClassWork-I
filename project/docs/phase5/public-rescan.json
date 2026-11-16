@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "files": 299,
+  "forbidden_findings": [],
+  "email_shaped_matches": 129,
+  "office_attribution": [
+    {
+      "file": "人工智能导论_双赛题结课作品展示.pptx",
+      "field": "creator",
+      "authorized_value": "Dux"
+    },
+    {
+      "file": "人工智能导论_双赛题结课作品展示.pptx",
+      "field": "lastModifiedBy",
+      "authorized_value": "Dux"
+    }
+  ],
+  "errors": [],
+  "scope": [
+    "public-repo",
+    "public-materials"
+  ],
+  "limitations": "No pixel OCR or speech recognition; complementary documented visual review required."
+}

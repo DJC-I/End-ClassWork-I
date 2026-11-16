@@ -1,0 +1,1 @@
+"""SkyRoute local teaching application."""

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "SR-001",
+    "origin": "BJ",
+    "destination": "TJ",
+    "cargo": "cold",
+    "weight": 8,
+    "departure": "2026-11-16T10:00:00+08:00",
+    "deadline": "2026-11-16T13:35:00+08:00",
+    "priority": 3,
+    "route": [
+      "BJ",
+      "TZ",
+      "WQ",
+      "TJ"
+    ],
+    "base_cost": 1180,
+    "base_hours": 2.6,
+    "status": "待发运"
+  },
+  {
+    "id": "SR-002",
+    "origin": "BJ",
+    "destination": "TJ",
+    "cargo": "general",
+    "weight": 12,
+    "departure": "2026-11-16T11:00:00+08:00",
+    "deadline": "2026-11-16T16:00:00+08:00",
+    "priority": 2,
+    "route": [
+      "BJ",
+      "TZ",
+      "WQ",
+      "TJ"
+    ],
+    "base_cost": 1250,
+    "base_hours": 2.6,
+    "status": "待发运"
+  },
+  {
+    "id": "SR-003",
+    "origin": "TZ",
+    "destination": "TJ",
+    "cargo": "fragile",
+    "weight": 5,
+    "departure": "2026-11-16T10:30:00+08:00",
+    "deadline": "2026-11-16T13:00:00+08:00",
+    "priority": 3,
+    "route": [
+      "TZ",
+      "WQ",
+      "TJ"
+    ],
+    "base_cost": 880,
+    "base_hours": 1.95,
+    "status": "待发运"
+  },
+  {
+    "id": "SR-004",
+    "origin": "BJ",
+    "destination": "TJ",
+    "cargo": "general",
+    "weight": 18,
+    "departure": "2026-11-16T12:00:00+08:00",
+    "deadline": "2026-11-16T18:00:00+08:00",
+    "priority": 1,
+    "route": [
+      "BJ",
+      "LF",
+      "TJ"
+    ],
+    "base_cost": 1380,
+    "base_hours": 2.95,
+    "status": "待发运"
+  },
+  {
+    "id": "SR-005",
+    "origin": "BJ",
+    "destination": "TJ",
+    "cargo": "cold",
+    "weight": 10,
+    "departure": "2026-11-16T09:30:00+08:00",
+    "deadline": "2026-11-16T12:30:00+08:00",
+    "priority": 3,
+    "route": [
+      "BJ",
+      "TZ",
+      "WQ",
+      "TJ"
+    ],
+    "base_cost": 1320,
+    "base_hours": 2.6,
+    "status": "运输中"
+  },
+  {
+    "id": "SR-006",
+    "origin": "LF",
+    "destination": "TJ",
+    "cargo": "fragile",
+    "weight": 4,
+    "departure": "2026-11-16T11:30:00+08:00",
+    "deadline": "2026-11-16T14:00:00+08:00",
+    "priority": 2,
+    "route": [
+      "LF",
+      "WQ",
+      "TJ"
+    ],
+    "base_cost": 730,
+    "base_hours": 1.75,
+    "status": "待发运"
+  }
+]

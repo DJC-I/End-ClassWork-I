@@ -1,0 +1,258 @@
+{
+  "phase": 3,
+  "documents_unchanged": true,
+  "website_sources": [
+    {
+      "file": "backend/__init__.py",
+      "sha256": "b176756f5b82db20ac6d2d0fd2cf3b578513b2e710a49687ab547048eae6f2b0",
+      "bytes": 43
+    },
+    {
+      "file": "backend/content.py",
+      "sha256": "074ac39c2d536f276d40839c62ba1bc3b59d35d1f8a3a8c61263fba071a1274c",
+      "bytes": 11320
+    },
+    {
+      "file": "backend/db.py",
+      "sha256": "a3a24ab91fb8f50dd5d3cab87631c8be5c285726696d3780d8a05563604857f5",
+      "bytes": 3038
+    },
+    {
+      "file": "backend/engine.py",
+      "sha256": "275be8a80fb2a53e304465fd99f1be0be020ac339102edb029875f8e2ef6799e",
+      "bytes": 17035
+    },
+    {
+      "file": "backend/growth.py",
+      "sha256": "dd0db64622ab9ee640eccc89a8f5e2b977384f5961f28654fe15a0d459de34be",
+      "bytes": 3228
+    },
+    {
+      "file": "backend/main.py",
+      "sha256": "775f48d4b4dc1f2c77734ac022a614325e9d9ac9a999391cb40197a0a03d999d",
+      "bytes": 16491
+    },
+    {
+      "file": "backend/models.py",
+      "sha256": "1ec883b9ecaa33f48db6a41352d7e5aafa46a12c79d771eae96d9af8f39b2faa",
+      "bytes": 5039
+    },
+    {
+      "file": "backend/seed.py",
+      "sha256": "6d4811871fd4a4baec6b3ac318e138eedce0a6f0869c34553e9a51ab70d51a0a",
+      "bytes": 9421
+    },
+    {
+      "file": "frontend/src/api.ts",
+      "sha256": "e57294642b6752dcff11aae464c260b3310a552c357deba5dd31ca4a3a89bb78",
+      "bytes": 1457
+    },
+    {
+      "file": "frontend/src/App.tsx",
+      "sha256": "afe0264c20bb149fd008a5acf99dc1b6e52fba9140c71fe4cb2e91f125099b7d",
+      "bytes": 24506
+    },
+    {
+      "file": "frontend/src/components.tsx",
+      "sha256": "178ad32858a69f6a44dd34ec6f3e5744bd96e142b7d7ae8ef3b609b5c135e0e8",
+      "bytes": 17734
+    },
+    {
+      "file": "frontend/src/Growth.tsx",
+      "sha256": "7db2f46e45d02750882b2c1e2e87e5c3dd88be9bc220c82a26ff3252a15e17fa",
+      "bytes": 27884
+    },
+    {
+      "file": "frontend/src/Logistics.tsx",
+      "sha256": "b2af9cb9fa09bd25e64a857a3919d0f7cd4bf18897858d55e3d07f3426dee3d1",
+      "bytes": 40485
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "sha256": "575c9833bc5993d6a7b8db0587b8ecc202809448fd71842c5a4331bec6ee7977",
+      "bytes": 233
+    },
+    {
+      "file": "frontend/src/style.css",
+      "sha256": "986b84784cf708dedbb1345d741b100362b2178623a9c816317826ac73cb8fa9",
+      "bytes": 43688
+    },
+    {
+      "file": "frontend/src/types.ts",
+      "sha256": "4b306203b846e451a194e7e51e3f916c21a1db1709cb25e42a65dd832a90d79a",
+      "bytes": 5073
+    },
+    {
+      "file": "frontend/package.json",
+      "sha256": "7d51f80aa792be63af7d751d6d5aa83c0038f6f3c2b9e719fdfd45e54688272c",
+      "bytes": 632
+    },
+    {
+      "file": "frontend/package-lock.json",
+      "sha256": "494f693e1a8210e81f76e7476252498ec79b057f6cf87d14a47d9606d056c17d",
+      "bytes": 79780
+    },
+    {
+      "file": "frontend/index.html",
+      "sha256": "741174ebaf045f5bf6572e863a4ef8b3ca9759e9a12728fe37278f57e1f4cc30",
+      "bytes": 584
+    },
+    {
+      "file": "frontend/vite.config.ts",
+      "sha256": "03ffaa4fe2d8483f08944e000c6f2b2eb827c814cf93b40404d25c7737ab1d08",
+      "bytes": 329
+    },
+    {
+      "file": "frontend/tsconfig.json",
+      "sha256": "0aa983e23e6011ce9fa70de49bfbe1b118b76e828b65a60237c223b3b3d69cb4",
+      "bytes": 486
+    },
+    {
+      "file": "frontend/playwright.config.ts",
+      "sha256": "535d6f1f3e0ecef8c1231c43ebb0815b47a67aacffee6b3d767b2f0e18239c78",
+      "bytes": 519
+    },
+    {
+      "file": "README.md",
+      "sha256": "f9362756fe45a38e87c124cbe2c0bcf6385e52d49423f1c25476e751a1689b83",
+      "bytes": 8202
+    },
+    {
+      "file": "PROJECT_STATUS.md",
+      "sha256": "dcccd757e860f574eb7c199a4e161bbebddda0fb94c35a02bdccbd9cc003afc6",
+      "bytes": 4733
+    },
+    {
+      "file": "TASKS.md",
+      "sha256": "05353125919056c1022dbf2af28bf8b39495f2903f20e6f2d6289fca4625528f",
+      "bytes": 2202
+    },
+    {
+      "file": "docs/ORIGINAL_REQUEST.txt",
+      "sha256": "6ff3636625d81c2cf0ca47812a4e44ae09f69bb9da556d58b2e9cea59f21caf2",
+      "bytes": 27349
+    },
+    {
+      "file": "docs/PHASE1_ACCEPTANCE.md",
+      "sha256": "7ce76b649b139f07d1d6ce9999f86ddf7776439793748913330cde59b91dbb2d",
+      "bytes": 7357
+    },
+    {
+      "file": "docs/PHASE2_ACCEPTANCE.md",
+      "sha256": "1d087382b8d2b7d5198adfdc4c7798bfe9f0e26adf943b844c4be9bd41f1cdc3",
+      "bytes": 4613
+    },
+    {
+      "file": "docs/pytest-results.xml",
+      "sha256": "767fa1082a255a2fade4881c526015c08fc14db6227c3c1e447a73580253badd",
+      "bytes": 3007
+    },
+    {
+      "file": "docs/e2e-results.json",
+      "sha256": "4dd853191a688b2fb9b3f003466821b7b2c420d873511739f577bf6ca2b28e09",
+      "bytes": 7367
+    },
+    {
+      "file": "docs/restart-results.json",
+      "sha256": "454df6f678d66db4d9a5b6ce08145df4224f00321d3be8357970b054ef373f51",
+      "bytes": 243
+    },
+    {
+      "file": "docs/scenario-results.json",
+      "sha256": "94b272aaa3fc552159ab08aab577b1ca3204d9116be1a3ddc51ccfd8c7cd2a39",
+      "bytes": 4375
+    }
+  ],
+  "documents": [
+    {
+      "file": "deliverables/phase2/DataClawHub平台运营方案.docx",
+      "sha256": "dcc4c92b98953bb94c0770fc1bca9231bfe155162450e756f558b6711f0cd025",
+      "pages_from_phase2": 10,
+      "paragraphs": 107,
+      "tables": 6,
+      "images": 1,
+      "text_characters": 6941
+    },
+    {
+      "file": "deliverables/phase2/气象驱动物流运输风险预警与应对决策.docx",
+      "sha256": "2c8072319154a435d8b9bb9a4c36bc054fd41549dcb70ea05440a70f23d1ef9a",
+      "pages_from_phase2": 13,
+      "paragraphs": 115,
+      "tables": 13,
+      "images": 5,
+      "text_characters": 8695
+    }
+  ],
+  "previous_phase_test_evidence": {
+    "pytest": {
+      "tests": 28,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "edge_expected": 4,
+    "edge_unexpected": 0,
+    "tests_rerun_this_phase": false
+  },
+  "new_actual_recorded_simulation_results": [
+    {
+      "scenario": "rain",
+      "before": {
+        "on_time_rate": 38.89,
+        "average_delay": 0.5818,
+        "total_cost": 7360.68,
+        "extra_cost": 620.68,
+        "high_risk": 0
+      },
+      "after": {
+        "on_time_rate": 100,
+        "average_delay": 0,
+        "total_cost": 7160.35,
+        "extra_cost": 420.35,
+        "high_risk": 0
+      },
+      "orders": 6,
+      "samples_each_side": 18
+    },
+    {
+      "scenario": "snow",
+      "before": {
+        "on_time_rate": 22.22,
+        "average_delay": 0.8702,
+        "total_cost": 7574.93,
+        "extra_cost": 834.93,
+        "high_risk": 3
+      },
+      "after": {
+        "on_time_rate": 66.67,
+        "average_delay": 0.1569,
+        "total_cost": 7555.6,
+        "extra_cost": 815.6,
+        "high_risk": 0
+      },
+      "orders": 6,
+      "samples_each_side": 18
+    },
+    {
+      "scenario": "normal",
+      "before": {
+        "on_time_rate": 100,
+        "average_delay": 0,
+        "total_cost": 6740,
+        "extra_cost": 0,
+        "high_risk": 0
+      },
+      "after": {
+        "on_time_rate": 100,
+        "average_delay": 0,
+        "total_cost": 6808,
+        "extra_cost": 68,
+        "high_risk": 0
+      },
+      "orders": 6,
+      "samples_each_side": 18
+    }
+  ],
+  "production_database_used_for_recording": false,
+  "recording_database": ".tools/phase3/recording.db"
+}

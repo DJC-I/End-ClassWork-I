@@ -1,0 +1,77 @@
+[
+  {
+    "id": "normal",
+    "name": "正常天气",
+    "tag": "晴朗 / 通行稳定",
+    "description": "基准场景；无真实气象输入。",
+    "valid_from": "2026-11-16T10:00:00+08:00",
+    "valid_to": "2026-11-16T18:00:00+08:00",
+    "rain": 0,
+    "snow": 0,
+    "wind": 3,
+    "visibility": 15,
+    "temperature": 12,
+    "warning": "无模拟预警",
+    "edge_factors": {},
+    "node_factors": {},
+    "source": "教学模拟 v1"
+  },
+  {
+    "id": "rain",
+    "name": "暴雨风险",
+    "tag": "主走廊降雨增强",
+    "description": "通州—武清区段降速风险，预警不代表封路。",
+    "valid_from": "2026-11-16T10:00:00+08:00",
+    "valid_to": "2026-11-16T18:00:00+08:00",
+    "rain": 55,
+    "snow": 0,
+    "wind": 12,
+    "visibility": 1.8,
+    "temperature": 8,
+    "warning": "模拟暴雨橙色预警",
+    "edge_factors": {
+      "BJ-TZ": 0.5,
+      "TZ-WQ": 1,
+      "WQ-TJ": 0.65,
+      "WQ-BD": 0.6,
+      "LF-WQ": 0.35
+    },
+    "node_factors": {
+      "WQ": 0.7,
+      "TZ": 0.4
+    },
+    "source": "教学模拟 v1；降雨量单位mm/3h"
+  },
+  {
+    "id": "snow",
+    "name": "暴雪与大风",
+    "tag": "多节点复合影响",
+    "description": "北侧与主走廊受复合天气影响，连接仍可用。",
+    "valid_from": "2026-11-16T08:00:00+08:00",
+    "valid_to": "2026-11-16T20:00:00+08:00",
+    "rain": 0,
+    "snow": 18,
+    "wind": 22,
+    "visibility": 0.6,
+    "temperature": -7,
+    "warning": "模拟暴雪橙色 / 大风黄色预警",
+    "edge_factors": {
+      "BJ-TZ": 0.6,
+      "TZ-WQ": 0.85,
+      "WQ-TJ": 0.7,
+      "TZ-JZ": 1,
+      "JZ-BD": 1,
+      "BD-TJ": 0.9,
+      "WQ-BD": 0.85,
+      "LF-WQ": 0.3,
+      "LF-TJ": 0.25,
+      "BJ-LF": 0.2
+    },
+    "node_factors": {
+      "JZ": 1,
+      "BD": 0.8,
+      "WQ": 0.6
+    },
+    "source": "教学模拟 v1；降雪量为液态当量mm/3h"
+  }
+]

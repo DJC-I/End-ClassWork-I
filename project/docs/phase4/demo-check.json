@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "base": "http://127.0.0.1:8004",
+  "database": ".tools/phase4/demo.db",
+  "browser": "Microsoft Edge headless via bundled Playwright",
+  "mocked": false,
+  "baseline": {
+    "exposure": 12000,
+    "visit_rate": 0.12,
+    "register_rate": 0.28,
+    "activate_rate": 0.5,
+    "retain_rate": 0.35,
+    "channels": [
+      {
+        "name": "校园社群",
+        "budget": 600,
+        "cpm": 80
+      },
+      {
+        "name": "内容平台",
+        "budget": 800,
+        "cpm": 100
+      },
+      {
+        "name": "开发者社区",
+        "budget": 400,
+        "cpm": 90
+      },
+      {
+        "name": "校园活动",
+        "budget": 1000,
+        "cpm": 200
+      },
+      {
+        "name": "AI辅助内容制作",
+        "budget": 200,
+        "cpm": 250
+      }
+    ]
+  },
+  "health": {
+    "status": "ok",
+    "database": "sqlite",
+    "engine_ready": true,
+    "mode": "规则模式",
+    "data_version": "skyroute-synthetic-v1"
+  },
+  "config": {
+    "exposure": 12000,
+    "visit_rate": 0.2,
+    "register_rate": 0.28,
+    "activate_rate": 0.5,
+    "retain_rate": 0.35,
+    "channels": [
+      {
+        "name": "校园社群",
+        "budget": 900,
+        "cpm": 80
+      },
+      {
+        "name": "内容平台",
+        "budget": 800,
+        "cpm": 100
+      },
+      {
+        "name": "开发者社区",
+        "budget": 400,
+        "cpm": 90
+      },
+      {
+        "name": "校园活动",
+        "budget": 1000,
+        "cpm": 200
+      },
+      {
+        "name": "AI辅助内容制作",
+        "budget": 200,
+        "cpm": 250
+      }
+    ]
+  },
+  "errors": [],
+  "external_requests": [],
+  "checks": [
+    "growth 600 to 900 and visit 12 to 20",
+    "visits 2400",
+    "saved and survives reload",
+    "A/B calculator",
+    "rain SR-001 risk 47.15",
+    "four plans",
+    "rules explanation",
+    "simulation"
+  ]
+}

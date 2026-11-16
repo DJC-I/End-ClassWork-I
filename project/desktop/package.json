@@ -1,0 +1,31 @@
+{
+  "name": "skyroute-ai-desktop",
+  "productName": "SkyRoute AI",
+  "version": "1.0.0",
+  "description": "SkyRoute AI offline teaching and decision studio",
+  "author": "SkyRoute AI",
+  "private": true,
+  "main": "main.cjs",
+  "scripts": {
+    "build:portable": "electron-builder --win portable --x64 --publish never"
+  },
+  "devDependencies": {
+    "electron": "45.3.3",
+    "electron-builder": "26.18.0"
+  },
+  "overrides": {"minimatch@>=7 <11": "11.0.1"},
+  "build": {
+    "appId": "org.skyrouteai.desktop",
+    "asar": true,
+    "files": ["main.cjs", "package.json"],
+    "extraResources": [{
+      "from": "../.tools/phase5/pyinstaller-dist/skyroute-service",
+      "to": "backend",
+      "filter": ["**/*", "!**/__pycache__/**"]
+    }],
+    "directories": {"output": "../.tools/phase5/electron-dist"},
+    "artifactName": "SkyRoute-AI-v${version}-Windows-x64.${ext}",
+    "win": {"target": ["portable"], "icon": "icon.ico", "signExecutable": false},
+    "portable": {"requestExecutionLevel": "user", "splashImage": null}
+  }
+}

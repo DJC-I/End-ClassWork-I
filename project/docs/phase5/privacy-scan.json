@@ -1,0 +1,5626 @@
+{
+  "scope": "local review; no publication authorization",
+  "counts": {
+    "files_working": 919,
+    "sqlite_databases": 1,
+    "archive_members": 638,
+    "office_embedded_images": 51,
+    "image_metadata": 955,
+    "git_objects": 844,
+    "files_history": 753
+  },
+  "tracked_file_count": 807,
+  "inventory_file_count": 920,
+  "findings": [
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/README.md",
+      "line": 20,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/deliverables/phase3/视频检验报告.md",
+      "line": 7,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/deliverables/phase4/演示操作清单.md",
+      "line": 8,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/deliverables/phase4/第四阶段验收报告.md",
+      "line": 7,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/deliverables/phase4_5/第4.5阶段验收报告.md",
+      "line": 7,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/deliverables/phase4_6/演示操作清单.md",
+      "line": 8,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/desktop/package-lock.json",
+      "line": 1882,
+      "masked": "i***@***",
+      "value_fingerprint": "b0373516d594"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/PHASE1_ACCEPTANCE.md",
+      "line": 5,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/PHASE3_ACCEPTANCE.md",
+      "line": 7,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/PHASE4_5_ACCEPTANCE.md",
+      "line": 7,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/PHASE4_ACCEPTANCE.md",
+      "line": 7,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/e2e-results.json",
+      "line": 5,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/e2e-results.json",
+      "line": 8,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/e2e-results.json",
+      "line": 9,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/e2e-results.json",
+      "line": 25,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/e2e-results.json",
+      "line": 33,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/e2e-results.json",
+      "line": 45,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/e2e-results.json",
+      "line": 52,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/e2e-results.json",
+      "line": 53,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase2/README.md",
+      "line": 36,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase2/render_checks.json",
+      "line": 2,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase2/render_checks.json",
+      "line": 3,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/README.md",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/growth-assembly.json",
+      "line": 8,
+      "masked": "p***@***",
+      "value_fingerprint": "ac0b734de08d"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/growth-assembly.json",
+      "line": 16,
+      "masked": "p***@***",
+      "value_fingerprint": "5ba1bbb68184"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/growth-assembly.json",
+      "line": 24,
+      "masked": "p***@***",
+      "value_fingerprint": "fefa2724379f"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/growth-assembly.json",
+      "line": 32,
+      "masked": "p***@***",
+      "value_fingerprint": "90289d110bb0"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/growth-assembly.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "80a1fc2f8af0"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/growth-assembly.json",
+      "line": 48,
+      "masked": "p***@***",
+      "value_fingerprint": "6a015a0e9efc"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/growth-assembly.json",
+      "line": 56,
+      "masked": "p***@***",
+      "value_fingerprint": "d046ec997dfb"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/growth-assembly.json",
+      "line": 64,
+      "masked": "p***@***",
+      "value_fingerprint": "8fb454c810a2"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/growth-assembly.json",
+      "line": 72,
+      "masked": "p***@***",
+      "value_fingerprint": "7bd722441119"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/growth-assembly.json",
+      "line": 80,
+      "masked": "p***@***",
+      "value_fingerprint": "cfbf2935f43a"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/growth-recording.json",
+      "line": 13,
+      "masked": "p***@***",
+      "value_fingerprint": "ac0b734de08d"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/growth-recording.json",
+      "line": 22,
+      "masked": "p***@***",
+      "value_fingerprint": "5ba1bbb68184"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/growth-recording.json",
+      "line": 31,
+      "masked": "p***@***",
+      "value_fingerprint": "fefa2724379f"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/growth-recording.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "90289d110bb0"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/growth-recording.json",
+      "line": 49,
+      "masked": "p***@***",
+      "value_fingerprint": "80a1fc2f8af0"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/growth-recording.json",
+      "line": 58,
+      "masked": "p***@***",
+      "value_fingerprint": "6a015a0e9efc"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/growth-recording.json",
+      "line": 67,
+      "masked": "p***@***",
+      "value_fingerprint": "d046ec997dfb"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/growth-recording.json",
+      "line": 76,
+      "masked": "p***@***",
+      "value_fingerprint": "8fb454c810a2"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/growth-recording.json",
+      "line": 85,
+      "masked": "p***@***",
+      "value_fingerprint": "7bd722441119"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/growth-recording.json",
+      "line": 94,
+      "masked": "p***@***",
+      "value_fingerprint": "cfbf2935f43a"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-assembly.json",
+      "line": 8,
+      "masked": "p***@***",
+      "value_fingerprint": "8b744fa5ecf2"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-assembly.json",
+      "line": 16,
+      "masked": "p***@***",
+      "value_fingerprint": "cc95671ed5d5"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-assembly.json",
+      "line": 24,
+      "masked": "p***@***",
+      "value_fingerprint": "f02913d114e7"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-assembly.json",
+      "line": 32,
+      "masked": "p***@***",
+      "value_fingerprint": "fbe2f8d45730"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-assembly.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "6cc844c4937f"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-assembly.json",
+      "line": 48,
+      "masked": "p***@***",
+      "value_fingerprint": "c05d4b9eb267"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-assembly.json",
+      "line": 56,
+      "masked": "p***@***",
+      "value_fingerprint": "7c598b955522"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-assembly.json",
+      "line": 64,
+      "masked": "p***@***",
+      "value_fingerprint": "6e7ac97a6c66"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-assembly.json",
+      "line": 72,
+      "masked": "p***@***",
+      "value_fingerprint": "89e37aa25ba5"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-assembly.json",
+      "line": 80,
+      "masked": "p***@***",
+      "value_fingerprint": "ea141f76f465"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-assembly.json",
+      "line": 88,
+      "masked": "p***@***",
+      "value_fingerprint": "f533aaae15a1"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-recording.json",
+      "line": 13,
+      "masked": "p***@***",
+      "value_fingerprint": "8b744fa5ecf2"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-recording.json",
+      "line": 22,
+      "masked": "p***@***",
+      "value_fingerprint": "cc95671ed5d5"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-recording.json",
+      "line": 31,
+      "masked": "p***@***",
+      "value_fingerprint": "f02913d114e7"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-recording.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "fbe2f8d45730"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-recording.json",
+      "line": 49,
+      "masked": "p***@***",
+      "value_fingerprint": "6cc844c4937f"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-recording.json",
+      "line": 58,
+      "masked": "p***@***",
+      "value_fingerprint": "c05d4b9eb267"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-recording.json",
+      "line": 67,
+      "masked": "p***@***",
+      "value_fingerprint": "7c598b955522"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-recording.json",
+      "line": 76,
+      "masked": "p***@***",
+      "value_fingerprint": "6e7ac97a6c66"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-recording.json",
+      "line": 85,
+      "masked": "p***@***",
+      "value_fingerprint": "89e37aa25ba5"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-recording.json",
+      "line": 94,
+      "masked": "p***@***",
+      "value_fingerprint": "ea141f76f465"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logistics-recording.json",
+      "line": 103,
+      "masked": "p***@***",
+      "value_fingerprint": "f533aaae15a1"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-adjust-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-adjust-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-adjust-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-adjust-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "d046ec997dfb"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-budget-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-budget-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-budget-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-budget-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "6a015a0e9efc"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-channels-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-channels-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-channels-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-channels-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "90289d110bb0"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-execution-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-execution-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-execution-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-execution-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "7bd722441119"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-experiment-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-experiment-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-experiment-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-experiment-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "8fb454c810a2"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-funnel-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-funnel-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-funnel-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-funnel-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "80a1fc2f8af0"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-mux.log",
+      "line": 2,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-mux.log",
+      "line": 9,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-mux.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-personas-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-personas-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-personas-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-personas-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "5ba1bbb68184"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-position-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-position-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-position-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-position-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "ac0b734de08d"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-report-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-report-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-report-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-report-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "cfbf2935f43a"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-strategy-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-strategy-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-strategy-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/growth-strategy-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "fefa2724379f"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-agent-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-agent-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-agent-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-agent-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "c05d4b9eb267"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-limits-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-limits-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-limits-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-limits-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "f533aaae15a1"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-mux.log",
+      "line": 2,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-mux.log",
+      "line": 9,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-mux.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-normal-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-normal-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-normal-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-normal-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "ea141f76f465"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-orders-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-orders-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-orders-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-orders-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "cc95671ed5d5"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-overview-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-overview-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-overview-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-overview-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "8b744fa5ecf2"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-plans-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-plans-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-plans-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-plans-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "6cc844c4937f"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-rain-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-rain-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-rain-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-rain-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "6e7ac97a6c66"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-report-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-report-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-report-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-report-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "7c598b955522"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-risk-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-risk-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-risk-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-risk-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "fbe2f8d45730"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-snow-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-snow-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-snow-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-snow-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "89e37aa25ba5"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-weather-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-weather-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-weather-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase3/logs/logistics-weather-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "f02913d114e7"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4/docs-render.json",
+      "line": 2,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4/ppt-render.log",
+      "line": 1,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4/ppt-render.log",
+      "line": 1,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4/ppt-render.log",
+      "line": 2,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4/slides-render.json",
+      "line": 2,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/growth-assembly.json",
+      "line": 8,
+      "masked": "p***@***",
+      "value_fingerprint": "6170043606f5"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/growth-assembly.json",
+      "line": 16,
+      "masked": "p***@***",
+      "value_fingerprint": "2dc59f212cab"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/growth-assembly.json",
+      "line": 24,
+      "masked": "p***@***",
+      "value_fingerprint": "2a75ad1162d7"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/growth-assembly.json",
+      "line": 32,
+      "masked": "p***@***",
+      "value_fingerprint": "956df21b410b"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/growth-assembly.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "4e7bc3d3915a"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/growth-assembly.json",
+      "line": 48,
+      "masked": "p***@***",
+      "value_fingerprint": "f541b4632cee"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/growth-assembly.json",
+      "line": 56,
+      "masked": "p***@***",
+      "value_fingerprint": "10211349711b"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/growth-assembly.json",
+      "line": 64,
+      "masked": "p***@***",
+      "value_fingerprint": "6fb9a3d32416"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/growth-assembly.json",
+      "line": 72,
+      "masked": "p***@***",
+      "value_fingerprint": "49524cd57755"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/growth-assembly.json",
+      "line": 80,
+      "masked": "p***@***",
+      "value_fingerprint": "7d5f29153479"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/growth-recording.json",
+      "line": 13,
+      "masked": "p***@***",
+      "value_fingerprint": "6170043606f5"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/growth-recording.json",
+      "line": 22,
+      "masked": "p***@***",
+      "value_fingerprint": "2dc59f212cab"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/growth-recording.json",
+      "line": 31,
+      "masked": "p***@***",
+      "value_fingerprint": "2a75ad1162d7"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/growth-recording.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "956df21b410b"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/growth-recording.json",
+      "line": 49,
+      "masked": "p***@***",
+      "value_fingerprint": "4e7bc3d3915a"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/growth-recording.json",
+      "line": 58,
+      "masked": "p***@***",
+      "value_fingerprint": "f541b4632cee"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/growth-recording.json",
+      "line": 67,
+      "masked": "p***@***",
+      "value_fingerprint": "10211349711b"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/growth-recording.json",
+      "line": 76,
+      "masked": "p***@***",
+      "value_fingerprint": "6fb9a3d32416"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/growth-recording.json",
+      "line": 85,
+      "masked": "p***@***",
+      "value_fingerprint": "49524cd57755"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/growth-recording.json",
+      "line": 94,
+      "masked": "p***@***",
+      "value_fingerprint": "7d5f29153479"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-assembly.json",
+      "line": 8,
+      "masked": "p***@***",
+      "value_fingerprint": "1e95a711bba0"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-assembly.json",
+      "line": 16,
+      "masked": "p***@***",
+      "value_fingerprint": "7a5f19ae9993"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-assembly.json",
+      "line": 24,
+      "masked": "p***@***",
+      "value_fingerprint": "7ac1868e89ee"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-assembly.json",
+      "line": 32,
+      "masked": "p***@***",
+      "value_fingerprint": "4bd93ccb2ade"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-assembly.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "e1f863e75340"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-assembly.json",
+      "line": 48,
+      "masked": "p***@***",
+      "value_fingerprint": "ec6189d4d463"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-assembly.json",
+      "line": 56,
+      "masked": "p***@***",
+      "value_fingerprint": "82060195ffcf"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-assembly.json",
+      "line": 64,
+      "masked": "p***@***",
+      "value_fingerprint": "af0dc0d21df4"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-assembly.json",
+      "line": 72,
+      "masked": "p***@***",
+      "value_fingerprint": "a1f06b6cae88"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-assembly.json",
+      "line": 80,
+      "masked": "p***@***",
+      "value_fingerprint": "fb928bc5cc17"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-assembly.json",
+      "line": 88,
+      "masked": "p***@***",
+      "value_fingerprint": "d06ebef7db15"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-recording.json",
+      "line": 13,
+      "masked": "p***@***",
+      "value_fingerprint": "1e95a711bba0"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-recording.json",
+      "line": 22,
+      "masked": "p***@***",
+      "value_fingerprint": "7a5f19ae9993"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-recording.json",
+      "line": 31,
+      "masked": "p***@***",
+      "value_fingerprint": "7ac1868e89ee"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-recording.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "4bd93ccb2ade"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-recording.json",
+      "line": 49,
+      "masked": "p***@***",
+      "value_fingerprint": "e1f863e75340"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-recording.json",
+      "line": 58,
+      "masked": "p***@***",
+      "value_fingerprint": "ec6189d4d463"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-recording.json",
+      "line": 67,
+      "masked": "p***@***",
+      "value_fingerprint": "82060195ffcf"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-recording.json",
+      "line": 76,
+      "masked": "p***@***",
+      "value_fingerprint": "af0dc0d21df4"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-recording.json",
+      "line": 85,
+      "masked": "p***@***",
+      "value_fingerprint": "a1f06b6cae88"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-recording.json",
+      "line": 94,
+      "masked": "p***@***",
+      "value_fingerprint": "fb928bc5cc17"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logistics-recording.json",
+      "line": 103,
+      "masked": "p***@***",
+      "value_fingerprint": "d06ebef7db15"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-adjust-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-adjust-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-adjust-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-adjust-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "10211349711b"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-budget-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-budget-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-budget-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-budget-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "f541b4632cee"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-channels-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-channels-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-channels-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-channels-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "956df21b410b"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-execution-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-execution-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-execution-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-execution-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "49524cd57755"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-experiment-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-experiment-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-experiment-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-experiment-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "6fb9a3d32416"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-funnel-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-funnel-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-funnel-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-funnel-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "4e7bc3d3915a"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-mux.log",
+      "line": 2,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-mux.log",
+      "line": 9,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-mux.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-personas-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-personas-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-personas-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-personas-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "2dc59f212cab"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-position-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-position-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-position-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-position-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "6170043606f5"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-report-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-report-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-report-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-report-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "7d5f29153479"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-strategy-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-strategy-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-strategy-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/growth-strategy-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "2a75ad1162d7"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-agent-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-agent-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-agent-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-agent-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "ec6189d4d463"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-limits-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-limits-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-limits-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-limits-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "d06ebef7db15"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-mux.log",
+      "line": 2,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-mux.log",
+      "line": 9,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-mux.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-normal-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-normal-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-normal-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-normal-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "fb928bc5cc17"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-orders-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-orders-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-orders-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-orders-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "7a5f19ae9993"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-overview-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-overview-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-overview-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-overview-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "1e95a711bba0"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-plans-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-plans-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-plans-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-plans-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "e1f863e75340"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-rain-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-rain-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-rain-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-rain-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "af0dc0d21df4"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-report-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-report-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-report-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-report-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "82060195ffcf"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-risk-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-risk-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-risk-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-risk-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "4bd93ccb2ade"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-snow-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-snow-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-snow-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-snow-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "a1f06b6cae88"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-weather-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-weather-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-weather-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_5/logs/logistics-weather-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "7ac1868e89ee"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/doc-render.log",
+      "line": 1,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/doc-render.log",
+      "line": 2,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/doc-render.log",
+      "line": 3,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/doc-render.log",
+      "line": 4,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/docs-render-final.log",
+      "line": 1,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/docs-render-final.log",
+      "line": 2,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/docs-render-final.log",
+      "line": 3,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/docs-render-final.log",
+      "line": 4,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/docs-render.json",
+      "line": 2,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/e2e-final.json",
+      "line": 5,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/e2e-final.json",
+      "line": 11,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/e2e-final.json",
+      "line": 12,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/e2e-final.json",
+      "line": 28,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/e2e-final.json",
+      "line": 36,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/e2e-final.json",
+      "line": 48,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/e2e-final.json",
+      "line": 55,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/e2e-final.json",
+      "line": 56,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/e2e-results.json",
+      "line": 5,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/e2e-results.json",
+      "line": 10,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/e2e-results.json",
+      "line": 11,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/e2e-results.json",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/e2e-results.json",
+      "line": 35,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/e2e-results.json",
+      "line": 47,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/e2e-results.json",
+      "line": 54,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/e2e-results.json",
+      "line": 55,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/growth-assembly.json",
+      "line": 8,
+      "masked": "p***@***",
+      "value_fingerprint": "4c86a8204ed5"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/growth-assembly.json",
+      "line": 16,
+      "masked": "p***@***",
+      "value_fingerprint": "93d3366de110"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/growth-assembly.json",
+      "line": 24,
+      "masked": "p***@***",
+      "value_fingerprint": "aef676e52fdd"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/growth-assembly.json",
+      "line": 32,
+      "masked": "p***@***",
+      "value_fingerprint": "8e99aaee07b6"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/growth-assembly.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "e3503137c438"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/growth-assembly.json",
+      "line": 48,
+      "masked": "p***@***",
+      "value_fingerprint": "2bf2f2e2c34e"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/growth-assembly.json",
+      "line": 56,
+      "masked": "p***@***",
+      "value_fingerprint": "9acc51468b91"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/growth-assembly.json",
+      "line": 64,
+      "masked": "p***@***",
+      "value_fingerprint": "2474728ece76"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/growth-assembly.json",
+      "line": 72,
+      "masked": "p***@***",
+      "value_fingerprint": "7b0cfa37d370"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/growth-assembly.json",
+      "line": 80,
+      "masked": "p***@***",
+      "value_fingerprint": "ec191d0ec6a6"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/growth-recording.json",
+      "line": 13,
+      "masked": "p***@***",
+      "value_fingerprint": "4c86a8204ed5"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/growth-recording.json",
+      "line": 22,
+      "masked": "p***@***",
+      "value_fingerprint": "93d3366de110"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/growth-recording.json",
+      "line": 31,
+      "masked": "p***@***",
+      "value_fingerprint": "aef676e52fdd"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/growth-recording.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "8e99aaee07b6"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/growth-recording.json",
+      "line": 49,
+      "masked": "p***@***",
+      "value_fingerprint": "e3503137c438"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/growth-recording.json",
+      "line": 58,
+      "masked": "p***@***",
+      "value_fingerprint": "2bf2f2e2c34e"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/growth-recording.json",
+      "line": 67,
+      "masked": "p***@***",
+      "value_fingerprint": "9acc51468b91"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/growth-recording.json",
+      "line": 76,
+      "masked": "p***@***",
+      "value_fingerprint": "2474728ece76"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/growth-recording.json",
+      "line": 85,
+      "masked": "p***@***",
+      "value_fingerprint": "7b0cfa37d370"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/growth-recording.json",
+      "line": 94,
+      "masked": "p***@***",
+      "value_fingerprint": "ec191d0ec6a6"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-assembly.json",
+      "line": 8,
+      "masked": "p***@***",
+      "value_fingerprint": "9e63b6c58a55"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-assembly.json",
+      "line": 16,
+      "masked": "p***@***",
+      "value_fingerprint": "6a1a2f72344a"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-assembly.json",
+      "line": 24,
+      "masked": "p***@***",
+      "value_fingerprint": "ee04d334b5f9"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-assembly.json",
+      "line": 32,
+      "masked": "p***@***",
+      "value_fingerprint": "4303db1a3a2d"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-assembly.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "2fe0a58a9c37"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-assembly.json",
+      "line": 48,
+      "masked": "p***@***",
+      "value_fingerprint": "bc5b4b6a2e62"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-assembly.json",
+      "line": 56,
+      "masked": "p***@***",
+      "value_fingerprint": "8652b89d85fc"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-assembly.json",
+      "line": 64,
+      "masked": "p***@***",
+      "value_fingerprint": "2ccb0b705c6d"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-assembly.json",
+      "line": 72,
+      "masked": "p***@***",
+      "value_fingerprint": "f3c1abf1c927"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-assembly.json",
+      "line": 80,
+      "masked": "p***@***",
+      "value_fingerprint": "0bd96a3983a8"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-assembly.json",
+      "line": 88,
+      "masked": "p***@***",
+      "value_fingerprint": "1ec9f9ba33df"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-recording.json",
+      "line": 13,
+      "masked": "p***@***",
+      "value_fingerprint": "9e63b6c58a55"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-recording.json",
+      "line": 22,
+      "masked": "p***@***",
+      "value_fingerprint": "6a1a2f72344a"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-recording.json",
+      "line": 31,
+      "masked": "p***@***",
+      "value_fingerprint": "ee04d334b5f9"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-recording.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "4303db1a3a2d"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-recording.json",
+      "line": 49,
+      "masked": "p***@***",
+      "value_fingerprint": "2fe0a58a9c37"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-recording.json",
+      "line": 58,
+      "masked": "p***@***",
+      "value_fingerprint": "bc5b4b6a2e62"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-recording.json",
+      "line": 67,
+      "masked": "p***@***",
+      "value_fingerprint": "8652b89d85fc"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-recording.json",
+      "line": 76,
+      "masked": "p***@***",
+      "value_fingerprint": "2ccb0b705c6d"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-recording.json",
+      "line": 85,
+      "masked": "p***@***",
+      "value_fingerprint": "f3c1abf1c927"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-recording.json",
+      "line": 94,
+      "masked": "p***@***",
+      "value_fingerprint": "0bd96a3983a8"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logistics-recording.json",
+      "line": 103,
+      "masked": "p***@***",
+      "value_fingerprint": "1ec9f9ba33df"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-adjust-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-adjust-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-adjust-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-adjust-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "9acc51468b91"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-budget-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-budget-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-budget-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-budget-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "2bf2f2e2c34e"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-channels-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-channels-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-channels-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-channels-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "8e99aaee07b6"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-execution-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-execution-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-execution-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-execution-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "7b0cfa37d370"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-experiment-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-experiment-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-experiment-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-experiment-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "2474728ece76"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-funnel-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-funnel-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-funnel-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-funnel-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "e3503137c438"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-mux.log",
+      "line": 2,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-mux.log",
+      "line": 9,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-mux.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-personas-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-personas-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-personas-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-personas-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "93d3366de110"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-position-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-position-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-position-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-position-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "4c86a8204ed5"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-report-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-report-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-report-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-report-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "ec191d0ec6a6"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-strategy-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-strategy-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-strategy-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/growth-strategy-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "aef676e52fdd"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-agent-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-agent-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-agent-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-agent-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "bc5b4b6a2e62"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-limits-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-limits-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-limits-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-limits-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "1ec9f9ba33df"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-mux.log",
+      "line": 2,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-mux.log",
+      "line": 9,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-mux.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-normal-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-normal-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-normal-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-normal-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "0bd96a3983a8"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-orders-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-orders-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-orders-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-orders-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "6a1a2f72344a"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-overview-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-overview-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-overview-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-overview-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "9e63b6c58a55"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-plans-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-plans-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-plans-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-plans-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "2fe0a58a9c37"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-rain-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-rain-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-rain-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-rain-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "2ccb0b705c6d"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-report-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-report-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-report-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-report-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "8652b89d85fc"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-risk-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-risk-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-risk-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-risk-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "4303db1a3a2d"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-snow-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-snow-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-snow-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-snow-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "f3c1abf1c927"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-weather-encode.log",
+      "line": 6,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-weather-encode.log",
+      "line": 15,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-weather-encode.log",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "working",
+      "location": "project/docs/phase4_6/logs/logistics-weather-encode.log",
+      "line": 6,
+      "masked": "p***@***",
+      "value_fingerprint": "ee04d334b5f9"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/slide-edit.log",
+      "line": 1,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/slide-edit.log",
+      "line": 2,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/slide-edit.log",
+      "line": 8,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/slide-edit.log",
+      "line": 9,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/slide-edit.log",
+      "line": 10,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/slide-edit.log",
+      "line": 11,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/slide-edit.log",
+      "line": 12,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/slide-finalize.log",
+      "line": 1,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/slide-finalize.log",
+      "line": 1,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/docs/phase4_6/slides-render.json",
+      "line": 2,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/scripts/audit_phase5_privacy.py",
+      "line": 27,
+      "masked": "<user:)***>",
+      "value_fingerprint": "71aa51c6884e"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/scripts/build_phase4_slides.mjs",
+      "line": 5,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/scripts/finalize_phase46_slides.mjs",
+      "line": 8,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/scripts/render_phase4.py",
+      "line": 8,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/scripts/render_phase46.py",
+      "line": 8,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/scripts/report_phase3.py",
+      "line": 11,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "working",
+      "location": "project/scripts/report_phase45.py",
+      "line": 29,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:0195ded18a6f:project/docs/phase4/slides-render.json",
+      "line": 2,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:070289e90b7c:project/docs/phase3/logistics-recording.json",
+      "line": 13,
+      "masked": "p***@***",
+      "value_fingerprint": "8b744fa5ecf2"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:070289e90b7c:project/docs/phase3/logistics-recording.json",
+      "line": 22,
+      "masked": "p***@***",
+      "value_fingerprint": "cc95671ed5d5"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:070289e90b7c:project/docs/phase3/logistics-recording.json",
+      "line": 31,
+      "masked": "p***@***",
+      "value_fingerprint": "f02913d114e7"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:070289e90b7c:project/docs/phase3/logistics-recording.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "fbe2f8d45730"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:070289e90b7c:project/docs/phase3/logistics-recording.json",
+      "line": 49,
+      "masked": "p***@***",
+      "value_fingerprint": "6cc844c4937f"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:070289e90b7c:project/docs/phase3/logistics-recording.json",
+      "line": 58,
+      "masked": "p***@***",
+      "value_fingerprint": "c05d4b9eb267"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:070289e90b7c:project/docs/phase3/logistics-recording.json",
+      "line": 67,
+      "masked": "p***@***",
+      "value_fingerprint": "7c598b955522"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:070289e90b7c:project/docs/phase3/logistics-recording.json",
+      "line": 76,
+      "masked": "p***@***",
+      "value_fingerprint": "6e7ac97a6c66"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:070289e90b7c:project/docs/phase3/logistics-recording.json",
+      "line": 85,
+      "masked": "p***@***",
+      "value_fingerprint": "89e37aa25ba5"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:070289e90b7c:project/docs/phase3/logistics-recording.json",
+      "line": 94,
+      "masked": "p***@***",
+      "value_fingerprint": "ea141f76f465"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:070289e90b7c:project/docs/phase3/logistics-recording.json",
+      "line": 103,
+      "masked": "p***@***",
+      "value_fingerprint": "f533aaae15a1"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:0dde5aa74132:project/docs/phase2/render_checks.json",
+      "line": 2,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:0dde5aa74132:project/docs/phase2/render_checks.json",
+      "line": 3,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:16aaa23567a6:project/docs/phase3/growth-assembly.json",
+      "line": 8,
+      "masked": "p***@***",
+      "value_fingerprint": "ac0b734de08d"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:16aaa23567a6:project/docs/phase3/growth-assembly.json",
+      "line": 16,
+      "masked": "p***@***",
+      "value_fingerprint": "5ba1bbb68184"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:16aaa23567a6:project/docs/phase3/growth-assembly.json",
+      "line": 24,
+      "masked": "p***@***",
+      "value_fingerprint": "fefa2724379f"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:16aaa23567a6:project/docs/phase3/growth-assembly.json",
+      "line": 32,
+      "masked": "p***@***",
+      "value_fingerprint": "90289d110bb0"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:16aaa23567a6:project/docs/phase3/growth-assembly.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "80a1fc2f8af0"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:16aaa23567a6:project/docs/phase3/growth-assembly.json",
+      "line": 48,
+      "masked": "p***@***",
+      "value_fingerprint": "6a015a0e9efc"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:16aaa23567a6:project/docs/phase3/growth-assembly.json",
+      "line": 56,
+      "masked": "p***@***",
+      "value_fingerprint": "d046ec997dfb"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:16aaa23567a6:project/docs/phase3/growth-assembly.json",
+      "line": 64,
+      "masked": "p***@***",
+      "value_fingerprint": "8fb454c810a2"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:16aaa23567a6:project/docs/phase3/growth-assembly.json",
+      "line": 72,
+      "masked": "p***@***",
+      "value_fingerprint": "7bd722441119"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:16aaa23567a6:project/docs/phase3/growth-assembly.json",
+      "line": 80,
+      "masked": "p***@***",
+      "value_fingerprint": "cfbf2935f43a"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:3785c33d94d3:project/scripts/report_phase45.py",
+      "line": 29,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:3788047f0ca4:project/docs/phase3/logistics-assembly.json",
+      "line": 8,
+      "masked": "p***@***",
+      "value_fingerprint": "8b744fa5ecf2"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:3788047f0ca4:project/docs/phase3/logistics-assembly.json",
+      "line": 16,
+      "masked": "p***@***",
+      "value_fingerprint": "cc95671ed5d5"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:3788047f0ca4:project/docs/phase3/logistics-assembly.json",
+      "line": 24,
+      "masked": "p***@***",
+      "value_fingerprint": "f02913d114e7"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:3788047f0ca4:project/docs/phase3/logistics-assembly.json",
+      "line": 32,
+      "masked": "p***@***",
+      "value_fingerprint": "fbe2f8d45730"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:3788047f0ca4:project/docs/phase3/logistics-assembly.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "6cc844c4937f"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:3788047f0ca4:project/docs/phase3/logistics-assembly.json",
+      "line": 48,
+      "masked": "p***@***",
+      "value_fingerprint": "c05d4b9eb267"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:3788047f0ca4:project/docs/phase3/logistics-assembly.json",
+      "line": 56,
+      "masked": "p***@***",
+      "value_fingerprint": "7c598b955522"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:3788047f0ca4:project/docs/phase3/logistics-assembly.json",
+      "line": 64,
+      "masked": "p***@***",
+      "value_fingerprint": "6e7ac97a6c66"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:3788047f0ca4:project/docs/phase3/logistics-assembly.json",
+      "line": 72,
+      "masked": "p***@***",
+      "value_fingerprint": "89e37aa25ba5"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:3788047f0ca4:project/docs/phase3/logistics-assembly.json",
+      "line": 80,
+      "masked": "p***@***",
+      "value_fingerprint": "ea141f76f465"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:3788047f0ca4:project/docs/phase3/logistics-assembly.json",
+      "line": 88,
+      "masked": "p***@***",
+      "value_fingerprint": "f533aaae15a1"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:384ae21051f9:project/docs/phase4_6/growth-recording.json",
+      "line": 13,
+      "masked": "p***@***",
+      "value_fingerprint": "4c86a8204ed5"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:384ae21051f9:project/docs/phase4_6/growth-recording.json",
+      "line": 22,
+      "masked": "p***@***",
+      "value_fingerprint": "93d3366de110"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:384ae21051f9:project/docs/phase4_6/growth-recording.json",
+      "line": 31,
+      "masked": "p***@***",
+      "value_fingerprint": "aef676e52fdd"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:384ae21051f9:project/docs/phase4_6/growth-recording.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "8e99aaee07b6"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:384ae21051f9:project/docs/phase4_6/growth-recording.json",
+      "line": 49,
+      "masked": "p***@***",
+      "value_fingerprint": "e3503137c438"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:384ae21051f9:project/docs/phase4_6/growth-recording.json",
+      "line": 58,
+      "masked": "p***@***",
+      "value_fingerprint": "2bf2f2e2c34e"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:384ae21051f9:project/docs/phase4_6/growth-recording.json",
+      "line": 67,
+      "masked": "p***@***",
+      "value_fingerprint": "9acc51468b91"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:384ae21051f9:project/docs/phase4_6/growth-recording.json",
+      "line": 76,
+      "masked": "p***@***",
+      "value_fingerprint": "2474728ece76"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:384ae21051f9:project/docs/phase4_6/growth-recording.json",
+      "line": 85,
+      "masked": "p***@***",
+      "value_fingerprint": "7b0cfa37d370"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:384ae21051f9:project/docs/phase4_6/growth-recording.json",
+      "line": 94,
+      "masked": "p***@***",
+      "value_fingerprint": "ec191d0ec6a6"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:38cd42a7a27f:project/docs/e2e-results.json",
+      "line": 5,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:38cd42a7a27f:project/docs/e2e-results.json",
+      "line": 8,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:38cd42a7a27f:project/docs/e2e-results.json",
+      "line": 9,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:38cd42a7a27f:project/docs/e2e-results.json",
+      "line": 25,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:38cd42a7a27f:project/docs/e2e-results.json",
+      "line": 33,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:38cd42a7a27f:project/docs/e2e-results.json",
+      "line": 45,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:38cd42a7a27f:project/docs/e2e-results.json",
+      "line": 52,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:38cd42a7a27f:project/docs/e2e-results.json",
+      "line": 53,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "git_metadata",
+      "location": "git:38ece5dfd12eb377a1744d6b6201e908b46eacd2:commit",
+      "line": 3,
+      "masked": "c***@***",
+      "value_fingerprint": "06956b2c9263"
+    },
+    {
+      "kind": "email",
+      "scope": "git_metadata",
+      "location": "git:38ece5dfd12eb377a1744d6b6201e908b46eacd2:commit",
+      "line": 4,
+      "masked": "c***@***",
+      "value_fingerprint": "06956b2c9263"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:3a033a5d8d0c:project/README.md",
+      "line": 14,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:46666a7e475d:project/README.md",
+      "line": 18,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:48e958093cb7:project/scripts/render_phase46.py",
+      "line": 8,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "git_metadata",
+      "location": "git:4e8f04dcf42ff3fce7b3603bff46a6f6d77c3cc3:commit",
+      "line": 3,
+      "masked": "c***@***",
+      "value_fingerprint": "06956b2c9263"
+    },
+    {
+      "kind": "email",
+      "scope": "git_metadata",
+      "location": "git:4e8f04dcf42ff3fce7b3603bff46a6f6d77c3cc3:commit",
+      "line": 4,
+      "masked": "c***@***",
+      "value_fingerprint": "06956b2c9263"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:5b31b37ac19f:project/docs/phase4_6/slides-render.json",
+      "line": 2,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:60d778fab877:project/docs/phase4_5/growth-assembly.json",
+      "line": 8,
+      "masked": "p***@***",
+      "value_fingerprint": "6170043606f5"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:60d778fab877:project/docs/phase4_5/growth-assembly.json",
+      "line": 16,
+      "masked": "p***@***",
+      "value_fingerprint": "2dc59f212cab"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:60d778fab877:project/docs/phase4_5/growth-assembly.json",
+      "line": 24,
+      "masked": "p***@***",
+      "value_fingerprint": "2a75ad1162d7"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:60d778fab877:project/docs/phase4_5/growth-assembly.json",
+      "line": 32,
+      "masked": "p***@***",
+      "value_fingerprint": "956df21b410b"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:60d778fab877:project/docs/phase4_5/growth-assembly.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "4e7bc3d3915a"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:60d778fab877:project/docs/phase4_5/growth-assembly.json",
+      "line": 48,
+      "masked": "p***@***",
+      "value_fingerprint": "f541b4632cee"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:60d778fab877:project/docs/phase4_5/growth-assembly.json",
+      "line": 56,
+      "masked": "p***@***",
+      "value_fingerprint": "10211349711b"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:60d778fab877:project/docs/phase4_5/growth-assembly.json",
+      "line": 64,
+      "masked": "p***@***",
+      "value_fingerprint": "6fb9a3d32416"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:60d778fab877:project/docs/phase4_5/growth-assembly.json",
+      "line": 72,
+      "masked": "p***@***",
+      "value_fingerprint": "49524cd57755"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:60d778fab877:project/docs/phase4_5/growth-assembly.json",
+      "line": 80,
+      "masked": "p***@***",
+      "value_fingerprint": "7d5f29153479"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:62c6ae33631a:project/deliverables/phase3/视频检验报告.md",
+      "line": 7,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:643d7cb4e517:project/docs/phase4/docs-render.json",
+      "line": 2,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:663f4f102257:project/deliverables/phase4_6/演示操作清单.md",
+      "line": 8,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:673017a6eef6:project/docs/phase4_5/growth-recording.json",
+      "line": 13,
+      "masked": "p***@***",
+      "value_fingerprint": "6170043606f5"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:673017a6eef6:project/docs/phase4_5/growth-recording.json",
+      "line": 22,
+      "masked": "p***@***",
+      "value_fingerprint": "2dc59f212cab"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:673017a6eef6:project/docs/phase4_5/growth-recording.json",
+      "line": 31,
+      "masked": "p***@***",
+      "value_fingerprint": "2a75ad1162d7"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:673017a6eef6:project/docs/phase4_5/growth-recording.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "956df21b410b"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:673017a6eef6:project/docs/phase4_5/growth-recording.json",
+      "line": 49,
+      "masked": "p***@***",
+      "value_fingerprint": "4e7bc3d3915a"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:673017a6eef6:project/docs/phase4_5/growth-recording.json",
+      "line": 58,
+      "masked": "p***@***",
+      "value_fingerprint": "f541b4632cee"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:673017a6eef6:project/docs/phase4_5/growth-recording.json",
+      "line": 67,
+      "masked": "p***@***",
+      "value_fingerprint": "10211349711b"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:673017a6eef6:project/docs/phase4_5/growth-recording.json",
+      "line": 76,
+      "masked": "p***@***",
+      "value_fingerprint": "6fb9a3d32416"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:673017a6eef6:project/docs/phase4_5/growth-recording.json",
+      "line": 85,
+      "masked": "p***@***",
+      "value_fingerprint": "49524cd57755"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:673017a6eef6:project/docs/phase4_5/growth-recording.json",
+      "line": 94,
+      "masked": "p***@***",
+      "value_fingerprint": "7d5f29153479"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:76f98c8df889:project/scripts/build_phase4_slides.mjs",
+      "line": 5,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:79c2f7d60849:project/docs/phase4_5/logistics-assembly.json",
+      "line": 8,
+      "masked": "p***@***",
+      "value_fingerprint": "1e95a711bba0"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:79c2f7d60849:project/docs/phase4_5/logistics-assembly.json",
+      "line": 16,
+      "masked": "p***@***",
+      "value_fingerprint": "7a5f19ae9993"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:79c2f7d60849:project/docs/phase4_5/logistics-assembly.json",
+      "line": 24,
+      "masked": "p***@***",
+      "value_fingerprint": "7ac1868e89ee"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:79c2f7d60849:project/docs/phase4_5/logistics-assembly.json",
+      "line": 32,
+      "masked": "p***@***",
+      "value_fingerprint": "4bd93ccb2ade"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:79c2f7d60849:project/docs/phase4_5/logistics-assembly.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "e1f863e75340"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:79c2f7d60849:project/docs/phase4_5/logistics-assembly.json",
+      "line": 48,
+      "masked": "p***@***",
+      "value_fingerprint": "ec6189d4d463"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:79c2f7d60849:project/docs/phase4_5/logistics-assembly.json",
+      "line": 56,
+      "masked": "p***@***",
+      "value_fingerprint": "82060195ffcf"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:79c2f7d60849:project/docs/phase4_5/logistics-assembly.json",
+      "line": 64,
+      "masked": "p***@***",
+      "value_fingerprint": "af0dc0d21df4"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:79c2f7d60849:project/docs/phase4_5/logistics-assembly.json",
+      "line": 72,
+      "masked": "p***@***",
+      "value_fingerprint": "a1f06b6cae88"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:79c2f7d60849:project/docs/phase4_5/logistics-assembly.json",
+      "line": 80,
+      "masked": "p***@***",
+      "value_fingerprint": "fb928bc5cc17"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:79c2f7d60849:project/docs/phase4_5/logistics-assembly.json",
+      "line": 88,
+      "masked": "p***@***",
+      "value_fingerprint": "d06ebef7db15"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:7a676bbf95f1:project/deliverables/phase4/演示操作清单.md",
+      "line": 8,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "git_metadata",
+      "location": "git:7c08fc8977c6203697e1c15f69a9f59db8a25c49:commit",
+      "line": 3,
+      "masked": "c***@***",
+      "value_fingerprint": "06956b2c9263"
+    },
+    {
+      "kind": "email",
+      "scope": "git_metadata",
+      "location": "git:7c08fc8977c6203697e1c15f69a9f59db8a25c49:commit",
+      "line": 4,
+      "masked": "c***@***",
+      "value_fingerprint": "06956b2c9263"
+    },
+    {
+      "kind": "email",
+      "scope": "git_metadata",
+      "location": "git:7c595b2a700bae6b5ea13d52f2f673e2686fd406:commit",
+      "line": 2,
+      "masked": "c***@***",
+      "value_fingerprint": "06956b2c9263"
+    },
+    {
+      "kind": "email",
+      "scope": "git_metadata",
+      "location": "git:7c595b2a700bae6b5ea13d52f2f673e2686fd406:commit",
+      "line": 3,
+      "masked": "c***@***",
+      "value_fingerprint": "06956b2c9263"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:8088b230d894:project/docs/phase4_6/logistics-assembly.json",
+      "line": 8,
+      "masked": "p***@***",
+      "value_fingerprint": "9e63b6c58a55"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:8088b230d894:project/docs/phase4_6/logistics-assembly.json",
+      "line": 16,
+      "masked": "p***@***",
+      "value_fingerprint": "6a1a2f72344a"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:8088b230d894:project/docs/phase4_6/logistics-assembly.json",
+      "line": 24,
+      "masked": "p***@***",
+      "value_fingerprint": "ee04d334b5f9"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:8088b230d894:project/docs/phase4_6/logistics-assembly.json",
+      "line": 32,
+      "masked": "p***@***",
+      "value_fingerprint": "4303db1a3a2d"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:8088b230d894:project/docs/phase4_6/logistics-assembly.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "2fe0a58a9c37"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:8088b230d894:project/docs/phase4_6/logistics-assembly.json",
+      "line": 48,
+      "masked": "p***@***",
+      "value_fingerprint": "bc5b4b6a2e62"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:8088b230d894:project/docs/phase4_6/logistics-assembly.json",
+      "line": 56,
+      "masked": "p***@***",
+      "value_fingerprint": "8652b89d85fc"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:8088b230d894:project/docs/phase4_6/logistics-assembly.json",
+      "line": 64,
+      "masked": "p***@***",
+      "value_fingerprint": "2ccb0b705c6d"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:8088b230d894:project/docs/phase4_6/logistics-assembly.json",
+      "line": 72,
+      "masked": "p***@***",
+      "value_fingerprint": "f3c1abf1c927"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:8088b230d894:project/docs/phase4_6/logistics-assembly.json",
+      "line": 80,
+      "masked": "p***@***",
+      "value_fingerprint": "0bd96a3983a8"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:8088b230d894:project/docs/phase4_6/logistics-assembly.json",
+      "line": 88,
+      "masked": "p***@***",
+      "value_fingerprint": "1ec9f9ba33df"
+    },
+    {
+      "kind": "email",
+      "scope": "git_metadata",
+      "location": "git:9a46359b5dcf80d4b4e783a89952796031703d41:commit",
+      "line": 2,
+      "masked": "1***@users.noreply.github.com",
+      "value_fingerprint": "3901dd285c51"
+    },
+    {
+      "kind": "email",
+      "scope": "git_metadata",
+      "location": "git:9a46359b5dcf80d4b4e783a89952796031703d41:commit",
+      "line": 3,
+      "masked": "n***@***",
+      "value_fingerprint": "3c205d8fc749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:9af3620c5543:project/docs/phase3/README.md",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:9d934ca8bee8:project/docs/PHASE1_ACCEPTANCE.md",
+      "line": 5,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:9e9f7c828453:project/scripts/report_phase3.py",
+      "line": 11,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:a1c9eac23002:project/docs/phase3/growth-recording.json",
+      "line": 13,
+      "masked": "p***@***",
+      "value_fingerprint": "ac0b734de08d"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:a1c9eac23002:project/docs/phase3/growth-recording.json",
+      "line": 22,
+      "masked": "p***@***",
+      "value_fingerprint": "5ba1bbb68184"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:a1c9eac23002:project/docs/phase3/growth-recording.json",
+      "line": 31,
+      "masked": "p***@***",
+      "value_fingerprint": "fefa2724379f"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:a1c9eac23002:project/docs/phase3/growth-recording.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "90289d110bb0"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:a1c9eac23002:project/docs/phase3/growth-recording.json",
+      "line": 49,
+      "masked": "p***@***",
+      "value_fingerprint": "80a1fc2f8af0"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:a1c9eac23002:project/docs/phase3/growth-recording.json",
+      "line": 58,
+      "masked": "p***@***",
+      "value_fingerprint": "6a015a0e9efc"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:a1c9eac23002:project/docs/phase3/growth-recording.json",
+      "line": 67,
+      "masked": "p***@***",
+      "value_fingerprint": "d046ec997dfb"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:a1c9eac23002:project/docs/phase3/growth-recording.json",
+      "line": 76,
+      "masked": "p***@***",
+      "value_fingerprint": "8fb454c810a2"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:a1c9eac23002:project/docs/phase3/growth-recording.json",
+      "line": 85,
+      "masked": "p***@***",
+      "value_fingerprint": "7bd722441119"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:a1c9eac23002:project/docs/phase3/growth-recording.json",
+      "line": 94,
+      "masked": "p***@***",
+      "value_fingerprint": "cfbf2935f43a"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:a8d7b90bc954:project/README.md",
+      "line": 20,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:afd6df531279:project/docs/phase4_5/logistics-recording.json",
+      "line": 13,
+      "masked": "p***@***",
+      "value_fingerprint": "1e95a711bba0"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:afd6df531279:project/docs/phase4_5/logistics-recording.json",
+      "line": 22,
+      "masked": "p***@***",
+      "value_fingerprint": "7a5f19ae9993"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:afd6df531279:project/docs/phase4_5/logistics-recording.json",
+      "line": 31,
+      "masked": "p***@***",
+      "value_fingerprint": "7ac1868e89ee"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:afd6df531279:project/docs/phase4_5/logistics-recording.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "4bd93ccb2ade"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:afd6df531279:project/docs/phase4_5/logistics-recording.json",
+      "line": 49,
+      "masked": "p***@***",
+      "value_fingerprint": "e1f863e75340"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:afd6df531279:project/docs/phase4_5/logistics-recording.json",
+      "line": 58,
+      "masked": "p***@***",
+      "value_fingerprint": "ec6189d4d463"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:afd6df531279:project/docs/phase4_5/logistics-recording.json",
+      "line": 67,
+      "masked": "p***@***",
+      "value_fingerprint": "82060195ffcf"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:afd6df531279:project/docs/phase4_5/logistics-recording.json",
+      "line": 76,
+      "masked": "p***@***",
+      "value_fingerprint": "af0dc0d21df4"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:afd6df531279:project/docs/phase4_5/logistics-recording.json",
+      "line": 85,
+      "masked": "p***@***",
+      "value_fingerprint": "a1f06b6cae88"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:afd6df531279:project/docs/phase4_5/logistics-recording.json",
+      "line": 94,
+      "masked": "p***@***",
+      "value_fingerprint": "fb928bc5cc17"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:afd6df531279:project/docs/phase4_5/logistics-recording.json",
+      "line": 103,
+      "masked": "p***@***",
+      "value_fingerprint": "d06ebef7db15"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:b0663e8d0e5b:project/README.md",
+      "line": 16,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:b4163c9af356:project/scripts/finalize_phase46_slides.mjs",
+      "line": 8,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:bcb43e685a63:unreachable-blob",
+      "line": 5,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:bcb43e685a63:unreachable-blob",
+      "line": 8,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:bcb43e685a63:unreachable-blob",
+      "line": 9,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:bcb43e685a63:unreachable-blob",
+      "line": 25,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:bcb43e685a63:unreachable-blob",
+      "line": 33,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:bcb43e685a63:unreachable-blob",
+      "line": 45,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:bcb43e685a63:unreachable-blob",
+      "line": 52,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:bcb43e685a63:unreachable-blob",
+      "line": 53,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:bdca5c9081f2:project/docs/phase4_6/docs-render.json",
+      "line": 2,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:c07eab407fe5:project/docs/phase4_6/e2e-results.json",
+      "line": 5,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:c07eab407fe5:project/docs/phase4_6/e2e-results.json",
+      "line": 10,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:c07eab407fe5:project/docs/phase4_6/e2e-results.json",
+      "line": 11,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:c07eab407fe5:project/docs/phase4_6/e2e-results.json",
+      "line": 27,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:c07eab407fe5:project/docs/phase4_6/e2e-results.json",
+      "line": 35,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:c07eab407fe5:project/docs/phase4_6/e2e-results.json",
+      "line": 47,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:c07eab407fe5:project/docs/phase4_6/e2e-results.json",
+      "line": 54,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:c07eab407fe5:project/docs/phase4_6/e2e-results.json",
+      "line": 55,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "git_metadata",
+      "location": "git:c09e40543fb264e172203d08a582309b94493ba8:commit",
+      "line": 3,
+      "masked": "c***@***",
+      "value_fingerprint": "06956b2c9263"
+    },
+    {
+      "kind": "email",
+      "scope": "git_metadata",
+      "location": "git:c09e40543fb264e172203d08a582309b94493ba8:commit",
+      "line": 4,
+      "masked": "c***@***",
+      "value_fingerprint": "06956b2c9263"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:c7c704dcae61:project/deliverables/phase4_5/第4.5阶段验收报告.md",
+      "line": 7,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:d91ba5e1a242:project/README.md",
+      "line": 12,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:dbff22717ef7:project/docs/phase2/README.md",
+      "line": 36,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:dce11cd0f612:project/docs/phase4_6/logistics-recording.json",
+      "line": 13,
+      "masked": "p***@***",
+      "value_fingerprint": "9e63b6c58a55"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:dce11cd0f612:project/docs/phase4_6/logistics-recording.json",
+      "line": 22,
+      "masked": "p***@***",
+      "value_fingerprint": "6a1a2f72344a"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:dce11cd0f612:project/docs/phase4_6/logistics-recording.json",
+      "line": 31,
+      "masked": "p***@***",
+      "value_fingerprint": "ee04d334b5f9"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:dce11cd0f612:project/docs/phase4_6/logistics-recording.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "4303db1a3a2d"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:dce11cd0f612:project/docs/phase4_6/logistics-recording.json",
+      "line": 49,
+      "masked": "p***@***",
+      "value_fingerprint": "2fe0a58a9c37"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:dce11cd0f612:project/docs/phase4_6/logistics-recording.json",
+      "line": 58,
+      "masked": "p***@***",
+      "value_fingerprint": "bc5b4b6a2e62"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:dce11cd0f612:project/docs/phase4_6/logistics-recording.json",
+      "line": 67,
+      "masked": "p***@***",
+      "value_fingerprint": "8652b89d85fc"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:dce11cd0f612:project/docs/phase4_6/logistics-recording.json",
+      "line": 76,
+      "masked": "p***@***",
+      "value_fingerprint": "2ccb0b705c6d"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:dce11cd0f612:project/docs/phase4_6/logistics-recording.json",
+      "line": 85,
+      "masked": "p***@***",
+      "value_fingerprint": "f3c1abf1c927"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:dce11cd0f612:project/docs/phase4_6/logistics-recording.json",
+      "line": 94,
+      "masked": "p***@***",
+      "value_fingerprint": "0bd96a3983a8"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:dce11cd0f612:project/docs/phase4_6/logistics-recording.json",
+      "line": 103,
+      "masked": "p***@***",
+      "value_fingerprint": "1ec9f9ba33df"
+    },
+    {
+      "kind": "email",
+      "scope": "git_metadata",
+      "location": "git:e5b30eb182ee758e22cca20de706728f9c6f5334:commit",
+      "line": 3,
+      "masked": "c***@***",
+      "value_fingerprint": "06956b2c9263"
+    },
+    {
+      "kind": "email",
+      "scope": "git_metadata",
+      "location": "git:e5b30eb182ee758e22cca20de706728f9c6f5334:commit",
+      "line": 4,
+      "masked": "c***@***",
+      "value_fingerprint": "06956b2c9263"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:ea4c3dd79322:project/docs/phase4_6/e2e-final.json",
+      "line": 5,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:ea4c3dd79322:project/docs/phase4_6/e2e-final.json",
+      "line": 11,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:ea4c3dd79322:project/docs/phase4_6/e2e-final.json",
+      "line": 12,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:ea4c3dd79322:project/docs/phase4_6/e2e-final.json",
+      "line": 28,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:ea4c3dd79322:project/docs/phase4_6/e2e-final.json",
+      "line": 36,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:ea4c3dd79322:project/docs/phase4_6/e2e-final.json",
+      "line": 48,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:ea4c3dd79322:project/docs/phase4_6/e2e-final.json",
+      "line": 55,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:ea4c3dd79322:project/docs/phase4_6/e2e-final.json",
+      "line": 56,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:ea9f1a026562:project/docs/phase4_6/growth-assembly.json",
+      "line": 8,
+      "masked": "p***@***",
+      "value_fingerprint": "4c86a8204ed5"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:ea9f1a026562:project/docs/phase4_6/growth-assembly.json",
+      "line": 16,
+      "masked": "p***@***",
+      "value_fingerprint": "93d3366de110"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:ea9f1a026562:project/docs/phase4_6/growth-assembly.json",
+      "line": 24,
+      "masked": "p***@***",
+      "value_fingerprint": "aef676e52fdd"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:ea9f1a026562:project/docs/phase4_6/growth-assembly.json",
+      "line": 32,
+      "masked": "p***@***",
+      "value_fingerprint": "8e99aaee07b6"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:ea9f1a026562:project/docs/phase4_6/growth-assembly.json",
+      "line": 40,
+      "masked": "p***@***",
+      "value_fingerprint": "e3503137c438"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:ea9f1a026562:project/docs/phase4_6/growth-assembly.json",
+      "line": 48,
+      "masked": "p***@***",
+      "value_fingerprint": "2bf2f2e2c34e"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:ea9f1a026562:project/docs/phase4_6/growth-assembly.json",
+      "line": 56,
+      "masked": "p***@***",
+      "value_fingerprint": "9acc51468b91"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:ea9f1a026562:project/docs/phase4_6/growth-assembly.json",
+      "line": 64,
+      "masked": "p***@***",
+      "value_fingerprint": "2474728ece76"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:ea9f1a026562:project/docs/phase4_6/growth-assembly.json",
+      "line": 72,
+      "masked": "p***@***",
+      "value_fingerprint": "7b0cfa37d370"
+    },
+    {
+      "kind": "email",
+      "scope": "history",
+      "location": "git:ea9f1a026562:project/docs/phase4_6/growth-assembly.json",
+      "line": 80,
+      "masked": "p***@***",
+      "value_fingerprint": "ec191d0ec6a6"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:eec36d0b21fb:project/scripts/render_phase4.py",
+      "line": 8,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    },
+    {
+      "kind": "local_user_path",
+      "scope": "history",
+      "location": "git:f8cbc4ce831c:project/deliverables/phase4/第四阶段验收报告.md",
+      "line": 7,
+      "masked": "<user:D***>",
+      "value_fingerprint": "7c5c041cf749"
+    }
+  ],
+  "document_properties": [
+    {
+      "location": "project/deliverables/phase4/人工智能导论_双赛题结课作品展示.pptx!docProps/core.xml",
+      "field": "creator",
+      "masked": "W***r",
+      "generic": false,
+      "scope": "working"
+    },
+    {
+      "location": "project/deliverables/phase4/人工智能导论_双赛题结课作品展示.pptx!docProps/core.xml",
+      "field": "lastModifiedBy",
+      "masked": "W***r",
+      "generic": false,
+      "scope": "working"
+    },
+    {
+      "location": "project/deliverables/phase4/答辩常见问题及参考回答.docx!docProps/core.xml",
+      "field": "creator",
+      "masked": "S***品",
+      "generic": false,
+      "scope": "working"
+    },
+    {
+      "location": "project/deliverables/phase4/课堂展示_单人完整演讲稿.docx!docProps/core.xml",
+      "field": "creator",
+      "masked": "S***品",
+      "generic": false,
+      "scope": "working"
+    },
+    {
+      "location": "project/deliverables/phase4_6/人工智能导论_双赛题结课作品展示.pptx!docProps/core.xml",
+      "field": "creator",
+      "masked": "W***r",
+      "generic": false,
+      "scope": "working"
+    },
+    {
+      "location": "project/deliverables/phase4_6/人工智能导论_双赛题结课作品展示.pptx!docProps/core.xml",
+      "field": "lastModifiedBy",
+      "masked": "W***r",
+      "generic": false,
+      "scope": "working"
+    },
+    {
+      "location": "project/deliverables/phase4_6/答辩常见问题及参考回答.docx!docProps/core.xml",
+      "field": "creator",
+      "masked": "S***品",
+      "generic": false,
+      "scope": "working"
+    },
+    {
+      "location": "project/deliverables/phase4_6/课堂展示_单人完整演讲稿.docx!docProps/core.xml",
+      "field": "creator",
+      "masked": "S***品",
+      "generic": false,
+      "scope": "working"
+    },
+    {
+      "location": "project/docs/phase2/render/logistics/气象驱动物流运输风险预警与应对决策.pdf",
+      "field": "/Creator",
+      "masked": "W***r",
+      "scope": "working"
+    },
+    {
+      "location": "project/docs/phase2/render/operations/DataClawHub平台运营方案.pdf",
+      "field": "/Creator",
+      "masked": "W***r",
+      "scope": "working"
+    },
+    {
+      "location": "project/docs/phase4/render/defense/答辩常见问题及参考回答.pdf",
+      "field": "/Author",
+      "masked": "S***品",
+      "scope": "working"
+    },
+    {
+      "location": "project/docs/phase4/render/defense/答辩常见问题及参考回答.pdf",
+      "field": "/Creator",
+      "masked": "W***r",
+      "scope": "working"
+    },
+    {
+      "location": "project/docs/phase4/render/slides/人工智能导论_双赛题结课作品展示.pdf",
+      "field": "/Author",
+      "masked": "W***r",
+      "scope": "working"
+    },
+    {
+      "location": "project/docs/phase4/render/slides/人工智能导论_双赛题结课作品展示.pdf",
+      "field": "/Creator",
+      "masked": "I***s",
+      "scope": "working"
+    },
+    {
+      "location": "project/docs/phase4/render/speech/课堂展示_单人完整演讲稿.pdf",
+      "field": "/Author",
+      "masked": "S***品",
+      "scope": "working"
+    },
+    {
+      "location": "project/docs/phase4/render/speech/课堂展示_单人完整演讲稿.pdf",
+      "field": "/Creator",
+      "masked": "W***r",
+      "scope": "working"
+    },
+    {
+      "location": "project/docs/phase4_6/render/defense/答辩常见问题及参考回答.pdf",
+      "field": "/Author",
+      "masked": "S***品",
+      "scope": "working"
+    },
+    {
+      "location": "project/docs/phase4_6/render/defense/答辩常见问题及参考回答.pdf",
+      "field": "/Creator",
+      "masked": "W***r",
+      "scope": "working"
+    },
+    {
+      "location": "project/docs/phase4_6/render/growth-manual/DataClawHub平台运营方案.pdf",
+      "field": "/Creator",
+      "masked": "W***r",
+      "scope": "working"
+    },
+    {
+      "location": "project/docs/phase4_6/render/logistics-manual/气象驱动物流运输风险预警与应对决策.pdf",
+      "field": "/Creator",
+      "masked": "W***r",
+      "scope": "working"
+    },
+    {
+      "location": "project/docs/phase4_6/render/slides/人工智能导论_双赛题结课作品展示.pdf",
+      "field": "/Author",
+      "masked": "W***r",
+      "scope": "working"
+    },
+    {
+      "location": "project/docs/phase4_6/render/slides/人工智能导论_双赛题结课作品展示.pdf",
+      "field": "/Creator",
+      "masked": "I***s",
+      "scope": "working"
+    },
+    {
+      "location": "project/docs/phase4_6/render/speech/课堂展示_单人完整演讲稿.pdf",
+      "field": "/Author",
+      "masked": "S***品",
+      "scope": "working"
+    },
+    {
+      "location": "project/docs/phase4_6/render/speech/课堂展示_单人完整演讲稿.pdf",
+      "field": "/Creator",
+      "masked": "W***r",
+      "scope": "working"
+    },
+    {
+      "location": "git:10a30072a902:project/deliverables/phase4/人工智能导论_双赛题结课作品展示.pptx!docProps/core.xml",
+      "field": "creator",
+      "masked": "W***r",
+      "generic": false,
+      "scope": "history"
+    },
+    {
+      "location": "git:10a30072a902:project/deliverables/phase4/人工智能导论_双赛题结课作品展示.pptx!docProps/core.xml",
+      "field": "lastModifiedBy",
+      "masked": "W***r",
+      "generic": false,
+      "scope": "history"
+    },
+    {
+      "location": "git:140ecf206ab1:project/deliverables/phase4_6/人工智能导论_双赛题结课作品展示.pptx!docProps/core.xml",
+      "field": "creator",
+      "masked": "W***r",
+      "generic": false,
+      "scope": "history"
+    },
+    {
+      "location": "git:140ecf206ab1:project/deliverables/phase4_6/人工智能导论_双赛题结课作品展示.pptx!docProps/core.xml",
+      "field": "lastModifiedBy",
+      "masked": "W***r",
+      "generic": false,
+      "scope": "history"
+    },
+    {
+      "location": "git:19a66d140127:project/docs/phase4/render/slides/人工智能导论_双赛题结课作品展示.pdf",
+      "field": "/Author",
+      "masked": "W***r",
+      "scope": "history"
+    },
+    {
+      "location": "git:19a66d140127:project/docs/phase4/render/slides/人工智能导论_双赛题结课作品展示.pdf",
+      "field": "/Creator",
+      "masked": "I***s",
+      "scope": "history"
+    },
+    {
+      "location": "git:4f6ab30a243a:project/docs/phase4_6/render/speech/课堂展示_单人完整演讲稿.pdf",
+      "field": "/Author",
+      "masked": "S***品",
+      "scope": "history"
+    },
+    {
+      "location": "git:4f6ab30a243a:project/docs/phase4_6/render/speech/课堂展示_单人完整演讲稿.pdf",
+      "field": "/Creator",
+      "masked": "W***r",
+      "scope": "history"
+    },
+    {
+      "location": "git:655826301ddc:project/docs/phase4_6/render/slides/人工智能导论_双赛题结课作品展示.pdf",
+      "field": "/Author",
+      "masked": "W***r",
+      "scope": "history"
+    },
+    {
+      "location": "git:655826301ddc:project/docs/phase4_6/render/slides/人工智能导论_双赛题结课作品展示.pdf",
+      "field": "/Creator",
+      "masked": "I***s",
+      "scope": "history"
+    },
+    {
+      "location": "git:688ef44f2dd8:project/docs/phase4_6/render/growth-manual/DataClawHub平台运营方案.pdf",
+      "field": "/Creator",
+      "masked": "W***r",
+      "scope": "history"
+    },
+    {
+      "location": "git:695873a0224a:project/docs/phase4_6/render/logistics-manual/气象驱动物流运输风险预警与应对决策.pdf",
+      "field": "/Creator",
+      "masked": "W***r",
+      "scope": "history"
+    },
+    {
+      "location": "git:832ebaf1f9a2:project/deliverables/phase4/答辩常见问题及参考回答.docx!docProps/core.xml",
+      "field": "creator",
+      "masked": "S***品",
+      "generic": false,
+      "scope": "history"
+    },
+    {
+      "location": "git:a498b8a1cc32:project/docs/phase2/render/operations/DataClawHub平台运营方案.pdf",
+      "field": "/Creator",
+      "masked": "W***r",
+      "scope": "history"
+    },
+    {
+      "location": "git:bdce0102a798:project/docs/phase4/render/speech/课堂展示_单人完整演讲稿.pdf",
+      "field": "/Author",
+      "masked": "S***品",
+      "scope": "history"
+    },
+    {
+      "location": "git:bdce0102a798:project/docs/phase4/render/speech/课堂展示_单人完整演讲稿.pdf",
+      "field": "/Creator",
+      "masked": "W***r",
+      "scope": "history"
+    },
+    {
+      "location": "git:bfb698855cbb:project/deliverables/phase4/课堂展示_单人完整演讲稿.docx!docProps/core.xml",
+      "field": "creator",
+      "masked": "S***品",
+      "generic": false,
+      "scope": "history"
+    },
+    {
+      "location": "git:c21fcad46d41:project/docs/phase4_6/render/defense/答辩常见问题及参考回答.pdf",
+      "field": "/Author",
+      "masked": "S***品",
+      "scope": "history"
+    },
+    {
+      "location": "git:c21fcad46d41:project/docs/phase4_6/render/defense/答辩常见问题及参考回答.pdf",
+      "field": "/Creator",
+      "masked": "W***r",
+      "scope": "history"
+    },
+    {
+      "location": "git:c7c559bf53b9:project/docs/phase4/render/defense/答辩常见问题及参考回答.pdf",
+      "field": "/Author",
+      "masked": "S***品",
+      "scope": "history"
+    },
+    {
+      "location": "git:c7c559bf53b9:project/docs/phase4/render/defense/答辩常见问题及参考回答.pdf",
+      "field": "/Creator",
+      "masked": "W***r",
+      "scope": "history"
+    },
+    {
+      "location": "git:d44844ad2fec:project/docs/phase2/render/logistics/气象驱动物流运输风险预警与应对决策.pdf",
+      "field": "/Creator",
+      "masked": "W***r",
+      "scope": "history"
+    },
+    {
+      "location": "git:f026b5134641:project/deliverables/phase4_6/答辩常见问题及参考回答.docx!docProps/core.xml",
+      "field": "creator",
+      "masked": "S***品",
+      "generic": false,
+      "scope": "history"
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Pattern scan cannot establish identity or completeness.",
+    "Image pixels and spoken media require separate inspection.",
+    "No EXE or final ZIP exists yet; post-build rescan required.",
+    "Dependency environments/tools are excluded from proposed release."
+  ]
+}

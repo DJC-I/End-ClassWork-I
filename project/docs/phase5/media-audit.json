@@ -1,0 +1,42 @@
+[
+  {
+    "file": "deliverables/phase4_6/赛题一_DataClawHub平台运营方案.mp4",
+    "sha256": "79845d2cb4c8dbb2238745ec6cb4b2117044d4daa956647e123b06f0f1fb4aa2",
+    "duration": 170.0,
+    "width": 1920,
+    "height": 1080,
+    "decoded_video_frames": 4250,
+    "decoded_audio_frames": 7969,
+    "metadata": {
+      "major_brand": "isom",
+      "minor_version": "512",
+      "compatible_brands": "isomiso2avc1mp41",
+      "title": "赛题一_DataClawHub平台运营方案",
+      "encoder": "Lavf63.1.102",
+      "comment": "Actual local website recording; synthetic teaching data; Chinese synthetic narration"
+    },
+    "sampled_chapters": 10,
+    "under_180_seconds": true,
+    "limitations": "Chapter samples are not frame-by-frame OCR or full human listening."
+  },
+  {
+    "file": "deliverables/phase4_6/赛题二_气象物流AI风险决策系统.mp4",
+    "sha256": "790ddee71ae7981cbcce81bc2fa5d90015a15ef20dbcab2ab611eca3f74c1c76",
+    "duration": 175.0,
+    "width": 1920,
+    "height": 1080,
+    "decoded_video_frames": 4375,
+    "decoded_audio_frames": 8204,
+    "metadata": {
+      "major_brand": "isom",
+      "minor_version": "512",
+      "compatible_brands": "isomiso2avc1mp41",
+      "title": "赛题二_气象物流AI风险决策系统",
+      "encoder": "Lavf63.1.102",
+      "comment": "Actual local website recording; synthetic teaching data; Chinese synthetic narration"
+    },
+    "sampled_chapters": 11,
+    "under_180_seconds": true,
+    "limitations": "Chapter samples are not frame-by-frame OCR or full human listening."
+  }
+]

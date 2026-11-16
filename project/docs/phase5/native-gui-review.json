@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-16",
+  "tool": "computer-use @oai/sky",
+  "real_window_observed": true,
+  "window_title": "SkyRoute AI · 天气智运与增长决策平台",
+  "pages_observed": ["/about", "/logistics"],
+  "observations": [
+    "Normal Windows title bar and application content rendered",
+    "Provided Chinese font and coherent visual layout visible",
+    "About page retained three cards and omitted the two obsolete components",
+    "Native navigation changed to logistics with real SQLite order count and risk overview"
+  ],
+  "followup": "Removed desktop-only inactive /docs link; browser version retains API documentation link.",
+  "limitations": "This observation complements automated packaged application tests and is not a clean virtual machine compatibility certification."
+}

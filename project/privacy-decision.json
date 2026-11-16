@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-16",
+  "personal_information_decided": true,
+  "device_information_decided": true,
+  "P004": "Public pytest XML hostname attributes use local-test; private originals and real test counts remain unchanged. Explicit user decision received.",
+  "P001": "Public copies use relative paths; private originals remain local. Do not publish old local Git history.",
+  "P002": "Public Office author and last-modifier fields use Dux, explicitly authorized by the user.",
+  "P003": "Retain existing public remote initial commit and its public GitHub attribution. Never force-push unknown history.",
+  "font_redistribution_authorized": true,
+  "font_authorization": "User confirmed possessing public redistribution rights and authorized redistribution with source and EXE.",
+  "credentials": "Never publish secrets, regardless of attribution consent.",
+  "scope": "These decisions are not a blanket authorization for newly discovered personal information."
+}

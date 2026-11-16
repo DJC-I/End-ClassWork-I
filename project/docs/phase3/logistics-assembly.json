@@ -1,0 +1,102 @@
+{
+  "file": "deliverables/phase3/赛题二_气象物流AI风险决策系统.mp4",
+  "sha256": "0ae7a7db1b83bc6c4796b512a31b8d06dd6646e4ed52337917b3fc6c05558532",
+  "bytes": 13666545,
+  "trims": [
+    {
+      "scene": "overview",
+      "raw": ".tools/phase3/raw/logistics/page@a16ff311ac00956ad68da2d36740427e.webm",
+      "raw_duration": 15.12,
+      "trim_start": 0.9648096999999982,
+      "output_frames": 351,
+      "output": ".tools/phase3/logistics/01_overview.mp4"
+    },
+    {
+      "scene": "orders",
+      "raw": ".tools/phase3/raw/logistics/page@1e61faa5b91b7841237eb0a98134103b.webm",
+      "raw_duration": 20.0,
+      "trim_start": 4.016524399999998,
+      "output_frames": 397,
+      "output": ".tools/phase3/logistics/02_orders.mp4"
+    },
+    {
+      "scene": "weather",
+      "raw": ".tools/phase3/raw/logistics/page@d4c70a8825438f5bae7fdfbf98f19662.webm",
+      "raw_duration": 22.44,
+      "trim_start": 8.816066500000002,
+      "output_frames": 337,
+      "output": ".tools/phase3/logistics/03_weather.mp4"
+    },
+    {
+      "scene": "risk",
+      "raw": ".tools/phase3/raw/logistics/page@1512909a5135129b160f2f0c9c38827f.webm",
+      "raw_duration": 18.8,
+      "trim_start": 4.268909700000005,
+      "output_frames": 361,
+      "output": ".tools/phase3/logistics/04_risk.mp4"
+    },
+    {
+      "scene": "plans",
+      "raw": ".tools/phase3/raw/logistics/page@4d7f1cf3ef9cbaeed20b36499f44abe9.webm",
+      "raw_duration": 23.24,
+      "trim_start": 4.962414700000007,
+      "output_frames": 455,
+      "output": ".tools/phase3/logistics/05_plans.mp4"
+    },
+    {
+      "scene": "agent",
+      "raw": ".tools/phase3/raw/logistics/page@6e97bbb4c933b5ad1e231ffda746e59d.webm",
+      "raw_duration": 21.32,
+      "trim_start": 5.04059569999999,
+      "output_frames": 404,
+      "output": ".tools/phase3/logistics/06_agent.mp4"
+    },
+    {
+      "scene": "report",
+      "raw": ".tools/phase3/raw/logistics/page@c33f7e4706abb64185bca261200b14de.webm",
+      "raw_duration": 18.52,
+      "trim_start": 2.887795000000013,
+      "output_frames": 388,
+      "output": ".tools/phase3/logistics/07_report.mp4"
+    },
+    {
+      "scene": "rain",
+      "raw": ".tools/phase3/raw/logistics/page@a1a5956b169ea99328f6207eb37f77a2.webm",
+      "raw_duration": 18.24,
+      "trim_start": 2.068908699999998,
+      "output_frames": 403,
+      "output": ".tools/phase3/logistics/08_rain.mp4"
+    },
+    {
+      "scene": "snow",
+      "raw": ".tools/phase3/raw/logistics/page@a904b6927a0d8afb0c4e519ca1116cc1.webm",
+      "raw_duration": 18.48,
+      "trim_start": 3.3993644999999972,
+      "output_frames": 375,
+      "output": ".tools/phase3/logistics/09_snow.mp4"
+    },
+    {
+      "scene": "normal",
+      "raw": ".tools/phase3/raw/logistics/page@e0dda29926d93463362988ce65446c80.webm",
+      "raw_duration": 16.84,
+      "trim_start": 2.117307100000005,
+      "output_frames": 367,
+      "output": ".tools/phase3/logistics/10_normal.mp4"
+    },
+    {
+      "scene": "limits",
+      "raw": ".tools/phase3/raw/logistics/page@631a1ff47211f6b2c7d5d6c21716fc90.webm",
+      "raw_duration": 18.56,
+      "trim_start": 1.9691950999999825,
+      "output_frames": 412,
+      "output": ".tools/phase3/logistics/11_limits.mp4"
+    }
+  ],
+  "spoken_seconds": 154.36270833333333,
+  "target_seconds": 170,
+  "voice": "Microsoft Huihui Desktop",
+  "voice_rate": 3,
+  "video_encoder": "h264_nvenc",
+  "subtitle_burned": true,
+  "website_content_modified": false
+}

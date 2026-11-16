@@ -1,0 +1,38 @@
+[
+  {
+    "file": "deliverables/phase4_6/DataClawHub平台运营方案.docx",
+    "updated_images": {
+      "image1.png": "growth_model.png"
+    },
+    "text_replacements": 3
+  },
+  {
+    "file": "deliverables/phase4_6/气象驱动物流运输风险预警与应对决策.docx",
+    "updated_images": {
+      "image3.png": "agent_rain.png",
+      "image4.png": "network_wide.png",
+      "image5.png": "plans_rain.png"
+    },
+    "text_replacements": 5
+  },
+  {
+    "file": "deliverables/phase4_6/课堂展示_单人完整演讲稿.docx",
+    "updated_images": {},
+    "text_replacements": 1
+  },
+  {
+    "file": "deliverables/phase4_6/答辩常见问题及参考回答.docx",
+    "updated_images": {},
+    "text_replacements": 3
+  },
+  {
+    "file": ".tools/phase4_6/build/candidate.pptx",
+    "pptx_update": "focused OOXML; original workbook/tables/notes preserved",
+    "updated_slides": [
+      6,
+      8,
+      9,
+      12
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+name: Windows build and release assets
+
+on:
+  workflow_dispatch:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: pwsh
+        working-directory: project
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: |
+            project/frontend/package-lock.json
+            project/desktop/package-lock.json
+      - name: Backend install and isolated tests
+        run: |
+          python -m pip install -r backend/requirements.lock.txt
+          python -m pytest tests -q
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Build portable Windows application
+        run: ./scripts/build_windows.ps1
+      - name: Real desktop application workflows
+        run: |
+          node scripts/test_desktop_phase5.cjs
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          node scripts/audit_desktop_resources.cjs
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Integrity and checksum
+        run: |
+          $exe = '.tools/phase5/electron-dist/SkyRoute-AI-v1.0.0-Windows-x64.exe'
+          if ((Get-Item -LiteralPath $exe).Length -lt 1000000) { throw 'EXE missing or incomplete' }
+          $bytes = [IO.File]::ReadAllBytes((Resolve-Path -LiteralPath $exe))
+          if ($bytes[0] -ne 77 -or $bytes[1] -ne 90) { throw 'PE header missing' }
+          $hash = (Get-FileHash -LiteralPath $exe -Algorithm SHA256).Hash.ToLowerInvariant()
+          "$hash  SkyRoute-AI-v1.0.0-Windows-x64.exe" | Set-Content -Encoding ascii .tools/phase5/electron-dist/SHA256SUMS.txt
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: Windows-x64-build
+          path: |
+            project/.tools/phase5/electron-dist/SkyRoute-AI-v1.0.0-Windows-x64.exe
+            project/.tools/phase5/electron-dist/SHA256SUMS.txt
+          retention-days: 14
+          if-no-files-found: error
+
+  release-assets:
+    if: startsWith(github.ref, 'refs/tags/')
+    needs: build
+    runs-on: windows-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: Windows-x64-build
+          path: assets
+      - name: Upload to a new draft only; preserve existing release assets
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          if ($env:RELEASE_TAG -notmatch '^v\d+\.\d+\.\d+$') { throw 'Invalid version tag' }
+          gh release view $env:RELEASE_TAG *> $null
+          if ($LASTEXITCODE -eq 0) {
+            Write-Output 'Existing release retained. Independent CI artifacts are available without replacing verified release files.'
+            exit 0
+          }
+          gh release create $env:RELEASE_TAG --verify-tag --draft --title "SkyRoute AI $env:RELEASE_TAG" --notes 'Windows CI build. Draft remains unpublished until privacy review, all materials and final acceptance are complete.'
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          gh release upload $env:RELEASE_TAG assets/*.exe assets/SHA256SUMS.txt
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

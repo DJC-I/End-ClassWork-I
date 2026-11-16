@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "method": "Real HTTP, stop process, start second process on same isolated SQLite file",
+  "checks": [
+    "task",
+    "growth_config",
+    "decision_report_snapshot"
+  ],
+  "production_database_modified": false
+}

@@ -1,0 +1,660 @@
+{
+  "passed": true,
+  "compiled_code_objects": 23534,
+  "resource_files": 130,
+  "font_matches_user_original": true,
+  "findings": [],
+  "upstream_generic_matches": 138,
+  "inventory": [
+    {
+      "file": "skyroute-service.exe",
+      "bytes": 8387769,
+      "sha256": "a1341ddafa6e3cc81882c0d8c143c0592dd54c25ff115c5400a67fdc3a1a923b"
+    },
+    {
+      "file": "_internal/api-ms-win-core-console-l1-1-0.dll",
+      "bytes": 22872,
+      "sha256": "015bd08815c7b934a8952c3a7578e9ce59f21136e8a880d42bbd414bec2c6058"
+    },
+    {
+      "file": "_internal/api-ms-win-core-datetime-l1-1-0.dll",
+      "bytes": 22896,
+      "sha256": "5534812cdbdae94ba45cb216e5eb9af686b853948df54365103555abbbaf9d9a"
+    },
+    {
+      "file": "_internal/api-ms-win-core-debug-l1-1-0.dll",
+      "bytes": 22872,
+      "sha256": "837d2b1b2cd03e03fc6ccb050698b6b5763af17c201304872342a5eae9e0a2d2"
+    },
+    {
+      "file": "_internal/api-ms-win-core-errorhandling-l1-1-0.dll",
+      "bytes": 22872,
+      "sha256": "de43b165f568c276c00e95acd454e3092f352a18e95874595f4f4658c06d2ec7"
+    },
+    {
+      "file": "_internal/api-ms-win-core-fibers-l1-1-0.dll",
+      "bytes": 22872,
+      "sha256": "3cebc45bf479ad74cfabf2c6bfd4994d7ad639ed1221025981d19cedf9ce0416"
+    },
+    {
+      "file": "_internal/api-ms-win-core-fibers-l1-1-1.dll",
+      "bytes": 22872,
+      "sha256": "5ef70308bcca628ce6b0e2856b15b1c7ae340c3f9bbbc4c1071d8c191a34a5c3"
+    },
+    {
+      "file": "_internal/api-ms-win-core-file-l1-1-0.dll",
+      "bytes": 27008,
+      "sha256": "250ac829f2617bcac1c6e5b8c4f630462e20765863ba573526a3e11bbfb94a9a"
+    },
+    {
+      "file": "_internal/api-ms-win-core-file-l1-2-0.dll",
+      "bytes": 22888,
+      "sha256": "ae14079a114733f60ce87b92cba42acd8083c2cd67594e53bc37dc0b97a4b465"
+    },
+    {
+      "file": "_internal/api-ms-win-core-file-l2-1-0.dll",
+      "bytes": 22912,
+      "sha256": "914bf26a298713119477ea0a8e7bd43171b91344ebe24fb47ad77c49686e3d87"
+    },
+    {
+      "file": "_internal/api-ms-win-core-handle-l1-1-0.dll",
+      "bytes": 22896,
+      "sha256": "ab5489955e371b15f77906c08ec3c7affe2c7a46a08c514ca628768b4478974b"
+    },
+    {
+      "file": "_internal/api-ms-win-core-heap-l1-1-0.dll",
+      "bytes": 22872,
+      "sha256": "c70f9644d8377fa39c5b71f2e9734c1400d7598904fdeb772e8502099982dcb7"
+    },
+    {
+      "file": "_internal/api-ms-win-core-interlocked-l1-1-0.dll",
+      "bytes": 22888,
+      "sha256": "f8129710188e407bb0e6f46d30aeba277d67b947ece5fe09e883fde2323f3ae6"
+    },
+    {
+      "file": "_internal/api-ms-win-core-kernel32-legacy-l1-1-1.dll",
+      "bytes": 22888,
+      "sha256": "5200b16cb2ddc61cfc07373a9a84aa85a3ab50806ca96c879c883275832944c1"
+    },
+    {
+      "file": "_internal/api-ms-win-core-libraryloader-l1-1-0.dll",
+      "bytes": 22872,
+      "sha256": "48786fb88b001dcd1f63acea903d3ca9cc0b3060d5a325e3f2f3cbc3bfd53166"
+    },
+    {
+      "file": "_internal/api-ms-win-core-localization-l1-2-0.dll",
+      "bytes": 22872,
+      "sha256": "9ec3898f7eba91faa28b51616c211a2689e3a13aeef8de6e13cb674e49d689eb"
+    },
+    {
+      "file": "_internal/api-ms-win-core-memory-l1-1-0.dll",
+      "bytes": 22896,
+      "sha256": "3a6cbc524c99e1cd80d5368f5601402a37ad602528b1ab628093573ef638eb3b"
+    },
+    {
+      "file": "_internal/api-ms-win-core-namedpipe-l1-1-0.dll",
+      "bytes": 22888,
+      "sha256": "97145ef89c44949fcf0f04ac834a8bc7d687ef49ee73ae9fc32f3c11136b7201"
+    },
+    {
+      "file": "_internal/api-ms-win-core-processenvironment-l1-1-0.dll",
+      "bytes": 22872,
+      "sha256": "8bc7c10b1851aea644e9c9f381cdb935e091fee6b0be3d3aedc6fffaac96adb7"
+    },
+    {
+      "file": "_internal/api-ms-win-core-processthreads-l1-1-0.dll",
+      "bytes": 22912,
+      "sha256": "d8030b777617c71f0f94564607699dbf7561487d779db9756aed378c5675213f"
+    },
+    {
+      "file": "_internal/api-ms-win-core-processthreads-l1-1-1.dll",
+      "bytes": 22872,
+      "sha256": "f5e676713340f73a03a3d41a6ec9883b431da7d16c7f07bd0a920fb80e6c0753"
+    },
+    {
+      "file": "_internal/api-ms-win-core-profile-l1-1-0.dll",
+      "bytes": 22872,
+      "sha256": "f023d47e44d3eea6b0743580f57e8c6ba81e79d5ebfa7da26250076c647b980e"
+    },
+    {
+      "file": "_internal/api-ms-win-core-rtlsupport-l1-1-0.dll",
+      "bytes": 22888,
+      "sha256": "9746d8930704153578a628c010638a5f818ffe5a927e25591b108e256dc6afca"
+    },
+    {
+      "file": "_internal/api-ms-win-core-string-l1-1-0.dll",
+      "bytes": 22896,
+      "sha256": "7c53ae24c982d16ffd1bf7f918d115b11b7f30e57bc7feaa18cb9781e4abb926"
+    },
+    {
+      "file": "_internal/api-ms-win-core-synch-l1-1-0.dll",
+      "bytes": 22896,
+      "sha256": "56d9d62ca5dba79a6581b8d574a7d8b2a64a5ecb71e47dcf06ed0285708b1859"
+    },
+    {
+      "file": "_internal/api-ms-win-core-synch-l1-2-0.dll",
+      "bytes": 22888,
+      "sha256": "f6482bbec5612c39ecb4822787a333f2b7570f7a5f922a4059be41ba957bb372"
+    },
+    {
+      "file": "_internal/api-ms-win-core-sysinfo-l1-1-0.dll",
+      "bytes": 22896,
+      "sha256": "272d02765fdd3582618236c2d309abba069642f9bc1062ede069d0c144e17007"
+    },
+    {
+      "file": "_internal/api-ms-win-core-sysinfo-l1-2-0.dll",
+      "bytes": 22912,
+      "sha256": "8a0900788859d0eb51c2f48f50cc6ed376a120b518100fa20e11d7702ccde260"
+    },
+    {
+      "file": "_internal/api-ms-win-core-timezone-l1-1-0.dll",
+      "bytes": 22896,
+      "sha256": "ff35de6c03812b332e140f17dade25c5dd4775156da9eeb1eaae3fddd27236ec"
+    },
+    {
+      "file": "_internal/api-ms-win-core-util-l1-1-0.dll",
+      "bytes": 22896,
+      "sha256": "191ef3e98641a57296f19d572d8eb62489470ff1ef6030d136af170c2f835173"
+    },
+    {
+      "file": "_internal/api-ms-win-crt-conio-l1-1-0.dll",
+      "bytes": 22872,
+      "sha256": "54ee5ec719a051496ff60aa00dbeaa94b9a7d2cdac27fe9b7317f1a666b6a2aa"
+    },
+    {
+      "file": "_internal/api-ms-win-crt-convert-l1-1-0.dll",
+      "bytes": 26992,
+      "sha256": "8b94662429171019fcd63c70bbf2095a075170599704a5e7dcdbe3da13f3a429"
+    },
+    {
+      "file": "_internal/api-ms-win-crt-environment-l1-1-0.dll",
+      "bytes": 22912,
+      "sha256": "39e5929593709e8af3bc9e0a75ec1155778d6f4a247f4cdfc58928ad6db88434"
+    },
+    {
+      "file": "_internal/api-ms-win-crt-filesystem-l1-1-0.dll",
+      "bytes": 22872,
+      "sha256": "5a8ecebac32edf4e1f3c5c6c1c8ea1a1add6cda4f9c9cb26f752fb295bea6865"
+    },
+    {
+      "file": "_internal/api-ms-win-crt-heap-l1-1-0.dll",
+      "bytes": 22872,
+      "sha256": "c71080cbcb43bf1f8f3e391deb12a582eb0abefc80946f340675a2c616e4feb4"
+    },
+    {
+      "file": "_internal/api-ms-win-crt-locale-l1-1-0.dll",
+      "bytes": 22896,
+      "sha256": "6c68648e524187e03c4ad9aaa4a99113c6ee9f29fb39cc0ed93f951975138e63"
+    },
+    {
+      "file": "_internal/api-ms-win-crt-math-l1-1-0.dll",
+      "bytes": 31064,
+      "sha256": "d4fbcccbe29371cbce431e43b2eb4f7ba9a6f04a3d740a071f02457a505e9dc8"
+    },
+    {
+      "file": "_internal/api-ms-win-crt-process-l1-1-0.dll",
+      "bytes": 22896,
+      "sha256": "47c1935942e3ac0812e4dcf18c0e265e565f0194a3349111c299712f5565f7ac"
+    },
+    {
+      "file": "_internal/api-ms-win-crt-runtime-l1-1-0.dll",
+      "bytes": 26968,
+      "sha256": "72adc1b3677e0814d9c4ebf0964000e84bb2acf67336c8963061665e44f78029"
+    },
+    {
+      "file": "_internal/api-ms-win-crt-stdio-l1-1-0.dll",
+      "bytes": 26968,
+      "sha256": "900afc3989673c9bb1a687ed38c192f46db9e6ba6d11a668898a539e7fc23798"
+    },
+    {
+      "file": "_internal/api-ms-win-crt-string-l1-1-0.dll",
+      "bytes": 26968,
+      "sha256": "fcf12466cc12fd3b73611fc0763a5a1f9d44e90349513c34a0c83b0f36421793"
+    },
+    {
+      "file": "_internal/api-ms-win-crt-time-l1-1-0.dll",
+      "bytes": 22912,
+      "sha256": "886e57c4a6adb299b38f02945369f590a67da4e79a798359fc60aaa067212d7c"
+    },
+    {
+      "file": "_internal/api-ms-win-crt-utility-l1-1-0.dll",
+      "bytes": 22912,
+      "sha256": "5f8f26b216ade615b67a41f6fbbb910972fc6153315a65bb8f09912be50215b1"
+    },
+    {
+      "file": "_internal/base_library.zip",
+      "bytes": 1333717,
+      "sha256": "1bf3fcddfb50c4b7270adf95b36b42745168039a8b7a9fc3c246a0d130a3acde"
+    },
+    {
+      "file": "_internal/libcrypto-3.dll",
+      "bytes": 5231472,
+      "sha256": "ccfffddcd3defb8d899026298af9af43bc186130f8483d77e97c93233d5f27d7"
+    },
+    {
+      "file": "_internal/libffi-8.dll",
+      "bytes": 39696,
+      "sha256": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a"
+    },
+    {
+      "file": "_internal/libssl-3.dll",
+      "bytes": 794992,
+      "sha256": "007142039f04d04e0ed607bda53de095e5bc6a8a10d26ecedde94ea7d2d7eefe"
+    },
+    {
+      "file": "_internal/pyexpat.pyd",
+      "bytes": 205304,
+      "sha256": "d615e193d1affcdbfe504e90d3621cbdcff94bf72b79d899126534507fd6d27a"
+    },
+    {
+      "file": "_internal/python312.dll",
+      "bytes": 6945272,
+      "sha256": "9a0e3435aaa680d868150f87ab3e388ad2eebc22f87e036155c7b4eda8cd2120"
+    },
+    {
+      "file": "_internal/select.pyd",
+      "bytes": 33136,
+      "sha256": "d4d7181b11db0bd22a6cd5cda6f8583d1f5c77615fd0a6ca33350619d6e0438a"
+    },
+    {
+      "file": "_internal/sqlite3.dll",
+      "bytes": 1583608,
+      "sha256": "8daa45684bf6688fca28d956b2e8942f2fa98f656675ce68e6d61dd869848a7a"
+    },
+    {
+      "file": "_internal/ucrtbase.dll",
+      "bytes": 1362264,
+      "sha256": "3239227d27667ba20d10a880751924e5719de0078f9fce232d149d383f7681f6"
+    },
+    {
+      "file": "_internal/unicodedata.pyd",
+      "bytes": 1140592,
+      "sha256": "208ee1cd3cbad0828433ca7246b05be2b1ff5569983d27d296c0b38888585488"
+    },
+    {
+      "file": "_internal/VCRUNTIME140.dll",
+      "bytes": 120400,
+      "sha256": "052ad6a20d375957e82aa6a3c441ea548d89be0981516ca7eb306e063d5027f4"
+    },
+    {
+      "file": "_internal/VCRUNTIME140_1.dll",
+      "bytes": 49776,
+      "sha256": "6a99bc0128e0c7d6cbbf615fcc26909565e17d4ca3451b97f8987f9c6acbc6c8"
+    },
+    {
+      "file": "_internal/_asyncio.pyd",
+      "bytes": 74096,
+      "sha256": "c77de90cad749087a0c5dc5e19d78d24f6ef44e7e5ac19b8420cfc0cea62395d"
+    },
+    {
+      "file": "_internal/_bz2.pyd",
+      "bytes": 86896,
+      "sha256": "65f610646d10d5babea080e060d244b546ec52c54012e5e937dc72dcc2e2e7bc"
+    },
+    {
+      "file": "_internal/_ctypes.pyd",
+      "bytes": 127480,
+      "sha256": "0e56107a891100535f2da79d85a5ae65ff1227b4765bd108f8593ac1a1110d81"
+    },
+    {
+      "file": "_internal/_decimal.pyd",
+      "bytes": 262000,
+      "sha256": "aeacfead2befcc0768063a037bb64bd32109ae09cb144e5f571b04dd7965db9d"
+    },
+    {
+      "file": "_internal/_hashlib.pyd",
+      "bytes": 68976,
+      "sha256": "03d233dbace599168eaffec823de6ed7beec8c2a4ebfe9b8a3d8e042a59af3ba"
+    },
+    {
+      "file": "_internal/_lzma.pyd",
+      "bytes": 161136,
+      "sha256": "e3deecc1f59a3b811c608861decd84de1e8df8bafd5e2b39188861318c5a38cf"
+    },
+    {
+      "file": "_internal/_multiprocessing.pyd",
+      "bytes": 37368,
+      "sha256": "2c636df7059cb0dd7e978dd735c7c5c8ddb09cf94754cf9e232296b96c5c545a"
+    },
+    {
+      "file": "_internal/_overlapped.pyd",
+      "bytes": 57336,
+      "sha256": "662126ff80c3a1b4cedf74074029c12ae4743e6d3b37376e39ac70aacb7d4d3c"
+    },
+    {
+      "file": "_internal/_queue.pyd",
+      "bytes": 33784,
+      "sha256": "48e76e0ad63f6932b4a77b5819f41c1e7595636ca8d9e824f0943a14b8bb5035"
+    },
+    {
+      "file": "_internal/_socket.pyd",
+      "bytes": 85496,
+      "sha256": "3efa4636cf9e350856f6927d67a4c2564bf9bd2758a00bbf17d3aece5b60016d"
+    },
+    {
+      "file": "_internal/_sqlite3.pyd",
+      "bytes": 126184,
+      "sha256": "64b51df2805c58b023a875e8ae3be7ac7f61ef664f32ca6c90f6315da47ef0bc"
+    },
+    {
+      "file": "_internal/_ssl.pyd",
+      "bytes": 179432,
+      "sha256": "0bc527d2dbc50009f43b2ed5d5982c4f63f4b647647ffa9eda612dcda80f6040"
+    },
+    {
+      "file": "_internal/_uuid.pyd",
+      "bytes": 27128,
+      "sha256": "acce4f281d7ffb2dec0997527faf25b1df62ad7bd3032c568ddcf65c90edc867"
+    },
+    {
+      "file": "_internal/_wmi.pyd",
+      "bytes": 40304,
+      "sha256": "a980f1e7a29842bd946863fc2693fbeb555a9dc0f9e1630dfed9a2fcdef3ece2"
+    },
+    {
+      "file": "_internal/_zoneinfo.pyd",
+      "bytes": 49656,
+      "sha256": "76f1439cda82ab6976df6ba505c4079444703f6d44d8b0259ce59c0ff4279fb4"
+    },
+    {
+      "file": "_internal/certifi/cacert.pem",
+      "bytes": 235863,
+      "sha256": "2ef52ad56b4803e264045c915e55c236cbfa045b84b81efefc218a19eb44bd2b"
+    },
+    {
+      "file": "_internal/certifi/py.typed",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "_internal/click-8.5.1.dist-info/INSTALLER",
+      "bytes": 4,
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    {
+      "file": "_internal/click-8.5.1.dist-info/METADATA",
+      "bytes": 2567,
+      "sha256": "63d23e734a4c63191d956c85a399291729141377c9af847dcd2b4b450e0b81cc"
+    },
+    {
+      "file": "_internal/click-8.5.1.dist-info/RECORD",
+      "bytes": 2620,
+      "sha256": "60a698b6fffcfbeae93090aaf32390e808939105fa79eee7de6d872a5c5abab7"
+    },
+    {
+      "file": "_internal/click-8.5.1.dist-info/REQUESTED",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "_internal/click-8.5.1.dist-info/WHEEL",
+      "bytes": 82,
+      "sha256": "1b68144734c4b66791f27add5d425f3620775585718a03d0f9b110ba3a4d88db"
+    },
+    {
+      "file": "_internal/opentelemetry_api-1.45.2.dist-info/entry_points.txt",
+      "bytes": 573,
+      "sha256": "7713ead1845b4034b097c42447e23d037f2b6db7ca406e61dae3458e9bd4e95e"
+    },
+    {
+      "file": "_internal/opentelemetry_api-1.45.2.dist-info/INSTALLER",
+      "bytes": 4,
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    {
+      "file": "_internal/opentelemetry_api-1.45.2.dist-info/METADATA",
+      "bytes": 1411,
+      "sha256": "aa93f63be0d6d1f662966e67b22a77c0d9966752e3a32ad87c1347f595cea7cb"
+    },
+    {
+      "file": "_internal/opentelemetry_api-1.45.2.dist-info/RECORD",
+      "bytes": 6480,
+      "sha256": "02156f04813f34311d561d0e7e7f012000623075913a744e618196490f078913"
+    },
+    {
+      "file": "_internal/opentelemetry_api-1.45.2.dist-info/REQUESTED",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "_internal/opentelemetry_api-1.45.2.dist-info/WHEEL",
+      "bytes": 87,
+      "sha256": "da266b2640c891e0e1d24f528a428ca85b913feb9aea66f822bd40b04478044c"
+    },
+    {
+      "file": "_internal/pydantic-2.14.3.dist-info/INSTALLER",
+      "bytes": 4,
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    {
+      "file": "_internal/pydantic-2.14.3.dist-info/METADATA",
+      "bytes": 141528,
+      "sha256": "c3eb8984172bedc8e056655e1419351f4497374a91b7b709dbc4a1340f50e1e9"
+    },
+    {
+      "file": "_internal/pydantic-2.14.3.dist-info/RECORD",
+      "bytes": 15682,
+      "sha256": "67df14bbaead08f53c49d37e0981b8d6538511c97b533e3c0ff5bc8bbddd6344"
+    },
+    {
+      "file": "_internal/pydantic-2.14.3.dist-info/REQUESTED",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "_internal/pydantic-2.14.3.dist-info/WHEEL",
+      "bytes": 87,
+      "sha256": "da266b2640c891e0e1d24f528a428ca85b913feb9aea66f822bd40b04478044c"
+    },
+    {
+      "file": "_internal/pydantic_core/_pydantic_core.cp312-win_amd64.pyd",
+      "bytes": 5770240,
+      "sha256": "c7f18997006f997fd0126367a42668f497c054fc3749e61eb3eccee3807b5028"
+    },
+    {
+      "file": "_internal/click-8.5.1.dist-info/licenses/LICENSE.txt",
+      "bytes": 1475,
+      "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d"
+    },
+    {
+      "file": "_internal/frontend/dist/index.html",
+      "bytes": 875,
+      "sha256": "72a2c86034910f392908b22e7d4bfa539a79c67cdcf5a60a13a7ab6b4b63279e"
+    },
+    {
+      "file": "_internal/frontend/dist/mark.svg",
+      "bytes": 267,
+      "sha256": "cda3c92d8716304688f17a7c3983a35a6ac2814e371345a9d45c5bc5c92b67f7"
+    },
+    {
+      "file": "_internal/frontend/dist/assets/charts-Df5Q3jWj.js",
+      "bytes": 404968,
+      "sha256": "7cb9486fc179e202e579b08e37cd1fd01d6688b7eb1d971f59c1ea13a058442d"
+    },
+    {
+      "file": "_internal/frontend/dist/assets/index-BjWzGbyd.css",
+      "bytes": 33020,
+      "sha256": "45d5efb5c1050db3711a48fee0684e36c9b1fd6152419f24e21d6bb32deceac6"
+    },
+    {
+      "file": "_internal/frontend/dist/assets/index-CpVz_5Hm.js",
+      "bytes": 288698,
+      "sha256": "d9bda36aba58a3ad4984662e23a749430c47f6f518f3bcbfec558ecd0b531796"
+    },
+    {
+      "file": "_internal/frontend/dist/fonts/README.md",
+      "bytes": 627,
+      "sha256": "911e860a70689a6f355dcd44a516c1ea1a0b090160e72b7b7175d5d56ae2ec04"
+    },
+    {
+      "file": "_internal/frontend/dist/fonts/user-pingfang.ttf",
+      "bytes": 13168700,
+      "sha256": "ec835c1ce5773b74cd9b8f1eca0efd13b5d873fc8c5692b4f02878a2c995de5e"
+    },
+    {
+      "file": "_internal/licenses/annotated-doc/LICENSE",
+      "bytes": 1086,
+      "sha256": "fff170779a6acbf65abdb405c087f1cee1786691e4a96a4034517e4a504a0cdf"
+    },
+    {
+      "file": "_internal/licenses/annotated-types/LICENSE",
+      "bytes": 1083,
+      "sha256": "fe1049884b1a0d9342901e88e07f32925d24b3121d9972b6a6805fb9824b095d"
+    },
+    {
+      "file": "_internal/licenses/anyio/LICENSE",
+      "bytes": 1081,
+      "sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0"
+    },
+    {
+      "file": "_internal/licenses/certifi/LICENSE",
+      "bytes": 989,
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7"
+    },
+    {
+      "file": "_internal/licenses/click/LICENSE.txt",
+      "bytes": 1475,
+      "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d"
+    },
+    {
+      "file": "_internal/licenses/colorama/LICENSE.txt",
+      "bytes": 1491,
+      "sha256": "cac35c02686e5d04a5a7140bfb3b36e73aed496656e891102e428886d7930318"
+    },
+    {
+      "file": "_internal/licenses/fastapi/LICENSE",
+      "bytes": 1086,
+      "sha256": "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e"
+    },
+    {
+      "file": "_internal/licenses/h11/LICENSE.txt",
+      "bytes": 1124,
+      "sha256": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361"
+    },
+    {
+      "file": "_internal/licenses/httpcore/LICENSE.md",
+      "bytes": 1518,
+      "sha256": "fdcb59154c74cbaba16a11242f7740bea9f23d6feb5547917d8c5f94a80392a5"
+    },
+    {
+      "file": "_internal/licenses/httpx/LICENSE.md",
+      "bytes": 1508,
+      "sha256": "4ec59d544f12b5f539a3a716fd321ac58ccd8030b465221f2c880200cdf28d8d"
+    },
+    {
+      "file": "_internal/licenses/idna/LICENSE.md",
+      "bytes": 1541,
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04"
+    },
+    {
+      "file": "_internal/licenses/iniconfig/LICENSE",
+      "bytes": 1098,
+      "sha256": "3409fa91f7ace557894632676656e32264fe5ef7581535725dc9a23774551bd4"
+    },
+    {
+      "file": "_internal/licenses/opentelemetry-api/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "file": "_internal/licenses/packaging/LICENSE",
+      "bytes": 197,
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+    },
+    {
+      "file": "_internal/licenses/packaging/LICENSE.APACHE",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "file": "_internal/licenses/packaging/LICENSE.BSD",
+      "bytes": 1344,
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+    },
+    {
+      "file": "_internal/licenses/pluggy/LICENSE",
+      "bytes": 1110,
+      "sha256": "d6b65e6c213a5d0b577911d34d6e5949b9f59d76c238c5071a2f3fc16cfb2606"
+    },
+    {
+      "file": "_internal/licenses/pydantic/LICENSE",
+      "bytes": 1129,
+      "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3"
+    },
+    {
+      "file": "_internal/licenses/pydantic_core/LICENSE",
+      "bytes": 1101,
+      "sha256": "fbe7f615f18d135c07000e5a86325db27f42c7729699ef166ac1f7a3f4586bf4"
+    },
+    {
+      "file": "_internal/licenses/Pygments/LICENSE",
+      "bytes": 1331,
+      "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17"
+    },
+    {
+      "file": "_internal/licenses/pytest/LICENSE",
+      "bytes": 1091,
+      "sha256": "ca836a5f9ecca3b2f350230faa20a48fb8b145653b5568d784862df864706b9b"
+    },
+    {
+      "file": "_internal/licenses/python/LICENSE.txt",
+      "bytes": 36874,
+      "sha256": "e502c6b880ff58d614901495a9009c136539cd0b1e2a2abb8fc00b934c203419"
+    },
+    {
+      "file": "_internal/licenses/python-dotenv/LICENSE",
+      "bytes": 1556,
+      "sha256": "80619b7049f08c81683ad0e01f08f257a840652dd71ee83146d36658c7d2c2b9"
+    },
+    {
+      "file": "_internal/licenses/sniffio/LICENSE",
+      "bytes": 185,
+      "sha256": "652c878488d1456361e08c3f8607fd7ba59892a14103d15cce4ff93c85b5cc8b"
+    },
+    {
+      "file": "_internal/licenses/sniffio/LICENSE.APACHE2",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "file": "_internal/licenses/sniffio/LICENSE.MIT",
+      "bytes": 1046,
+      "sha256": "3e6dae555eb92787fc82d1d48355677f454c7f65aeb38d3f9e72bf9a3daf034b"
+    },
+    {
+      "file": "_internal/licenses/starlette/LICENSE.md",
+      "bytes": 1518,
+      "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf"
+    },
+    {
+      "file": "_internal/licenses/typing-inspection/LICENSE",
+      "bytes": 1090,
+      "sha256": "804b59b25f2c31bd278f9202a19ae49a3945aa2664387e2d0a128c7cacc61ec3"
+    },
+    {
+      "file": "_internal/licenses/typing_extensions/LICENSE",
+      "bytes": 13936,
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+    },
+    {
+      "file": "_internal/licenses/uvicorn/LICENSE.md",
+      "bytes": 1526,
+      "sha256": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371"
+    },
+    {
+      "file": "_internal/opentelemetry_api-1.45.2.dist-info/licenses/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "file": "_internal/pydantic-2.14.3.dist-info/licenses/LICENSE",
+      "bytes": 1129,
+      "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3"
+    },
+    {
+      "file": "_internal/setuptools/_vendor/jaraco/text/Lorem ipsum.txt",
+      "bytes": 1335,
+      "sha256": "37fedcffbf73c4eb9f058f47677cb33203a436ff9390e4d38a8e01c9dad28e0b"
+    }
+  ]
+}

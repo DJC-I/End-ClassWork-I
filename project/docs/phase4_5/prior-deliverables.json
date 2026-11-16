@@ -1,0 +1,102 @@
+[
+  {
+    "file": "deliverables/phase2/气象驱动物流运输风险预警与应对决策.docx",
+    "sha256": "2c8072319154a435d8b9bb9a4c36bc054fd41549dcb70ea05440a70f23d1ef9a",
+    "bytes": 432306
+  },
+  {
+    "file": "deliverables/phase2/DataClawHub平台运营方案.docx",
+    "sha256": "dcc4c92b98953bb94c0770fc1bca9231bfe155162450e756f558b6711f0cd025",
+    "bytes": 119992
+  },
+  {
+    "file": "deliverables/phase2/manifest.txt",
+    "sha256": "8e33cb82c36f2e5b8178c77374bbd249781fccb090ad06fd947459618c04fcf1",
+    "bytes": 94
+  },
+  {
+    "file": "deliverables/phase2/SHA256SUMS.txt",
+    "sha256": "6471a6ac5a2d3644eb995d0fbf536abbddf686c36cf85ac0f918ef3213dca485",
+    "bytes": 226
+  },
+  {
+    "file": "deliverables/phase3/赛题二_气象物流AI风险决策系统_分镜脚本.md",
+    "sha256": "1579a021d66e1faf6e0f09bd57da7632efa766c477e11829a1aee6cb301216be",
+    "bytes": 1487
+  },
+  {
+    "file": "deliverables/phase3/赛题二_气象物流AI风险决策系统_解说稿.md",
+    "sha256": "3174a43666c0df80dd8f559ba2e2db59a2c57bdaccbc517ad294aa1222762833",
+    "bytes": 3121
+  },
+  {
+    "file": "deliverables/phase3/赛题二_气象物流AI风险决策系统.mp4",
+    "sha256": "0ae7a7db1b83bc6c4796b512a31b8d06dd6646e4ed52337917b3fc6c05558532",
+    "bytes": 13666545
+  },
+  {
+    "file": "deliverables/phase3/赛题二_气象物流AI风险决策系统.srt",
+    "sha256": "ac3561834a7d4f25c21134b596e12d5214ade7d42a210de4256b47b2bc6833c6",
+    "bytes": 3717
+  },
+  {
+    "file": "deliverables/phase3/赛题一_DataClawHub平台运营方案_分镜脚本.md",
+    "sha256": "0137ef7bf93fa84a5f71462c7bf1cef90e6c3ba2032ddb4f0d953bb6077d5a2f",
+    "bytes": 1296
+  },
+  {
+    "file": "deliverables/phase3/赛题一_DataClawHub平台运营方案_解说稿.md",
+    "sha256": "b4bb2868e63a41463a11b41037c695457f63f2a00a49e8483280ea04a9710616",
+    "bytes": 2786
+  },
+  {
+    "file": "deliverables/phase3/赛题一_DataClawHub平台运营方案.mp4",
+    "sha256": "5aed2bbab0330ec905f1a79b4ce4cec3de7456db7420502851e6c44021ddee4b",
+    "bytes": 13383682
+  },
+  {
+    "file": "deliverables/phase3/赛题一_DataClawHub平台运营方案.srt",
+    "sha256": "137837fa465d9cea538784d1b021a6ed175e755faabab4ce90bd143d6fd4c6b7",
+    "bytes": 3374
+  },
+  {
+    "file": "deliverables/phase3/视频检验报告.md",
+    "sha256": "3374480d7d1db754301c4f42a86d34643ce8a8087b9fc525d955e5f590328f7e",
+    "bytes": 4784
+  },
+  {
+    "file": "deliverables/phase3/manifest.txt",
+    "sha256": "c6f23e44bb46f260a444a8bb91775b9706d72ee81f4529b629b90fa989c4bf9c",
+    "bytes": 453
+  },
+  {
+    "file": "deliverables/phase3/SHA256SUMS.txt",
+    "sha256": "75243da7a6f6ae64833e35cf5b7f840e66c56155133afe4af82dc497460c7b0e",
+    "bytes": 225
+  },
+  {
+    "file": "deliverables/phase4/答辩常见问题及参考回答.docx",
+    "sha256": "46b5f04ad7732c76dbcabd38d991219f87f9558ffc03282f81adb4be00c5628a",
+    "bytes": 41665
+  },
+  {
+    "file": "deliverables/phase4/第四阶段验收报告.md",
+    "sha256": "637e8b9a672e3970c48a9ecb8e38c7582fd4c4822abb6183e675833e694f93b4",
+    "bytes": 6374
+  },
+  {
+    "file": "deliverables/phase4/课堂展示_单人完整演讲稿.docx",
+    "sha256": "fe06172157a88e68ac2d5410642772b7fe4046f3be53074bf821003b11c8a4de",
+    "bytes": 43092
+  },
+  {
+    "file": "deliverables/phase4/人工智能导论_双赛题结课作品展示.pptx",
+    "sha256": "5261d6fb861a7167dfb3bd0c8790f7274fabe5362ce4e46007368c775962d634",
+    "bytes": 437441
+  },
+  {
+    "file": "deliverables/phase4/演示操作清单.md",
+    "sha256": "4a7fb9fb67e503b79a72d4242549ef19630f1af27d8cf5c3c1ce06a9a9072b28",
+    "bytes": 6484
+  }
+]

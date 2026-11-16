@@ -1,0 +1,402 @@
+{
+  "phase": 2,
+  "date": "2026-11-16",
+  "outputs": [
+    {
+      "file": "deliverables/phase2/DataClawHub平台运营方案.docx",
+      "sha256": "dcc4c92b98953bb94c0770fc1bca9231bfe155162450e756f558b6711f0cd025",
+      "bytes": 119992,
+      "tables": 6,
+      "images": 1,
+      "paragraphs": 107,
+      "expected_pages": 10
+    },
+    {
+      "file": "deliverables/phase2/气象驱动物流运输风险预警与应对决策.docx",
+      "sha256": "2c8072319154a435d8b9bb9a4c36bc054fd41549dcb70ea05440a70f23d1ef9a",
+      "bytes": 432306,
+      "tables": 13,
+      "images": 5,
+      "paragraphs": 115,
+      "expected_pages": 13
+    }
+  ],
+  "calculation_checks": {
+    "growth": {
+      "funnel": [
+        {
+          "name": "曝光",
+          "value": 12000.0
+        },
+        {
+          "name": "访问",
+          "value": 1440.0
+        },
+        {
+          "name": "注册",
+          "value": 403.2
+        },
+        {
+          "name": "激活",
+          "value": 201.6
+        },
+        {
+          "name": "7日留存",
+          "value": 70.56
+        }
+      ],
+      "budget": 3000,
+      "channel_reach": 25744.44,
+      "channel_active": 432.51,
+      "channel_retained": 151.38,
+      "cac": 6.94,
+      "channels": [
+        {
+          "name": "校园社群",
+          "budget": 600,
+          "cpm": 80,
+          "reach": 7500.0,
+          "active": 126.0,
+          "cac": 4.76
+        },
+        {
+          "name": "内容平台",
+          "budget": 800,
+          "cpm": 100,
+          "reach": 8000.0,
+          "active": 134.4,
+          "cac": 5.95
+        },
+        {
+          "name": "开发者社区",
+          "budget": 400,
+          "cpm": 90,
+          "reach": 4444.44,
+          "active": 74.67,
+          "cac": 5.36
+        },
+        {
+          "name": "校园活动",
+          "budget": 1000,
+          "cpm": 200,
+          "reach": 5000.0,
+          "active": 84.0,
+          "cac": 11.9
+        },
+        {
+          "name": "AI辅助内容制作",
+          "budget": 200,
+          "cpm": 250,
+          "reach": 800.0,
+          "active": 13.44,
+          "cac": 14.88
+        }
+      ],
+      "source": "全部为计划假设；曝光模型与渠道测算分别展示，覆盖量未去重，非实际获客",
+      "assumptions": {
+        "exposure": 12000,
+        "visit_rate": 0.12,
+        "register_rate": 0.28,
+        "activate_rate": 0.5,
+        "retain_rate": 0.35,
+        "channels": [
+          {
+            "name": "校园社群",
+            "budget": 600,
+            "cpm": 80
+          },
+          {
+            "name": "内容平台",
+            "budget": 800,
+            "cpm": 100
+          },
+          {
+            "name": "开发者社区",
+            "budget": 400,
+            "cpm": 90
+          },
+          {
+            "name": "校园活动",
+            "budget": 1000,
+            "cpm": 200
+          },
+          {
+            "name": "AI辅助内容制作",
+            "budget": 200,
+            "cpm": 250
+          }
+        ]
+      }
+    },
+    "ab": {
+      "a_rate": 0.15,
+      "b_rate": 0.2,
+      "difference_pp": 5.0,
+      "lift": 0.3333333333333335,
+      "p_value": 0.18821,
+      "ci95_pp": [
+        -2.431,
+        12.431
+      ],
+      "adequate": true,
+      "significant": false,
+      "sample_per_arm": 800,
+      "conclusion": "当前没有足够证据认为两组存在差异。",
+      "source": "假设输入的双侧两比例z检验；95%正态近似区间；非真实运营结论。样本量按5个百分点MDE、80%功效估算，未做多重检验。"
+    },
+    "rain_plans": [
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T10:00:00+08:00",
+        "arrival": "2026-11-16T14:34:00.209400+08:00",
+        "hours": 4.5667,
+        "cost": 1357.01,
+        "extra_cost": 177.01,
+        "delay_hours": 0.9834,
+        "risk": 47.15,
+        "on_time": false,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0.20742,
+            "weather_overlap": 1,
+            "extra_hours": 0.33809
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0.41483,
+            "weather_overlap": 1,
+            "extra_hours": 1.21339
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0.26964,
+            "weather_overlap": 1,
+            "extra_hours": 0.41525
+          }
+        ],
+        "weather_extra_hours": 1.96672,
+        "strategy_cost": 0,
+        "weather_cost": 177.01,
+        "transfer_hours": 0,
+        "running_cost": 1082.0,
+        "tolls": 98,
+        "score": 0.916894
+      },
+      {
+        "id": "early",
+        "name": "提前发运",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T08:00:00+08:00",
+        "arrival": "2026-11-16T11:01:31.163942+08:00",
+        "hours": 3.0253,
+        "cost": 1414.28,
+        "extra_cost": 234.28,
+        "delay_hours": 0,
+        "risk": 16.42,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0.0,
+            "weather_overlap": 0.0,
+            "extra_hours": 0.0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0.0,
+            "weather_overlap": 0.0,
+            "extra_hours": 0.04356
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0.2479,
+            "weather_overlap": 0.91937,
+            "extra_hours": 0.38177
+          }
+        ],
+        "weather_extra_hours": 0.42532,
+        "strategy_cost": 196,
+        "weather_cost": 38.28,
+        "transfer_hours": 0,
+        "running_cost": 1082.0,
+        "tolls": 98,
+        "assumption": "假设货物与司机可提前2小时就绪；未由真实调度确认。",
+        "score": 0.326274
+      },
+      {
+        "id": "detour",
+        "name": "绕行运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "LF",
+          "TJ"
+        ],
+        "departure": "2026-11-16T10:00:00+08:00",
+        "arrival": "2026-11-16T12:57:00+08:00",
+        "hours": 2.95,
+        "cost": 1242.0,
+        "extra_cost": 62.0,
+        "delay_hours": 0,
+        "risk": 11.0,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-LF",
+            "base_hours": 1.15,
+            "exposure": 0.0,
+            "weather_overlap": 1,
+            "extra_hours": 0.0
+          },
+          {
+            "edge": "LF-TJ",
+            "base_hours": 1.8,
+            "exposure": 0.0,
+            "weather_overlap": 1,
+            "extra_hours": 0.0
+          }
+        ],
+        "weather_extra_hours": 0.0,
+        "strategy_cost": 65,
+        "weather_cost": 0.0,
+        "transfer_hours": 0,
+        "running_cost": 1082.0,
+        "tolls": 95,
+        "score": 0.0
+      },
+      {
+        "id": "transfer",
+        "name": "调整中转节点",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "LF",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T10:00:00+08:00",
+        "arrival": "2026-11-16T14:07:23.652300+08:00",
+        "hours": 4.1232,
+        "cost": 1413.09,
+        "extra_cost": 233.09,
+        "delay_hours": 0.5399,
+        "risk": 25.96,
+        "on_time": false,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-LF",
+            "base_hours": 1.15,
+            "exposure": 0.0,
+            "weather_overlap": 1,
+            "extra_hours": 0.0
+          },
+          {
+            "edge": "LF-WQ",
+            "base_hours": 1.05,
+            "exposure": 0.14519,
+            "weather_overlap": 1,
+            "extra_hours": 0.40799
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0.26964,
+            "weather_overlap": 1,
+            "extra_hours": 0.41525
+          }
+        ],
+        "weather_extra_hours": 0.82324,
+        "strategy_cost": 154,
+        "weather_cost": 74.09,
+        "transfer_hours": 0.4,
+        "running_cost": 1082.0,
+        "tolls": 103,
+        "score": 0.667792
+      }
+    ],
+    "simulation": [
+      {
+        "scenario": "normal",
+        "before": {
+          "on_time_rate": 100.0,
+          "average_delay": 0.0,
+          "total_cost": 6740.0,
+          "extra_cost": 0.0,
+          "high_risk": 0
+        },
+        "after": {
+          "on_time_rate": 100.0,
+          "average_delay": 0.0,
+          "total_cost": 6808.0,
+          "extra_cost": 68.0,
+          "high_risk": 0
+        }
+      },
+      {
+        "scenario": "rain",
+        "before": {
+          "on_time_rate": 38.89,
+          "average_delay": 0.5818,
+          "total_cost": 7360.68,
+          "extra_cost": 620.68,
+          "high_risk": 0
+        },
+        "after": {
+          "on_time_rate": 100.0,
+          "average_delay": 0.0,
+          "total_cost": 7160.35,
+          "extra_cost": 420.35,
+          "high_risk": 0
+        }
+      },
+      {
+        "scenario": "snow",
+        "before": {
+          "on_time_rate": 22.22,
+          "average_delay": 0.8702,
+          "total_cost": 7574.93,
+          "extra_cost": 834.93,
+          "high_risk": 3
+        },
+        "after": {
+          "on_time_rate": 66.67,
+          "average_delay": 0.1569,
+          "total_cost": 7555.6,
+          "extra_cost": 815.6,
+          "high_risk": 0
+        }
+      }
+    ]
+  },
+  "prior_evidence": {
+    "pytest_passed": 28,
+    "e2e_passed": 4,
+    "restart_passed": true
+  },
+  "phase3_started": false
+}

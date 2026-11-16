@@ -1,0 +1,1868 @@
+{
+  "id": "8219e81f-e35c-45e9-9d14-da36e8a1a981",
+  "kind": "simulation",
+  "created_at": "2026-11-16T06:18:31.308156+00:00",
+  "data_version": "skyroute-synthetic-v1",
+  "disclaimer": "教学模拟，不能用于真实调度或作为实际运营成效。预警不等于封路。",
+  "scenario": {
+    "id": "normal",
+    "name": "正常天气",
+    "tag": "晴朗 / 通行稳定",
+    "description": "基准场景；无真实气象输入。",
+    "valid_from": "2026-11-16T10:00:00+08:00",
+    "valid_to": "2026-11-16T18:00:00+08:00",
+    "rain": 0,
+    "snow": 0,
+    "wind": 3,
+    "visibility": 15,
+    "temperature": 12,
+    "warning": "无模拟预警",
+    "edge_factors": {},
+    "node_factors": {},
+    "source": "教学模拟 v1"
+  },
+  "weights": {
+    "cost": 0.25,
+    "time": 0.35,
+    "risk": 0.4
+  },
+  "before": {
+    "on_time_rate": 100,
+    "average_delay": 0,
+    "total_cost": 6740,
+    "extra_cost": 0,
+    "high_risk": 0
+  },
+  "after": {
+    "on_time_rate": 100,
+    "average_delay": 0,
+    "total_cost": 6808,
+    "extra_cost": 68,
+    "high_risk": 0
+  },
+  "rows": [
+    {
+      "order_id": "SR-001",
+      "before_delay": 0,
+      "after_delay": 0,
+      "before_cost": 1180,
+      "after_cost": 1180,
+      "plan": "原计划运输"
+    },
+    {
+      "order_id": "SR-002",
+      "before_delay": 0,
+      "after_delay": 0,
+      "before_cost": 1250,
+      "after_cost": 1250,
+      "plan": "原计划运输"
+    },
+    {
+      "order_id": "SR-003",
+      "before_delay": 0,
+      "after_delay": 0,
+      "before_cost": 880,
+      "after_cost": 880,
+      "plan": "原计划运输"
+    },
+    {
+      "order_id": "SR-004",
+      "before_delay": 0,
+      "after_delay": 0,
+      "before_cost": 1380,
+      "after_cost": 1448,
+      "plan": "绕行运输"
+    },
+    {
+      "order_id": "SR-005",
+      "before_delay": 0,
+      "after_delay": 0,
+      "before_cost": 1320,
+      "after_cost": 1320,
+      "plan": "原计划运输"
+    },
+    {
+      "order_id": "SR-006",
+      "before_delay": 0,
+      "after_delay": 0,
+      "before_cost": 730,
+      "after_cost": 730,
+      "plan": "原计划运输"
+    }
+  ],
+  "seed": "skyroute-v1-fixed-stress-085-100-115",
+  "order_count": 6,
+  "sample_count": 18,
+  "method": "固定输入，0.85/1/1.15严重度配对回放；推荐在名义天气下先选定，扰动时不重选，避免事后最优。准时率为订单×3压力情景的准时占比，成本为三情景总成本均值，高风险为名义场景风险≥50的订单数。非历史实测。",
+  "inputs": {
+    "orders": [
+      {
+        "id": "SR-001",
+        "origin": "BJ",
+        "destination": "TJ",
+        "cargo": "cold",
+        "weight": 8,
+        "departure": "2026-11-16T10:00:00+08:00",
+        "deadline": "2026-11-16T13:35:00+08:00",
+        "priority": 3,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "base_cost": 1180,
+        "base_hours": 2.6,
+        "status": "待发运"
+      },
+      {
+        "id": "SR-002",
+        "origin": "BJ",
+        "destination": "TJ",
+        "cargo": "general",
+        "weight": 12,
+        "departure": "2026-11-16T11:00:00+08:00",
+        "deadline": "2026-11-16T16:00:00+08:00",
+        "priority": 2,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "base_cost": 1250,
+        "base_hours": 2.6,
+        "status": "待发运"
+      },
+      {
+        "id": "SR-003",
+        "origin": "TZ",
+        "destination": "TJ",
+        "cargo": "fragile",
+        "weight": 5,
+        "departure": "2026-11-16T10:30:00+08:00",
+        "deadline": "2026-11-16T13:00:00+08:00",
+        "priority": 3,
+        "route": [
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "base_cost": 880,
+        "base_hours": 1.95,
+        "status": "待发运"
+      },
+      {
+        "id": "SR-004",
+        "origin": "BJ",
+        "destination": "TJ",
+        "cargo": "general",
+        "weight": 18,
+        "departure": "2026-11-16T12:00:00+08:00",
+        "deadline": "2026-11-16T18:00:00+08:00",
+        "priority": 1,
+        "route": [
+          "BJ",
+          "LF",
+          "TJ"
+        ],
+        "base_cost": 1380,
+        "base_hours": 2.95,
+        "status": "待发运"
+      },
+      {
+        "id": "SR-005",
+        "origin": "BJ",
+        "destination": "TJ",
+        "cargo": "cold",
+        "weight": 10,
+        "departure": "2026-11-16T09:30:00+08:00",
+        "deadline": "2026-11-16T12:30:00+08:00",
+        "priority": 3,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "base_cost": 1320,
+        "base_hours": 2.6,
+        "status": "运输中"
+      },
+      {
+        "id": "SR-006",
+        "origin": "LF",
+        "destination": "TJ",
+        "cargo": "fragile",
+        "weight": 4,
+        "departure": "2026-11-16T11:30:00+08:00",
+        "deadline": "2026-11-16T14:00:00+08:00",
+        "priority": 2,
+        "route": [
+          "LF",
+          "WQ",
+          "TJ"
+        ],
+        "base_cost": 730,
+        "base_hours": 1.75,
+        "status": "待发运"
+      }
+    ],
+    "graph_version": "skyroute-synthetic-v1",
+    "multipliers": [
+      0.85,
+      1,
+      1.15
+    ]
+  },
+  "samples": {
+    "before": [
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T10:00:00+08:00",
+        "arrival": "2026-11-16T12:36:00+08:00",
+        "hours": 2.6,
+        "cost": 1180,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 11,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1082,
+        "tolls": 98
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T10:00:00+08:00",
+        "arrival": "2026-11-16T12:36:00+08:00",
+        "hours": 2.6,
+        "cost": 1180,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 11,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1082,
+        "tolls": 98
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T10:00:00+08:00",
+        "arrival": "2026-11-16T12:36:00+08:00",
+        "hours": 2.6,
+        "cost": 1180,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 11,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1082,
+        "tolls": 98
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T11:00:00+08:00",
+        "arrival": "2026-11-16T13:36:00+08:00",
+        "hours": 2.6,
+        "cost": 1250,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 8,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1152,
+        "tolls": 98
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T11:00:00+08:00",
+        "arrival": "2026-11-16T13:36:00+08:00",
+        "hours": 2.6,
+        "cost": 1250,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 8,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1152,
+        "tolls": 98
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T11:00:00+08:00",
+        "arrival": "2026-11-16T13:36:00+08:00",
+        "hours": 2.6,
+        "cost": 1250,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 8,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1152,
+        "tolls": 98
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T10:30:00+08:00",
+        "arrival": "2026-11-16T12:27:00+08:00",
+        "hours": 1.95,
+        "cost": 880,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 11,
+        "on_time": true,
+        "distance": 125,
+        "segments": [
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 804,
+        "tolls": 76
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T10:30:00+08:00",
+        "arrival": "2026-11-16T12:27:00+08:00",
+        "hours": 1.95,
+        "cost": 880,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 11,
+        "on_time": true,
+        "distance": 125,
+        "segments": [
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 804,
+        "tolls": 76
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T10:30:00+08:00",
+        "arrival": "2026-11-16T12:27:00+08:00",
+        "hours": 1.95,
+        "cost": 880,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 11,
+        "on_time": true,
+        "distance": 125,
+        "segments": [
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 804,
+        "tolls": 76
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "LF",
+          "TJ"
+        ],
+        "departure": "2026-11-16T12:00:00+08:00",
+        "arrival": "2026-11-16T14:57:00+08:00",
+        "hours": 2.95,
+        "cost": 1380,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 5,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-LF",
+            "base_hours": 1.15,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "LF-TJ",
+            "base_hours": 1.8,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1285,
+        "tolls": 95
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "LF",
+          "TJ"
+        ],
+        "departure": "2026-11-16T12:00:00+08:00",
+        "arrival": "2026-11-16T14:57:00+08:00",
+        "hours": 2.95,
+        "cost": 1380,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 5,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-LF",
+            "base_hours": 1.15,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "LF-TJ",
+            "base_hours": 1.8,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1285,
+        "tolls": 95
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "LF",
+          "TJ"
+        ],
+        "departure": "2026-11-16T12:00:00+08:00",
+        "arrival": "2026-11-16T14:57:00+08:00",
+        "hours": 2.95,
+        "cost": 1380,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 5,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-LF",
+            "base_hours": 1.15,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "LF-TJ",
+            "base_hours": 1.8,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1285,
+        "tolls": 95
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T09:30:00+08:00",
+        "arrival": "2026-11-16T12:06:00+08:00",
+        "hours": 2.6,
+        "cost": 1320,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 11,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 0.23077,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1222,
+        "tolls": 98
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T09:30:00+08:00",
+        "arrival": "2026-11-16T12:06:00+08:00",
+        "hours": 2.6,
+        "cost": 1320,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 11,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 0.23077,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1222,
+        "tolls": 98
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T09:30:00+08:00",
+        "arrival": "2026-11-16T12:06:00+08:00",
+        "hours": 2.6,
+        "cost": 1320,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 11,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 0.23077,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1222,
+        "tolls": 98
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "LF",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T11:30:00+08:00",
+        "arrival": "2026-11-16T13:15:00+08:00",
+        "hours": 1.75,
+        "cost": 730,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 8,
+        "on_time": true,
+        "distance": 95,
+        "segments": [
+          {
+            "edge": "LF-WQ",
+            "base_hours": 1.05,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 667,
+        "tolls": 63
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "LF",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T11:30:00+08:00",
+        "arrival": "2026-11-16T13:15:00+08:00",
+        "hours": 1.75,
+        "cost": 730,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 8,
+        "on_time": true,
+        "distance": 95,
+        "segments": [
+          {
+            "edge": "LF-WQ",
+            "base_hours": 1.05,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 667,
+        "tolls": 63
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "LF",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T11:30:00+08:00",
+        "arrival": "2026-11-16T13:15:00+08:00",
+        "hours": 1.75,
+        "cost": 730,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 8,
+        "on_time": true,
+        "distance": 95,
+        "segments": [
+          {
+            "edge": "LF-WQ",
+            "base_hours": 1.05,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 667,
+        "tolls": 63
+      }
+    ],
+    "after": [
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T10:00:00+08:00",
+        "arrival": "2026-11-16T12:36:00+08:00",
+        "hours": 2.6,
+        "cost": 1180,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 11,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1082,
+        "tolls": 98
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T10:00:00+08:00",
+        "arrival": "2026-11-16T12:36:00+08:00",
+        "hours": 2.6,
+        "cost": 1180,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 11,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1082,
+        "tolls": 98
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T10:00:00+08:00",
+        "arrival": "2026-11-16T12:36:00+08:00",
+        "hours": 2.6,
+        "cost": 1180,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 11,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1082,
+        "tolls": 98
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T11:00:00+08:00",
+        "arrival": "2026-11-16T13:36:00+08:00",
+        "hours": 2.6,
+        "cost": 1250,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 8,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1152,
+        "tolls": 98
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T11:00:00+08:00",
+        "arrival": "2026-11-16T13:36:00+08:00",
+        "hours": 2.6,
+        "cost": 1250,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 8,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1152,
+        "tolls": 98
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T11:00:00+08:00",
+        "arrival": "2026-11-16T13:36:00+08:00",
+        "hours": 2.6,
+        "cost": 1250,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 8,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1152,
+        "tolls": 98
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T10:30:00+08:00",
+        "arrival": "2026-11-16T12:27:00+08:00",
+        "hours": 1.95,
+        "cost": 880,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 11,
+        "on_time": true,
+        "distance": 125,
+        "segments": [
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 804,
+        "tolls": 76
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T10:30:00+08:00",
+        "arrival": "2026-11-16T12:27:00+08:00",
+        "hours": 1.95,
+        "cost": 880,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 11,
+        "on_time": true,
+        "distance": 125,
+        "segments": [
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 804,
+        "tolls": 76
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T10:30:00+08:00",
+        "arrival": "2026-11-16T12:27:00+08:00",
+        "hours": 1.95,
+        "cost": 880,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 11,
+        "on_time": true,
+        "distance": 125,
+        "segments": [
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 804,
+        "tolls": 76
+      },
+      {
+        "id": "detour",
+        "name": "绕行运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T12:00:00+08:00",
+        "arrival": "2026-11-16T14:36:00+08:00",
+        "hours": 2.6,
+        "cost": 1448,
+        "extra_cost": 68,
+        "delay_hours": 0,
+        "risk": 5,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 65,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1285,
+        "tolls": 98
+      },
+      {
+        "id": "detour",
+        "name": "绕行运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T12:00:00+08:00",
+        "arrival": "2026-11-16T14:36:00+08:00",
+        "hours": 2.6,
+        "cost": 1448,
+        "extra_cost": 68,
+        "delay_hours": 0,
+        "risk": 5,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 65,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1285,
+        "tolls": 98
+      },
+      {
+        "id": "detour",
+        "name": "绕行运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T12:00:00+08:00",
+        "arrival": "2026-11-16T14:36:00+08:00",
+        "hours": 2.6,
+        "cost": 1448,
+        "extra_cost": 68,
+        "delay_hours": 0,
+        "risk": 5,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 65,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1285,
+        "tolls": 98
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T09:30:00+08:00",
+        "arrival": "2026-11-16T12:06:00+08:00",
+        "hours": 2.6,
+        "cost": 1320,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 11,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 0.23077,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1222,
+        "tolls": 98
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T09:30:00+08:00",
+        "arrival": "2026-11-16T12:06:00+08:00",
+        "hours": 2.6,
+        "cost": 1320,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 11,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 0.23077,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1222,
+        "tolls": 98
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "BJ",
+          "TZ",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T09:30:00+08:00",
+        "arrival": "2026-11-16T12:06:00+08:00",
+        "hours": 2.6,
+        "cost": 1320,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 11,
+        "on_time": true,
+        "distance": 160,
+        "segments": [
+          {
+            "edge": "BJ-TZ",
+            "base_hours": 0.65,
+            "exposure": 0,
+            "weather_overlap": 0.23077,
+            "extra_hours": 0
+          },
+          {
+            "edge": "TZ-WQ",
+            "base_hours": 1.25,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 1222,
+        "tolls": 98
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "LF",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T11:30:00+08:00",
+        "arrival": "2026-11-16T13:15:00+08:00",
+        "hours": 1.75,
+        "cost": 730,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 8,
+        "on_time": true,
+        "distance": 95,
+        "segments": [
+          {
+            "edge": "LF-WQ",
+            "base_hours": 1.05,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 667,
+        "tolls": 63
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "LF",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T11:30:00+08:00",
+        "arrival": "2026-11-16T13:15:00+08:00",
+        "hours": 1.75,
+        "cost": 730,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 8,
+        "on_time": true,
+        "distance": 95,
+        "segments": [
+          {
+            "edge": "LF-WQ",
+            "base_hours": 1.05,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 667,
+        "tolls": 63
+      },
+      {
+        "id": "original",
+        "name": "原计划运输",
+        "feasible": true,
+        "route": [
+          "LF",
+          "WQ",
+          "TJ"
+        ],
+        "departure": "2026-11-16T11:30:00+08:00",
+        "arrival": "2026-11-16T13:15:00+08:00",
+        "hours": 1.75,
+        "cost": 730,
+        "extra_cost": 0,
+        "delay_hours": 0,
+        "risk": 8,
+        "on_time": true,
+        "distance": 95,
+        "segments": [
+          {
+            "edge": "LF-WQ",
+            "base_hours": 1.05,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          },
+          {
+            "edge": "WQ-TJ",
+            "base_hours": 0.7,
+            "exposure": 0,
+            "weather_overlap": 1,
+            "extra_hours": 0
+          }
+        ],
+        "weather_extra_hours": 0,
+        "strategy_cost": 0,
+        "weather_cost": 0,
+        "transfer_hours": 0,
+        "running_cost": 667,
+        "tolls": 63
+      }
+    ]
+  }
+}

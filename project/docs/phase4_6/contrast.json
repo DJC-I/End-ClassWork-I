@@ -1,0 +1,44 @@
+[
+  {
+    "pair": "正文",
+    "foreground": "203443",
+    "background": "FFFFFF",
+    "contrast_ratio": 12.85,
+    "normal_text_4_5": true
+  },
+  {
+    "pair": "次级文字",
+    "foreground": "5B6D78",
+    "background": "FFFFFF",
+    "contrast_ratio": 5.38,
+    "normal_text_4_5": true
+  },
+  {
+    "pair": "主按钮文字",
+    "foreground": "FFFFFF",
+    "background": "11665E",
+    "contrast_ratio": 6.8,
+    "normal_text_4_5": true
+  },
+  {
+    "pair": "导航正文",
+    "foreground": "BED0DC",
+    "background": "172C3C",
+    "contrast_ratio": 9.06,
+    "normal_text_4_5": true
+  },
+  {
+    "pair": "风险正文",
+    "foreground": "A45026",
+    "background": "FFFFFF",
+    "contrast_ratio": 5.59,
+    "normal_text_4_5": true
+  },
+  {
+    "pair": "背景正文",
+    "foreground": "203443",
+    "background": "F3F5F4",
+    "contrast_ratio": 11.74,
+    "normal_text_4_5": true
+  }
+]

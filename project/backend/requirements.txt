@@ -1,0 +1,9 @@
+fastapi==0.163.1
+uvicorn==0.54.0
+pydantic==2.14.3
+httpx==0.28.1
+python-dotenv==1.2.4
+pytest==9.2.0
+# Security fixes verified by pip-audit and the complete regression suite.
+starlette==1.3.1
+anyio==4.14.2
